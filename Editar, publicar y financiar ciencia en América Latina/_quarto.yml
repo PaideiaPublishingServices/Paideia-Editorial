@@ -1,0 +1,48 @@
+project:
+  type: book
+
+book:
+  title: "Editar, Publicar y Financiar Ciencia en América Latina"
+  subtitle: "Perspectivas, experiencias y distopías en las dinámicas de la comunicación científica en la región"
+  author:
+    - name: Gimena del Rio Riande
+      orcid: 0000-0002-8997-5415
+      role: Coordinator
+      roles:
+        - conceptualization: lead
+        - writing: supporting
+        - project-administration: lead
+    - name: Patricio Iván Pantaleo
+      orcid: 0000-0002-8104-8975
+      role: Coordinator
+      roles:
+        - conceptualization: lead
+        - writing: supporting
+        - project-administration: lead
+  date: "2025-01-16"
+  description: |
+    Este libro aborda los retos y oportunidades en la comunicación académica en América Latina, explorando cómo se editan, publican y financian los resultados científicos en el contexto regional. 
+    A través de un análisis crítico, el proyecto busca destacar experiencias exitosas y lecciones aprendidas, identificar modelos de sostenibilidad en acceso abierto y evaluar el impacto de la visibilidad científica en el progreso académico. 
+    Los capítulos incluyen estudios de caso, reflexiones sobre distopías posibles y un enfoque hacia el pensamiento crítico sobre las dinámicas actuales y futuras de la comunicación científica.
+  license: "CC-BY"
+  cover-image: cover.jpg
+  favicon: cover.jpg
+  site-url: https://paideiaeditorial.net/libros/editar-financiar-ciencia-latinoamerica/
+  repo-url: https://github.com/hadley/r4ds/
+  repo-branch: main
+  repo-actions: [edit, issue]
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    code-link: true
+  pdf:
+    documentclass: scrreprt
+    papersize: a4 # Formato de papel A4
