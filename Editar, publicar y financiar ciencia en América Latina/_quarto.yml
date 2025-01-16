@@ -28,7 +28,7 @@ book:
   cover-image: cover.jpg
   favicon: cover.jpg
   site-url: https://paideiaeditorial.net/libros/editar-financiar-ciencia-latinoamerica/
-  repo-url: https://github.com/hadley/r4ds/
+  repo-url: https://github.com/PaideiaPublishingServices/Paideia-Editorial/tree/fea7cd1ec2e4323115c0fb77c96d1de324dfc920/Editar%2C%20publicar%20y%20financiar%20ciencia%20en%20Am%C3%A9rica%20Latina
   repo-branch: main
   repo-actions: [edit, issue]
   chapters:
