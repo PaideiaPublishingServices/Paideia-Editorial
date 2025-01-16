@@ -1,0 +1,50 @@
+---
+title: O papel da Rede Ibero-Americana de Editores Científicos de Educação (RIECE) no fortalecimento da comunicação científica em periódicos da área de Educação
+author:
+  - name: Lia Machado Fiuza Fialho
+    orcid: 0000-0003-0393-9892
+    email: lia_fialho@yahoo.com.br
+    affiliation: 
+      - name: Universidade Estadual do Ceará
+        city: Fortaleza
+        state: CE
+        country: BR
+        url: https://www.uece.br
+        ror: https://ror.org/00sec1m50
+  - name: Karla Angélica Nascimento
+    orcid: 0000-0001-6103-2397
+    email: karla.asn@gmail.com
+    affiliation: 
+      - name: Universidade Estadual do Ceará
+        city: Fortaleza
+        state: CE
+        country: BR
+        url: https://www.uece.br
+        ror: https://ror.org/00sec1m50
+  - name: Maria Aparecida Alves da Costa
+    orcid: 0000-0001-5213-4869
+    email: mariapedagoga99@gmail.com
+    affiliation: 
+      - name: Instituto Federal de Educação, Ciência e Tecnologia do Ceará
+        city: Fortaleza
+        state: CE
+        country: BR
+        url: https://www.ifce.edu.br
+        ror: https://ror.org/02225fd27
+date: "16/1/2025"
+abstract: |
+  Este capítulo examina o papel da Rede Ibero-Americana de Editores Científicos de Educação (RIECE) no fortalecimento da comunicação científica em periódicos da área de Educação. A análise destaca como a rede promove boas práticas editoriais, fomenta colaborações entre editores e contribui para a visibilidade e qualidade da produção acadêmica na região Ibero-Americana.
+keywords: 
+  - RIECE
+  - comunicação científica
+  - educação
+  - periódicos acadêmicos
+  - boas práticas editoriais
+license: "CC-BY"
+---
+
+# O papel da Rede Ibero-Americana de Editores Científicos de Educação (RIECE) no fortalecimento da comunicação científica em periódicos da área de Educação
+
+This is a book created from markdown and executable code.
+
+See @knuth84 for additional discussion of literate programming.
