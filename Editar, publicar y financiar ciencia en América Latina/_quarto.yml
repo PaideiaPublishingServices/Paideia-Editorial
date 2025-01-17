@@ -25,6 +25,7 @@ book:
     A través de un análisis crítico, el proyecto busca destacar experiencias exitosas y lecciones aprendidas, identificar modelos de sostenibilidad en acceso abierto y evaluar el impacto de la visibilidad científica en el progreso académico. 
     Los capítulos incluyen estudios de caso, reflexiones sobre distopías posibles y un enfoque hacia el pensamiento crítico sobre las dinámicas actuales y futuras de la comunicación científica.
   license: "CC-BY"
+  doi: "10.62059/editorial.l001"
   cover-image: cover.jpg
   favicon: cover.jpg
   site-url: https://paideiaeditorial.net/libros/editar-financiar-ciencia-latinoamerica/
@@ -37,7 +38,11 @@ book:
     - summary.qmd
     - references.qmd
 
-bibliography: references.bib
+citation:
+  type: book
+  container-title: "Editar, publicar y financiar ciencia en América Latina"
+  doi: "10.62059/editorial.l001"
+  url: https://paideiaeditorial.net/libros/editar-financiar-ciencia-latinoamerica/
 
 format:
   html:
@@ -46,8 +51,28 @@ format:
       dark: darkly
     code-link: true
     include-in-header: "header.html"
+    smooth-scroll: true
     comments:
       hypothesis: true
+    toc: true
+    format-links: #Revisar!#
+      - html
+      - format: pdf
+        text: PDF
+        icon: file-pdf
+
   pdf:
-    documentclass: scrreprt
+    documentclass: book
     papersize: a4 # Formato de papel A4
+    toc: true
+    number-sections: true
+  epub:
+    toc: true
+    number-sections: true
+
+lang: es
+
+filters:
+  - "C:/Users/Patricio/_extensions/pandoc-ext/section-bibliographies/section-bibliographies.lua" #Corroborar funcionamiento. También puede haber un reference-section-title: References ---> Revisar si es útil
+bibliography: references.bib
+citeproc: false
