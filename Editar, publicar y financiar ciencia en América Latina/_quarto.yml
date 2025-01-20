@@ -55,12 +55,10 @@ format:
     comments:
       hypothesis: true
     toc: true
-    format-links: #Revisar!#
-      - html
-      - format: pdf
-        text: PDF
-        icon: file-pdf
-
+    other-links:
+      - text: Kindle
+        icon: amazon
+        href: https://data.nasa.gov/
   pdf:
     documentclass: book
     papersize: a4 # Formato de papel A4
@@ -71,8 +69,16 @@ format:
     number-sections: true
 
 lang: es
+page-footer: 
+    left: "Copyright 2021, Norah Jones" 
+    right: 
+      - icon: github
+        href: https://github.com/
+      - icon: twitter 
+        href: https://twitter.com/
 
 filters:
-  - "C:/Users/Patricio/_extensions/pandoc-ext/section-bibliographies/section-bibliographies.lua" #Corroborar funcionamiento. También puede haber un reference-section-title: References ---> Revisar si es útil
+  - "C:/Users/Patricio/_extensions/pandoc-ext/section-bibliographies/section-bibliographies.lua" #filtro para referencias por capítulos, si quiero eliminar referencias finales debo eliminar el archivo references.qmd
 bibliography: references.bib
+reference-section-title: Referencias
 citeproc: false
