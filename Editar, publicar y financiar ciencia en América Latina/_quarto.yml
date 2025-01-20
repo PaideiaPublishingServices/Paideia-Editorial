@@ -24,7 +24,6 @@ book:
     Este libro aborda los retos y oportunidades en la comunicación académica en América Latina, explorando cómo se editan, publican y financian los resultados científicos en el contexto regional. 
     A través de un análisis crítico, el proyecto busca destacar experiencias exitosas y lecciones aprendidas, identificar modelos de sostenibilidad en acceso abierto y evaluar el impacto de la visibilidad científica en el progreso académico. 
     Los capítulos incluyen estudios de caso, reflexiones sobre distopías posibles y un enfoque hacia el pensamiento crítico sobre las dinámicas actuales y futuras de la comunicación científica.
-  license: "CC-BY"
   doi: "10.62059/editorial.l001"
   cover-image: cover.jpg
   favicon: cover.jpg
@@ -37,6 +36,10 @@ book:
     - o-papel-da-rede-ibero-americana-de-editores.qmd
     - summary.qmd
     - references.qmd
+
+#revisar licencia y copyright si están ok
+license: "CC BY"
+copyright: "Editar, publicar y financiar ciencia en América Latina © 2025 por Gimena del Rio Riande & Patricio Iván Pantaleo (Coord.) se distribuye bajo licencia CC BY 4.0"
 
 citation:
   type: book
@@ -61,7 +64,7 @@ format:
         href: https://data.nasa.gov/
   pdf:
     documentclass: book
-    papersize: a4 # Formato de papel A4
+    papersize: a4
     toc: true
     number-sections: true
   epub:
@@ -69,16 +72,17 @@ format:
     number-sections: true
 
 lang: es
-page-footer: 
-    left: "Copyright 2021, Norah Jones" 
-    right: 
-      - icon: github
-        href: https://github.com/
-      - icon: twitter 
-        href: https://twitter.com/
+website:
+  page-footer:
+    center: 
+      - text: "CC-BY"
+        href: https://creativecommons.org/licenses/by/4.0/
+        target: _blank
+  back-to-top-navigation: true
 
 filters:
   - "C:/Users/Patricio/_extensions/pandoc-ext/section-bibliographies/section-bibliographies.lua" #filtro para referencias por capítulos, si quiero eliminar referencias finales debo eliminar el archivo references.qmd
 bibliography: references.bib
+csl: apa.csl
 reference-section-title: Referencias
 citeproc: false

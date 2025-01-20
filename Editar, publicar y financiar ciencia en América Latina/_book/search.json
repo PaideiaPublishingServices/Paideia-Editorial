@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Editar, publicar y financiar ciencia en América Latina",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.",
+    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n\n\n\n Volver arriba",
     "crumbs": [
       "Preface"
     ]
@@ -14,7 +14,7 @@
     "href": "o-papel-da-rede-ibero-americana-de-editores.html",
     "title": "1  O papel da Rede Ibero-Americana de Editores Científicos de Educação (RIECE) no fortalecimento da comunicação científica em periódicos da área de Educação",
     "section": "",
-    "text": "2 O papel da Rede Ibero-Americana de Editores Científicos de Educação (RIECE) no fortalecimento da comunicação científica em periódicos da área de Educação\nThis is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.",
+    "text": "1.1 Introdução\nO capítulo trata acerca da fundação da Rede Ibero-Americana de Editores Científicos de Educação (RIECE) e do desenvolvimento de atividades no âmbito da articulação internacional proporcionada pela RIECE para o fortalecimento da comunicação científica nos países latino-americanos, caribenhos e africanos.\nA principal área coberta pela RIECE é a Educação, pois a articulação centra-se em periódicos desse campo do conhecimento, com o mote de qualificação contínua dos editores científicos considerando as especificidades da área e a necessária articulação do sul global para o fortalecimento da ciência nos países em desenvolvimento @Fialho2024. Ademais, a troca de saberes e conhecimentos editoriais entre os editores tem sido fundamental para a formação profissional dos editores científicos, já que, em quase a totalidade dos países latino-americanos, caribenhos e africanos, não há uma habilitação específica em nível de graduação ou pós-graduação para a formação de editores científicos, inclusive, constata-se ausência de regulamentação para o exercício dessa atividade laboral em diversos países (@Morais2022).\nMajoritariamente, os editores de revistas científicas na Iberoamérica são professores doutores, vinculados a instituições de ensino superior públicas ou privadas, que assumem essa função como parte de suas atividades laborais de pesquisa e gestão (Fontes, 2021). Destaca-se, inclusive, que em diversos casos é realizado de maneira voluntária, sem atribuição de carga horária ou benefício financeiro extra, em condições precarizadas, pela ausência de uma política institucional adequada de apoio e financiamento às necessidades da publicação científica (Werlang, Carlim & Rode, 2021).\nConsiderando o exposto, o objetivo deste texto é apresentar à comunidade internacional como se deu a articulação entre os editores de diversos países para a criação da RIECE, destacando as experiências colaborativas exitosas para majorar a internacionalização, indexação e aderência à ciência aberta nos periódicos envolvidos, bem como a maneira pela qual outros editores da área de Educação podem se juntar à Rede, somando esforços para fortalecer as revistas científicas, no seu papel fundamental de divulgar o conhecimento produzido por meio de pesquisas qualificadas.\nO Brasil, neste caso, partiu como idealizador do projeto em rede e, inicialmente, coordenador central na articulação dos editores da área de Educação, com o apoio financeiro do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), mediante aprovação de projeto denominado “Qualificação de periódicos científicos de Educação: articular para internacionalizar”, submetido sob a coordenação da pesquisadora brasileira Lia Machado Fiuza Fialho, na chamada do edital publicizado pelo Ministério da Ciência, Tecnologia e Inovações (MCTI) e CNPq, de número 14/2023. Outro apoio institucional importante foi o da Fundação Cearense de Apoio ao Desenvolvimento Científico e Tecnológico (Funcap), que também aprovou financiamento público para o projeto de criação da RIECE mediante chamamento via edital público de número 06/2023. De tal modo, a iniciativa já começou com a aprovação e o suporte financeiro de duas conceituadas instituições, respectivamente em nível federal e estadual.\nConsoante o edital MCTI/CNPq número 14/2023 e Funcap número 06/2023, o projeto buscou atender ao objetivo de “incentivar a participação de pesquisadores brasileiros em projetos de cooperação com grupos e/ou redes de pesquisa de países latino-americanos, caribenhos e africanos”; bem como o objetivo de “encorajar a participação em projetos internacionais de pesquisadores brasileiros vinculados a instituições sediadas nas regiões Norte, Nordeste e Centro-Oeste”. Dessa maneira, inicialmente, para a constituição da Rede, foram priorizados editores de países latino-americanos e das regiões brasileiras supramencionadas que apresentam maior dificuldade de desenvolvimento científico, todavia sem se olvidar de incluir países europeus com periódicos mais consolidados que se sensibilizaram para ajudar na internacionalização dos demais. Acrescenta-se ainda que, dentre os países mais desenvolvidos, priorizaram-se os que falam os mesmos idiomas – espanhol e português – dos países latinos, com o objetivo de evitar barreiras linguísticas, já que muitos editores não dominavam outros idiomas, a exemplo do francês e do inglês.\nJustamente por reconhecer a importância da RIECE para a articulação no campo editorial ibero-americano e, em especial do sul global, considerou-se relevante divulgar essa Rede para a comunidade internacional, já que a propagação dessa iniciativa não apenas dar a ver o trabalho previamente executado, mas possibilita a sua divulgação e o seu fortalecimento mediante a união de outros editores da área de Educação, o que permite à RIECE crescimento em número de adeptos e fortalecimento para continuar atuando no fomento ao intercâmbio de saberes e conhecimentos e à consolidação das revistas científicas.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>O papel da Rede Ibero-Americana de Editores Científicos de Educação (RIECE) no fortalecimento da comunicação científica em periódicos da área de Educação</span>"
     ]
@@ -45,6 +45,26 @@
     "title": "1  O papel da Rede Ibero-Americana de Editores Científicos de Educação (RIECE) no fortalecimento da comunicação científica em periódicos da área de Educação",
     "section": "Referências",
     "text": "Referências\n\n\nKnuth, Donald E. 1984. «Literate Programming». Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>O papel da Rede Ibero-Americana de Editores Científicos de Educação (RIECE) no fortalecimento da comunicação científica em periódicos da área de Educação</span>"
+    ]
+  },
+  {
+    "objectID": "o-papel-da-rede-ibero-americana-de-editores.html#bibliography--43242ae27dfbf8d3fbdf4e4f8b7609f5999e3f3c",
+    "href": "o-papel-da-rede-ibero-americana-de-editores.html#bibliography--43242ae27dfbf8d3fbdf4e4f8b7609f5999e3f3c",
+    "title": "1  O papel da Rede Ibero-Americana de Editores Científicos de Educação (RIECE) no fortalecimento da comunicação científica em periódicos da área de Educação",
+    "section": "Referências",
+    "text": "Referências\n\n\nKnuth, Donald E. 1984. «Literate Programming». Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>O papel da Rede Ibero-Americana de Editores Científicos de Educação (RIECE) no fortalecimento da comunicação científica em periódicos da área de Educação</span>"
+    ]
+  },
+  {
+    "objectID": "o-papel-da-rede-ibero-americana-de-editores.html#metodologia",
+    "href": "o-papel-da-rede-ibero-americana-de-editores.html#metodologia",
+    "title": "1  O papel da Rede Ibero-Americana de Editores Científicos de Educação (RIECE) no fortalecimento da comunicação científica em periódicos da área de Educação",
+    "section": "1.2 Metodologia",
+    "text": "1.2 Metodologia\nSee @knuth84 for additional discussion of literate programming.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>O papel da Rede Ibero-Americana de Editores Científicos de Educação (RIECE) no fortalecimento da comunicação científica em periódicos da área de Educação</span>"
     ]
