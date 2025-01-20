@@ -85,4 +85,4 @@ filters:
 bibliography: references.bib
 csl: apa.csl
 reference-section-title: Referencias
-citeproc: false
+citeproc: false #Revisar si funciona con el filtro correctamente, porque al estar en false no genera hipervínculo
