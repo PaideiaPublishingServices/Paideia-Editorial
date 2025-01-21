@@ -1,3 +1,6 @@
+---
+bibliography: references/index.bib
+---
 # Preface {.unnumbered}
 
 This is a Quarto book.
@@ -5,6 +8,10 @@ This is a Quarto book.
 To learn more about Quarto books visit <https://quarto.org/docs/books>.
 
 @Anna2019
+
+## References
+
+::: {#refs}
 
 
 

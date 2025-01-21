@@ -46,7 +46,8 @@ citation:
   container-title: "O papel da Rede Ibero-Americana de Editores Científicos de Educação (RIECE) no fortalecimento da comunicação científica em periódicos da área de Educação"
   doi: "10.62059/editorial.l001.c10"
 lang: pt
-reference-section-title: Referências
+bibliography: references/o-papel-da-rede.bib
+#reference-section-title: Referências
 
 ---
 
@@ -77,4 +78,9 @@ A pesquisa é de abordagem qualitativa porque não está preocupada em interpret
 As fontes documentais primárias foram eleitas para subsidiar a pesquisa por serem consideradas importantes para compreender a história da RIECE. De acordo Oliveira (2007), “na pesquisa documental, o trabalho do(a) pesquisador(a) requer uma análise mais cuidadosa, visto que os documentos não passaram antes por nenhum tratamento científico” (p. 70). A análise documental em tela, ao se utilizar de fontes primárias, trabalhou com dados e informações que ainda não haviam sido tratados cientificamente, possibilitando uma compreensão analítica subjetiva e georreferenciada (Sá-Silva, Almeida & Guindani, 2009).
 
 Pimentel (2001) ressalta que no método de análise documental:
-> [...] São descritos os instrumentos e meios de realização da análise de conteúdo, apontando o percurso em que as decisões foram sendo tomadas quanto às técnicas de manuseio de documentos: desde a organização e classificação do material até a elaboração das categorias de análise. (p. 179)
+
+>[...] São descritos os instrumentos e meios de realização da análise de conteúdo, apontando o percurso em que as decisões foram sendo tomadas quanto às técnicas de manuseio de documentos: desde a organização e classificação do material até a elaboração das categorias de análise. (p. 179)
+
+## Referências
+
+::: {#refs}

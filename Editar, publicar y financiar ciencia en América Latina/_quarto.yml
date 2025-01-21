@@ -28,6 +28,7 @@ book:
   cover-image: cover.jpg
   favicon: cover.jpg
   downloads: [pdf, epub]
+  sharing: [twitter, facebook, linkedin]
   site-url: https://paideiaeditorial.net/libros/editar-financiar-ciencia-latinoamerica/
   repo-url: https://github.com/PaideiaPublishingServices/Paideia-Editorial/tree/fea7cd1ec2e4323115c0fb77c96d1de324dfc920/Editar%2C%20publicar%20y%20financiar%20ciencia%20en%20Am%C3%A9rica%20Latina
   repo-branch: main
@@ -81,9 +82,12 @@ website:
         target: _blank
   back-to-top-navigation: true
 
-filters:
-  - "C:/Users/Patricio/_extensions/pandoc-ext/section-bibliographies/section-bibliographies.lua" #filtro para referencias por capítulos, si quiero eliminar referencias finales debo eliminar el archivo references.qmd
-bibliography: references.bib
+#Bibliografía va por capítulo, porque no funciona con el filtro y citeproc.
+
+#filters:
+#  - "C:/Users/Patricio/_extensions/pandoc-ext/section-bibliographies/section-bibliographies.lua" #filtro para referencias por capítulos, si quiero eliminar referencias finales debo eliminar el archivo references.qmd
+#bibliography: references.bib
 csl: apa.csl
-reference-section-title: Referencias
-citeproc: false #Revisar si funciona con el filtro correctamente, porque al estar en false no genera hipervínculo
+#reference-section-title: Referencias
+citeproc: true 
+
