@@ -1,5 +1,12 @@
 project:
   type: book
+  
+filters:
+      - C:/Users/Patricio/_extensions/pandoc-ext/section-bibliographies/section-bibliographies.lua #filtro para referencias por capítulos, si quiero eliminar referencias finales debo eliminar el archivo references.qmd
+bibliography: references.bib
+csl: apa.csl
+reference-section-title: Referencias
+citeproc: false
 
 book:
   title: "Editar, publicar y financiar ciencia en América Latina"
@@ -81,13 +88,4 @@ website:
         href: https://creativecommons.org/licenses/by/4.0/
         target: _blank
   back-to-top-navigation: true
-
-#Bibliografía va por capítulo, porque no funciona con el filtro y citeproc.
-
-#filters:
-#  - "C:/Users/Patricio/_extensions/pandoc-ext/section-bibliographies/section-bibliographies.lua" #filtro para referencias por capítulos, si quiero eliminar referencias finales debo eliminar el archivo references.qmd
-#bibliography: references.bib
-csl: apa.csl
-#reference-section-title: Referencias
-citeproc: true 
 
