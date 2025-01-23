@@ -1,4 +1,6 @@
 ---
+reference-section-title: "Referências"
+
 title: O papel da Rede Ibero-Americana de Editores Científicos de Educação (RIECE) no fortalecimento da comunicação científica em periódicos da área de Educação
 author:
   - name: Lia Machado Fiuza Fialho
@@ -47,8 +49,6 @@ citation:
   doi: "10.62059/editorial.l001.c10"
 lang: pt
 
-reference-section-title: Referências
-
 ---
 
 ## Introdução
@@ -80,4 +80,3 @@ As fontes documentais primárias foram eleitas para subsidiar a pesquisa por ser
 Pimentel (2001) ressalta que no método de análise documental:
 
 >[...] São descritos os instrumentos e meios de realização da análise de conteúdo, apontando o percurso em que as decisões foram sendo tomadas quanto às técnicas de manuseio de documentos: desde a organização e classificação do material até a elaboração das categorias de análise. (p. 179)
-

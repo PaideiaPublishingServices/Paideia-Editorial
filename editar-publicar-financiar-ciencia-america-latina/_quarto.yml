@@ -1,12 +1,5 @@
 project:
   type: book
-  
-filters:
-      - C:/Users/Patricio/_extensions/pandoc-ext/section-bibliographies/section-bibliographies.lua #filtro para referencias por capítulos, si quiero eliminar referencias finales debo eliminar el archivo references.qmd
-bibliography: references.bib
-csl: apa.csl
-reference-section-title: Referencias
-citeproc: false
 
 book:
   title: "Editar, publicar y financiar ciencia en América Latina"
@@ -44,7 +37,7 @@ book:
     - index.qmd
     - o-papel-da-rede-ibero-americana-de-editores.qmd
     - summary.qmd
-    - references.qmd
+  #  - references.qmd
 
 #revisar licencia y copyright si están ok
 license: "CC BY"
@@ -89,3 +82,10 @@ website:
         target: _blank
   back-to-top-navigation: true
 
+filters:
+  - bibliografia-por-capitulos.lua
+#  - "C:/Users/Patricio/_extensions/pandoc-ext/section-bibliographies/section-bibliographies.lua" #filtro para referencias por capítulos, si quiero eliminar referencias finales debo eliminar el archivo references.qmd
+bibliography: references.bib
+csl: apa.csl
+#reference-section-title: Referencias
+citeproc: true
