@@ -55,7 +55,7 @@ O capítulo trata acerca da fundação da Rede Ibero-Americana de Editores Cient
 
 A principal área coberta pela RIECE é a Educação, pois a articulação centra-se em periódicos desse campo do conhecimento, com o mote de qualificação contínua dos editores científicos considerando as especificidades da área e a necessária articulação do sul global para o fortalecimento da ciência nos países em desenvolvimento [@Fialho2024]. Ademais, a troca de saberes e conhecimentos editoriais entre os editores tem sido fundamental para a formação profissional dos editores científicos, já que, em quase a totalidade dos países latino-americanos, caribenhos e africanos, não há uma habilitação específica em nível de graduação ou pós-graduação para a formação de editores científicos, inclusive, constata-se ausência de regulamentação para o exercício dessa atividade laboral em diversos países [@Morais2022].
 
-Majoritariamente, os editores de revistas científicas na Iberoamérica são professores doutores, vinculados a instituições de ensino superior públicas ou privadas, que assumem essa função como parte de suas atividades laborais de pesquisa e gestão (Fontes, 2021). Destaca-se, inclusive, que em diversos casos é realizado de maneira voluntária, sem atribuição de carga horária ou benefício financeiro extra, em condições precarizadas, pela ausência de uma política institucional adequada de apoio e financiamento às necessidades da publicação científica (Werlang, Carlim & Rode, 2021).
+Majoritariamente, os editores de revistas científicas na Iberoamérica são professores doutores, vinculados a instituições de ensino superior públicas ou privadas, que assumem essa função como parte de suas atividades laborais de pesquisa e gestão [@Fontes2021]. Destaca-se, inclusive, que em diversos casos é realizado de maneira voluntária, sem atribuição de carga horária ou benefício financeiro extra, em condições precarizadas, pela ausência de uma política institucional adequada de apoio e financiamento às necessidades da publicação científica [@Werlang2021].
 
 Considerando o exposto, o objetivo deste texto é apresentar à comunidade internacional como se deu a articulação entre os editores de diversos países para a criação da RIECE, destacando as experiências colaborativas exitosas para majorar a internacionalização, indexação e aderência à ciência aberta nos periódicos envolvidos, bem como a maneira pela qual outros editores da área de Educação podem se juntar à Rede, somando esforços para fortalecer as revistas científicas, no seu papel fundamental de divulgar o conhecimento produzido por meio de pesquisas qualificadas.
 
@@ -67,14 +67,84 @@ Justamente por reconhecer a importância da RIECE para a articulação no campo 
 
 ## Metodologia
 
-Minayo (2008), ao debater sobre o conceito e a função da metodologia nas pesquisas científicas, sinaliza para um enfoque plural, pois “a metodologia inclui as concepções teóricas de abordagem, o conjunto de técnicas que possibilitam a apreensão da realidade e também o potencial criativo do pesquisador” (p. 22). Dessa maneira, é a partir do objetivo da pesquisa que são determinadas as escolhas metodológicas do pesquisar com vistas a eleger o melhor percurso científico para investigar a questão proposta.
+@Minayo2008, ao debater sobre o conceito e a função da metodologia nas pesquisas científicas, sinaliza para um enfoque plural, pois “a metodologia inclui as concepções teóricas de abordagem, o conjunto de técnicas que possibilitam a apreensão da realidade e também o potencial criativo do pesquisador” (p. 22). Dessa maneira, é a partir do objetivo da pesquisa que são determinadas as escolhas metodológicas do pesquisar com vistas a eleger o melhor percurso científico para investigar a questão proposta.
 
 Para este estudo, adota-se uma pesquisa qualitativa, do tipo estudo de caso único, que se utiliza de fonte documental, mais especificamente, aquelas que dizem respeito ao projeto que resultou na criação RIECE, aprovado pelo CNPq e pela Funcap, além do documento diagnóstico das revistas inicialmente incluídas no projeto, das atas das reuniões e dos relatórios de atividades. Essa escolha metodológica decorreu do fato de que os documentos foram considerados as principais fontes para narrar a história da fundação da RIECE.
 
-A pesquisa é de abordagem qualitativa porque não está preocupada em interpretar dados quantitativos e tecer generalizações (Lüdke & André, 1986), ao contrário, busca compreender nuances subjetivas e condições socioeconômicas e culturais que permitiram a articulação entre editores da área de Educação para a criação da RIECE e o início do seu desenvolvimento. Nessa direção, por tratar de uma Rede específica, a investigação é do tipo estudo de caso único, já que centra ênfase na análise de um caso particular e específico, o da RIECE (Yin, 2005).
+A pesquisa é de abordagem qualitativa porque não está preocupada em interpretar dados quantitativos e tecer generalizações [@Ludke1986], ao contrário, busca compreender nuances subjetivas e condições socioeconômicas e culturais que permitiram a articulação entre editores da área de Educação para a criação da RIECE e o início do seu desenvolvimento. Nessa direção, por tratar de uma Rede específica, a investigação é do tipo estudo de caso único, já que centra ênfase na análise de um caso particular e específico, o da RIECE [@Yin2005].
 
-As fontes documentais primárias foram eleitas para subsidiar a pesquisa por serem consideradas importantes para compreender a história da RIECE. De acordo Oliveira (2007), “na pesquisa documental, o trabalho do(a) pesquisador(a) requer uma análise mais cuidadosa, visto que os documentos não passaram antes por nenhum tratamento científico” (p. 70). A análise documental em tela, ao se utilizar de fontes primárias, trabalhou com dados e informações que ainda não haviam sido tratados cientificamente, possibilitando uma compreensão analítica subjetiva e georreferenciada (Sá-Silva, Almeida & Guindani, 2009).
+As fontes documentais primárias foram eleitas para subsidiar a pesquisa por serem consideradas importantes para compreender a história da RIECE. De acordo @Oliveira2020, “na pesquisa documental, o trabalho do(a) pesquisador(a) requer uma análise mais cuidadosa, visto que os documentos não passaram antes por nenhum tratamento científico” (p. 70). A análise documental em tela, ao se utilizar de fontes primárias, trabalhou com dados e informações que ainda não haviam sido tratados cientificamente, possibilitando uma compreensão analítica subjetiva e georreferenciada [@SaSilva2009].
 
-Pimentel (2001) ressalta que no método de análise documental:
+@Pimentel2001 ressalta que no método de análise documental:
 
 >[...] São descritos os instrumentos e meios de realização da análise de conteúdo, apontando o percurso em que as decisões foram sendo tomadas quanto às técnicas de manuseio de documentos: desde a organização e classificação do material até a elaboração das categorias de análise. (p. 179)
+
+Nessa direção, cabe informar que todos os documentos localizados que diziam respeito à criação da RIECE foram considerados no estudo, sem excluir nenhuma fonte. Projetos, atas e trabalhos apresentados e publicados foram catalogados por data de confecção e analisados a partir do tipo de fonte, ou seja, primeiro discutiu-se sobre o projeto inicial e seu financiamento, que permitiu a criação da RIECE; em seguida, as atas que registraram o desenvolvimento da Rede; e, por fim, as atividades de divulgação e consolidação. Especificamente, as fontes analisadas estão descritas adiante:
+
+- Projeto submetido e aprovado pelo CNPq;
+- Projeto submetido e aprovado pela Funcap;
+- Termos de adesão assinados pelos integrantes do projeto;
+- Ata da reunião prévia para elaboração do projeto;
+- Ata da primeira reunião após aprovação do projeto;
+- Ata da segunda reunião do grupo com a criação da RIECE;
+- Material em Power Point de apresentação do projeto;
+- Anais de eventos com publicações sobre a RIECE;
+- Relatório diagnóstico das revistas envolvidas na RIECE;
+- Plataforma Carlos Chagas, onde se executa o projeto.
+
+Todo o material consultado foi disponibilizado pela coordenadora do projeto, que não apenas autorizou sua divulgação pública, por acreditar que a ampla divulgação das pesquisas em todas as suas fases pode trazer mais transparência ao processo investigativo, como também participou ativamente da coleta de material e elaboração da redação do texto, com a crença de que a possibilidade da divulgar a RIECE internacionalmente pode ampliar e fortalecer essa iniciativa.
+
+Cabe esclarecer que o projeto “Qualificação de periódicos científicos de Educação: articular para internacionalizar”, metodologicamente, para alcançar os objetivos propostos, propôs-se a utilizar a pesquisa-ação [@Tripp2005], composta por cinco fases: 1) diagnóstica, com um questionário misto para sondar os conhecimentos dos editores e identificar as fortalezas e deficiências de cada periódico; 2) planejamento da ação, com a elaboração do plano com atividades a serem desenvolvidas para ampliar a internacionalização, indexação e aderência à ciência aberta e minimizar as fragilidades identificadas; 3) tomada da ação, com atividades práticas para a implementação de mudanças com vistas a atender aos critérios dos principais indexadores, qualificar a política editorial, alinhando-a à ciência aberta, e internacionalizar o corpo científico de avaliadores e de autores; 4) avaliação, com grupo focal, a partir da socialização das ações implementadas e sua discussão circular; e 5) aprendizado em rede, com registro textual dos possíveis benefícios e limites do trabalho cooperativo em rede internacional. Inclusive, previa-se que as narrativas do grupo focal transcritas e dos registros textuais seriam processadas no programa Interface de R pour les Analyses Multidimensionnelles de Textes et de Questionnaires (IRaMuTeQ) [@Camargo2018] com a análise de categoria para posterior discussão. Todos os dados oriundos da pesquisa – questionário, planejamento estratégico, relatório de mudanças realizadas e registro textual – também seriam depositados em acesso aberto no LattesData. Por fim, o esperado é que os resultados possibilitem amparar uma análise propositiva na elaboração de políticas públicas viáveis de implementação pelas Instituições de Ensino Superior, Fundações de Amparo à Pesquisa ou Ministérios de Educação dos países envolvidos.
+
+Todavia, cabe salientar que o referido projeto ainda está em desenvolvimento, de modo que o foco deste capítulo não são os resultados do projeto “Qualificação de periódicos científicos de Educação: articular para internacionalizar”, e sim a criação da RIECE, um dos produtos já alcançados pelo referido projeto, bem como as ações já desenvolvidas pela Rede. Dessa maneira, após a análise documental, a discussão será centrada na constituição da articulação inicial que compôs a RIECE, ou seja, na sua fundação, bem como nas primeiras ações da Rede em termos de diagnóstico das revistas participantes, da participação em eventos e produções, e demais atividades desenvolvidas.
+
+## Resultados e discussão
+
+Os resultados, a partir da análise das fontes e termos de adesão assinados pelos integrantes do projeto, mostraram que a RIECE se iniciou com a articulação de 11 países – Brasil, Colômbia, México, Venezuela, Costa Rica, Angola, Uruguai, Espanha, Portugal, Paraguai e Equador – e o apoio de importantes entidades que dão suporte à editoria de revistas científicas, a exemplo do Redalyc, do Latindex, do EDUC@, da Associação Uruguaia de Revistas Científicas (AURA) e da ABEC Brasil. 
+
+Já a análise dos projetos interinstitucionais aprovados mostrou que essa composição de 16 pesquisadores nacionais, dos quais seis são bolsistas de produtividade em pesquisa do CNPq, com reconhecida experiência no Brasil, e 16 pesquisadores internacionais, além de cinco representantes de entidades do campo editorial (Redalyc, Latindex, EDUC@, AURA, ABEC), foi impulsionada pelos critérios do edital de fomento, que priorizava a participação do Brasil, de outros países do sul global, caribenhos e africanos. De tal modo, o grupo envolveu 32 instituições, das quais 16 são nacionais e 16 são internacionais, com representação de todas as cinco regiões do Brasil – Norte, Nordeste, Sul, Sudeste e Centro-Oeste - e o envolvimento de mais 11 países.
+
+As instituições de vínculo dos pesquisadores integrantes deste projeto estão apresentas no @tbl-1, com a indicação da região geográfica para as brasileiras e do país, no caso das internacionais. 
+
+
+| Instituições brasileiras                    | Região geográfica |
+|---------------------------------------------|-------------------|
+| Universidade Federal de Roraima             | Norte             |
+| Universidade Federal de Rondônia            | Norte             |
+| Universidade Federal do Oeste do Pará       | Norte             |
+| Universidade Federal do Amazonas            | Norte             |
+| Universidade Federal de Goiás               | Centro-Oeste      |
+| Universidade Estadual de Goiás              | Centro-Oeste      |
+| Universidade Federal de Catalão             | Centro-Oeste      |
+| Universidade Federal do Vale do São Francisco | Nordeste         |
+| Universidade Federal da Paraíba             | Nordeste         |
+| Universidade Federal do Ceará               | Nordeste         |
+| Universidade Federal do Rio Grande do Norte | Nordeste         |
+| Centro Universitário UniChristus            | Nordeste         |
+| Universidade Estadual do Ceará              | Nordeste         |
+| Universidade Estadual de Ponta Grossa       | Sul               |
+| Pontifícia Universidade Católica de São Paulo | Sudeste         |
+| Universidade Paulista Júlio de Mesquita Filho | Sudeste         |
+| **Instituições estrangeiras**                 | **País**         |
+| Universidad de Costa Rica                     | Costa Rica       |
+| Universidad de la República                   | Uruguai          |
+| Universidad Nacional Autónoma de México       | México           |
+| Corporación Universitaria Minuto de Dios      | Colômbia         |
+| Universidad Politécnica Salesiana             | Equador          |
+| Universidad Central de Venezuela              | Venezuela        |
+| Universidad Tecnológica Intercontinental      | Paraguai         |
+| Universidad de Cádiz                          | Espanha          |
+| Universidad de Luanda Óscar Riba              | Angola           |
+| Universidade de Coimbra                       | Portugal         |
+| Universidad de Valladolid                     | Espanha          |
+| Universidad Libre                             | Colômbia         |
+| Universidad Andina Simón Bolívar             | Equador          |
+| Universidad Nacional Abierta                 | Venezuela        |
+| Universidad Católica del Uruguay              | Uruguai          |
+| Universidad de Los Andes                      | Venezuela        |
+
+: Instituições envolvidas no projeto {#tbl-1}
+
+A articulação dos editores decorreu do objetivo comum de aumentar a qualificação dos periódicos em desenvolvimento, na área da Educação, a partir da articulação internacional de editores científicos. Para isso, buscava-se qualificar, científica e tecnologicamente, os periódicos brasileiros e de outros países latino-americanos, caribenhos e africanos a partir da articulação dos conhecimentos editoriais da equipe com foco na internacionalização, na indexação e na aderência à ciência aberta. 
+
+Como no Quadro 1, já foram apontadas as instituições envolvidas no projeto, com suas respectivas regiões geográficas, no caso das brasileiras, e dos países, no caso das estrangeiras, especificam-se agora os membros da equipe com as revistas nas quais atuam como editores, bem como seus respectivos grupos de pesquisas implicados no projeto.

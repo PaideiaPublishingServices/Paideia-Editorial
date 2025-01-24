@@ -51,6 +51,8 @@ citation:
 
 format:
   html:
+    filters:
+      - bibliografia-por-capitulos.lua
     theme:
       light: lumen
       dark: darkly
@@ -69,6 +71,7 @@ format:
     papersize: a4
     toc: true
     number-sections: true
+    latex-engine: xelatex
   epub:
     toc: true
     number-sections: true
@@ -82,8 +85,6 @@ website:
         target: _blank
   back-to-top-navigation: true
 
-filters:
-  - bibliografia-por-capitulos.lua
 bibliography: references.bib
 csl: apa.csl
 reference-section-title: Referencias
