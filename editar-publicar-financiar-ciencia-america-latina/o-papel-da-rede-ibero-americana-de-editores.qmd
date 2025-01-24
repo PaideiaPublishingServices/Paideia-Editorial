@@ -1,6 +1,4 @@
 ---
-reference-section-title: "Referências"
-
 title: O papel da Rede Ibero-Americana de Editores Científicos de Educação (RIECE) no fortalecimento da comunicação científica em periódicos da área de Educação
 author:
   - name: Lia Machado Fiuza Fialho
@@ -48,7 +46,7 @@ citation:
   container-title: "O papel da Rede Ibero-Americana de Editores Científicos de Educação (RIECE) no fortalecimento da comunicação científica em periódicos da área de Educação"
   doi: "10.62059/editorial.l001.c10"
 lang: pt
-
+reference-section-title: "Referências"
 ---
 
 ## Introdução

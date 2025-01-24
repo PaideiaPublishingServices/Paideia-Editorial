@@ -84,8 +84,7 @@ website:
 
 filters:
   - bibliografia-por-capitulos.lua
-#  - "C:/Users/Patricio/_extensions/pandoc-ext/section-bibliographies/section-bibliographies.lua" #filtro para referencias por capítulos, si quiero eliminar referencias finales debo eliminar el archivo references.qmd
 bibliography: references.bib
 csl: apa.csl
-#reference-section-title: Referencias
+reference-section-title: Referencias
 citeproc: true
