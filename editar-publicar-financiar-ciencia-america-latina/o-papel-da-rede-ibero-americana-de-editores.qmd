@@ -147,4 +147,386 @@ As instituições de vínculo dos pesquisadores integrantes deste projeto estão
 
 A articulação dos editores decorreu do objetivo comum de aumentar a qualificação dos periódicos em desenvolvimento, na área da Educação, a partir da articulação internacional de editores científicos. Para isso, buscava-se qualificar, científica e tecnologicamente, os periódicos brasileiros e de outros países latino-americanos, caribenhos e africanos a partir da articulação dos conhecimentos editoriais da equipe com foco na internacionalização, na indexação e na aderência à ciência aberta. 
 
-Como no Quadro 1, já foram apontadas as instituições envolvidas no projeto, com suas respectivas regiões geográficas, no caso das brasileiras, e dos países, no caso das estrangeiras, especificam-se agora os membros da equipe com as revistas nas quais atuam como editores, bem como seus respectivos grupos de pesquisas implicados no projeto.
+Como no @tbl-1, já foram apontadas as instituições envolvidas no projeto, com suas respectivas regiões geográficas, no caso das brasileiras, e dos países, no caso das estrangeiras, especificam-se agora os membros da equipe com as revistas nas quais atuam como editores, bem como seus respectivos grupos de pesquisas implicados no projeto.
+
+| **Pesquisadores Internacionais**         | **Revistas**                                             | **Grupos de Pesquisa**                                      |
+|------------------------------------------|----------------------------------------------------------|------------------------------------------------------------|
+| Christian Andrés Torres Hurtado          | Arista Crítica                                           | Ágora Latinoamericana                                      |
+| Benjamín Barón Velandia                  | Praxis Pedagógica                                        | Laboratorio de Formación Docente en Investigación          |
+| Cristina Maria Coimbra Vieira            | Ex Aequo                                                 | Centro de Investigação em Educação de Adultos e Intervenção Comunitária |
+| Eva Álvarez Ramos                        | Ogigia                                                   | Literatura Española Contemporánea. Siglos XX y XXI         |
+| Hugo Heredia Ponce                       | Hachetetepé. Revista Científica de Educación y Comunicación | Investigación e Innovación Educativa en Didáctica de la Lengua y la Literatura |
+| Manuel Francisco Romero Oliva            | Tavira                                                   | Investigación e Innovación Educativa en Didáctica de la Lengua y la Literatura |
+| Mariana Lacayo Campos                    | Educación                                                | Publicaciones de la Revista Educación                      |
+| Tulio Ramírez                            | Areté                                                    | Problemas Educativos Venezolanos                           |
+| Miguel Ángel Herrera Pavo                | Revista Andina de Educación                              | Ciencia Abierta Ecuador                                    |
+| Jaime Padilla Verdugo                    | Revista Científica Alteridad                             | Grupo de Investigación en Ciencias de la Educación (GICCEE) |
+| Eurico Wongo Gungula                     | Sapientiae                                               | Grupo de Investigadores Multidisciplinares sobre Ciencia Abierta |
+| Rebeca Estefano de Salazar               | Educ@ción en Contexto                                    | Grupo de Investigación de Educación                        |
+| Héctor Magaña Vargas                     | Revista Mexicana de Orientación Educativa               | Orientación Educativa y Vocacional                        |
+| Abelardo Juvenal Montiel Benitez         | Tembikuaaty Rekávo                                       | Grupo de Investigación de la Universidad Tecnológica Intercontinental |
+| María Alejandra Balbi                    | Páginas de Educación                                     | Evaluación Formativa                                       |
+| Pedro José Rivas                         | Revista Venezolana en Educación                          | Grupo de Investigación de Análisis Sociopolítico de Venezuela |
+| **Pesquisadores nacionais**              | **Revistas**                                             | **Grupos de pesquisa**                                     |
+| Lia Machado Fiuza Fialho                 | Educação & Formação                                      | Práticas Educativas, Memórias e Oralidades                |
+| Charliton José dos Santos Machado        | Ensino em Perspectivas                                   | Grupo de Estudos e Pesquisas História da Educação da Paraíba |
+| Jefferson Mainardes                      | Práxis Educativa                                         | Políticas Educacionais e Práticas Educativas              |
+| Maria Lília Imbiriba Sousa Colares       | Revista Exitu                                            | História, Sociedade e Educação no Brasil                  |
+| Olivia Morais de Medeiros Neta           | History of Education in Latin America                   | Grupos de Pesquisa G-TRES                                  |
+| Cláudio Pinto Nunes                      | Revista Práxis Educacional                               | Grupo de Pesquisas sobre Didática, Formação e Trabalho Docente |
+| Alfrancio Ferreira Dias                  | Revista Tempos e Espaços em Educação                    | Grupo de Estudos e Pesquisas Queer e Outras Epistemologias Feministas |
+| Gilson Xavier Azevedo                    | Revista de Estudos em Educação                          | Educação e Questões de Aprendizagem                       |
+| José Gerardo Vasconcelos                 | Educação em Debates                                      | História e Memória da Educação                            |
+| Marcelo Silva de Souza Ribeiro           | Revista de Educação do Vale do São Francisco            | Educação e Desenvolvimento                                |
+| Karla Angélica Silva do Nascimento       | Educação & Formação                                      | Práticas Educativas, Memórias e Oralidades                |
+| Fabiane Maia Garcia                      | Amazonida                                                | Gênero, Trabalho e Educação                               |
+| Rafael Fonseca de Castro                 | Práxis Pedagógica                                        | Educação, Psicologia Educacional e Processos Formativos   |
+| Karla Colares Vasconcelos                | Revista Educação Pesquisa e Educação                    | Formação de Professores Práticas Pedagógicas e Epistemologia do Professor do Campo |
+| Cristine Brandenburg                     | Práticas Educativas, Memórias e Oralidades              | Práticas Educativas, Memórias e Oralidades                |
+| Cláudia Tavares do Amaral                | Poiésis Pedagógica                                       | Centro de Investigação e Estudos em Educação              |
+| Miriam Fábia Alves                       | Interações                                               | Grupo de Estudos e Pesquisas em Políticas Educacionais e Juventude |
+| Francisca Genifer Andrade de Sousa       | Práticas Educativas, Memórias e Oralidades              | Práticas Educativas, Memórias e Oralidades                |
+| **Pesquisador**                          | **Associação/Indexador**                                | **Grupos de pesquisa**                                     |
+| Eduardo Aguado-López                     | Redalyc                                                 | Difusión y Divulgación del Conocimiento     |
+| Ana María Cetto                          | Latindex                                                | Grupo de Investigación Latindex |
+| Nelson Antonio Simâo Gimenes             | EDUC@                                                   | Avaliação Educacional |    
+| Sylvia Laura Piovesan Suárez             | AURA                                                    | Investigación CSIC Uruguay                  |
+| Sigmar de Mello Rode                     | ABEC Brasil                                             | Diagnóstico em Patologia Bucal              |
+
+: Membros da equipe com a indicação das revistas científicas e grupos de pesquisa a que estão vinculados {#tbl-2}
+
+Importa salientar que os editores com periódicos mais qualificados se dispuseram a ajudar na qualificação dos periódicos emergentes, especialmente no tocante à indexação, à internacionalização e à adequação à ciência aberta. Somando-se a essa articulação prévia que mobiliza 11 países e 34 editores científicos da área de Educação, a ideia do projeto foi previamente aprovada e apoiada por cinco representantes de entidades muito importantes no campo editorial: duas das mais consolidadas associações científicas de editores dos países latino-americanos, a AURA e a ABEC Brasil; bem como pelos indexadores Redalyc, Latindex e EDUC@, de modo que essas entidades assumiram o compromisso de colaborar com o projeto seja no âmbito da sua divulgação, da formação dos editores ou da assessoria para qualificação, internacionalização e indexação dos periódicos.
+
+O projeto já se iniciou robusto em colaborações concretas de internacionalização, com a proposta coletiva entre os membros envolvidos de iniciar uma rede permanente de colaboração envolvendo países latino-americanos que se amplie e se perpetue mesmo após a finalização do projeto. Nesse sentido, a rede colaborativa aqui descrita, a RIECE, apresentou forte potencial de se converter em uma consolidada rede de editores da área de Educação na Iberoamérica.
+
+Previam-se alguns objetivos específicos: 1) fortalecer o desenvolvimento tecnológico de periódicos científicos em Educação desde o fortalecimento da participação de pesquisadores brasileiros e estrangeiros em projeto de cooperação em rede internacional; 2) incentivar a participação de pesquisadores nacionais e internacionais, editores de revistas científicas, vinculados às instituições localizadas geograficamente nas regiões menos favorecidas, em projetos internacionais com países latino-americanos e caribenhos que enfrentam problemas semelhantes para o aprimoramento das revistas científicas; 3) desenvolver projeto de extensão, envolvendo jovens doutores, para a promoção de ações de formação no campo editorial (para editores e autores) com vistas a ampliar também a articulação com a comunidade, alcançando também o público leigo; 4) promover maior internacionalização, divulgação científica qualificada, aderência à ciência aberta, indexação e boas práticas editoriais nas revistas científicas nacionais e internacionais, em especial, nas envolvidas diretamente com o projeto; e 5) constituir uma rede internacional de editores científicos parceiros com o objetivo comum de aprimorar o trabalho editorial e a qualificação dos periódicos em Educação do sul global.
+
+Observou-se que, mesmo ainda em fase quase embrionária, com menos de um ano do seu início formal, já se conseguia alcançar todos os objetivos propostos, afinal foi possível articular editores de diversos países, constituindo uma rede de cooperação internacional, a RIECE, que envolvia em projeto internacional países latino-americanos e caribenhos. Ademais, já se desenvolviam iniciativas de promoção de ações de formação no campo editorial, inclusive fortalecendo a cultura da ciência aberta e a aproximação com a comunidade na perspectiva da ciência cidadã, bem como já havia se realizado um sério diagnóstico das revistas envolvidas na Rede para majorar a internacionalização, aderência à ciência aberta, boas práticas editoriais e indexação das revistas. 
+
+A ata da reunião prévia para a elaboração do projeto mostrou que a iniciativa partiu de uma articulação de editores brasileiros em Educação, os quais se reuniram para discutir o edital do CNPq, informar da impossibilidade legal de estar concorrendo em mais de uma proposta, assumir o compromisso com as atividades da pesquisa-ação previstas para o desenvolvimento dos periódicos e elaborar coletivamente o orçamento, especialmente no que dizia respeito às bolsas para missões de internacionalização nos países parceiros, já que era necessário constar no corpo do texto da proposta o nome dos brasileiros interessados em trocar saberes e experiências com editores de outros periódicos de Educação de países distintos.
+
+As bolsas foram divididas equitativamente entre todos os membros brasileiros que manifestaram interesse, de modo que restou uma bolsa para Pós-Doutorado Junior no Exterior (PDE), 13 bolsas de Desenvolvimento Tecnológico e Inovação no Exterior na categoria Sênior (DES) e uma bolsa de Desenvolvimento Tecnológico e Inovação no Exterior na categoria Junior (DEJ). 
+
+
+| Tipo de bolsa | Descrição | Quantidade |
+|--------------|-----------|------------|
+| PDE          | 6 meses | 1 |
+| DEJ          | 1 mês | 1 |
+| DES          | 1 mês | 13 |
+
+: Quantitativo de bolsas financiadas {#tbl-3}
+
+A maioria das bolsas eram de categoria Sênior em decorrência de a equipe possuir apenas um jovem doutor com menos de cinco anos da conclusão de seu curso de doutorado e todos os demais já serem pesquisadores experientes. Esse perfil era esperado, tendo em vista que, para assumir a função de editor de revista científica, geralmente são eleitos pesquisadores com maior visibilidade, inserção e maturidade com a produção e divulgação do conhecimento [@Gomes2010; @Anna2019]. 
+
+A ata referente à primeira reunião após aprovação do projeto mostra que o objetivo geral do encontro foi apresentar: os membros da equipe inicialmente mobilizada, já que alguns ainda não se conheciam; o projeto, com as atividades a serem desenvolvidas; o cronograma de execução das ações de qualificação dos periódicos; e o orçamento aprovado. Este último sofreu corte na verba de custeio, todavia preservou todas as bolsas solicitadas, não prejudicando a execução do projeto e consecutivamente da RIECE. 
+
+Contudo, foi na ata da segunda reunião do grupo que foi registrada a criação oficial da RIECE, em 9 de julho de 2024. Na ocasião, o referido encontro virtual foi coordenado por Lia Machado Fiuza Fialho, da Universidade Estadual do Ceará (UECE), e contou com a presença de: Ana Maria Cetto – México (Latindex), Nelson Antonio Simâo Gimenes – PUC/SP (EDUC@), Sylvia Laura Piovesan Suárez – Uruguai (AURA), Benjamín Barón Velandia – Colômbia, Eva Álvarez Ramos – Espanha, Christian Andrés Torres Hurtado – Colômbia, María Alejandra Balbi – Uruguai, Eurico Wongo Gungula – Angola, Jefferson Mainardes – UEPG, Charliton José dos Santos Machado – UFPB, Fabiane Maia Garcia – UFAM, Olivia Morais de Medeiros Neta – UFRN, Karla Angélica Silva do Nascimento – UniChristus/UECE, Maria Lília Imbiriba Sousa Colares – Ufopa, Cláudia Tavares do Amaral – UFCAT, Karla Colares Vasconcelos - UFRR, Gilson Xavier Azevedo – UEG, Marcelo Silva de Souza Ribeiro – Univasf, Rafael Fonseca de Castro – UNIR, Claudio Nunes – UESB, Tulio Ramírez – Venezuela, Jaime Padilla Verdugo – Equador, Héctor Magaña Vargas – México, Miguel Ángel Herrera Pavo – Equador, Abelardo Juvenal Montiel Benitez – Paraguai, Pedro José Rivas – Venezuela e Mariana Lacaio – Costa Rica. José Airton de Freitas Pontes Junior – UECE, Cristine Brandenburg – UECE, Alfrancio Dias – UFS, Rebeca Estefano de Salazar – Venezuela e Segundo Aguado (Redalic) justificaram ausência.
+
+Como se registra em ata, “foi aprovada a logomarca da Rede Ibero-Americana de Editores em Educação (RIECE) e o selo de qualidade que será concedido às revistas da rede que cumprirem critérios de qualidade e ciência aberta” (Ata RIECE, 9 de julho de 2024). 
+
+::: {#fig-1 layout-ncol=2 layout-valign="center"}
+
+![Logomarca da RIECE](img/riece.png){#fig-2}
+
+![Selo de qualidade](img/selo.png){#fig-3}
+
+Logomarca e selo
+:::
+
+A logomarca, de fácil visualização e leitura, destaca a letra “e”, correspondente à palavra “editores”, e está acompanhada de sua interpretação literal escrita em português e inglês, idiomas predominantemente utilizados nos países ibero-americanos envolvidos no projeto.
+
+Importa salientar que a Rede valoriza a ciência aberta [@Unesco2017; @Unesco2021] e a rota diamante, inclusive, pelo fato de que não se faz restrição aos editores de periódicos científicos quanto ao ingresso na RIECE, todavia, para a concessão do selo, já havia regras nítidas, tais como um tempo mínimo de 5 anos de existência do periódico, não possuir características predatórias e adotar a rota diamante. Essa rota é caracterizada pelo acesso aberto aos textos publicados, distribuídos e preservados pelos periódicos sem custos para o leitor ou para o autor [@Appel2019; @Pereira2020]. Dessa maneira, apenas as revistas que não cobram o pagamento das taxas de processamento de artigo podem obter o selo, conhecido como Article Processing Charges (APCs).
+
+Constatou-se, a partir da criação da RIECE, de maneira concreta, que houve três ações consideradas como as mais preponderantes em termos de importância: 1) o diagnóstico dos 32 periódicos envolvidos no projeto, destacando suas fortalezas e suas fraquezas, registrado no documento denominado “Relatório diagnóstico das revistas envolvidas na RIECE”; 2) as missões de internacionalização iniciadas, registradas na Plataforma Carlos Chagas, site do governo brasileiro onde registra a execução do projeto; 3) as atividades de participações em eventos e formações para a qualificação no campo editorial e para a divulgação e fortalecimento da RIECE, registradas a partir de publicação em anais de eventos com publicações sobre a RIECE ou com certificados, palestras, coordenação de mesas, minicursos ou oficinas. Tais ações serão descritas a seguir de maneira mais detalhada.
+
+1. O relatório diagnóstico dos 32 periódicos envolvidos no projeto, destacando suas fortalezas e suas fraquezas
+
+A partir da análise do relatório diagnóstico, foi possível perceber que 15 das revistas envolvidas na RIECE eram relativamente jovens, sendo criadas entre 2011 e 2020, todavia, existiam outras 15 que já possuíam mais de 15 anos de existência e apenas três possuíam menos de dois anos de criação.
+
+```{=html}
+<table id="tbl-4">
+  <caption>Tempo de existência das revistas</caption>
+  <thead>
+    <tr>
+      <th rowspan="2" style="vertical-align: middle;">Ano</th>
+      <th colspan="2">Brasil</th>
+      <th colspan="2">Demais países</th>
+      <th colspan="2">Total</th>
+    </tr>
+    <tr>
+      <th>n</th>
+      <th>%</th>
+      <th>n</th>
+      <th>%</th>
+      <th>n</th>
+      <th>%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1988-2000</td>
+      <td>3</td>
+      <td>19%</td>
+      <td>4</td>
+      <td>24%</td>
+      <td>7</td>
+      <td>21%</td>
+    </tr>
+    <tr>
+      <td>2001-2010</td>
+      <td>4</td>
+      <td>25%</td>
+      <td>4</td>
+      <td>24%</td>
+      <td>8</td>
+      <td>24%</td>
+    </tr>
+    <tr>
+      <td>2011-2020</td>
+      <td>7</td>
+      <td>44%</td>
+      <td>8</td>
+      <td>47%</td>
+      <td>15</td>
+      <td>45%</td>
+    </tr>
+    <tr>
+      <td>2021-2023</td>
+      <td>2</td>
+      <td>13%</td>
+      <td>1</td>
+      <td>6%</td>
+      <td>3</td>
+      <td>9%</td>
+    </tr>
+    <tr>
+      <td><b>Total</b></td>
+      <td><b>16</b></td>
+      <td><b>100%</b></td>
+      <td><b>17</b></td>
+      <td><b>100%</b></td>
+      <td><b>33</b></td>
+      <td><b>100%</b></td>
+    </tr>
+  </tbody>
+</table>
+
+```
+
+No tocante à periodicidade da publicação, chamou a atenção o fato de que a maioria já adotava o fluxo contínuo, somando-se 20 periódicos. No entanto, ainda havia 13 revistas que optavam por publicação em números periódicos – semestrais, quadrimestrais ou trimestrais.
+
+```{=html}
+
+<table id="tbl-5">
+  <caption>Periodicidade da publicação</caption>
+  <thead>
+    <tr>
+      <th rowspan="2" style="vertical-align: middle;">Periodicidade</th>
+      <th colspan="2">Brasil</th>
+      <th colspan="2">Demais países</th>
+      <th colspan="2">Total geral</th>
+    </tr>
+    <tr>
+      <th>n</th>
+      <th>%</th>
+      <th>n</th>
+      <th>%</th>
+      <th>n</th>
+      <th>%</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Contínuo</td>
+      <td>15</td>
+      <td>88%</td>
+      <td>5</td>
+      <td>31%</td>
+      <td>20</td>
+      <td>61%</td>
+    </tr>
+    <tr>
+      <td>Trimestral</td>
+      <td>0</td>
+      <td>0%</td>
+      <td>1</td>
+      <td>6%</td>
+      <td>1</td>
+      <td>3%</td>
+    </tr>
+    <tr>
+      <td>Quadrimestral</td>
+      <td>2</td>
+      <td>12%</td>
+      <td>1</td>
+      <td>6%</td>
+      <td>3</td>
+      <td>9%</td>
+    </tr>
+    <tr>
+      <td>Semestral</td>
+      <td>0</td>
+      <td>0%</td>
+      <td>9</td>
+      <td>56%</td>
+      <td>9</td>
+      <td>27%</td>
+    </tr>
+    <tr>
+      <td><b>Total</b></td>
+      <td><b>17</b></td>
+      <td><b>100%</b></td>
+      <td><b>16</b></td>
+      <td><b>100%</b></td>
+      <td><b>33</b></td>
+      <td><b>100%</b></td>
+    </tr>
+  </tbody>
+</table>
+
+```
+Também foi dada importância à questão da preservação digital e chamou a atenção o fato de apenas 17 revistas cuidarem de preservar as publicações e demais informações relevantes, de modo que 16 revistas precisam urgentemente cuidar para assegurar a preservação digital. Vale ressaltar, inclusive, que no Brasil a preservação na Rede Cariniana é gratuita e os editores pareciam desconhecer essa informação, o que pode ser facilmente resolvido desde a troca de experiências e saberes em rede.
+
+
+|                    | Brasil | Demais países | Total geral |
+|---------------------|--------|---------------|-------------|
+| CLOCKSS             | 4      | 1             | 5           |
+| LOCKSS              | 4      | 4             | 8           |
+| Cariniana           | 4      |               | 4           |
+| **Total**           | **12** | **5**         | **17**      |
+
+: Preservação digital das revistas {#tbl-6}
+
+No que diz respeito às bases e indexadores, observa-se que há uma preocupação das revistas em buscar sua divulgação mediante bases e indexadores diversos.
+
+| Indexador            | Brasil | Demais países |
+|----------------------|--------|---------------|
+| Latindex             | 16     | 12            |
+| DOAJ                 | 8      | 11            |
+| Dialnet              | 5      | 8             |
+| Latinrev             | 5      | 7             |
+| BASE                 | 7      | 5             |
+| ERIH-Plus            | 3      | 9             |
+| MIAR                 | 3      | 8             |
+| Redalyc              | 3      | 7             |
+| Scielo               | 1      | 8             |
+| Road                 | 7      | 1             |
+| Iresie               | 3      | 4             |
+| Researchbib          | 6      | 1             |
+| Sherpa Romeo         | 3      | 4             |
+| CIRC                 | 1      | 6             |
+| Scilit               | 3      | 3             |
+| Open Aire            | 4      | 2             |
+| SIS                  | 3      | 2             |
+| MLA                  | 1      | 4             |
+| I2OR                 | 4      | 1             |
+| Latino Americana     | 2      | 3             |
+| Scopus               | 1      | 3             |
+| Clase                | 3      | 1             |
+| Redalyc.org          | 1      | 0             |
+| IPIndexing           | 1      | 0             |
+| ESJI                 | 4      | 0             |
+| Amelica              | 1      | 3             |
+| WoS                  | 1      | 2             |
+| Educ@                | 3      | 0             |
+| ERA                  | 1      | 2             |
+| Research4 Life       | 3      | 0             |
+| Science Gate         | 2      | 1             |
+| Root Indexing        | 2      | 1             |
+| FATCAT               | 3      | 0             |
+| Mir@bel              | 2      | 1             |
+| EZ3                  | 1      | 1             |
+| InfoBasa Index       | 1      | 1             |
+| MAKTABA              | 2      | 0             |
+| JISC                 | 2      | 0             |
+| ZDB                  | 2      | 0             |
+| Scope Database       | 2      | 0             |
+| Biblat               | 0      | 2             |
+| Clacso               | 1      | 0             |
+| Jisc                 | 1      | 0             |
+| ARDI                 | 1      | 0             |
+| Advenced Sciences Index | 1   | 0             |
+| Modern Language Association | 1 | 0         |
+| IPN                  | 1      | 0             |
+| Proquest             | 1      | 0             |
+
+: Bases e indexadores das revistas {#tbl-7}
+
+No quesito uso de programas específicos para a prevenção de similaridades, em especial, do tipo plágio, surpreendeu o fato de 18 das revistas não prestarem essa informação aos seus leitores e autores. Dentre as 15 que disponibilizavam essa informação, o programa mais utilizado foi o Turnitin.
+
+|                                                                    | Brasil | Demais países | Total geral |
+|---------------------------------------------------------------------|--------|---------------|-------------|
+| Não informado                                                      | 10     | 8             | 18          |
+| Turnitin                                                           |       | 6             | 6          |
+| Copy Spider                                                        | 3      |               | 3           |
+| Similarity Check                                                   | 2      | 1             | 3           |
+| Copy Spider, Plagiarism                                             | 1      |               | 1           |
+| Grammarly, Plagium, Copionic, WriteCheck, PaperRater, Plagarisma.net, Viper Plagarism Scanner ou CrossCheck |  | 1     | 1           |
+| iThenticate                                                         | 1      | 0             | 1           |
+| **Total**                                                           | **17** | **16**        | **33**      |
+
+: Utilização de programas para identificação de similaridade {#tbl-8}
+
+Consoante a ética na política editorial das revistas, observou-se que 24 revistas tomavam como base para a elaboração de diretrizes documentos nacionais ou internacionais amplamente divulgados, majoritariamente fundamentas no Committee on Publication Ethics (COPE). No entanto, havia ainda nove revistas que não explicitavam com clareza quais procedimentos éticos adotavam.
+
+
+| Norma                                                            | Brasil | Demais países | Total |
+|------------------------------------------------------------------|--------|---------------|-------|
+| Código de Ética da UTIC                                          |       | 1             | 1     |
+| COPE (Committee on Publication Ethics)                            | 9      | 12            | 21    |
+| Manual da American Psychological Association - APA               | 1      |               | 1     |
+| SciELO e COPE (Committee on Publication Ethics)                   | 1      |               | 1     |
+| Não possui                                                        | 6      | 3             | 9     |
+| **Total**                                                         | **17** | **16**        | **33** |
+
+: Normas que fundamentam a política editorial {#tbl-9}
+
+Outras informações importantes também foram diagnósticas no relatório, a exemplo da cobrança de APC, exercida por apenas duas revistas, bem como na internacionalização no corpo editorial e de autores, que demonstrou que os periódicos que já trabalhavam nessa direção.
+
+Dentre as dificuldades editoriais referentes aos periódicos estritamente relacionados à internacionalização, podem-se listar, dentre outras: a dificuldade de compor um comitê científico/editorial internacional com representação de vários países e continentes; conseguir pareceristas internacionais capacitados para emitir bons pareceres em tempo hábil; indexar em bases/diretórios/indexadores internacionais; publicar artigos produzidos por pesquisadores internacionais; divulgar os artigos publicados mundo afora e conseguir que a revista seja lida e citada internacionalmente. 
+
+Com o diagnóstico prévio, mostrando as possíveis fragilidades dos periódicos, o objetivo é investir para sanar essas lacunas com o mote de qualificar o periódico e o trabalho do editor. Inclusive, a partir de missões de internacionalização, há a possibilidade de editores de países distintos interagirem presencialmente, sendo tutoreados por colegas mais experientes, para investir na melhoria da qualidade dos periódicos da RIECE.
+
+2. As missões de internacionalização
+
+Na ata de criação da RIECE, de 9 de julho de 2024, destacou-se para os editores internacionais que os brasileiros seriam financiados para missões de internacionalização e que iriam entrar em contato para iniciar a organização das missões de internacionalização. Segundo registro na Plataforma Carlos Chagas, apenas uma missão já havia sido realizada; a maioria estava agendada para o primeiro semestre de 2025 e as demais seriam desenvolvidas no segundo semestre.
+
+| Bolsista/Editor                         | Processo                                                                 | Vigência                         | Categoria da bolsa |
+|-----------------------------------------|--------------------------------------------------------------------------|----------------------------------|---------------------|
+| Charliton José dos Santos Machado       | [201545/2024-1](http://efomento.cnpq.br/efomento/contrato/indicacaoBolsista.do?acao=detalharIndicacao&codigoSolicitacao=4810698&codigoProcesso=20234424339)  | 01/01/2025 a 31/01/2025          | DES                 |
+| Fabiane Maia Garcia                     | [201579/2024-3](http://efomento.cnpq.br/efomento/contrato/indicacaoBolsista.do?acao=detalharIndicacao&codigoSolicitacao=4810698&codigoProcesso=20234424339)  | 01/02/2025 a 28/02/2025          | DES                 |
+| Lia Machado Fiuza Fialho                | [201538/2024-5](http://efomento.cnpq.br/efomento/contrato/indicacaoBolsista.do?acao=detalharIndicacao&codigoSolicitacao=4810698&codigoProcesso=20234424339)  | 01/03/2025 a 31/03/2025          | DES                 |
+| Maria Aparecida Alves da Costa         | [201565/2024-2](http://efomento.cnpq.br/efomento/contrato/indicacaoBolsista.do?acao=detalharIndicacao&codigoSolicitacao=4810698&codigoProcesso=20234424339)  | 01/01/2025 a 31/01/2025          | DEJ                 |
+| Maria Lília Imbiriba Sousa Colares     | [201646/2024-2](http://efomento.cnpq.br/efomento/contrato/indicacaoBolsista.do?acao=detalharIndicacao&codigoSolicitacao=4810698&codigoProcesso=20234424339)  | 01/02/2025 a 28/02/2025          | DES                 |
+| Olivia Morais de Medeiros Neta         | [201578/2024-7](http://efomento.cnpq.br/efomento/contrato/indicacaoBolsista.do?acao=detalharIndicacao&codigoSolicitacao=4810698&codigoProcesso=20234424339)  | 01/02/2025 a 28/02/2025          | DES                 |
+| Rafael Fonseca de Castro                | [201439/2024-7](http://efomento.cnpq.br/efomento/contrato/indicacaoBolsista.do?acao=detalharIndicacao&codigoSolicitacao=4810698&codigoProcesso=20234424339)  | 01/10/2024 a 31/10/2024          | DES                 |
+
+: Editores já cadastrados para missão de internacionalização {#tbl-10}
+
+Apenas Rafael Fonseca de Castro já havia concluído a missão; outros seis editores já estavam com suas missões agendadas e os demais estavam em fase de negociação com as suas instituições de vínculo empregatício e com o colega que iria trabalhar conjuntamente para qualificar as suas revistas. Dessa maneira, ainda que o registro da atividade seja muito importante por ser uma iniciativa inovadora, ainda não havia resultados que pudessem ser devidamente analisados.
+
+3. As atividades de participações em eventos e formações para a qualificação no campo editorial e para a divulgação e fortalecimento da RIECE
+
+Mesmo com o tempo diminuto de criação da RIECE, menos de um ano, é possível observar uma profícua mobilização dos envolvidos no projeto para trabalhar em prol da articulação e divulgação da Rede. Dentre as atividades mais expressivas nessa direção, mencionam-se:
+
+> Participação na 15ª Conferência Lusófona de Ciência Aberta (ConfOA), com a temática “Acesso aberto e dados de investigação abertos: sistemas, políticas e práticas”, em que apresentaram trabalho denominado “Rede Ibero-Americana de Editores Científicos de Educação (RIECE): internacionalização, indexação e aderência à ciência aberta” e o trabalho “O descompasso da emergência da Ciência Aberta com os critérios Qualis Capes Educação”. Na ocasião, questionava-se a forma de avaliar a produção e os periódicos baseando-se majoritariamente em métricas e se divulgava a RIECE convidando editores da área de Educação a ingressarem na Rede e robustecer o debate [@Fialho2024].
+
+> Sessão de comunicação oral realizada no congresso ABEC Meeting 2023, sobre “A importância e os desafios da avaliação aberta à luz da experiência da Revista Práticas Educativas, Memórias e Oralidades”, na qual os editores eram incentivados a adotarem a avaliação aberta consoante os princípios de transparência da ciência aberta [@Nascimento2023].
+
+> Palestra no Encontro do Fórum de Editores, com o título “Desafios e possibilidades na editoria de revistas científicas”, durante o XII Congresso ABRACE, realizado em junho de 2023 na Universidade Federal do Pará, com o mote de debater boas práticas editoriais, o alinhamento à ciência aberta e divulgar a RIECE. Apresentação de trabalho no “Eixo Temático Avaliação de Periódicos da Área de Educação”, no IV Congresso Nacional de Editores de Periódicos de Educação (Coneped) – Fepae/Anped, evento presencial realizado em maio de 2024 na Universidade do Estado do Rio de Janeiro, ocasião em que se defendia uma avaliação que considerasse as especificidades do sul global e fortalecesse a ciência em países latino-americanos, africanos e caribenhos, bem como fortalecesse a RIECE. Participação da coordenadora na mesa-redonda “A consolidação e os desafios de periódicos científicos cearenses”, na condição de palestrante, promovida pela Revista Ensino em Debate em maio de 2024, com o objetivo de envolver os editores da Rede no debate acerca das problemáticas que precisam ser enfrentadas com vistas à qualificação e consolidação das revistas científicas de educação da Iberoamérica. Desenvolvimento de oficina para a indexação de revistas científicas, realizadas on-line, com o mote de preparar as revistas para atender aos critérios dos indexadores nacionais e internacionais. Minicurso sobre as ferramentas disponíveis no OJS, versão 3, e sua utilização qualificada para customizar, instalar plugins, preencher metadados e gerar relatórios com o mote de otimizar a exploração de recursos disponíveis na plataforma [@Shintaku2014].
+
+Cabe destacar que em todas as atividades era disponibilizado o QR Code que direcionava ao questionário on-line para que outros editores de Educação pudessem se cadastrar na RIECE, qual seja:
+
+![QR Code para juntar-se à RIECE](img/qr.png){#fig-4}
+
+Desse modo, observa-se que o objetivo é ampliar a Rede inicialmente constituída e poder constituir uma ampla articulação internacional de editores da área de Educação que queiram investir esforços em qualificar sua atuação profissional e os periódicos em que atuam como editores.
+
+## Considerações finais
+
+A relevância do projeto ganhou força ao se constar que são escassas as revistas educacionais latino-americanas que conseguem compor o catálogo dos grandes sponsors e internacionalizarem-se como periódicos de referência para o mundo. Diante disso, elaborou-se o pressuposto de que a constituição de uma rede de cooperação poderia fomentar a internacionalização e o desenvolvimento científico e tecnológico no âmbito da divulgação científica, desde a socialização de conhecimentos e ajuda mútua, tutoreados por editores de revistas mais consolidadas.
+
+Essa articulação internacional permitiria discutir e implementar inovações no campo editorial, de modo que o avanço tecnológico possibilitará, além de ampliar a internacionalização, investir na qualificação das revistas científicas envolvidas no projeto, o que reflete no aumento da visibilidade e da credibilidade dos periódicos e na disseminação das pesquisas científicas com maior alinhamento à ciência aberta e às melhores práticas editoriais mundiais [@Fialho2023]. Afinal, a popularização do conhecimento, socializado amplamente de maneira democrática, em acesso aberto, e a disseminação qualificada do conhecimento repercutem no desenvolvimento científico e tecnológico do país e na almejada internacionalização [@Kunsch2004].
+
+Conclui-se que a RIECE vem colaborando para qualificar científica e tecnologicamente os periódicos de Educação a partir da articulação dos conhecimentos editoriais da equipe compartilhados voluntariamente, consoante a ciência aberta, entre os seus integrantes. Sua principal meta é ampliar o número de países da Rede e aumentar os editores de Educação comprometidos com a proposta.
+
+A cooperação internacional proposta mediante a criação da RIECE tem se mostrado de suma relevância, porque permite, a partir da articulação entre os editores, a ampliação de membros internacionais atuando nos conselhos editoriais e científicos dos periódicos brasileiros, e vice-versa, a troca de indicação de pareceristas internacionais, a colaboração para a divulgação da revista em outros países, a captação de textos internacionais e a tutoria com editores mais experientes para buscar adequação à ciência aberta, aos critérios dos indexados para ampliar a indexação, dentre outros intercâmbios desde o estreitamento de relações com pesquisadores estrangeiros.
