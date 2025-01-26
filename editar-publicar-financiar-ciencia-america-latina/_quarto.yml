@@ -72,6 +72,8 @@ format:
     toc: true
     number-sections: true
     latex-engine: xelatex
+    include-in-header: header.tex
+
   epub:
     toc: true
     number-sections: true
