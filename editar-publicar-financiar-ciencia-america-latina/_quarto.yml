@@ -35,9 +35,9 @@ book:
   repo-actions: [edit, issue]
   chapters:
     - index.qmd
-    - o-papel-da-rede-ibero-americana-de-editores.qmd
+    - rede-editores.qmd
     - summary.qmd
-  #  - references.qmd
+    - references.qmd
 
 #revisar licencia y copyright si están ok
 license: "CC BY"
@@ -67,12 +67,11 @@ format:
         icon: amazon
         href: https://data.nasa.gov/
   pdf:
-    documentclass: book
+    documentclass: scrbook
     papersize: a4
     toc: true
-    number-sections: true
-    latex-engine: xelatex
-    include-in-header: header.tex
+    number-sections: false
+    latex-engine: lualatex
 
   epub:
     toc: true
