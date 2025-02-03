@@ -244,8 +244,18 @@ Constatou-se, a partir da criação da RIECE, de maneira concreta, que houve tr�
 A partir da análise do relatório diagnóstico, foi possível perceber que 15 das revistas envolvidas na RIECE eram relativamente jovens, sendo criadas entre 2011 e 2020, todavia, existiam outras 15 que já possuíam mais de 15 anos de existência e apenas três possuíam menos de dois anos de criação.
 
 ```{=html}
+
 <table id="tbl-4">
   <caption>Tempo de existência das revistas</caption>
+  <colgroup>
+    <col width="20%"> <!-- Ancho para la columna "Ano" -->
+    <col width="10%"> <!-- Ancho para la columna "n" (Brasil) -->
+    <col width="10%"> <!-- Ancho para la columna "%" (Brasil) -->
+    <col width="10%"> <!-- Ancho para la columna "n" (Demais países) -->
+    <col width="10%"> <!-- Ancho para la columna "%" (Demais países) -->
+    <col width="10%"> <!-- Ancho para la columna "n" (Total) -->
+    <col width="10%"> <!-- Ancho para la columna "%" (Total) -->
+  </colgroup>
   <thead>
     <tr>
       <th rowspan="2" style="vertical-align: middle;">Ano</th>
@@ -319,6 +329,15 @@ No tocante à periodicidade da publicação, chamou a atenção o fato de que a 
 
 <table id="tbl-5">
   <caption>Periodicidade da publicação</caption>
+  <colgroup>
+    <col width="25%"> <!-- Ancho para la columna "Periodicidade" -->
+    <col width="10%"> <!-- Ancho para la columna "n" (Brasil) -->
+    <col width="10%"> <!-- Ancho para la columna "%" (Brasil) -->
+    <col width="10%"> <!-- Ancho para la columna "n" (Demais países) -->
+    <col width="10%"> <!-- Ancho para la columna "%" (Demais países) -->
+    <col width="10%"> <!-- Ancho para la columna "n" (Total geral) -->
+    <col width="10%"> <!-- Ancho para la columna "%" (Total geral) -->
+  </colgroup>
   <thead>
     <tr>
       <th rowspan="2" style="vertical-align: middle;">Periodicidade</th>

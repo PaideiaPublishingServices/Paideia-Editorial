@@ -37,7 +37,7 @@ book:
     - index.qmd
     - rede-editores.qmd
     - summary.qmd
-    - references.qmd
+    - references.qmd #Comentar para que funcione el filtro lua en HTML
 
 #revisar licencia y copyright si están ok
 license: "CC BY"
@@ -70,8 +70,23 @@ format:
     documentclass: scrbook
     papersize: a4
     toc: true
+    lof: true
+    lot: true
     number-sections: false
     latex-engine: lualatex
+ #   header-includes: |
+ #     \usepackage{graphicx}
+ #     \usepackage{geometry}
+ #     \geometry{top=0in, bottom=0in, left=0in, right=0in}
+ #     \titlehead{
+ #       \noindent
+ #       \includegraphics[width=\paperwidth,height=\paperheight]{cover.jpg}
+ #     }
+    include-in-header:
+      text: |
+        \usepackage[automark]{scrlayer-scrpage}
+        \pagestyle{scrheadings}
+        \usepackage{hyperref}
 
   epub:
     toc: true
