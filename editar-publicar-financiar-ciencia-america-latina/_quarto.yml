@@ -74,19 +74,12 @@ format:
     lot: true
     number-sections: false
     latex-engine: lualatex
- #   header-includes: |
- #     \usepackage{graphicx}
- #     \usepackage{geometry}
- #     \geometry{top=0in, bottom=0in, left=0in, right=0in}
- #     \titlehead{
- #       \noindent
- #       \includegraphics[width=\paperwidth,height=\paperheight]{cover.jpg}
- #     }
-    include-in-header:
-      text: |
-        \usepackage[automark]{scrlayer-scrpage}
-        \pagestyle{scrheadings}
-        \usepackage{hyperref}
+    titlepage: false
+    header-includes: |
+      \titlehead{%
+        \centering
+        \includegraphics[width=210mm,height=297mm,keepaspectratio]{cover.jpg}
+      }
 
   epub:
     toc: true
