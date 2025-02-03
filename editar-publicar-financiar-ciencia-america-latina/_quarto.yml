@@ -78,9 +78,13 @@ format:
     header-includes: |
       \titlehead{%
         \centering
-        \includegraphics[width=210mm,height=297mm,keepaspectratio]{cover.jpg}
+        \includegraphics[width=210mm, keepaspectratio]{cover.jpg}
       }
-
+    include-in-header:
+      text: |
+        \usepackage[automark]{scrlayer-scrpage}
+        \pagestyle{scrheadings}
+        
   epub:
     toc: true
     number-sections: true
