@@ -26,20 +26,21 @@ book:
     Los capítulos incluyen estudios de caso, reflexiones sobre distopías posibles y un enfoque hacia el pensamiento crítico sobre las dinámicas actuales y futuras de la comunicación científica.
   doi: "10.62059/editorial.l001"
   cover-image: cover.jpg
+  cover-image-alt: |
+    Editar, publicar y financiar ciencia en América Latina
   favicon: cover.jpg
   downloads: [pdf, epub]
   sharing: [twitter, facebook, linkedin]
   site-url: https://paideiaeditorial.net/libros/editar-financiar-ciencia-latinoamerica/
-  repo-url: https://github.com/PaideiaPublishingServices/Paideia-Editorial/tree/fea7cd1ec2e4323115c0fb77c96d1de324dfc920/Editar%2C%20publicar%20y%20financiar%20ciencia%20en%20Am%C3%A9rica%20Latina
+  repo-url: https://github.com/PaideiaPublishingServices/Paideia-Editorial/tree/main/editar-publicar-financiar-ciencia-america-latina
   repo-branch: main
-  repo-actions: [edit, issue]
+  repo-actions: [edit, issue, source]
   chapters:
     - index.qmd
     - rede-editores.qmd
     - summary.qmd
-    - references.qmd #Comentar para que funcione el filtro lua en HTML
+  #  - references.qmd #Comentar para que funcione el filtro lua en HTML
 
-#revisar licencia y copyright si están ok
 license: "CC BY"
 copyright: "Editar, publicar y financiar ciencia en América Latina © 2025 por Gimena del Rio Riande & Patricio Iván Pantaleo (Coord.) se distribuye bajo licencia CC BY 4.0"
 
@@ -50,6 +51,7 @@ citation:
   url: https://paideiaeditorial.net/libros/editar-financiar-ciencia-latinoamerica/
 
 format:
+
   html:
     filters:
       - bibliografia-por-capitulos.lua
@@ -58,36 +60,41 @@ format:
       dark: darkly
     code-link: true
     include-in-header: "header.html"
+    include-before-body: "before-body.html"
     smooth-scroll: true
     comments:
       hypothesis: true
     toc: true
     other-links:
-      - text: Kindle
+      - text: Soon on Kindle
         icon: amazon
-        href: https://data.nasa.gov/
+        href: https://www.amazon.com/books
+    author-meta: "Editar, publicar y financiar ciencia en América Latina © 2025 por Gimena del Rio Riande & Patricio Iván Pantaleo (Coord.) se distribuye bajo licencia CC BY 4.0"
+
   pdf:
     documentclass: scrbook
     papersize: a4
     toc: true
     lof: true
     lot: true
-    number-sections: false
     latex-engine: lualatex
-    titlepage: false
-    header-includes: |
-      \titlehead{%
-        \centering
-        \includegraphics[width=210mm, keepaspectratio]{cover.jpg}
-      }
-    include-in-header:
+   # header-includes: | CER OPCION PARA Carátula
+    #  \titlehead{%
+     #   \centering
+      #  \includegraphics[width=210mm, keepaspectratio]{cover.jpg}
+      #}
+    include-in-header: #Necesario para acortar el título del encabezado
       text: |
         \usepackage[automark]{scrlayer-scrpage}
         \pagestyle{scrheadings}
-        
+  
+  # titlepage-pdf: VER PARA CArátula: https://nmfs-opensci.github.io/quarto_titlepages/
+   # cover-bg-image: "cover.jpg"
+
   epub:
     toc: true
     number-sections: true
+    cover-image: "cover.jpg"
 
 lang: es
 website:
@@ -102,3 +109,4 @@ bibliography: references.bib
 csl: apa.csl
 reference-section-title: Referencias
 citeproc: true
+number-sections: false

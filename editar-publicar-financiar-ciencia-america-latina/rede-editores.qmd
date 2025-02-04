@@ -49,7 +49,7 @@ lang: pt
 reference-section-title: "Referências"
 ---
 
-## Introdução
+# 1. Introdução
 
 O capítulo trata acerca da fundação da Rede Ibero-Americana de Editores Científicos de Educação (RIECE) e do desenvolvimento de atividades no âmbito da articulação internacional proporcionada pela RIECE para o fortalecimento da comunicação científica nos países latino-americanos, caribenhos e africanos.
 
@@ -65,7 +65,7 @@ Consoante o edital MCTI/CNPq número 14/2023 e Funcap número 06/2023, o projeto
 
 Justamente por reconhecer a importância da RIECE para a articulação no campo editorial ibero-americano e, em especial do sul global, considerou-se relevante divulgar essa Rede para a comunidade internacional, já que a propagação dessa iniciativa não apenas dar a ver o trabalho previamente executado, mas possibilita a sua divulgação e o seu fortalecimento mediante a união de outros editores da área de Educação, o que permite à RIECE crescimento em número de adeptos e fortalecimento para continuar atuando no fomento ao intercâmbio de saberes e conhecimentos e à consolidação das revistas científicas.
 
-## Metodologia
+# 2. Metodologia
 
 @Minayo2008, ao debater sobre o conceito e a função da metodologia nas pesquisas científicas, sinaliza para um enfoque plural, pois “a metodologia inclui as concepções teóricas de abordagem, o conjunto de técnicas que possibilitam a apreensão da realidade e também o potencial criativo do pesquisador” (p. 22). Dessa maneira, é a partir do objetivo da pesquisa que são determinadas as escolhas metodológicas do pesquisar com vistas a eleger o melhor percurso científico para investigar a questão proposta.
 
@@ -98,7 +98,7 @@ Cabe esclarecer que o projeto “Qualificação de periódicos científicos de E
 
 Todavia, cabe salientar que o referido projeto ainda está em desenvolvimento, de modo que o foco deste capítulo não são os resultados do projeto “Qualificação de periódicos científicos de Educação: articular para internacionalizar”, e sim a criação da RIECE, um dos produtos já alcançados pelo referido projeto, bem como as ações já desenvolvidas pela Rede. Dessa maneira, após a análise documental, a discussão será centrada na constituição da articulação inicial que compôs a RIECE, ou seja, na sua fundação, bem como nas primeiras ações da Rede em termos de diagnóstico das revistas participantes, da participação em eventos e produções, e demais atividades desenvolvidas.
 
-## Resultados e discussão
+# 3. Resultados e discussão
 
 Os resultados, a partir da análise das fontes e termos de adesão assinados pelos integrantes do projeto, mostraram que a RIECE se iniciou com a articulação de 11 países – Brasil, Colômbia, México, Venezuela, Costa Rica, Angola, Uruguai, Espanha, Portugal, Paraguai e Equador – e o apoio de importantes entidades que dão suporte à editoria de revistas científicas, a exemplo do Redalyc, do Latindex, do EDUC@, da Associação Uruguaia de Revistas Científicas (AURA) e da ABEC Brasil. 
 
@@ -540,7 +540,7 @@ Cabe destacar que em todas as atividades era disponibilizado o QR Code que direc
 
 Desse modo, observa-se que o objetivo é ampliar a Rede inicialmente constituída e poder constituir uma ampla articulação internacional de editores da área de Educação que queiram investir esforços em qualificar sua atuação profissional e os periódicos em que atuam como editores.
 
-## Considerações finais
+# 4. Considerações finais
 
 A relevância do projeto ganhou força ao se constar que são escassas as revistas educacionais latino-americanas que conseguem compor o catálogo dos grandes sponsors e internacionalizarem-se como periódicos de referência para o mundo. Diante disso, elaborou-se o pressuposto de que a constituição de uma rede de cooperação poderia fomentar a internacionalização e o desenvolvimento científico e tecnológico no âmbito da divulgação científica, desde a socialização de conhecimentos e ajuda mútua, tutoreados por editores de revistas mais consolidadas.
 
