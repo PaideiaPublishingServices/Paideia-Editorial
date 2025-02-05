@@ -9,3 +9,22 @@
 <!-- Identificador para Crossremak -->
 
 <meta name="dc.identifier" content="10.62059/editorial.l001">
+
+<script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var searchBox = document.querySelector(".sidebar-search"); // Selecciona el Search Box
+    if (searchBox) {
+        var crossmarkButton = document.createElement("div");
+        crossmarkButton.innerHTML = `
+            <div id="crossmark-button" style="text-align: left; margin-top: 10px; margin-bottom: 10px;">
+                <a href="https://crossmark.crossref.org/dialog/?doi=10.62059/editorial.l001" class="crossmark">
+                    <img src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_Color_horizontal.svg" width="100" alt="Crossmark">
+                </a>
+            </div>
+        `;
+        searchBox.insertAdjacentElement("afterend", crossmarkButton); // Inserta después del Search Box
+    }
+});
+</script>
+

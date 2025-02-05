@@ -60,7 +60,7 @@ format:
       dark: darkly
     code-link: true
     include-in-header: "header.html"
-    include-before-body: "before-body.html"
+    #include-before-body: "before-body.html"
     smooth-scroll: true
     comments:
       hypothesis: true

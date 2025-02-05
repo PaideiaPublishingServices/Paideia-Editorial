@@ -121,7 +121,43 @@ div.csl-indent {
 
 
 
-<meta name="dc.identifier" content="10.62059/editorial.l001">
+<!-- <meta name="dc.identifier" content="10.62059/editorial.l001"> -->
+
+
+
+<script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script>
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    var toc = document.querySelector(".sidebar-navigation"); // Selecciona el TOC
+
+    if (toc) {
+
+        var crossmarkButton = document.createElement("div");
+
+        crossmarkButton.innerHTML = `
+
+            <div id="crossmark-button" style="text-align: center; margin-top: 10px;">
+
+                <a href="https://crossmark.crossref.org/dialog/?doi=10.5555/12345678" class="crossmark">
+
+                    <img src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/cm-widget-red.svg" width="100" alt="Crossmark">
+
+                </a>
+
+            </div>
+
+        `;
+
+        toc.appendChild(crossmarkButton); // Agrega el botón dentro del ToC
+
+    }
+
+});
+
+</script>
 
 
 
@@ -241,17 +277,6 @@ div.csl-indent {
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
-<!-- Start Crossmark Snippet v2.0 -->
-
-
-
-<script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script>
-
-<a data-target="crossmark"><img src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_Color_horizontal.svg" width="100" style="margin-bottom: 10px;"></a>
-
-
-
-<!-- End Crossmark Snippet -->
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
