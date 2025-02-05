@@ -133,13 +133,21 @@ document.addEventListener("DOMContentLoaded", function() {
 
     if (searchBox) {
 
+        var doi = "10.62059/editorial.l001";  // DOI del contenido
+
+        var domain = "pdf";  // Tipo de contenido (puede ser 'pdf', 'epub', etc.)
+
+        var dateStamp = "2017-01-14";  // Fecha en que se generó la última versión principal del PDF
+
+
+
         var crossmarkButton = document.createElement("div");
 
         crossmarkButton.innerHTML = `
 
             <div id="crossmark-button" style="text-align: left; margin-top: 10px; margin-bottom: 10px;">
 
-                <a href="https://crossmark.crossref.org/dialog/?doi=10.62059/editorial.l001" class="crossmark">
+                <a href="https://crossmark.crossref.org/dialog/?doi=${doi}&domain=${domain}&date_stamp=${dateStamp}" class="crossmark">
 
                     <img src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_Color_horizontal.svg" width="100" alt="Crossmark">
 

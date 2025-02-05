@@ -121,7 +121,7 @@ div.csl-indent {
 
 
 
-<!-- <meta name="dc.identifier" content="10.62059/editorial.l001"> -->
+<meta name="dc.identifier" content="10.62059/editorial.l001">
 
 
 
@@ -131,19 +131,27 @@ div.csl-indent {
 
 document.addEventListener("DOMContentLoaded", function() {
 
-    var toc = document.querySelector(".sidebar-navigation"); // Selecciona el TOC
+    var searchBox = document.querySelector(".sidebar-search"); // Selecciona el Search Box
 
-    if (toc) {
+    if (searchBox) {
+
+        var doi = "10.62059/editorial.l001";  // DOI del contenido
+
+        var domain = "pdf";  // Tipo de contenido (puede ser 'pdf', 'epub', etc.)
+
+        var dateStamp = "2017-01-14";  // Fecha en que se generó la última versión principal del PDF
+
+
 
         var crossmarkButton = document.createElement("div");
 
         crossmarkButton.innerHTML = `
 
-            <div id="crossmark-button" style="text-align: center; margin-top: 10px;">
+            <div id="crossmark-button" style="text-align: left; margin-top: 10px; margin-bottom: 10px;">
 
-                <a href="https://crossmark.crossref.org/dialog/?doi=10.5555/12345678" class="crossmark">
+                <a href="https://crossmark.crossref.org/dialog/?doi=${doi}&domain=${domain}&date_stamp=${dateStamp}" class="crossmark">
 
-                    <img src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/cm-widget-red.svg" width="100" alt="Crossmark">
+                    <img src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_Color_horizontal.svg" width="100" alt="Crossmark">
 
                 </a>
 
@@ -151,13 +159,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
         `;
 
-        toc.appendChild(crossmarkButton); // Agrega el botón dentro del ToC
+        searchBox.insertAdjacentElement("afterend", crossmarkButton); // Inserta después del Search Box
 
     }
 
 });
 
 </script>
+
+
 
 
 
