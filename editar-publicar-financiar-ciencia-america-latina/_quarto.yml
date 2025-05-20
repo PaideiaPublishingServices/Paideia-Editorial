@@ -38,6 +38,8 @@ book:
   chapters:
     - index.qmd
     - rede-editores.qmd
+    - preservacion-digital.qmd
+    - La-ciencia-abierta-mexicana.qmd
     - summary.qmd
   #  - references.qmd #Comentar para que funcione el filtro lua en HTML
 
