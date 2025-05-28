@@ -81,7 +81,9 @@ citation:
   container-title: "La ciencia abierta mexicana: monitor de prácticas adoptadas por las revistas"
   doi: 10.62059/editorial.l001.c3
 lang: es
-
+format:
+  html:
+     include-in-header: header-La-ciencia-abierta-mexicana.html
 ---
 
 # Introducción

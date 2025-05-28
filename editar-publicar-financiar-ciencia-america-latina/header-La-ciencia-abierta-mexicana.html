@@ -1,0 +1,50 @@
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Datos de autoría con roles CRediT - específicos para este capítulo
+    var authorsData = [
+        {
+            name: "Julio Zetter Patiño",
+            roles: ["Conceptualización", "Investigación", "Metodología", "Escritura"]
+        },
+        {
+            name: "Flor Janet Rivera Pulido",
+            roles: ["Investigación"]
+        },
+        {
+            name: "Patricia Garrido Villegas", 
+            roles: ["Investigación"]
+        },
+        {
+            name: "Juan Carlos Díaz Mauricio",
+            roles: ["Investigación"]
+        },
+        {
+            name: "Martha Rosa Gallegos Ramírez",
+            roles: ["Investigación"]
+        }
+    ];
+
+    // Buscar donde insertar la información
+    var titleBlock = document.querySelector(".quarto-title-block") || 
+                     document.querySelector(".quarto-title");
+    
+    if (titleBlock) {
+        var creditSection = document.createElement("div");
+        creditSection.innerHTML = `
+            <div id="credit-roles" style="margin: 20px 0; padding: 15px; background-color: #f8f9fa; border-left: 4px solid #007bff; border-radius: 5px; font-size: 0.9em;">
+                <strong style="color: #007bff;">Contribuciones de autoría (CRediT):</strong><br><br>
+                ${authorsData.map(author => 
+                    `<strong>${author.name}:</strong> ${author.roles.join(", ")}`
+                ).join("<br>")}
+                <br><br>
+                <small style="color: #6c757d;">
+                    <em>Taxonomía CRediT (Contributor Roles Taxonomy): 
+                    <a href="https://credit.niso.org/" target="_blank" style="color: #007bff;">https://credit.niso.org/</a></em>
+                </small>
+            </div>
+        `;
+        
+        titleBlock.insertAdjacentElement("afterend", creditSection);
+    }
+});
+</script>
