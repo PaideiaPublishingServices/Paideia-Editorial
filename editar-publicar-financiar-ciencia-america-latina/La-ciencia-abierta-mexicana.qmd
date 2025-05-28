@@ -4,6 +4,11 @@ author:
   - name: Julio Zetter Patiño
     orcid: 0000-0002-4870-9444
     email: jzetterp@dgb.unam.mx
+    role:
+      - conceptualization
+      - investigation
+      - methodology
+      - writing
     affiliation: 
       - name: Universidad Nacional Autónoma de México
         city: Ciudad de México
@@ -14,6 +19,8 @@ author:
   - name: Flor Janet Rivera Pulido
     orcid: 0000-0002-9598-0579
     email: janetrp@dgb.unam.mx
+    role:
+      - investigation
     affiliation: 
       - name: Universidad Nacional Autónoma de México
         city: Ciudad de México
@@ -24,6 +31,8 @@ author:
   - name: Patricia Garrido Villegas
     orcid: 0000-0002-8303-4884
     email: pgarridovillegas@gmail.com
+    role:
+      - investigation
     affiliation: 
       - name: Universidad Nacional Autónoma de México
         city: Ciudad de México
@@ -34,6 +43,8 @@ author:
   - name: Juan Carlos Díaz Mauricio
     orcid: 0009-0009-5139-6037
     email: jcdiazm@dgb.unam.mx
+    role:
+      - investigation
     affiliation: 
       - name: Universidad Nacional Autónoma de México
         city: Ciudad de México
@@ -44,6 +55,8 @@ author:
   - name: Martha Rosa Gallegos Ramírez
     orcid: 0009-0004-3746-1764
     email: mrgallegosr@dgb.unam.mx
+    role:
+      - investigation
     affiliation: 
       - name: Universidad Nacional Autónoma de México
         city: Ciudad de México
@@ -319,7 +332,7 @@ Exactamente la mitad del conjunto analizado (128 revistas, 50%) está indizada e
 
 ::: {#fig-1 layout-ncol=2 layout-valign="center"}
 
-![Distribución según indización en DOAJ](img-la-ciencia-abierta-mexicana-monitor-de/Distribucion-segun-indizacion-en-DOAJ.jpg){#fig-1}
+![Distribución según indización en DOAJ](img/DistribucionsegunindizacionenDOAJ.jpg){#fig-1}
 
 Gráfica. Distribución según indización en DOAJ
 :::
@@ -337,7 +350,7 @@ En contraste, solo 14 revistas (5.5%) adoptan licencias consideradas plenamente 
 
 ::: {#fig-2 layout-ncol=2 layout-valign="center"}
 
-![Distribución licencias CC](img-la-ciencia-abierta-mexicana-monitor-de/Distribucion-licencias-CC.jpg){#fig-2}
+![Distribución licencias CC](img/DistribucionlicenciasCC.jpg){#fig-2}
 
 Gráfica. Distribución licencias CC
 :::
@@ -354,7 +367,7 @@ Estas cifras reflejan un panorama en el que la adopción de políticas abiertas,
 
 ::: {#fig-3 layout-ncol=2 layout-valign="center"}
 
-![Políticas básicas de Ciencia Abierta](img-la-ciencia-abierta-mexicana-monitor-de/Politicas-basicas-de-Ciencia-Abierta.jpg){#fig-3}
+![Políticas básicas de Ciencia Abierta](img/PoliticasbasicasdeCienciaAbierta.jpg){#fig-3}
 
 Gráfica. Políticas básicas de Ciencia Abierta
 :::
@@ -365,7 +378,7 @@ Solo 33 revistas (12.9%) presentan una declaración explícita sobre los roles y
 
 ::: {#fig-4 layout-ncol=2 layout-valign="center"}
 
-![CRediT o declaración de autoría](img-la-ciencia-abierta-mexicana-monitor-de/CRediT-o-declaracion-de-autoria.png){#fig-4}
+![CRediT o declaración de autoría](img/CRediTodeclaraciondeautoria.png){#fig-4}
 
 Gráfica. CRediT o declaración de autoría
 :::
@@ -376,7 +389,7 @@ En términos de periodicidad, la mayoría de las revistas mantiene una frecuenci
 
 ::: {#fig-5 layout-ncol=2 layout-valign="center"}
 
-![Publicación Continua](img-la-ciencia-abierta-mexicana-monitor-de/Publicacion-Continua.png){#fig-5}
+![Publicación Continua](img/PublicacionContinua.png){#fig-5}
 
 Gráfica. Publicación Continua
 :::
@@ -391,7 +404,7 @@ Al considerar de manera global el nivel de adopción de las políticas básicas 
 
 ::: {#fig-6 layout-ncol=2 layout-valign="center"}
 
-![Cumplimiento de políticas básicas de Ciencia Abierta](img-la-ciencia-abierta-mexicana-monitor-de/Cumplimiento-de-politicas-basicas-de-Ciencia-Abierta.jpg){#fig-6}
+![Cumplimiento de políticas básicas de Ciencia Abierta](img/CumplimientodepoliticasbasicasdeCienciaAbierta.jpg){#fig-6}
 
 Gráfica. Cumplimiento de políticas básicas de Ciencia Abierta
 :::
@@ -406,7 +419,7 @@ Respecto a las políticas editoriales ampliadas conforme a las *Líneas priorita
 
 ::: {#fig-7 layout-ncol=2 layout-valign="center"}
 
-![Políticas editoriales ampliadas conforme a las Líneas prioritarias de acción SciELO 2024–2028](img-la-ciencia-abierta-mexicana-monitor-de/Politicas-editoriales-de-las-Lineas-prioritarias-SciELO-Ciencia-Abierta.png){#fig-7}
+![Políticas editoriales ampliadas conforme a las Líneas prioritarias de acción SciELO 2024–2028](img/Politicaseditoriales.png){#fig-7}
 
 Gráfica. Políticas editoriales ampliadas conforme a las Líneas prioritarias de acción SciELO 2024–2028
 :::
@@ -429,7 +442,7 @@ Finalmente, en relación con la revisión abierta por pares, se registra un incr
 
 ::: {#fig-8 layout-ncol=2 layout-valign="center"}
 
-![Tendencia políticas básicas ciencias abiertas 2023-2024](img-la-ciencia-abierta-mexicana-monitor-de/Tendencia-politicas-basicas-ciencias-abiertas-2023-2024.png){#fig-8}
+![Tendencia políticas básicas ciencias abiertas 2023-2024](img/Tendenciapoliticasbasicascienciasabiertas.png){#fig-8}
 
 Gráfica. Tendencia políticas básicas ciencias abiertas 2023-2024
 :::
