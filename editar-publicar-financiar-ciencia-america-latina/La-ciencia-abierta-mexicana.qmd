@@ -84,22 +84,24 @@ lang: es
 format:
   html:
      include-in-header: header-La-ciencia-abierta-mexicana.html
-  pdf:
-    # Incluir las contribuciones CRediT en el PDF
-    include-before-body: |
-      \creditcontributions{
-      \textbf{Julio Zetter Patiño:} Conceptualización, Investigación, Metodología, Escritura\\
-      \textbf{Flor Janet Rivera Pulido:} Investigación\\
-      \textbf{Patricia Garrido Villegas:} Investigación\\
-      \textbf{Juan Carlos Díaz Mauricio:} Investigación\\
-      \textbf{Martha Rosa Gallegos Ramírez:} Investigación
-      }
-      
-      \dataavailability{
-      Los datos que respaldan los resultados de este estudio están disponibles públicamente en el sitio web del \textbf{SciELObservatorio México}, alojado en SciELO México: \texttt{https://www.scielo.org.mx/documentos/?pag=observatorio}.\\[0.5em]
-      Los datos son de acceso abierto, pueden ser consultados directamente en línea y también descargados en formato .csv mediante el botón "Descargar .csv" disponible en la plataforma.
-      }
 ---
+
+\chapterauthors{Julio Zetter Patiño$^1$, Flor Janet Rivera Pulido$^1$, Patricia Garrido Villegas$^1$, Juan Carlos Díaz Mauricio$^1$, Martha Rosa Gallegos Ramírez$^1$}
+
+\chapteraffiliations{$^1$Universidad Nacional Autónoma de México, Ciudad de México, México}
+
+\creditcontributions{
+\textbf{Julio Zetter Patiño:} Conceptualización, Investigación, Metodología, Escritura\\
+\textbf{Flor Janet Rivera Pulido:} Investigación\\
+\textbf{Patricia Garrido Villegas:} Investigación\\
+\textbf{Juan Carlos Díaz Mauricio:} Investigación\\
+\textbf{Martha Rosa Gallegos Ramírez:} Investigación
+}
+
+\dataavailability{
+Los datos que respaldan los resultados de este estudio están disponibles públicamente en el sitio web del \textbf{SciELObservatorio México}, alojado en SciELO México: \texttt{https://www.scielo.org.mx/documentos/?pag=observatorio}.\\[0.5em]
+Los datos son de acceso abierto, pueden ser consultados directamente en línea y también descargados en formato .csv mediante el botón ``Descargar .csv'' disponible en la plataforma.
+}
 
 # Introducción
 La consolidación de una verdadera ciencia abierta mexicana se encuentra en una etapa crítica, marcada por profundos desafíos. Pese a su trayectoria e importancia regional, el ámbito editorial nacional de publicaciones académicas y científicas continúa siendo limitado e irregular. En esta segunda edición del monitor nacional de prácticas enfocadas a la ciencia abierta —el proyecto SciELObservatorio México—, se busca evaluar y visualizar de forma sistemática el grado en que las revistas académicas incluidas en la colección SciELO México adoptan prácticas relacionadas con la ciencia abierta.

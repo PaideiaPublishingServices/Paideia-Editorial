@@ -36,7 +36,7 @@ book:
   repo-branch: main
   repo-actions: [edit, issue, source]
   chapters:
-    - index.qmd
+  # - index.qmd #Se redacta al finalizar el libro
     - rede-editores.qmd
     - preservacion-digital.qmd
     - La-ciencia-abierta-mexicana.qmd
@@ -88,9 +88,46 @@ format:
       text: |
         \usepackage[automark]{scrlayer-scrpage}
         \pagestyle{scrheadings}
-  
-  # titlepage-pdf: VER PARA CArátula: https://nmfs-opensci.github.io/quarto_titlepages/
-   # cover-bg-image: "cover.jpg"
+        \usepackage{xcolor}
+        \usepackage{geometry}
+        
+        % Comando personalizado para autores
+        \newcommand{\chapterauthors}[1]{%
+          \vspace{1em}
+          \begin{center}
+            \textit{#1}
+          \end{center}
+          \vspace{1em}
+        }
+        
+        % Comando para afiliaciones
+        \newcommand{\chapteraffiliations}[1]{%
+          \begin{center}
+            \small #1
+          \end{center}
+          \vspace{0.5em}
+        }
+        
+        % Comando para información de contribuciones CRediT
+        \newcommand{\creditcontributions}[1]{%
+          \begin{quote}
+            \noindent\textcolor{blue}{\textbf{Contribuciones de autoría (CRediT):}}\\[0.5em]
+            #1\\[0.5em]
+            \small\textit{Taxonomía CRediT (Contributor Roles Taxonomy):}\\
+            • Versión original (inglés): \texttt{https://credit.niso.org/}\\
+            • Traducción al español: \texttt{https://terminologias.filo.uba.ar/vocabs/1007}
+          \end{quote}
+          \vspace{0.5em}
+        }
+        
+        % Comando para disponibilidad de datos
+        \newcommand{\dataavailability}[1]{%
+          \begin{quote}
+            \noindent\textcolor{green!70!black}{\textbf{Declaración de disponibilidad de datos}}\\[0.5em]
+            #1
+          \end{quote}
+          \vspace{1em}
+        }
 
   epub:
     toc: true
