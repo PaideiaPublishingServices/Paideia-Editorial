@@ -84,6 +84,21 @@ lang: es
 format:
   html:
      include-in-header: header-La-ciencia-abierta-mexicana.html
+  pdf:
+    # Incluir las contribuciones CRediT en el PDF
+    include-before-body: |
+      \creditcontributions{
+      \textbf{Julio Zetter Patiño:} Conceptualización, Investigación, Metodología, Escritura\\
+      \textbf{Flor Janet Rivera Pulido:} Investigación\\
+      \textbf{Patricia Garrido Villegas:} Investigación\\
+      \textbf{Juan Carlos Díaz Mauricio:} Investigación\\
+      \textbf{Martha Rosa Gallegos Ramírez:} Investigación
+      }
+      
+      \dataavailability{
+      Los datos que respaldan los resultados de este estudio están disponibles públicamente en el sitio web del \textbf{SciELObservatorio México}, alojado en SciELO México: \texttt{https://www.scielo.org.mx/documentos/?pag=observatorio}.\\[0.5em]
+      Los datos son de acceso abierto, pueden ser consultados directamente en línea y también descargados en formato .csv mediante el botón "Descargar .csv" disponible en la plataforma.
+      }
 ---
 
 # Introducción
