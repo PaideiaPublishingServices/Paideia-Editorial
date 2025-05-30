@@ -25,10 +25,11 @@ document.addEventListener("DOMContentLoaded", function() {
     ];
 
     // Buscar donde insertar la información
-    var titleBlock = document.querySelector(".quarto-title-block") || 
-                     document.querySelector(".quarto-title");
-    
+    var titleBlock = document.querySelector(".quarto-title-block") ||
+                      document.querySelector(".quarto-title");
+        
     if (titleBlock) {
+        // Sección de contribuciones de autoría
         var creditSection = document.createElement("div");
         creditSection.innerHTML = `
             <div id="credit-roles" style="margin: 20px 0; padding: 15px; background-color: #f8f9fa; border-left: 4px solid #007bff; border-radius: 5px; font-size: 0.9em;">
@@ -38,13 +39,27 @@ document.addEventListener("DOMContentLoaded", function() {
                 ).join("<br>")}
                 <br><br>
                 <small style="color: #6c757d;">
-                    <em>Taxonomía CRediT (Contributor Roles Taxonomy): 
-                    <a href="https://credit.niso.org/" target="_blank" style="color: #007bff;">https://credit.niso.org/</a></em>
+                    <em>Taxonomía CRediT (Contributor Roles Taxonomy):</em><br>
+                    • <a href="https://credit.niso.org/" target="_blank" style="color: #007bff;">Versión original (inglés)</a><br>
+                    • <a href="https://terminologias.filo.uba.ar/vocabs/1007" target="_blank" style="color: #007bff;">Traducción al español</a>
                 </small>
             </div>
         `;
         
+        // Sección de disponibilidad de datos
+        var dataAvailabilitySection = document.createElement("div");
+        dataAvailabilitySection.innerHTML = `
+            <div id="data-availability" style="margin: 20px 0; padding: 15px; background-color: #f8f9fa; border-left: 4px solid #28a745; border-radius: 5px; font-size: 0.9em;">
+                <strong style="color: #28a745;">Declaración de disponibilidad de datos</strong><br><br>
+                Los datos que respaldan los resultados de este estudio están disponibles públicamente en el sitio web del <strong>SciELObservatorio México</strong>, alojado en SciELO México: 
+                <a href="https://www.scielo.org.mx/documentos/?pag=observatorio" target="_blank" style="color: #28a745;">https://www.scielo.org.mx/documentos/?pag=observatorio</a>.<br><br>
+                Los datos son de acceso abierto, pueden ser consultados directamente en línea y también descargados en formato .csv mediante el botón "Descargar .csv" disponible en la plataforma.
+            </div>
+        `;
+        
+        // Insertar ambas secciones después del título
         titleBlock.insertAdjacentElement("afterend", creditSection);
+        creditSection.insertAdjacentElement("afterend", dataAvailabilitySection);
     }
 });
 </script>
