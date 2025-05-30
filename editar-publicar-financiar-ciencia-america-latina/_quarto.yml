@@ -36,11 +36,11 @@ book:
   repo-branch: main
   repo-actions: [edit, issue, source]
   chapters:
-  # - index.qmd #Se redacta al finalizar el libro
+    - index.qmd #Se redacta al finalizar el libro
     - rede-editores.qmd
     - preservacion-digital.qmd
     - La-ciencia-abierta-mexicana.qmd
-    - summary.qmd
+  # - summary.qmd
   #  - references.qmd #Comentar para que funcione el filtro lua en HTML
 
 license: "CC BY"
@@ -76,6 +76,7 @@ format:
     documentclass: scrbook
     papersize: a4
     toc: true
+    toc-depth: 1
     lof: true
     lot: true
     latex-engine: lualatex
@@ -84,49 +85,66 @@ format:
      #   \centering
       #  \includegraphics[width=210mm, keepaspectratio]{cover.jpg}
       #}
-    include-in-header: #Necesario para acortar el título del encabezado
+    include-in-header: 
       text: |
         \usepackage[automark]{scrlayer-scrpage}
         \pagestyle{scrheadings}
         \usepackage{xcolor}
         \usepackage{geometry}
         
-        % Comando personalizado para autores
+        % Comando para DOI del capítulo (sin espacios automáticos)
+        \newcommand{\chapterdoi}[1]{%
+          \vspace{-0.5em}
+          \noindent\small DOI: #1
+          \vspace{-0.3em}
+        }
+        
+        % Comando personalizado para autores (sin espacios automáticos)
         \newcommand{\chapterauthors}[1]{%
-          \vspace{1em}
+          \vspace{-0.2em}
           \begin{center}
             \textit{#1}
           \end{center}
-          \vspace{1em}
+          \vspace{-0.5em}
         }
         
-        % Comando para afiliaciones
+        % Comando para afiliaciones (con salto de página después)
         \newcommand{\chapteraffiliations}[1]{%
+          \vspace{-0.3em}
           \begin{center}
             \small #1
           \end{center}
-          \vspace{0.5em}
+          \vspace{-0.5em}
+          \newpage
         }
         
-        % Comando para información de contribuciones CRediT
+        % Comando para información de contribuciones CRediT (sin espacios automáticos)
         \newcommand{\creditcontributions}[1]{%
-          \begin{quote}
-            \noindent\textcolor{blue}{\textbf{Contribuciones de autoría (CRediT):}}\\[0.5em]
-            #1\\[0.5em]
-            \small\textit{Taxonomía CRediT (Contributor Roles Taxonomy):}\\
-            • Versión original (inglés): \texttt{https://credit.niso.org/}\\
-            • Traducción al español: \texttt{https://terminologias.filo.uba.ar/vocabs/1007}
-          \end{quote}
-          \vspace{0.5em}
+          \vspace{0.1em}
+          \noindent\fbox{%
+            \begin{minipage}{0.95\textwidth}
+              \small
+              \textbf{Contribuciones de autoría (CRediT):}\\
+              #1\\
+              \footnotesize\textit{Taxonomía CRediT (Contributor Roles Taxonomy):}\\
+              • Versión original (inglés): https://credit.niso.org/\\
+              • Traducción al español: https://terminologias.filo.uba.ar/vocabs/1007
+            \end{minipage}%
+          }
+          \vspace{-0.2em}
         }
         
-        % Comando para disponibilidad de datos
+        % Comando para disponibilidad de datos (sin espacios automáticos)
         \newcommand{\dataavailability}[1]{%
-          \begin{quote}
-            \noindent\textcolor{green!70!black}{\textbf{Declaración de disponibilidad de datos}}\\[0.5em]
-            #1
-          \end{quote}
-          \vspace{1em}
+          \vspace{0.1em}
+          \noindent\fbox{%
+            \begin{minipage}{0.95\textwidth}
+              \small
+              \textbf{Declaración de disponibilidad de datos}\\
+              #1
+            \end{minipage}%
+          }
+          \vspace{-0.2em}
         }
 
   epub:

@@ -44,7 +44,11 @@ lang: es
 
 ---
 
-# Introducción 
+\chapterdoi{10.62059/editorial.l001.c2}
+\chapterauthors{Miguel Ángel Márdero Arellano$^1$, Julio Santillan Aldana$^2$}
+\chapteraffiliations{$^1$Instituto Brasileiro de Informação em Ciência e Tecnologia, Brasilia, DF, BR \\ $^2$Universidade Federal de Santa Catarina, Florianópolis, SC, BR}
+
+## Introducción 
 La preservación digital constituye un cúmulo activo y continuo de procedimientos y actividades que abarca la planificación estratégica y selección de activos digitales, así como su almacenamiento prolongado, administración, accesibilidad y actualización periódica (Leija Román, 2017). Su objetivo primordial es garantizar la accesibilidad, integridad, autenticidad y usabilidad de la información y del patrimonio digital en diversos contextos y para múltiples propósitos [@Ferreira2006; @Day2009; @Araujo2016]. En este sentido, la preservación digital también se orienta a la retención y perpetuación de datos científicos y al aseguramiento del acceso a las publicaciones, lo que resulta fundamental para controlar la pérdida de objetos digitales y mantener el acceso continuo a los materiales durante el tiempo requerido.
 La relación entre la comunicación científica y la preservación digital es estrecha y trasciende la mera participación en el sistema de origen de la investigación o en el ciclo de publicación académica [@ACRL2016]. La comunicación científica no depende únicamente de la disponibilidad permanente del conocimiento, sino que se beneficia significativamente del desarrollo de nuevas formas de interacción y difusión en un entorno digital cada vez más complejo. Este papel cobra especial relevancia ante el crecimiento exponencial de la literatura científica en medios electrónicos durante el presente siglo, puesto que garantizar la accesibilidad continua del contenido digital resulta fundamental para la acumulación del saber y el avance de la ciencia [@santos2024cenarios].
 No obstante, la preservación digital enfrenta desafíos significativos, entre los que destaca la obsolescencia tecnológica. La rápida evolución del hardware y el software provoca que sistemas, formatos y aplicaciones queden obsoletos, lo que pone en riesgo el acceso a largo plazo al contenido digital, ya que la información almacenada en medios desfasados puede volverse inaccesible [@unesco2003guidelines; @Day2009; @Balogun2021; Ahmad et al., 2024; @singh2024ensuring].
@@ -52,7 +56,7 @@ En América Latina, la preservación digital reviste una importancia crucial, pu
 A pesar de la implementación desigual de estrategias en diversos países, se vislumbran requerimientos potenciales que pueden contribuir tanto a la protección de la producción científica institucional como al fortalecimiento de la democratización del acceso a la información. La preservación digital, entendida como una práctica dinámica de gestión de la información en formato digital, se interrelaciona con las decisiones sobre el uso de tecnologías y los modelos de financiación que perfilan la comunicación científica en la región. Por ello, es indispensable reconocer su papel en los canales de difusión y en la consolidación del conocimiento.
 Este capítulo analiza y reflexiona sobre las principales experiencias, desafíos y perspectivas futuras de la preservación digital, considerada un factor estratégico para la sostenibilidad del conocimiento científico y del patrimonio documental en América Latina. Asimismo, se argumenta que, más allá de los aspectos tecnológicos, uno de los principales obstáculos para su implementación reside en la falta de preparación, viabilidad y sostenibilidad institucional, elementos esenciales para definir una dirección coherente que garantice el acceso y la conservación a largo plazo de la información.
 
-# 1. Preservación digital y sostenibilidad de la comunicación científica en América Latina: experiencias, retos y perspectivas futuras
+## 1. Preservación digital y sostenibilidad de la comunicación científica en América Latina: experiencias, retos y perspectivas futuras
 
 En las últimas décadas,  se han identificado en la región diversas experiencias en materia de preservación digital, abarcando tres dimensiones fundamentales: marcos normativos, estrategias de preservación y redes de colaboración y cooperación.
 
@@ -76,7 +80,7 @@ Asimismo, existen otras redes y organizaciones en la región que se enfocan en c
 
 Estos antecedentes evidencian que, si bien existen múltiples iniciativas y modelos que abordan la preservación digital en América Latina, el éxito de estas experiencias dependerá en gran medida de la articulación entre marcos normativos, estrategias adaptadas a las realidades locales y redes de colaboración interinstitucional, que en conjunto fortalecen la capacidad regional para asegurar el acceso y la conservación del patrimonio digital.
 
-# 2. Retos de la preservación digital en América Latina
+## 2. Retos de la preservación digital en América Latina
 
 De entre los diversos desafíos de la preservación digital en la región, destacan tres por su relevancia: la concientización sobre la fragilidad de los acervos, la creación de contenidos preservables,  y la formación de redes de preservación digital distribuida.
 
@@ -178,7 +182,7 @@ Por otro lado, los metadatos son esenciales para identificar, describir y gestio
 
 Estas estrategias mínimas son un punto de partida para la creación de redes de preservación digital distribuidas. A medida que la red madura, se pueden incorporar estrategias más avanzadas, como el uso de sistemas de preservación distribuida (por ejemplo, LOCKSS, CLOCKSS), migración y emulación. La clave es comenzar con un enfoque colaborativo, establecer políticas claras y asegurar la redundancia de los datos. La preservación digital es un proceso continuo que requiere un compromiso a largo plazo.
 
-# 3. Perspectivas futuras de la preservación digital
+## 3. Perspectivas futuras de la preservación digital
 
 En el contexto de la comunicación científica, la preservación digital enfrenta dos grandes desafíos hacia el futuro: la influencia de las nuevas tecnologías en sus estrategias y su alineación con las prácticas de Ciencia Abierta.
 
@@ -199,7 +203,7 @@ Tanto la preservación digital como el acceso abierto buscan asegurar la disponi
 El acceso abierto a los resultados de investigación, fortalecido por herramientas de descubrimiento avanzadas, permite acceder a una gran variedad de recursos en múltiples disciplinas y en diferentes contextos nacionales y lingüísticos. Esto favorece el intercambio de conocimiento y el avance de la ciencia, con claros beneficios para la comunidad académica.
 En este sentido, se espera que los formuladores de políticas públicas de acceso abierto y preservación a largo plazo sean capaces de negociar la inclusión de nuevas prácticas y estándares de acceso y preservación en acuerdos y proyectos que garanticen la sostenibilidad del trabajo científico y técnico en la región.
 
-# 4. Conclusiones y recomendaciones
+## 4. Conclusiones y recomendaciones
 
 4.1 Conclusiones
 

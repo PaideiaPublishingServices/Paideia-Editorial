@@ -86,8 +86,8 @@ format:
      include-in-header: header-La-ciencia-abierta-mexicana.html
 ---
 
+\chapterdoi{10.62059/editorial.l001.c3}
 \chapterauthors{Julio Zetter Patiño$^1$, Flor Janet Rivera Pulido$^1$, Patricia Garrido Villegas$^1$, Juan Carlos Díaz Mauricio$^1$, Martha Rosa Gallegos Ramírez$^1$}
-
 \chapteraffiliations{$^1$Universidad Nacional Autónoma de México, Ciudad de México, México}
 
 \creditcontributions{
@@ -103,7 +103,7 @@ Los datos que respaldan los resultados de este estudio están disponibles públi
 Los datos son de acceso abierto, pueden ser consultados directamente en línea y también descargados en formato .csv mediante el botón ``Descargar .csv'' disponible en la plataforma.
 }
 
-# Introducción
+## Introducción
 La consolidación de una verdadera ciencia abierta mexicana se encuentra en una etapa crítica, marcada por profundos desafíos. Pese a su trayectoria e importancia regional, el ámbito editorial nacional de publicaciones académicas y científicas continúa siendo limitado e irregular. En esta segunda edición del monitor nacional de prácticas enfocadas a la ciencia abierta —el proyecto SciELObservatorio México—, se busca evaluar y visualizar de forma sistemática el grado en que las revistas académicas incluidas en la colección SciELO México adoptan prácticas relacionadas con la ciencia abierta.
 
 En un contexto influido por recomendaciones internacionales como la Recomendación de la UNESCO sobre la Ciencia Abierta [@unesco2021recomendacion] y las Líneas prioritarias de acción 2024-2028 de SciELO, resulta indispensable contar con diagnósticos precisos que identifiquen avances y obstáculos concretos. México enfrenta retos particulares derivados de su infraestructura y apoyo limitados, barreras institucionales y una cultura científica que aún se resiste a cambios profundos en sus prácticas.
@@ -112,7 +112,7 @@ Este estudio no solo mide cuantitativamente la adopción de prácticas como la p
 
 Así, esta edición del SciELObservatorio México se presenta como un recurso clave para comprender la realidad del ecosistema editorial científico mexicano y proporcionar evidencia sólida que contribuya a la construcción de políticas públicas más efectivas y sostenibles en materia de ciencia abierta.
 
-# Acercamientos a la medición de la Ciencia Abierta
+## Acercamientos a la medición de la Ciencia Abierta
 
 La necesidad de evaluar y sistematizar las prácticas de Ciencia Abierta ha propiciado el surgimiento de diversas iniciativas globales orientadas a comprender sus efectos académicos, sociales y económicos. En Europa, un modelo destacado es la Open Science Career Assessment Matrix (OS-CAM), promovida por la Comisión Europea, que propone una evaluación científica más allá de la producción convencional, integrando prácticas como el acceso abierto, la gestión de datos bajo principios FAIR, el uso de herramientas abiertas y la participación ciudadana en la investigación [@europeancommission2017evaluation]. Su enfoque holístico responde a una lógica de reconocimiento e incentivos, buscando consolidar la apertura científica como práctica transversal en las trayectorias académicas, superando las limitaciones de modelos centrados en indicadores bibliométricos como el Journal Impact Factor.
 
@@ -124,7 +124,7 @@ Estas experiencias ofrecen referencias útiles para abordar el estudio de un mar
 
 Una apropiación crítica y situada de estas experiencias permitiría no solo establecer indicadores precisos para medir avances, sino también propiciar que las políticas editoriales los adopten de manera adecuada y contextualizada. En este marco, la segunda edición del monitor reafirma su objetivo de sistematizar y monitorear la adopción de prácticas de Ciencia Abierta en un universo representativo de revistas científicas mexicanas. La colección SciELO México, por su diversidad disciplinaria y sus lineamientos editoriales alineados con estándares de calidad científica, constituye un escenario idóneo para la aplicación de estudios de evaluación comparativa.
 
-## Las buenas prácticas, la profesionalización editorial y la cultura científica
+### Las buenas prácticas, la profesionalización editorial y la cultura científica
 
 Las buenas prácticas editoriales constituyen un conjunto sistematizado de procesos, criterios y recomendaciones ampliamente aceptados en el ámbito académico, orientados a garantizar legitimidad, calidad y transparencia en los procesos editoriales. Manuales y guías regionales —como los de CLACSO [@aparicio2016manual] y la PUCV [@ascorra2018manual]— destacan elementos clave, como la conformación transparente del comité editorial, el uso de licencias abiertas, la adopción de sistemas abiertos de gestión editorial como OJS y la evaluación por pares como eje central para asegurar la calidad científica y prevenir prácticas cuestionables [@baiget2020manual; @florez2017buenas].
 
@@ -140,7 +140,7 @@ Esta cultura está marcada por tensiones entre la tradición académica y las di
 
 En este entramado, los sistemas de información con criterios de indización actúan no solo como canales de visibilización, sino también como agentes que reflejan tensiones y avances propios de la cultura científica regional. Su papel articulador permite observar cómo convergen o se contraponen las distintas esferas que configuran el ecosistema académico y científico.
 
-## Segunda edición del monitor de ciencia abierta mexicana
+### Segunda edición del monitor de ciencia abierta mexicana
 
 La primera edición del monitor [@zetter2024scielobservatorio] partió del reconocimiento de la necesidad de establecer mecanismos sistemáticos para medir prácticas de Ciencia Abierta, a través del análisis de las políticas editoriales de las revistas en SciELO México. Este ejercicio permitió delimitar qué debe entenderse por Ciencia Abierta en el contexto de la profesionalización editorial, identificar sus principios internacionales y definir un marco operativo centrado en prácticas como la publicación de preprints, el depósito abierto de datos y la revisión abierta por pares.
 
@@ -151,7 +151,7 @@ El estudio se propone, así, una selección más pertinente de rubros de anális
 Se responde entonces a preguntas clave: ¿qué se evalúa en esta segunda edición?, ¿cuál es el universo analizado?, ¿por qué SciELO México puede considerarse representativo de la cultura científica de publicación en el país? A partir de estos ejes, la segunda edición del SciELObservatorio México ofrece una visión renovada, con mayor profundidad y alcance comparativo respecto al panorama inicial.
 
 
-## El universo de revistas del monitor
+### El universo de revistas del monitor
 
 En esta segunda edición se retoman los indicadores evaluados previamente —políticas sobre preprints, datos abiertos y revisión por pares abierta— e incorpora nuevos: el uso de la taxonomía CRediT, la inclusión en el DOAJ, el tipo de licencia Creative Commons adoptada y la modalidad de publicación continua.
 
@@ -166,7 +166,7 @@ Tal como en la primera edición se expuso, y que aquí se amplía, el universo d
 
 Con este estudio, se propone continuar ofreciendo una visión detallada del estado actual en la adopción de políticas de ciencia abierta en México, su evolución y comparación con respecto al estudio pasado en indicadores equivalentes y, finalmente, aportar un referente nacional que ayude a trazar un camino viable para su valoración como un indicador positivo de prácticas académicas y científicas dentro del marco de evaluación de las prácticas presentes en la ciencia mexicana. Así, además de cuantificar el grado de cumplimiento de criterios establecidos, se busca emitir recomendaciones para alentar a las revistas a adoptar, mantener o reforzar aspectos clave de la apertura.
 
-# Antecedentes y conceptos nominales
+## Antecedentes y conceptos nominales
 
 Este estudio parte de una concepción de Ciencia Abierta entendida como el ejercicio abierto de prácticas académicas y de investigación, conforme a la formulación de [@bezjak2018open]. Esta visión, centrada en la profesionalización editorial, se articula con la definición de la Recomendación de la UNESCO sobre la Ciencia Abierta [@unesco2021recomendacion], que distingue entre valores y principios estructurales. Los valores incluyen aspectos éticos, epistemológicos, jurídicos, sociales y tecnológicos, tales como la equidad, la integridad, la diversidad y la inclusión. Los principios, por su parte, orientan la creación de condiciones que garanticen su realización, como la transparencia, la reproducibilidad, la colaboración y la sostenibilidad [@unesco2021recomendacion].
 
@@ -185,7 +185,7 @@ Estas prácticas deben estar formalmente plasmadas en las políticas editoriales
 
 Así, el estudio no solo verifica la existencia de estas prácticas, sino también su claridad, ubicación y consistencia, entendiendo que su implementación supone una institucionalización progresiva del paradigma abierto desde el núcleo normativo de las revistas.
 
-## Políticas editoriales
+### Políticas editoriales
 
 En la edición anterior del estudio se estableció un marco analítico preliminar para examinar la existencia y aplicación de políticas editoriales orientadas a formalizar prácticas de Ciencia Abierta. Las políticas editoriales se definen como “el conjunto de directrices que deben regir la vida de la publicación en todos sus aspectos” [@aparicio2016manual], y deben incluir elementos como la definición institucional de acceso abierto, el modelo de revisión por pares, la transparencia de los procesos y la adhesión a estándares éticos internacionales.
 
@@ -197,7 +197,7 @@ Analizar cómo estas políticas están articuladas permite evaluar no solo la in
 
 Este eje normativo constituye, así, un componente central para medir la institucionalización de la Ciencia Abierta en las revistas científicas mexicanas.
 
-## Políticas básicas de Ciencia Abierta 
+### Políticas básicas de Ciencia Abierta 
 
 Para esta segunda edición del estudio se refinó la selección de rubros respecto a la anterior, concentrándose en tres prácticas clave: preprints, datos abiertos y revisión por pares abierta. El objetivo fue obtener indicadores más específicos y operativos que permitieran una mejor interpretación de los datos y, con ello, una evaluación más precisa del grado de adopción de prácticas de Ciencia Abierta por parte de las revistas.
 
@@ -211,29 +211,29 @@ Además de esta depuración, se incorporaron nuevos indicadores que permiten obs
 
 Con esta reorganización, el estudio busca proporcionar datos más útiles y comparables, facilitar el seguimiento de avances en futuras ediciones, y ofrecer una herramienta más precisa para el diseño de políticas públicas editoriales alineadas con los principios de la Ciencia Abierta.
 
-## Políticas ampliadas a analizar y su importancia
+### Políticas ampliadas a analizar y su importancia
 
 Además de las políticas básicas, esta edición incorpora indicadores ampliados que permiten observar prácticas clave recomendadas por las Líneas prioritarias de SciELO [@scielo2023lineas], con el fin de fortalecer la transparencia, equidad y sostenibilidad en el ecosistema editorial.
 
-## Uso de CRediT o declaración de contribuciones de autoría
+### Uso de CRediT o declaración de contribuciones de autoría
 
 La taxonomía CRediT (Contributor Roles Taxonomy), formalizada como estándar ANSI/NISO [@niso2022credit], permite identificar con claridad el rol de cada autor en una investigación. Su adopción en las políticas editoriales fomenta la transparencia y previene disputas sobre autoría. Además, visibiliza el trabajo colaborativo, especialmente en proyectos multidisciplinarios. La inclusión de CRediT refleja el compromiso con la equidad y la integridad, en línea con los principios de la Recomendación de la UNESCO sobre la Ciencia Abierta.
 
 Incluir CRediT como indicador en esta edición del monitor permite evaluar el nivel de actualización de las revistas respecto a la transparencia en la autoría. Una política editorial que contemple explícitamente esta taxonomía —o alguna declaración equivalente— demuestra un compromiso activo con los principios de equidad, integridad y responsabilidad en la comunicación científica. 
 
-## Publicación continua
+### Publicación continua
 
 La publicación continua es otra práctica alineada con el paradigma de Ciencia Abierta y representa un indicador clave de modernización editorial. Esta modalidad consiste en publicar los artículos de forma inmediata una vez que han sido aceptados y editados, sin esperar a que se complete un número o volumen periódico. Desde 2024, esta práctica es obligatoria para todas las revistas de la colección SciELO Brasil [@scielobrasil2024criterios], lo que evidencia su consolidación como estándar emergente.
 
 En contraste, la adopción de esta modalidad a la colección nacional es aún incipiente. Por ello, integrarla como indicador en esta edición del estudio resulta pertinente, ya que permite diagnosticar el grado de implementación y los desafíos asociados a su posible estandarización futura. La adopción de la publicación continua requiere ajustes técnicos y editoriales, como la eliminación de la paginación secuencial tradicional en los archivos PDF y la adopción del identificador electrónico e-location-id [@ferraz2018continuous]. Además, es fundamental que se indiquen con precisión las fechas de “Recibido”, “Aceptado” y “Publicado”, en aras de reforzar la trazabilidad del proceso editorial.
 
-## Apertura en la elección de licencias Creative Commons
+### Apertura en la elección de licencias Creative Commons
 
 El tipo de licencia con que se publica una investigación determina el grado de apertura. Las licencias CC BY (Atribución) y CC BY-SA (Atribución-Compartir igual) son las más coherentes con la Ciencia Abierta, al permitir un alto nivel de reutilización. Este enfoque es respaldado por iniciativas clave como la BOAI [@budapest2012ten], la OASPA [@oaspa2012ccby] y las *Líneas prioritarias de acción* de SciELO [@scielo2023lineas].
 
 En contraste, licencias con restricciones —como CC BY-NC (Atribución-No comercial) o CC BY-ND (Atribución-No derivadas)— limitan el potencial de impacto académico y social. Si bien la UNESCO no prescribe una licencia específica, enfatiza la importancia de marcos legales que favorezcan la reutilización del conocimiento. La política editorial debe declarar claramente el tipo de licencia adoptada y mostrarla visiblemente en los artículos.
 
-## Indización en el DOAJ
+### Indización en el DOAJ
 
 El *Directorio de Revistas de Acceso Abierto* (DOAJ, por sus siglas en inglés) se ha consolidado como una referencia central para fomentar la coherencia, integridad y transparencia editorial en el ecosistema global de revistas que publican en acceso abierto. Fundado en 2003, el DOAJ proporciona un marco actualizado que permite a las publicaciones mejorar sus prácticas editoriales y alinearse con estándares internacionales de calidad.
 
@@ -241,7 +241,7 @@ En el contexto de este estudio, la presencia en DOAJ es considerada un indicador
 
 Desde su creación, DOAJ ha experimentado una evolución significativa, alcanzando en 2023 más de 20,000 revistas indizadas. Su relevancia no se limita al número de publicaciones que alberga, sino también a su papel en la promoción de estándares éticos y en el fortalecimiento de un modelo de comunicación científica confiable. Recientemente, ha reforzado sus mecanismos de evaluación, para garantizar que las revistas indizadas cumplan con prácticas editoriales transparentes, contrarrestando así fenómenos como las publicaciones con prácticas cuestionables [@doaj2023celebrating].
 
-## Criterios de integridad ética y transparencia editorial en DOAJ
+### Criterios de integridad ética y transparencia editorial en DOAJ
 
 Entre los aspectos clave que distinguen al DOAJ, destacan sus exigencias en materia de integridad y transparencia. Los criterios establecidos por el directorio incluyen:
 
@@ -254,7 +254,7 @@ Entre los aspectos clave que distinguen al DOAJ, destacan sus exigencias en mate
 
 La verificación de estos criterios permite fortalecer un ecosistema editorial confiable y aumentar la visibilidad de las revistas comprometidas con el acceso abierto riguroso.
 
-## Relevancia de medir y sistematizar estas prácticas en colecciones de revistas académicas 
+### Relevancia de medir y sistematizar estas prácticas en colecciones de revistas académicas 
 
 Medir y sistematizar el nivel de adopción de prácticas de Ciencia Abierta en colecciones de revistas académicas locales permite articular metas institucionales con objetivos globales, generando evidencia útil para el diseño y ajuste de políticas públicas. Esta práctica fortalece la transparencia, la colaboración regional y la construcción de indicadores que permiten evaluar avances en visibilidad, impacto y calidad editorial.
 
@@ -266,7 +266,7 @@ Este estudio cobra especial importancia porque las revistas científicas siguen 
 
 En suma, la sistematización de estas prácticas en colecciones nacionales no solo fortalece el ecosistema editorial, sino que constituye un insumo estratégico para alinear la cultura de publicación con los principios de apertura, sostenibilidad y equidad, dentro y fuera del país.
 
-# Delimitando los objetivos
+## Delimitando los objetivos
 
 El objetivo central de esta segunda edición del estudio es profundizar en el diagnóstico sobre la adopción de prácticas específicas de Ciencia Abierta en las políticas editoriales de las revistas que integran la colección SciELO México. En esta ocasión, se amplía el universo de análisis para ofrecer un panorama más representativo del ecosistema editorial nacional.
 
@@ -291,34 +291,34 @@ A partir de estos ejes, el estudio se articula en torno a tres preguntas central
 
 Responder a estas interrogantes permitirá construir un panorama actualizado, identificar áreas prioritarias de mejora y ofrecer insumos para una profesionalización editorial más coherente con los principios de la Ciencia Abierta.
 
-# Metodología
+## Metodología
 
 La metodología aquí empleada es medir cuantitativamente el grado de cumplimiento de las políticas editoriales asociadas a diversas prácticas, considerando especialmente los criterios de profesionalización enunciados en las **Líneas prioritarias de acción 2024–2028**, en el marco de la Ciencia Abierta. El análisis se centra específicamente en verificar la existencia y claridad en la formulación pública de dichas políticas en los sitios web oficiales de las revistas analizadas.
 
 El universo de estudio comprende 256 revistas académicas que integran la colección SciELO México. Se han considerado tanto aquellas clasificadas como vigentes como las que se encuentran temporalmente no vigentes. Se excluyen explícitamente las revistas suspendidas o dadas de baja, por no ofrecer condiciones adecuadas para evaluar políticas editoriales actuales y efectivas.
 
-## Indicadores de análisis
+### Indicadores de análisis
 
 Los indicadores se agrupan en dos categorías principales:
 
-## A. Políticas editoriales básicas de Ciencia Abierta (máximo 3 puntos):
+#### A. Políticas editoriales básicas de Ciencia Abierta (máximo 3 puntos):
 
 1. Preprints: aceptación explícita de manuscritos previamente depositados en repositorios específicos para preprints.
 2. Datos abiertos: política explícita que recomiende u obligue al depósito de datos de investigación en repositorios especializados.
 3. Revisión por pares abierta: opción explícita ofrecida a autores y revisores para revelar sus identidades.
 
-## B. Políticas editoriales ampliadas a las Líneas prioritarias SciELO de Ciencia Abierta (máximo 4 puntos):
+#### B. Políticas editoriales ampliadas a las Líneas prioritarias SciELO de Ciencia Abierta (máximo 4 puntos):
 
 1. Uso de CRediT o declaración de contribuciones explícita.
 2. Indización efectiva en el Directory of Open Access Journals (DOAJ).
 3. Licencias Creative Commons permisivas (uso de CC BY o CC BY-SA).
 4. Implementación efectiva de la publicación continua.
 
-## Escala de valoración
+### Escala de valoración
 
 Cada revista recibe un punto por cada política cumplida de manera explícita y claramente observable en su sitio web oficial. El puntaje máximo posible por revista es de 7 puntos.
 
-## Indicadores positivos según rubro analizado
+### Indicadores positivos según rubro analizado
 
 La búsqueda de políticas se realiza en las secciones donde habitualmente se localizan dentro del sitio web de cada revista. Dado que cada publicación organiza sus políticas de manera particular, en caso de no encontrarse en los apartados esperados, se efectúa una búsqueda adicional mediante palabras clave en el sitio general. Cabe destacar que algunas revistas ya comienzan a incorporar una sección específica dedicada a políticas de Ciencia Abierta.
 
@@ -337,15 +337,15 @@ La búsqueda de políticas se realiza en las secciones donde habitualmente se lo
 - **Publicación continua:** adopción formal, efectiva y claramente descrita en las políticas editoriales.
   *Localización posible:* sección de periodicidad y frecuencia de publicación; “Acerca de la revista”.
 
-## Posibles limitaciones metodológicas
+### Posibles limitaciones metodológicas
 
 Entre las principales limitaciones metodológicas se identifican posibles sesgos derivados de la interpretación subjetiva en torno a la redacción y claridad de las políticas publicadas. Asimismo, la constante evolución en la adopción y actualización de dichas políticas puede implicar que los datos recolectados reflejen únicamente un estado específico en el tiempo correspondiente a la realización del estudio.
 
-# Resultados
+## Resultados
 
 Como ya se mencionó, se evaluó un total de 256 revistas académicas y científicas. De este universo, 111 revistas se encuentran clasificadas como vigentes, mientras que 145 figuran como no vigentes de acuerdo a los estándares de la colección. Esta evaluación consideró tanto las políticas editoriales básicas sobre Ciencia Abierta —analizadas ya en la primera edición del estudio— como aquellas ampliadas particularmente para esta edición, en concordancia con las *Líneas prioritarias de acción SciELO 2024–2028*.
 
-## DOAJ e indización
+### DOAJ e indización
 
 Exactamente la mitad del conjunto analizado (128 revistas, 50%) está indizada en el *Directory of Open Access Journals* (DOAJ), indicador que refleja congruencia editorial y transparencia en sus políticas de acceso abierto. Las 128 revistas restantes (50%) no están incluidas en dicho directorio, lo cual representa una oportunidad clara de mejora en términos de alineación con estándares internacionales y compromiso con la Ciencia Abierta.
 
@@ -356,7 +356,7 @@ Exactamente la mitad del conjunto analizado (128 revistas, 50%) está indizada e
 Gráfica. Distribución según indización en DOAJ
 :::
 
-## Licencias Creative Commons
+### Licencias Creative Commons
 
 De las 256 revistas analizadas, 219 (85.5%) informan claramente, en sus sitios web, el tipo de licencias Creative Commons bajo las cuales publican sus artículos. Las 37 restantes (14.5%) no ofrecen información visible al respecto, lo que evidencia una deficiencia relevante en materia de transparencia editorial.
 
@@ -374,7 +374,7 @@ En contraste, solo 14 revistas (5.5%) adoptan licencias consideradas plenamente 
 Gráfica. Distribución licencias CC
 :::
 
-## Políticas editoriales básicas
+### Políticas editoriales básicas
 
 Respecto a las políticas editoriales básicas evaluadas:
 
@@ -391,7 +391,7 @@ Estas cifras reflejan un panorama en el que la adopción de políticas abiertas,
 Gráfica. Políticas básicas de Ciencia Abierta
 :::
 
-## Uso de la taxonomía CRediT o declaraciones equivalentes
+### Uso de la taxonomía CRediT o declaraciones equivalentes
 
 Solo 33 revistas (12.9%) presentan una declaración explícita sobre los roles y contribuciones autorales, ya sea mediante la taxonomía CRediT o a través de algún mecanismo equivalente. Este resultado sugiere una oportunidad clara para fortalecer la transparencia y responsabilidad en la autoría científica.
 
@@ -402,7 +402,7 @@ Solo 33 revistas (12.9%) presentan una declaración explícita sobre los roles y
 Gráfica. CRediT o declaración de autoría
 :::
 
-## Periodicidad y publicación continua
+### Periodicidad y publicación continua
 
 En términos de periodicidad, la mayoría de las revistas mantiene una frecuencia semestral (88 revistas, 34.4%), seguida por una periodicidad cuatrimestral (50 revistas, 19.5%), trimestral (41 revistas, 16%) y bimestral (22 revistas, 8.6%). La modalidad de publicación continua —estrategia clave para acelerar la comunicación científica— ha sido adoptada por 49 revistas (19.1%), presentando un avance destacable dentro del contexto editorial nacional. Otras frecuencias menos frecuentes incluyen la anual (2 revistas), sesquimensual (2 revistas), mensual (1 revista) e irregular (1 revista), confirmando una distribución predominantemente tradicional.
 
@@ -413,7 +413,7 @@ En términos de periodicidad, la mayoría de las revistas mantiene una frecuenci
 Gráfica. Publicación Continua
 :::
 
-## Resultados globales
+### Resultados globales
 
 Al considerar de manera global el nivel de adopción de las políticas básicas de Ciencia Abierta (preprints, datos abiertos, revisión por pares abierta), los resultados indican una implementación sumamente limitada:
 
@@ -445,9 +445,9 @@ Gráfica. Políticas editoriales ampliadas conforme a las Líneas prioritarias d
 
 Estos resultados permiten concluir que, si bien existen avances puntuales, la adopción efectiva de políticas editoriales alineadas con la Ciencia Abierta sigue siendo limitada en la colección SciELO México. Persisten áreas críticas que requieren atención urgente —como el uso de licencias más permisivas, el depósito de datos abiertos y la apertura del proceso de revisión—, aunque también se identifican señales positivas en la adopción gradual de la publicación continua y el uso inicial de la taxonomía CRediT, lo cual abre un espacio importante para fortalecer la cultura científica de publicación en el país.
 
-# Discusión
+## Discusión
 
-## Comparación de resultados entre la primera y segunda edición
+### Comparación de resultados entre la primera y segunda edición
 
 El análisis comparativo entre los resultados de la primera y segunda edición de este monitor de revistas nacionales muestra un panorama mixto. Cabe precisar que la comparación directa de indicadores solo es posible en aquellos rubros equivalentes, comprendidos en esta segunda edición bajo la categoría de *políticas editoriales básicas de Ciencia Abierta*.
 
@@ -466,7 +466,7 @@ Finalmente, en relación con la revisión abierta por pares, se registra un incr
 Gráfica. Tendencia políticas básicas ciencias abiertas 2023-2024
 :::
 
-## Análisis de los resultados en espectro amplio de políticas establecidas
+### Análisis de los resultados en espectro amplio de políticas establecidas
 
 El análisis cuantitativo realizado sobre los siete rubros derivados de las *Líneas prioritarias de acción 2024–2028* del programa SciELO ofrece un panorama complejo y desafiante para el ámbito editorial académico mexicano.
 
@@ -477,6 +477,8 @@ En lo relativo a las licencias Creative Commons, se identifica una predominancia
 La declaración explícita de contribuciones autorales mediante la taxonomía CRediT, implementada por solo el 12.9% de las revistas, muestra un avance incipiente hacia mayores niveles de transparencia editorial. Esta práctica, surgida como respuesta a problemáticas crecientes en la gestión de autorías — particularmente prácticas cuestionables como la invención o atribución indebida de autorías, situaciones frecuentemente vinculadas con el fenómeno denominado “fábricas de artículos”—, representa un instrumento ético que puede adoptar cierta relevancia.
 
 En cuanto a la transición hacia esquemas de publicación continua, se observa una tendencia positiva —aunque aún moderada— hacia modelos editoriales más dinámicos y eficientes. Esta modalidad, a diferencia de la publicación tradicional por fascículos periódicos, surge como una respuesta directa a las posibilidades que abre la digitalización de la información. Su implementación permite reducir los tiempos entre la aceptación y la publicación final de los artículos, facilitando una comunicación más ágil de los resultados científicos. En este contexto, representa no solo una innovación técnica, sino también un cambio de paradigma hacia una mentalidad editorial más acorde con las dinámicas contemporáneas de circulación del conocimiento. En la colección SciELO México, esta modalidad comenzó a adoptarse en 2018; sin embargo, a siete años de distancia, menos del 20% de las revistas han ajustado sus procesos para alinearse con esta lógica digital. Este dato revela tanto una lentitud en la transición hacia modelos abiertos de publicación como una oportunidad clara para repensar las estrategias de actualización editorial desde una perspectiva estructural.
+
+## Problematización e implicaciones de los resultados
 
 Este panorama pone de relieve una serie de cuestiones críticas y desafíos estructurales en torno a la implementación efectiva de la Ciencia Abierta en el ámbito editorial académico mexicano. Si bien se identifican tendencias entre moderadamente positivas y avances puntuales en ciertos rubros —como la adopción progresiva de la modalidad de publicación continua y el ligero aumento en la incorporación de mecanismos de revisión abierta por pares—, el panorama general revela una adopción aún muy limitada, heterogénea y desigual entre las revistas analizadas.
 
@@ -496,7 +498,7 @@ A partir de lo expuesto en el marco teórico y los resultados, se derivan alguna
 
 Estas preguntas, que no se pretenden responder cabalmente en este espacio, no solo abren líneas de discusión relevantes, sino que también invitan a pensar críticamente el lugar que ocupa la Ciencia Abierta en el entramado institucional, epistémico y político de la ciencia mexicana actual.
 
-## De los sistemas de información y bases de datos curados
+### De los sistemas de información y bases de datos curados
 
 Las bases de datos o sistemas de información curados forman parte de una esfera más amplia dentro del paradigma de la comunicación científica, en la cual intervienen diversos actores como investigadores, estudiantes, profesores, instituciones evaluadoras, agencias financiadoras y de reconocimiento académico, editoriales, infraestructura tecnológica, universidades, centros de educación e investigación, así como programas de apoyo regionales y globales. Dentro de esta compleja red, los sistemas de información curados, como SciELO, Redalyc, Latindex, Biblat y DOAJ, juegan un rol crucial al constituirse como sistemas integrados de evaluación, cuya función es promover determinadas prácticas editoriales y, al mismo tiempo, desalentar aquellas que no cumplen con ciertos criterios específicos.
 
@@ -504,7 +506,7 @@ El papel fundamental de las bases de datos curadas es entonces mantenerse vigent
 
 También, es importante considerar que cada sistema de información posee una visión y objetivos particulares que, aunque puedan parecer meramente funcionales, contienen implícitamente ciertos posicionamientos, que en algunos casos pueden denotar posturas ideológicas y políticas dentro de la comunidad académica. Por ello, las revistas deben entender claramente qué implica integrarse o ser incluidas en alguno de estos sistemas, y conocer no solo sus criterios específicos, sino también el contexto y las razones que fundamentan estos criterios.
 
-# Conclusiones, recomendaciones y perspectivas
+## Conclusiones, recomendaciones y perspectivas
 
 Pese a que el movimiento y prácticas propuestas por la ciencia abierta han ganado reconocimiento internacional, esta no se encuentra exenta de tensiones políticas e ideológicas que en algunos ámbitos cuestionan su viabilidad. Existen incluso posturas extremas que han intentado revertir políticas relacionadas con la diversidad, la equidad y la inclusión [@tzovaras2025vorauseilender], pilares también asociados al movimiento de apertura científica. Sin embargo, hay que tener en cuenta que asumir estos valores como parte de la práctica editorial no solo atiende a un ideal universal de ciencia, sino que conlleva beneficios prácticos para las revistas, los investigadores y la sociedad en su conjunto.
 
