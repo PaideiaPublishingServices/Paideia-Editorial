@@ -103,6 +103,8 @@ Los datos que respaldan los resultados de este estudio están disponibles públi
 Los datos son de acceso abierto, pueden ser consultados directamente en línea y también descargados en formato .csv mediante el botón ``Descargar .csv'' disponible en la plataforma.
 }
 
+# La ciencia abierta mexicana: monitor de prácticas adoptadas por las revistas
+
 ## Introducción
 La consolidación de una verdadera ciencia abierta mexicana se encuentra en una etapa crítica, marcada por profundos desafíos. Pese a su trayectoria e importancia regional, el ámbito editorial nacional de publicaciones académicas y científicas continúa siendo limitado e irregular. En esta segunda edición del monitor nacional de prácticas enfocadas a la ciencia abierta —el proyecto SciELObservatorio México—, se busca evaluar y visualizar de forma sistemática el grado en que las revistas académicas incluidas en la colección SciELO México adoptan prácticas relacionadas con la ciencia abierta.
 
