@@ -53,8 +53,6 @@ reference-section-title: "Referências"
 \chapterauthors{Lia Machado Fiuza Fialho$^1$, Karla Angélica Nascimento$^1$, Maria Aparecida Alves da Costa$^2$}
 \chapteraffiliations{$^1$Universidade Estadual do Ceará, Fortaleza, CE, BR \\ $^2$Instituto Federal de Educação, Ciência e Tecnologia do Ceará, Fortaleza, CE, BR}
 
-# O papel da Rede Ibero-Americana de Editores Científicos de Educação (RIECE) no fortalecimento da comunicação científica em periódicos da área de Educação
-
 ## 1. Introdução
 
 O capítulo trata acerca da fundação da Rede Ibero-Americana de Editores Científicos de Educação (RIECE) e do desenvolvimento de atividades no âmbito da articulação internacional proporcionada pela RIECE para o fortalecimento da comunicação científica nos países latino-americanos, caribenhos e africanos.

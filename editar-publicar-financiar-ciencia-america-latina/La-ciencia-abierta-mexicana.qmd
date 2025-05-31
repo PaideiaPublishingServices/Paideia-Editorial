@@ -103,9 +103,8 @@ Los datos que respaldan los resultados de este estudio están disponibles públi
 Los datos son de acceso abierto, pueden ser consultados directamente en línea y también descargados en formato .csv mediante el botón ``Descargar .csv'' disponible en la plataforma.
 }
 
-# La ciencia abierta mexicana: monitor de prácticas adoptadas por las revistas
+## 1. Introducción
 
-## Introducción
 La consolidación de una verdadera ciencia abierta mexicana se encuentra en una etapa crítica, marcada por profundos desafíos. Pese a su trayectoria e importancia regional, el ámbito editorial nacional de publicaciones académicas y científicas continúa siendo limitado e irregular. En esta segunda edición del monitor nacional de prácticas enfocadas a la ciencia abierta —el proyecto SciELObservatorio México—, se busca evaluar y visualizar de forma sistemática el grado en que las revistas académicas incluidas en la colección SciELO México adoptan prácticas relacionadas con la ciencia abierta.
 
 En un contexto influido por recomendaciones internacionales como la Recomendación de la UNESCO sobre la Ciencia Abierta [@unesco2021recomendacion] y las Líneas prioritarias de acción 2024-2028 de SciELO, resulta indispensable contar con diagnósticos precisos que identifiquen avances y obstáculos concretos. México enfrenta retos particulares derivados de su infraestructura y apoyo limitados, barreras institucionales y una cultura científica que aún se resiste a cambios profundos en sus prácticas.
@@ -114,7 +113,7 @@ Este estudio no solo mide cuantitativamente la adopción de prácticas como la p
 
 Así, esta edición del SciELObservatorio México se presenta como un recurso clave para comprender la realidad del ecosistema editorial científico mexicano y proporcionar evidencia sólida que contribuya a la construcción de políticas públicas más efectivas y sostenibles en materia de ciencia abierta.
 
-## Acercamientos a la medición de la Ciencia Abierta
+## 2. Acercamientos a la medición de la Ciencia Abierta
 
 La necesidad de evaluar y sistematizar las prácticas de Ciencia Abierta ha propiciado el surgimiento de diversas iniciativas globales orientadas a comprender sus efectos académicos, sociales y económicos. En Europa, un modelo destacado es la Open Science Career Assessment Matrix (OS-CAM), promovida por la Comisión Europea, que propone una evaluación científica más allá de la producción convencional, integrando prácticas como el acceso abierto, la gestión de datos bajo principios FAIR, el uso de herramientas abiertas y la participación ciudadana en la investigación [@europeancommission2017evaluation]. Su enfoque holístico responde a una lógica de reconocimiento e incentivos, buscando consolidar la apertura científica como práctica transversal en las trayectorias académicas, superando las limitaciones de modelos centrados en indicadores bibliométricos como el Journal Impact Factor.
 
@@ -168,7 +167,7 @@ Tal como en la primera edición se expuso, y que aquí se amplía, el universo d
 
 Con este estudio, se propone continuar ofreciendo una visión detallada del estado actual en la adopción de políticas de ciencia abierta en México, su evolución y comparación con respecto al estudio pasado en indicadores equivalentes y, finalmente, aportar un referente nacional que ayude a trazar un camino viable para su valoración como un indicador positivo de prácticas académicas y científicas dentro del marco de evaluación de las prácticas presentes en la ciencia mexicana. Así, además de cuantificar el grado de cumplimiento de criterios establecidos, se busca emitir recomendaciones para alentar a las revistas a adoptar, mantener o reforzar aspectos clave de la apertura.
 
-## Antecedentes y conceptos nominales
+## 3. Antecedentes y conceptos nominales
 
 Este estudio parte de una concepción de Ciencia Abierta entendida como el ejercicio abierto de prácticas académicas y de investigación, conforme a la formulación de [@bezjak2018open]. Esta visión, centrada en la profesionalización editorial, se articula con la definición de la Recomendación de la UNESCO sobre la Ciencia Abierta [@unesco2021recomendacion], que distingue entre valores y principios estructurales. Los valores incluyen aspectos éticos, epistemológicos, jurídicos, sociales y tecnológicos, tales como la equidad, la integridad, la diversidad y la inclusión. Los principios, por su parte, orientan la creación de condiciones que garanticen su realización, como la transparencia, la reproducibilidad, la colaboración y la sostenibilidad [@unesco2021recomendacion].
 
@@ -268,7 +267,7 @@ Este estudio cobra especial importancia porque las revistas científicas siguen 
 
 En suma, la sistematización de estas prácticas en colecciones nacionales no solo fortalece el ecosistema editorial, sino que constituye un insumo estratégico para alinear la cultura de publicación con los principios de apertura, sostenibilidad y equidad, dentro y fuera del país.
 
-## Delimitando los objetivos
+## 4. Delimitando los objetivos
 
 El objetivo central de esta segunda edición del estudio es profundizar en el diagnóstico sobre la adopción de prácticas específicas de Ciencia Abierta en las políticas editoriales de las revistas que integran la colección SciELO México. En esta ocasión, se amplía el universo de análisis para ofrecer un panorama más representativo del ecosistema editorial nacional.
 
@@ -293,7 +292,7 @@ A partir de estos ejes, el estudio se articula en torno a tres preguntas central
 
 Responder a estas interrogantes permitirá construir un panorama actualizado, identificar áreas prioritarias de mejora y ofrecer insumos para una profesionalización editorial más coherente con los principios de la Ciencia Abierta.
 
-## Metodología
+## 5. Metodología
 
 La metodología aquí empleada es medir cuantitativamente el grado de cumplimiento de las políticas editoriales asociadas a diversas prácticas, considerando especialmente los criterios de profesionalización enunciados en las **Líneas prioritarias de acción 2024–2028**, en el marco de la Ciencia Abierta. El análisis se centra específicamente en verificar la existencia y claridad en la formulación pública de dichas políticas en los sitios web oficiales de las revistas analizadas.
 
@@ -343,7 +342,7 @@ La búsqueda de políticas se realiza en las secciones donde habitualmente se lo
 
 Entre las principales limitaciones metodológicas se identifican posibles sesgos derivados de la interpretación subjetiva en torno a la redacción y claridad de las políticas publicadas. Asimismo, la constante evolución en la adopción y actualización de dichas políticas puede implicar que los datos recolectados reflejen únicamente un estado específico en el tiempo correspondiente a la realización del estudio.
 
-## Resultados
+## 6. Resultados
 
 Como ya se mencionó, se evaluó un total de 256 revistas académicas y científicas. De este universo, 111 revistas se encuentran clasificadas como vigentes, mientras que 145 figuran como no vigentes de acuerdo a los estándares de la colección. Esta evaluación consideró tanto las políticas editoriales básicas sobre Ciencia Abierta —analizadas ya en la primera edición del estudio— como aquellas ampliadas particularmente para esta edición, en concordancia con las *Líneas prioritarias de acción SciELO 2024–2028*.
 
@@ -447,7 +446,7 @@ Gráfica. Políticas editoriales ampliadas conforme a las Líneas prioritarias d
 
 Estos resultados permiten concluir que, si bien existen avances puntuales, la adopción efectiva de políticas editoriales alineadas con la Ciencia Abierta sigue siendo limitada en la colección SciELO México. Persisten áreas críticas que requieren atención urgente —como el uso de licencias más permisivas, el depósito de datos abiertos y la apertura del proceso de revisión—, aunque también se identifican señales positivas en la adopción gradual de la publicación continua y el uso inicial de la taxonomía CRediT, lo cual abre un espacio importante para fortalecer la cultura científica de publicación en el país.
 
-## Discusión
+## 7. Discusión
 
 ### Comparación de resultados entre la primera y segunda edición
 
@@ -480,7 +479,7 @@ La declaración explícita de contribuciones autorales mediante la taxonomía CR
 
 En cuanto a la transición hacia esquemas de publicación continua, se observa una tendencia positiva —aunque aún moderada— hacia modelos editoriales más dinámicos y eficientes. Esta modalidad, a diferencia de la publicación tradicional por fascículos periódicos, surge como una respuesta directa a las posibilidades que abre la digitalización de la información. Su implementación permite reducir los tiempos entre la aceptación y la publicación final de los artículos, facilitando una comunicación más ágil de los resultados científicos. En este contexto, representa no solo una innovación técnica, sino también un cambio de paradigma hacia una mentalidad editorial más acorde con las dinámicas contemporáneas de circulación del conocimiento. En la colección SciELO México, esta modalidad comenzó a adoptarse en 2018; sin embargo, a siete años de distancia, menos del 20% de las revistas han ajustado sus procesos para alinearse con esta lógica digital. Este dato revela tanto una lentitud en la transición hacia modelos abiertos de publicación como una oportunidad clara para repensar las estrategias de actualización editorial desde una perspectiva estructural.
 
-## Problematización e implicaciones de los resultados
+## 8. Problematización e implicaciones de los resultados
 
 Este panorama pone de relieve una serie de cuestiones críticas y desafíos estructurales en torno a la implementación efectiva de la Ciencia Abierta en el ámbito editorial académico mexicano. Si bien se identifican tendencias entre moderadamente positivas y avances puntuales en ciertos rubros —como la adopción progresiva de la modalidad de publicación continua y el ligero aumento en la incorporación de mecanismos de revisión abierta por pares—, el panorama general revela una adopción aún muy limitada, heterogénea y desigual entre las revistas analizadas.
 
@@ -508,7 +507,7 @@ El papel fundamental de las bases de datos curadas es entonces mantenerse vigent
 
 También, es importante considerar que cada sistema de información posee una visión y objetivos particulares que, aunque puedan parecer meramente funcionales, contienen implícitamente ciertos posicionamientos, que en algunos casos pueden denotar posturas ideológicas y políticas dentro de la comunidad académica. Por ello, las revistas deben entender claramente qué implica integrarse o ser incluidas en alguno de estos sistemas, y conocer no solo sus criterios específicos, sino también el contexto y las razones que fundamentan estos criterios.
 
-## Conclusiones, recomendaciones y perspectivas
+## 9. Conclusiones, recomendaciones y perspectivas
 
 Pese a que el movimiento y prácticas propuestas por la ciencia abierta han ganado reconocimiento internacional, esta no se encuentra exenta de tensiones políticas e ideológicas que en algunos ámbitos cuestionan su viabilidad. Existen incluso posturas extremas que han intentado revertir políticas relacionadas con la diversidad, la equidad y la inclusión [@tzovaras2025vorauseilender], pilares también asociados al movimiento de apertura científica. Sin embargo, hay que tener en cuenta que asumir estos valores como parte de la práctica editorial no solo atiende a un ideal universal de ciencia, sino que conlleva beneficios prácticos para las revistas, los investigadores y la sociedad en su conjunto.
 
@@ -522,7 +521,7 @@ Las principales aportaciones de este estudio radican en la construcción de una 
 
 Como perspectiva a futuro, se propone realizar este estudio de manera anual, generando un proceso sostenido de evaluación y monitoreo que permita medir no solo los avances o retrocesos específicos, sino también observar el nivel de aceptación de estas prácticas dentro del contexto cultural de publicación científica. Esto permitirá que las instancias pertinentes y los actores interesados cuenten con información periódica y actualizada que coadyuve a la toma de decisiones en cuanto a políticas de evaluación, planeación de apoyos económicos y de infraestructura, así como a planeación para una capacitación efectiva dentro de las prácticas enunciadas.
 
-## Agradecimientos
+### Agradecimientos
 
 Los autores expresan su agradecimiento al Dr. Antonio Sánchez Pereyra, subdirector de la Subdirección de Servicios de Información Especializada de la Dirección General de Bibliotecas y Servicios Digitales de Información (DGBSDI) de la Universidad Nacional Autónoma de México (UNAM), por su respaldo en la elaboración de este estudio y por sus observaciones valiosas respecto al enfoque del análisis.
 

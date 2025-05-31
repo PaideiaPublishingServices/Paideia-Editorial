@@ -19,7 +19,7 @@ book:
         - conceptualization: lead
         - writing: supporting
         - project-administration: lead
-  date: "2025-01-16"
+  date: "2025-05-30"
   description: |
     Este libro aborda los retos y oportunidades en la comunicación académica en América Latina, explorando cómo se editan, publican y financian los resultados científicos en el contexto regional. 
     A través de un análisis crítico, el proyecto busca destacar experiencias exitosas y lecciones aprendidas, identificar modelos de sostenibilidad en acceso abierto y evaluar el impacto de la visibilidad científica en el progreso académico. 
@@ -76,7 +76,7 @@ format:
     documentclass: scrbook
     papersize: a4
     toc: true
-    toc-depth: 1
+    toc-depth: 2
     lof: true
     lot: true
     latex-engine: lualatex
@@ -92,29 +92,21 @@ format:
         \usepackage{xcolor}
         \usepackage{geometry}
         
-        % Comando para DOI del capítulo (sin espacios automáticos)
+        % Comando para DOI del capítulo (con salto de línea al final)
         \newcommand{\chapterdoi}[1]{%
-          \vspace{-0.5em}
-          \noindent\small DOI: #1
-          \vspace{-0.3em}
+          \vspace{-1em}
+          \noindent\small DOI: #1\\[0.5em]
         }
         
-        % Comando personalizado para autores (sin espacios automáticos)
+        % Comando personalizado para autores (debajo del DOI)
         \newcommand{\chapterauthors}[1]{%
-          \vspace{-0.2em}
-          \begin{center}
-            \textit{#1}
-          \end{center}
-          \vspace{-0.5em}
+          \noindent\textit{#1}\\[0.8em]
         }
         
-        % Comando para afiliaciones (con salto de página después)
+        % Comando para afiliaciones (con espaciado amplio)
         \newcommand{\chapteraffiliations}[1]{%
-          \vspace{-0.3em}
-          \begin{center}
-            \small #1
-          \end{center}
-          \vspace{-0.5em}
+          \noindent\small #1
+          \vspace{1.5em}
           \newpage
         }
         
@@ -145,6 +137,7 @@ format:
             \end{minipage}%
           }
           \vspace{-0.2em}
+          \newpage  
         }
 
   epub:
