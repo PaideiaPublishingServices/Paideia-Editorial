@@ -67,6 +67,14 @@ citation:
   doi: 10.62059/editorial.l001.c5
 lang: pt
 reference-section-title: "Referências"
+format:
+  pdf:
+    include-in-header:
+      text: |
+        \usepackage{array}
+        \usepackage{longtable}
+        \usepackage{rotating}
+        
 ---
 
 \chapterdoi{10.62059/editorial.l001.c5}
@@ -77,7 +85,7 @@ reference-section-title: "Referências"
     $^3$ Universidade Federal do Estado do Rio de Janeiro, Rio de Janeiro, RJ, BR
 }
 
-# Introdução
+## Introdução
 
 O sistema de comunicação científica se constitui de um conjunto complexo de atividades, produções, formatos, plataformas e stakeholders integrados que incluem meios formais e informais [@Bonn2023]. Este sistema vem se desenvolvendo a séculos, porém no decorrer das últimas décadas com a ascensão da tecnologia digital, passa por consideráveis e aceleradas transformações, impactando os processos produtivos e comunicativos das publicações científicas [@Meadows1999].
 
@@ -90,7 +98,7 @@ Na literatura internacional, essa atuação de bibliotecas e bibliotecários na 
 Nesta linha, questionamos: As bibliotecas universitárias brasileiras têm se engajado em atividades editoriais e no planejamento de projetos e serviços de criação, edição e publicação acadêmica-científica?
 É a partir desta questão, que nossa pesquisa se desenvolve, ampliando a pesquisa de Prudencio e Santos [@PrudencioSilva2023], que evidenciam que no Brasil, existem projetos sendo desenvolvidos, todavia são práticas isoladas e ainda não integradas às discussões internacionais. Portanto, a pesquisa justifica-se por alargar tal mapeamento em território nacional e ampliar para o contexto global das pesquisas em andamento, suscitando a união em uma comunidade de práticas destas iniciativas.
 
-# Metodologia
+## Metodologia
 
 O estudo tem natureza básica, é descritivo e exploratório em seu fim e adota abordagem qualitativa para discutir seus resultados.
 A pesquisa bibliográfica foi desenvolvida em fontes de informação como BRAPCI, Web of Science e Biblioteca Brasileira de Teses e Dissertações. Para tanto selecionamos artigos, capítulos de livros, comunicações em eventos, teses e dissertações que discutissem sobre editoração em bibliotecas universitárias, adotando expressões de busca, como “editoração *AND* biblioteca universitária”, *“library publishing”, “publishing libraries”, “library publishing services”, “library publishing support services”, “academic library publishing”.*
@@ -99,7 +107,7 @@ Como amostra, selecionamos as bibliotecas vinculadas às Universidades Federais 
 Desta maneira, após eleger a amostra, acessamos o site de cada instituição, entre fevereiro e março de 2024 e analisamos se havia a indicação de: 1) Serviços de editoração e publicação; 2) informações que vinculassem um portal de periódicos da universidade ou repositório institucional a Biblioteca ou Sistema de Bibliotecas Universitárias.
 Cumpre informar que consideramos serviços de editoração e/ou publicação em quaisquer mídias e formatos de publicação e que tais dados foram revisados em novembro de 2024.
 
-# Library Publishing: origens, institucionalização e internacionalização
+## Library Publishing: origens, institucionalização e internacionalização
 
 Historicamente, as editoras universitárias desempenham um importante papel de difusão das pesquisas acadêmicas através de suas publicações, cujo sistema de negócios garantiam legitimidade e sustentabilidade da cadeia de publicações, assegurando a qualidade e o impacto das produções para a comunidade científica [@Thompson2005]. 
 Porém, devido a críticas ao modelo político e econômico da cadeia de publicação tradicional [@SandyMattern2018], a transição da década de 1990 para os anos 2000, evidenciou uma ebulição de projetos, iniciativas e associações institucionais e governamentais em apoio ao movimento pelo Acesso Aberto. 
@@ -144,7 +152,7 @@ Com a colaboração do LPC, foi possível verificar a expansão e engajamento da
 
 Nos últimos anos está crescendo o número de discussões conduzidas pelo *IFLA Lib Pub SIG* para ampliar o alcance do mapa para cobrir outras regiões e países pelo mundo, sobretudo no sul global [@Liu2024]. Para isso, considera estabelecer um meio de atualização do mapa regularmente, e não somente pelos dados fornecidos pelo diretório da LPC, e preparar e adaptar o questionário para outras línguas na busca por atrair maior participação da comunidade internacional e ampliar a diversidade dos projetos registrados.
 
-# Library Publishing no Sul Global
+## Library Publishing no Sul Global
 
 Nossa pesquisa bibliográfica e documental identificou no hemisfério sul iniciativas na Austrália, África do Sul e Brasil.
 Algumas bibliotecas universitárias australianas e sul-africanas se destacam com suas experiências com editoração, onde há relatos que nas primeiras foram estabelecidas e administradas editoras por estas bibliotecas, com produções premiadas (Missingham e Kanellopoulos; 2014); já na África do Sul, a Biblioteca Universitária da Universidade de Cape Town (UCT), fundou em 2015 o serviço de editoração que se caracteriza pela ampla adoção, defesa e difusão do modelo de publicação diamante em acesso aberto, onde os custos de publicação são fomentados por políticas públicas governamentais e aportes institucionais, sendo desenvolvida a plataforma de acesso aberto continental *African Platform for Open Scholarship* para publicação de recursos provenientes de aproximadamente 15 instituições [@Claassen2024].
@@ -152,7 +160,7 @@ Algumas bibliotecas universitárias australianas e sul-africanas se destacam com
 Na América do Sul, algumas das pesquisas em destaque desenvolvidas sobre *Library Publishing* na região foram de Santillán-Aldana e Mueller [@SantillanAldanaMueller2016], Mangas-vega et al. [@MangasVega2018], e Prudencio e Silva [@PrudencioSilva2023].
 O estudo de Mangas-vega et al. [@MangasVega2018] revela relatos de experiências de autopublicação na literatura e confirma que os estudos sobre *Library Publishing* em outras regiões na América Latina são quase inexistentes. 
 
-## Library Publishing no Brasil
+### Library Publishing no Brasil
 
 Santillán-Aldana e Mueller [@SantillanAldanaMueller2016] traduzem a expressão do idioma inglês para Serviços de Editoração em Bibliotecas (SEBs) no contexto brasileiro.
 Em outra publicação, Santillán-Aldana [@SantillanAldana2017] mostrou que discussões iniciais estavam sendo realizadas sobre o papel dos bibliotecários no processo de comunicação científica, e que estavam sendo implementados SEBs naquele momento, aplicando as características e princípios do movimento *Library Publishing* internacional, como a filosofia da Ciência Aberta e a liderança de bibliotecários nestes serviços, mas que não adotavam a identificação de SEBs. O autor ainda apontou que os serviços mais comuns eram de gestão de repositórios institucionais e portais de periódicos científicos, considerados o principal veículo de comunicação na região, com uma considerável produção sobre as experiências dos bibliotecários neste campo [@Anna2019; @MaimoneTalamo2008; @Martins2015; @Mendes2020; @Rodrigues2017; @SantanaFrancelin2016; @SantanaNoronha2017; @Silva2017]
@@ -179,14 +187,23 @@ Pereira [@Pereira2019] investigou sobre o ensino de Editoração nos cursos de B
 No entanto, é importante frisar que a aprendizagem de bibliotecários sobre os processos editoriais não deve se limitar a atividades educacionais formais, como curso de graduação e especializações com certificação. Há oportunidades em atividades educacionais informais, como autoinstrução, pesquisas, Curso Online Aberto e Massivo e, recursos educacionais abertos e, sobretudo, pela socialização de saberes entre bibliotecários [@PrudencioSilva2023]. 
 Adicionalmente, o estudo em tela aponta para a necessidade dos profissionais socializarem suas práticas e saberes em comunidades de práticas, relatos de experiência e publicações científicas. Sob esse panorama, a seguir listamos iniciativas *Library Publishing* que vem se desenvolvendo no Brasil, especialmente dentre as bibliotecas universitárias, para que haja futuramente uma integração em comunidade destes serviços para que possamos construir políticas e sistemas de informação sobre o campo no Brasil. 
 
-# Análises e Resultados
+## Análises e Resultados
 
 A partir de pesquisa exploratória documental nos sites das bibliotecas universitárias federais brasileiras, sistematizamos no @tbl-1 abaixo algumas das Bibliotecas onde encontramos engajamento com produção editorial.
 
+\tiny
+
 ```{=html}
-<div style="overflow-x: auto; width: 100%;">
-<table id="tbl-1">
+<div style="overflow-x: auto;">
+<table id="tbl-1" style="table-layout: fixed;">
   <caption>Quadro 1 – Iniciativas Library Publishing em Bibliotecas Universitárias Federais Brasileiras</caption>
+  <colgroup>
+      <col width="20%"> <!-- Ancho para la columna "Universidade Federal" -->
+      <col width="20%"> <!-- Ancho para la columna "Biblioteca/ SIBI" -->
+      <col width="25%"> <!-- Ancho para la columna "Formatos das publicações" -->
+      <col width="15%"> <!-- Ancho para la columna "Mídias de publicações" -->
+      <col width="20%"> <!-- Ancho para la columna "Website das Iniciativas Library Publishing" -->
+  </colgroup>
   <thead>
     <tr>
       <th>Universidade Federal</th>
@@ -202,70 +219,70 @@ A partir de pesquisa exploratória documental nos sites das bibliotecas universi
       <td>Biblioteca Lourenço José Tavares Vieira da Silva</td>
       <td>Livros, Livros Didáticos</td>
       <td>Eletrônico, Impresso, com acesso restrito</td>
-      <td>https://portaleditora.ufra.edu.br/index.php?lang=pt</td>
+      <td style="word-break: break-word; overflow-wrap: break-word; hyphens: auto; max-width: 0; white-space: normal;">https://portaleditora.ufra.edu.br/index.php?lang=pt</td>
     </tr>
     <tr>
       <td>Universidade Federal do Tocantins</td>
       <td>Sistema de Bibliotecas UFT</td>
       <td>Anais de Conferências, Dissertações, Livros, Monografias, Relatórios e Boletins, Teses</td>
       <td>Eletrônico, com licenças permissivas</td>
-      <td></td>
+      <td style="word-break: break-word; overflow-wrap: break-word; hyphens: auto; max-width: 0; white-space: normal;"></td>
     </tr>
     <tr>
       <td>Universidade Federal de Santa Catarina</td>
       <td>Biblioteca Universitária UFSC</td>
       <td>Anais de Conferências, Livros</td>
       <td>Eletrônico, com licenças permissivas</td>
-      <td>http://portal.bu.ufsc.br/servicos/bu-publicacoes/</td>
+      <td style="word-break: break-word; overflow-wrap: break-word; hyphens: auto; max-width: 0; white-space: normal;">http://portal.bu.ufsc.br/servicos/bu-publicacoes/</td>
     </tr>
     <tr>
       <td>Universidade Federal de Goiás (UFG)</td>
       <td>Sistema de Bibliotecas da Universidade Federal de Goiás (Sibi-UFG)</td>
       <td>Livros, Relatórios e Boletins</td>
       <td>Eletrônico, com licenças permissivas</td>
-      <td>https://bc.ufg.br/p/46992-boletim-informativo-sibi-ufg</td>
+      <td style="word-break: break-word; overflow-wrap: break-word;">https://bc.ufg.br/p/46992-boletim-informativo-sibi-ufg</td>
     </tr>
     <tr>
       <td>Universidade Federal de Minas Gerais (UFMG)</td>
       <td>Sistema de Bibliotecas da UFMG</td>
       <td>Periódicos, Relatórios e Boletins</td>
       <td>Eletrônico, com licenças permissivas</td>
-      <td>https://www.bu.ufmg.br/bu_atual/comunicacao/publicacoes/</td>
+      <td style="word-break: break-word; overflow-wrap: break-word;">https://www.bu.ufmg.br/bu_atual/comunicacao/publicacoes/</td>
     </tr>
     <tr>
       <td>Universidade Federal de São Carlos (UFSCAR)</td>
       <td>Sistema de Bibliotecas da UFSCAR</td>
       <td>Guias e Manuais, Relatórios e Boletins</td>
       <td>Eletrônico, com licenças permissivas</td>
-      <td>https://www.sibi.ufscar.br/publicacoes</td>
+      <td style="word-break: break-word; overflow-wrap: break-word;">https://www.sibi.ufscar.br/publicacoes</td>
     </tr>
     <tr>
       <td>Universidade Federal de Uberlândia (UFU)</td>
       <td>Sistema de Bibliotecas UFU</td>
       <td>Guias e Manuais, Relatórios e Boletins</td>
       <td>Eletrônico, com licenças permissivas</td>
-      <td>https://bibliotecas.ufu.br/sisbi/informativo-sisbi</td>
+      <td style="word-break: break-word; overflow-wrap: break-word;">https://bibliotecas.ufu.br/sisbi/informativo-sisbi</td>
     </tr>
     <tr>
       <td>Universidade Federal do Amazonas (UFAM)</td>
       <td>Sistema de Bibliotecas UFAM</td>
       <td>Guias e Manuais</td>
       <td>Eletrônico, com licenças permissivas</td>
-      <td>https://biblioteca.ufam.edu.br/publicacoes-sistebib.html</td>
+      <td style="word-break: break-word; overflow-wrap: break-word;">https://biblioteca.ufam.edu.br/publicacoes-sistebib.html</td>
     </tr>
     <tr>
       <td>Universidade Federal do Rio de Janeiro (UFRJ)</td>
       <td>Sistema de Bibliotecas UFRJ</td>
       <td>Anais de Conferências, Guias e Manuais</td>
       <td>Eletrônico, com licenças permissivas</td>
-      <td>http://www.sibi.ufrj.br/index.php/produtos-e-servicos/manuais-e-publicacoes</td>
+      <td style="word-break: break-word; overflow-wrap: break-word;">http://www.sibi.ufrj.br/index.php/produtos-e-servicos/manuais-e-publicacoes</td>
     </tr>
     <tr>
       <td>Universidade Federal do Pampa (UNIPAMPA)</td>
       <td>Sistema de Bibliotecas UNIPAMPA</td>
       <td>Wiki</td>
       <td>Eletrônico, com licenças permissivas</td>
-      <td>https://sites.unipampa.edu.br/sisbi/wikipampa/</td>
+      <td style="word-break: break-word !important; overflow-wrap: break-word;">https://sites.unipampa.edu.br/sisbi/wikipampa/</td>
     </tr>
   </tbody>
   <tfoot>
@@ -280,16 +297,27 @@ A partir de pesquisa exploratória documental nos sites das bibliotecas universi
 </div>
 ```
 
+\normalsize
+
 Verificou-se que há uma certa preferência por publicações eletrônicas em acesso aberto sob licenciamento permissivo nos projetos mapeados. Dentre os formatos de publicações listados, em sua maioria foram de formatos tradicionais, como livros, periódicos, trabalhos monográficos, e publicações técnicas como guias, manuais e relatórios. Ainda assim foram encontrados projetos com publicações experimentais como boletins e wikis para informar a comunidade sobre atividades e eventos das bibliotecas, novas aquisições, serviços prestados, etc.
 
 Foram identificados um serviço em parceria entre a editora universitária e a biblioteca universitária da UFRA, cujos produtos permanecem sob acesso restrito para compra, e outro em que a biblioteca possui um selo editorial para publicações – o BU Publicações da Biblioteca Universitária da UFSC. Os demais estavam sob a categoria “Publicações” na arquitetura do website da Biblioteca/SIBI. 
 
 Complementando a @tbl-1 de Santillán-Aldana e Mueller [@SantillanAldanaMueller2016], o @tbl-2 apresenta alguns portais de periódicos vinculados as bibliotecas universitárias brasileiras da amostra mapeados, seja administrados por estas ou que estas participam do Comitê Gestor.
 
+\tiny
+
 ```{=html}
-<div style="overflow-x: auto; width: 100%;">
+<div style="overflow-x: auto;">
 <table id="tbl-2">
-  <caption>Quadro 2 – Portais de Periódicos vinculados a Bibliotecas Universitárias Federais Brasileiras</caption>
+  <caption>Portais de Periódicos vinculados a Bibliotecas Universitárias Federais Brasileiras</caption>
+  <colgroup>
+      <col width="20%"> <!-- Ancho para la columna "Universidade Federal" -->
+      <col width="20%"> <!-- Ancho para la columna "Biblioteca/ SIBI" -->
+      <col width="25%"> <!-- Ancho para la columna "Formatos das publicações" -->
+      <col width="15%"> <!-- Ancho para la columna "Mídias de publicações" -->
+      <col width="20%"> <!-- Ancho para la columna "Website das Iniciativas Library Publishing" -->
+  </colgroup>
   <thead>
     <tr>
       <th>Universidade</th>
@@ -536,6 +564,7 @@ Complementando a @tbl-1 de Santillán-Aldana e Mueller [@SantillanAldanaMueller2
 </table>
 </div>
 ```
+\normalsize
 
 Foram mapeados 33 portais de periódicos vinculados as Bibliotecas Universitárias Federais, em sua maioria administrados por elas, e outros sob participação no Comitê Gestor em colaboração com Editoras Universitárias, Pró-Reitorias, pesquisadores e docentes dos campi, etc. 
 
@@ -545,10 +574,19 @@ Os repositórios institucionais vieram se tornando uma importante e inovadora fe
 
 O @tbl-3 lista alguns repositórios e bibliotecas digitais vinculadas as bibliotecas desta amostra, demonstrando que há suporte e colaboração dos bibliotecários na gestão de publicações científicas institucionais.
 
+\tiny
+
 ```{=html}
-<div style="overflow-x: auto; width: 100%;">
+<div style="overflow-x: auto;">
 <table id="tbl-3">
-  <caption>Quadro 3 – Repositórios e Bibliotecas Digitais vinculados a Bibliotecas Universitárias Federais Brasileiras</caption>
+  <caption>Repositórios e Bibliotecas Digitais vinculados a Bibliotecas Universitárias Federais Brasileiras</caption>
+   <colgroup>
+      <col width="20%"> <!-- Ancho para la columna "Universidade Federal" -->
+      <col width="20%"> <!-- Ancho para la columna "Biblioteca/ SIBI" -->
+      <col width="25%"> <!-- Ancho para la columna "Formatos das publicações" -->
+      <col width="15%"> <!-- Ancho para la columna "Mídias de publicações" -->
+      <col width="20%"> <!-- Ancho para la columna "Website das Iniciativas Library Publishing" -->
+  </colgroup>
   <thead>
     <tr>
       <th>Universidade</th>
@@ -922,13 +960,15 @@ O @tbl-3 lista alguns repositórios e bibliotecas digitais vinculadas as bibliot
 </div>
 ```
 
+\normalsize
+
 Os repositórios mapeados são majoritariamente administrados por setores ou departamentos de Tecnologia Digital ou Informação e Tecnologia de Bibliotecas Centrais ou Sistemas de Bibliotecas vinculadas as Universidades Federais. Outros casos envolvem a participação da Biblioteca no Comitê Gestor, em colaboração com outros agentes como editoras universitárias, Pró-Reitorias, departamentos de tecnologia e sistemas de informação da universidade, pesquisadores e docentes. 
 
 Às bibliotecas cabem a curadoria dos materiais a serem publicados, como trabalhos acadêmicos incluindo em sua maioria dissertações, teses e anais de eventos, e a supervisão do fluxo editorial para atender as normas e políticas editoriais do repositório desenvolvidas por elas. Também desenvolvem para a comunidade de usuários guias e manuais de orientação sobre autoarquivamento de materiais, sobre navegabilidade e buscas no repositório. 
 
 Com o desenvolvimento de infraestruturas acessíveis para publicações, como o OJS, OMP, *DSpace* e outros recursos tecnológicos, as bibliotecas universitárias lideraram a introdução dos repositórios digitais e portais de periódicos eletrônicos no Brasil, expandindo a abrangência de suas atividades para aliar-se a publicação científica aberta de modelo econômico mais sustentável e democrático, impulsionando a criação de sistemas de informação científica de primeira fonte [@ShintakuVidotti2016]. 
 
-# Considerações Finais
+## Considerações Finais
 
 O surgimento do movimento reconhecido como *Library Publishing* representa um campo de possibilidades, com as bibliotecas se engajando com serviços criativos e inovadores colaborando com projetos de produção e edição de publicações originais, se apropriando das tecnologias digitais e de infraestruturas acessíveis para promoção de um sistema de comunicação ético, inclusivo, acessível e transparente. 
 
