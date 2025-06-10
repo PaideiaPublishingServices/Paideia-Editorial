@@ -85,7 +85,7 @@ format:
     $^3$ Universidade Federal do Estado do Rio de Janeiro, Rio de Janeiro, RJ, BR
 }
 
-## Introdução
+## Introdução {.unnumbered}
 
 O sistema de comunicação científica se constitui de um conjunto complexo de atividades, produções, formatos, plataformas e stakeholders integrados que incluem meios formais e informais [@Bonn2023]. Este sistema vem se desenvolvendo a séculos, porém no decorrer das últimas décadas com a ascensão da tecnologia digital, passa por consideráveis e aceleradas transformações, impactando os processos produtivos e comunicativos das publicações científicas [@Meadows1999].
 
@@ -196,7 +196,7 @@ A partir de pesquisa exploratória documental nos sites das bibliotecas universi
 ```{=html}
 <div style="overflow-x: auto;">
 <table id="tbl-1" style="table-layout: fixed;">
-  <caption>Quadro 1 – Iniciativas Library Publishing em Bibliotecas Universitárias Federais Brasileiras</caption>
+  <caption>Iniciativas Library Publishing em Bibliotecas Universitárias Federais Brasileiras</caption>
   <colgroup>
       <col width="20%"> <!-- Ancho para la columna "Universidade Federal" -->
       <col width="20%"> <!-- Ancho para la columna "Biblioteca/ SIBI" -->
@@ -219,7 +219,7 @@ A partir de pesquisa exploratória documental nos sites das bibliotecas universi
       <td>Biblioteca Lourenço José Tavares Vieira da Silva</td>
       <td>Livros, Livros Didáticos</td>
       <td>Eletrônico, Impresso, com acesso restrito</td>
-      <td style="word-break: break-word; overflow-wrap: break-word; hyphens: auto; max-width: 0; white-space: normal;">https://portaleditora.ufra.edu.br/index.php?lang=pt</td>
+      <td style="word-break: break-word; overflow-wrap: break-word; hyphens: auto; max-width: 0; white-space: normal;">https://portaleditora.<br>ufra.edu.br/index.php?lang=pt</td>
     </tr>
     <tr>
       <td>Universidade Federal do Tocantins</td>
@@ -233,7 +233,7 @@ A partir de pesquisa exploratória documental nos sites das bibliotecas universi
       <td>Biblioteca Universitária UFSC</td>
       <td>Anais de Conferências, Livros</td>
       <td>Eletrônico, com licenças permissivas</td>
-      <td style="word-break: break-word; overflow-wrap: break-word; hyphens: auto; max-width: 0; white-space: normal;">http://portal.bu.ufsc.br/servicos/bu-publicacoes/</td>
+      <td style="word-break: break-word; overflow-wrap: break-word; hyphens: auto; max-width: 0; white-space: normal;">http://portal.bu.ufsc.br/<br>servicos/bu-publicacoes/</td>
     </tr>
     <tr>
       <td>Universidade Federal de Goiás (UFG)</td>
@@ -247,42 +247,42 @@ A partir de pesquisa exploratória documental nos sites das bibliotecas universi
       <td>Sistema de Bibliotecas da UFMG</td>
       <td>Periódicos, Relatórios e Boletins</td>
       <td>Eletrônico, com licenças permissivas</td>
-      <td style="word-break: break-word; overflow-wrap: break-word;">https://www.bu.ufmg.br/bu_atual/comunicacao/publicacoes/</td>
+      <td style="word-break: break-word; overflow-wrap: break-word;">https://www.bu.ufmg.br<br>/bu_atual/comunicacao<br>/publicacoes/</td>
     </tr>
     <tr>
       <td>Universidade Federal de São Carlos (UFSCAR)</td>
       <td>Sistema de Bibliotecas da UFSCAR</td>
       <td>Guias e Manuais, Relatórios e Boletins</td>
       <td>Eletrônico, com licenças permissivas</td>
-      <td style="word-break: break-word; overflow-wrap: break-word;">https://www.sibi.ufscar.br/publicacoes</td>
+      <td style="word-break: break-word; overflow-wrap: break-word;">https://www.sibi.ufscar.br<br>/publicacoes</td>
     </tr>
     <tr>
       <td>Universidade Federal de Uberlândia (UFU)</td>
       <td>Sistema de Bibliotecas UFU</td>
       <td>Guias e Manuais, Relatórios e Boletins</td>
       <td>Eletrônico, com licenças permissivas</td>
-      <td style="word-break: break-word; overflow-wrap: break-word;">https://bibliotecas.ufu.br/sisbi/informativo-sisbi</td>
+      <td style="word-break: break-word; overflow-wrap: break-word;">https://bibliotecas.ufu.br<br>/sisbi/informativo-sisbi</td>
     </tr>
     <tr>
       <td>Universidade Federal do Amazonas (UFAM)</td>
       <td>Sistema de Bibliotecas UFAM</td>
       <td>Guias e Manuais</td>
       <td>Eletrônico, com licenças permissivas</td>
-      <td style="word-break: break-word; overflow-wrap: break-word;">https://biblioteca.ufam.edu.br/publicacoes-sistebib.html</td>
+      <td style="word-break: break-word; overflow-wrap: break-word;">https://biblioteca.ufam.edu.br<br>/publicacoes-sistebib.html</td>
     </tr>
     <tr>
       <td>Universidade Federal do Rio de Janeiro (UFRJ)</td>
       <td>Sistema de Bibliotecas UFRJ</td>
       <td>Anais de Conferências, Guias e Manuais</td>
       <td>Eletrônico, com licenças permissivas</td>
-      <td style="word-break: break-word; overflow-wrap: break-word;">http://www.sibi.ufrj.br/index.php/produtos-e-servicos/manuais-e-publicacoes</td>
+      <td style="word-break: break-word; overflow-wrap: break-word;">http://www.sibi.ufrj.br<br>/index.php/produtos-e-servicos<br>/manuais-e-publicacoes</td>
     </tr>
     <tr>
       <td>Universidade Federal do Pampa (UNIPAMPA)</td>
       <td>Sistema de Bibliotecas UNIPAMPA</td>
       <td>Wiki</td>
       <td>Eletrônico, com licenças permissivas</td>
-      <td style="word-break: break-word !important; overflow-wrap: break-word;">https://sites.unipampa.edu.br/sisbi/wikipampa/</td>
+      <td style="word-break: break-word !important; overflow-wrap: break-word;">https://sites.unipampa.edu.br<br>/sisbi/wikipampa/</td>
     </tr>
   </tbody>
   <tfoot>
@@ -331,23 +331,23 @@ Complementando a @tbl-1 de Santillán-Aldana e Mueller [@SantillanAldanaMueller2
     <tr>
       <td>Universidade Federal da Grande Dourados (UFGD)</td>
       <td>Coordenadoria de Bibliotecas UFGD</td>
-      <td>https://portal.ufgd.edu.br/setor/biblioteca/index</td>
+      <td>https://portal.ufgd.edu.br<br>/setor/biblioteca/index</td>
       <td>Portal de periódicos da UFGD</td>
       <td>https://ojs.ufgd.edu.br/</td>
     </tr>
     <tr>
       <td>Universidade Federal do ABC (UFABC)</td>
       <td>Sistema de Bibliotecas UFABC</td>
-      <td>https://portal.biblioteca.ufabc.edu.br/</td>
+      <td>https://portal.biblioteca.<br>ufabc.edu.br/</td>
       <td>Portal de periódicos da UFABC</td>
       <td>https://periodicos.ufabc.edu.br/</td>
     </tr>
     <tr>
       <td>Universidade Federal do Pampa (UNIPAMPA)</td>
       <td>Sistema de Bibliotecas UNIPAMPA</td>
-      <td>https://sites.unipampa.edu.br/sisbi/</td>
+      <td>https://sites.unipampa.<br>edu.br/sisbi/</td>
       <td>PUBLICA-SE - Portal de Periódicos da UNIPAMPA</td>
-      <td>https://periodicos.unipampa.edu.br/index.php/index</td>
+      <td>https://periodicos.unipampa.<br>edu.br/index.php/index</td>
     </tr>
     <tr>
       <td>Universidade de Brasília (UnB)</td>
@@ -366,37 +366,37 @@ Complementando a @tbl-1 de Santillán-Aldana e Mueller [@SantillanAldanaMueller2
     <tr>
       <td>Universidade Federal da Fronteira Sul (UFFS)</td>
       <td>Bibliotecas da UFFS</td>
-      <td>http://www.uffs.edu.br/institucional/pro-reitorias/graduacao/bibliotecas</td>
+      <td>http://www.uffs.edu.br<br>/institucional/pro-reitorias/<br>graduacao/bibliotecas</td>
       <td>Portal de Periódicos da UFFs</td>
-      <td>http://www.uffs.edu.br/institucional/pro-reitorias/graduacao/bibliotecas/portal-de-periodicos-da-uffs</td>
+      <td>http://www.uffs.edu.br<br>/institucional/pro-reitorias/<br>raduacao/bibliotecas/portal-de-periodicos-da-uffs</td>
     </tr>
     <tr>
       <td>Universidade Federal da Integração Latino-Americana (UNILA)</td>
       <td>Bibliotecas UNILA</td>
-      <td>https://portal.unila.edu.br/biblioteca</td>
+      <td>https://portal.unila.edu.br<br>/biblioteca</td>
       <td>Periódicos Digitais BI-UNILA</td>
-      <td>https://portal.unila.edu.br/biblioteca/biblioteca-digital/periodicos</td>
+      <td>https://portal.unila.edu.br<br>/biblioteca/biblioteca-digital/periodicos</td>
     </tr>
     <tr>
       <td>Universidade Federal de Alagoas (UFAL)</td>
       <td>Sistema de Bibliotecas UFAL</td>
       <td>http://sibi.ufal.br/portal/</td>
       <td>Portal de Periódicos da UFAL</td>
-      <td>https://sibi.ufal.br/portal/?page_id=1718</td>
+      <td>https://sibi.ufal.br/portal<br>/?page_id=1718</td>
     </tr>
     <tr>
       <td>Universidade Federal de Alfenas (UNIFAL-MG)</td>
       <td>Sistema de Bibliotecas UNIFAL</td>
-      <td>https://www.unifal-mg.edu.br/bibliotecas/</td>
+      <td>https://www.unifal-mg.edu.br<br>/bibliotecas/</td>
       <td>Universidade Federal de Alfenas - UNIFAL-MG - Revistas</td>
-      <td>http://publicacoes.unifal-mg.edu.br/revistas/</td>
+      <td>http://publicacoes.unifal-mg.edu.br<br>/revistas/</td>
     </tr>
     <tr>
       <td>Universidade Federal de Catalão (UFCAT)</td>
       <td>Biblioteca Universitária UFCAT</td>
       <td>https://bib.catalao.ufg.br/</td>
       <td>Portal de Periódicos da Universidade Federal de Catalão (PP/UFCAT)</td>
-      <td>https://bib.catalao.ufg.br/p/periodicos-ufcat</td>
+      <td>https://bib.catalao.ufg.br/<br>p/periodicos-ufcat</td>
     </tr>
     <tr>
       <td>Universidade Federal de Goiás (UFG)</td>
@@ -408,7 +408,7 @@ Complementando a @tbl-1 de Santillán-Aldana e Mueller [@SantillanAldanaMueller2
     <tr>
       <td>Universidade Federal de Juiz de Fora (UFJF)</td>
       <td>Bibliotecas UFJF</td>
-      <td>https://www2.ufjf.br/biblioteca/</td>
+      <td>https://www2.ufjf.br<br>/biblioteca/</td>
       <td>Portal de Periódicos Científicos da UFJF</td>
       <td>https://periodicos.ufjf.br/</td>
     </tr>
@@ -422,9 +422,9 @@ Complementando a @tbl-1 de Santillán-Aldana e Mueller [@SantillanAldanaMueller2
     <tr>
       <td>Universidade Federal de Minas Gerais (UFMG)</td>
       <td>Sistema de Bibliotecas da UFMG</td>
-      <td>https://www.bu.ufmg.br/bu_atual/</td>
+      <td>https://www.bu.ufmg.br<br>/bu_atual/</td>
       <td>Periódicos UFMG</td>
-      <td>https://www.bu.ufmg.br/bu_atual/comunicacao/publicacoes/periodicos-ufmg/</td>
+      <td>https://www.bu.ufmg.br/<br>bu_atual/comunicacao/publicacoes<br>/periodicos-ufmg/</td>
     </tr>
     <tr>
       <td>Universidade Federal de Ouro Preto (UFOP)</td>
@@ -445,7 +445,7 @@ Complementando a @tbl-1 de Santillán-Aldana e Mueller [@SantillanAldanaMueller2
       <td>Sistema Integrado de Bibliotecas da UFPE</td>
       <td>https://www.ufpe.br/sib</td>
       <td>Portal de Periódicos da UFPE</td>
-      <td>https://www.ufpe.br/sib/periodicos</td>
+      <td>https://www.ufpe.br/<br>sib/periodicos</td>
     </tr>
     <tr>
       <td>Universidade Federal de Santa Catarina (UFSC)</td>
@@ -457,7 +457,7 @@ Complementando a @tbl-1 de Santillán-Aldana e Mueller [@SantillanAldanaMueller2
     <tr>
       <td>Universidade Federal de Santa Maria (UFSM)</td>
       <td>Biblioteca Central UFSM</td>
-      <td>https://www.ufsm.br/orgaos-suplementares/biblioteca/</td>
+      <td>https://www.ufsm.br/<br>orgaos-suplementares/biblioteca/</td>
       <td>Portal de Periódicos UFSM</td>
       <td>https://periodicos.ufsm.br/</td>
     </tr>
@@ -466,7 +466,7 @@ Complementando a @tbl-1 de Santillán-Aldana e Mueller [@SantillanAldanaMueller2
       <td>Coordenadoria da Rede de Bibliotecas UNIFESP</td>
       <td>https://bibliotecas.unifesp.br/</td>
       <td>Portal de Periódicos da UNIFESP</td>
-      <td>https://bibliotecas.unifesp.br/#periodicos</td>
+      <td>https://bibliotecas.unifesp.br<br>/#periodicos</td>
     </tr>
     <tr>
       <td>Universidade Federal de Uberlândia (UFU)</td>
@@ -499,16 +499,16 @@ Complementando a @tbl-1 de Santillán-Aldana e Mueller [@SantillanAldanaMueller2
     <tr>
       <td>Universidade Federal do Estado do Rio de Janeiro (UNIRIO)</td>
       <td>Biblioteca Central UNIRIO</td>
-      <td>http://www.unirio.br/bibliotecacentral</td>
+      <td>http://www.unirio.br<br>/bibliotecacentral</td>
       <td>Portal de Periódicos da UNIRIO</td>
-      <td>https://www.unirio.br/bibliotecacentral/periodicos/</td>
+      <td>https://www.unirio.br/<br>bibliotecacentral/periodicos/</td>
     </tr>
     <tr>
       <td>Universidade Federal do Maranhão (UFMA)</td>
       <td>Divisão de Bibliotecas UFMA</td>
-      <td>https://portais.ufma.br/PortalUnidade/dib/</td>
+      <td>https://portais.ufma.br<br>/PortalUnidade/dib/</td>
       <td>Periódicos UFMA</td>
-      <td>http://www.periodicoseletronicos.ufma.br/</td>
+      <td>http://www.periodicoseletronicos.<br>ufma.br/</td>
     </tr>
     <tr>
       <td>Universidade Federal do Paraná (UFPR)</td>
@@ -529,7 +529,7 @@ Complementando a @tbl-1 de Santillán-Aldana e Mueller [@SantillanAldanaMueller2
       <td>Biblioteca Central Zila Mamede (UFRN)</td>
       <td>http://sisbi.ufrn.br/bczm/</td>
       <td>Portal de Periódicos Eletrônicos da UFRN</td>
-      <td>https://periodicos.ufrn.br/index/</td>
+      <td>https://periodicos.ufrn.br<br>/index/</td>
     </tr>
     <tr>
       <td>Universidade Federal Rural de Pernambuco (UFRPE)</td>
@@ -541,14 +541,14 @@ Complementando a @tbl-1 de Santillán-Aldana e Mueller [@SantillanAldanaMueller2
     <tr>
       <td>Universidade Federal Rural do Semi-Árido (UFERSA)</td>
       <td>Sistema de Bibliotecas UFERSA</td>
-      <td>https://bibliotecas.ufersa.edu.br/</td>
+      <td>https://bibliotecas.ufersa.<br>edu.br/</td>
       <td>Portal de Periódicos da UFERSA</td>
-      <td>https://bibliotecas.ufersa.edu.br/portal-de-periodicos-da-ufersa/</td>
+      <td>https://bibliotecas.ufersa.edu.br<br>/portal-de-periodicos-da-ufersa/</td>
     </tr>
     <tr>
       <td>Universidade Tecnológica Federal do Paraná (UTFPR)</td>
       <td>Sistema de Bibliotecas da UTFPR</td>
-      <td>http://portal.utfpr.edu.br/biblioteca</td>
+      <td>http://portal.utfpr.edu.br<br>/biblioteca</td>
       <td>Portal de Periódicos Científicos da UTFRP</td>
       <td>http://periodicos.utfpr.edu.br/</td>
     </tr>
@@ -600,42 +600,42 @@ O @tbl-3 lista alguns repositórios e bibliotecas digitais vinculadas as bibliot
     <tr>
       <td>Fundação Universidade Federal Da Grande Dourados (UFGD)</td>
       <td>Coordenadoria de Bibliotecas UFGD</td>
-      <td>https://portal.ufgd.edu.br/setor/biblioteca/index</td>
+      <td>https://portal.ufgd.edu.br<br>/setor/biblioteca/index</td>
       <td>Repositório Institucional UFGD</td>
-      <td>https://portal.ufgd.edu.br/setor/biblioteca/repositorio</td>
+      <td>https://portal.ufgd.edu.br<br>/setor/biblioteca/repositorio</td>
     </tr>
     <tr>
       <td>Fundação Universidade Federal De Ciências Da Saúde De Porto Alegre (UFCSPA)</td>
       <td>Biblioteca Paulo Lacerda de Azevedo (UFCSPA)</td>
-      <td>https://ufcspa.edu.br/vida-academica/biblioteca</td>
+      <td>https://ufcspa.edu.br<br>/vida-academica/biblioteca</td>
       <td>Repositório Institucional da UFCSPA (RI-UFCSPA)</td>
       <td>https://repositorio.ufcspa.edu.br/</td>
     </tr>
     <tr>
       <td>Fundação Universidade Federal De Rondônia (UNIR)</td>
       <td>Sistema de Bibliotecas (SIBI)</td>
-      <td>http://www.bibliotecacentral.unir.br/</td>
+      <td>http://www.bibliotecacentral.<br>unir.br/</td>
       <td>Repositório Institucional UNIR</td>
-      <td>http://www.ri.unir.br/jspui/</td>
+      <td>http://www.ri.unir.br<br>/jspui/</td>
     </tr>
     <tr>
       <td>Fundação Universidade Federal Do Pampa - Unipampa (UNIPAMPA)</td>
       <td>Sistema de Bibliotecas da UNIPAMPA</td>
-      <td>https://sites.unipampa.edu.br/sisbi/</td>
+      <td>https://sites.unipampa.edu.br<br>/sisbi/</td>
       <td>Repositório Institucional da UNIPAMPA</td>
-      <td>https://repositorio.unipampa.edu.br/</td>
+      <td>https://repositorio.unipampa.<br>edu.br/</td>
     </tr>
     <tr>
       <td>Fundação Universidade Federal Do Tocantins (UFT)</td>
       <td>Sistema de Bibliotecas UFT</td>
-      <td>https://ww2.uft.edu.br/sisbib</td>
+      <td>https://ww2.uft.edu.br<br>/sisbib</td>
       <td>Repositório Institucional da UFT</td>
       <td>http://repositorio.uft.edu.br/</td>
     </tr>
     <tr>
       <td>Universidade da Integração Internacional da Lusofonia Afro-Brasileira (UNILAB)</td>
       <td>Sistema de Bibliotecas da Unilab (Sibiuni)</td>
-      <td>http://unilab.edu.br/biblioteca-universitaria-unilab/</td>
+      <td>http://unilab.edu.br<br>/biblioteca-universitaria-unilab/</td>
       <td>Repositório Institucional UNILAB</td>
       <td>http://repositorio.unilab.edu.br/</td>
     </tr>
@@ -644,75 +644,75 @@ O @tbl-3 lista alguns repositórios e bibliotecas digitais vinculadas as bibliot
       <td>Sistema de Bibliotecas da Universidade de Brasília (SiB-UnB)</td>
       <td>https://bce.unb.br/</td>
       <td>Repositório Institucional RIUnB</td>
-      <td>https://bce.unb.br/bibliotecas-digitais/repositorio/</td>
+      <td>https://bce.unb.br/<br>bibliotecas-digitais/repositorio/</td>
     </tr>
     <tr>
       <td>Universidade Federal da Bahia (UFBA)</td>
       <td>Sistema Universitário de Bibliotecas UFBA</td>
       <td>http://www.sibi.ufba.br/</td>
       <td>Repositório Institucional UFBA</td>
-      <td>https://sibi.ufba.br/repositorio-institucional-ufba</td>
+      <td>https://sibi.ufba.br/<br>repositorio-institucional-ufba</td>
     </tr>
     <tr>
       <td>Universidade Federal da Fronteira Sul (UFFS)</td>
       <td>Divisão de Bibliotecas UFFS</td>
-      <td>http://www.uffs.edu.br/institucional/pro-reitorias/graduacao/bibliotecas</td>
+      <td>http://www.uffs.edu.br/<br>institucional/pro-reitorias/<br>graduacao/bibliotecas</td>
       <td>Repositório Institucional UFFS</td>
       <td>https://rd.uffs.edu.br/</td>
     </tr>
     <tr>
       <td>Universidade Federal da Integração Latino-Americana (UNILA)</td>
       <td>Biblioteca Latino-Americana (BIUNILA)</td>
-      <td>https://portal.unila.edu.br/biblioteca</td>
+      <td>https://portal.unila.edu.<br>br/biblioteca</td>
       <td>Repositório Institucional da UNILA (RI-UNILA)</td>
-      <td>https://portal.unila.edu.br/biblioteca/repositorio-institucional</td>
+      <td>https://portal.unila.edu.br<br>/biblioteca/repositorio-institucional</td>
     </tr>
     <tr>
       <td>Universidade Federal de Alagoas (UFAL)</td>
       <td>Sistema de Bibliotecas da UFAL</td>
       <td>http://sibi.ufal.br/portal/</td>
       <td>Repositório Institucional da Ufal (RI/UFAL)</td>
-      <td>https://sibi.ufal.br/portal/?page_id=1334</td>
+      <td>https://sibi.ufal.br/<br>portal/?page_id=1334</td>
     </tr>
     <tr>
       <td>Universidade Federal de Catalão (UFCAT)</td>
       <td>Biblioteca Universitária - UFCAT</td>
       <td>https://bib.catalao.ufg.br/</td>
       <td>Biblioteca Digital de Teses e Dissertações (BDTD/UFCAT)</td>
-      <td>https://bib.catalao.ufg.br/p/bdtd</td>
+      <td>https://bib.catalao.ufg.br/<br>p/bdtd</td>
     </tr>
     <tr>
       <td>Universidade Federal de Goiás (UFG)</td>
       <td>Sistema de Bibliotecas (UFG)</td>
       <td>https://www.bc.ufg.br/</td>
       <td>Repositório Institucional UFG</td>
-      <td>http://repositorio.bc.ufg.br/tede/</td>
+      <td>http://repositorio.bc.ufg.br<br>/tede/</td>
     </tr>
     <tr>
       <td>Universidade Federal de Jataí (UFJ)</td>
       <td>Sistema de Bibliotecas UFJ</td>
       <td>https://bibliotecas.jatai.ufg.br/</td>
       <td>Repositório Institucional UFJ</td>
-      <td>https://sophia.ufj.edu.br/TerminalWebRI</td>
+      <td>https://sophia.ufj.edu.br<br>/TerminalWebRI</td>
     </tr>
     <tr>
       <td>Universidade Federal de Juiz de Fora (UFJF)</td>
       <td>Centro de Difusão do Conhecimento (CDC-UFJF)</td>
-      <td>https://www2.ufjf.br/biblioteca/</td>
+      <td>https://www2.ufjf.br<br>/biblioteca/</td>
       <td>Repositório Institucional Digital da Produção Científica e Intelectual da UFJF (Ri-UFJF)</td>
-      <td>https://www2.ufjf.br/biblioteca/pesquisa/repositorioinstitucional/</td>
+      <td>https://www2.ufjf.br<br>/biblioteca/pesquisa/<br>repositorioinstitucional/</td>
     </tr>
     <tr>
       <td>Universidade Federal de Lavras (UFLA)</td>
       <td>Biblioteca Universitária UFLA</td>
-      <td>http://biblioteca.ufla.br/site/</td>
+      <td>http://biblioteca.ufla.br/<br>site/</td>
       <td>Repositório Institucional RI-UFLA</td>
       <td>http://repositorio.ufla.br/</td>
     </tr>
     <tr>
       <td>Universidade Federal de Mato Grosso (UFMT)</td>
       <td>Biblioteca Central UFMT</td>
-      <td>https://www.ufmt.br/unidade/biblioteca</td>
+      <td>https://www.ufmt.br/unidade<br>/biblioteca</td>
       <td>Repositório Institucional UFMT</td>
       <td>https://ri.ufmt.br/</td>
     </tr>
@@ -733,7 +733,7 @@ O @tbl-3 lista alguns repositórios e bibliotecas digitais vinculadas as bibliot
     <tr>
       <td>Universidade Federal de Minas Gerais (UFMG)</td>
       <td>Sistema de Bibliotecas da UFMG (BU-SB/UFMG)</td>
-      <td>https://www.bu.ufmg.br/bu_atual/</td>
+      <td>https://www.bu.ufmg.br<br>/bu_atual/</td>
       <td>Repositório Institucional (RI-UFMG)</td>
       <td>https://repositorio.ufmg.br/</td>
     </tr>
@@ -761,7 +761,7 @@ O @tbl-3 lista alguns repositórios e bibliotecas digitais vinculadas as bibliot
     <tr>
       <td>Universidade Federal de Santa Maria (UFSM)</td>
       <td>Sistema de Bibliotecas da UFSM</td>
-      <td>https://www.ufsm.br/orgaos-suplementares/biblioteca/</td>
+      <td>https://www.ufsm.br/<br>orgaos-suplementares/biblioteca/</td>
       <td>Manancial - Repositório Digital UFSM</td>
       <td>https://repositorio.ufsm.br/</td>
     </tr>
@@ -777,7 +777,7 @@ O @tbl-3 lista alguns repositórios e bibliotecas digitais vinculadas as bibliot
       <td>UFSJ Bibliotecas</td>
       <td>http://dibib.ufsj.edu.br/</td>
       <td>Repositório Institucional da UFSJ (RI-UFSJ)</td>
-      <td>http://dibib.ufsj.edu.br/wordpress/?page_id=80</td>
+      <td>http://dibib.ufsj.edu.br/<br>wordpress/?page_id=80</td>
     </tr>
     <tr>
       <td>Universidade Federal de São Paulo (UNIFESP)</td>
@@ -789,7 +789,7 @@ O @tbl-3 lista alguns repositórios e bibliotecas digitais vinculadas as bibliot
     <tr>
       <td>Universidade Federal de Sergipe (UFS)</td>
       <td>Sistema de Bibliotecas da Universidade Federal de Sergipe - SIBIUFS</td>
-      <td>http://bibliotecas.ufs.br/pagina/152-bibliotecas-da-ufs</td>
+      <td>http://bibliotecas.ufs.br/<br>pagina/152-bibliotecas-da-ufs</td>
       <td>Repositório Institucional (RIUFS)</td>
       <td>https://ri.ufs.br/</td>
     </tr>
@@ -805,19 +805,19 @@ O @tbl-3 lista alguns repositórios e bibliotecas digitais vinculadas as bibliot
       <td>Biblioteca Central Professor Antônio Secundino de São José</td>
       <td>http://www.bbt.ufv.br/</td>
       <td>LOCUS - Repositório institucional da Universidade Federal de Viçosa</td>
-      <td>https://www.bbt.ufv.br/repositorio/</td>
+      <td>https://www.bbt.ufv.br<br>/repositorio/</td>
     </tr>
     <tr>
       <td>Universidade Federal do Agreste de Pernambuco (UFAPE)</td>
       <td>Sistema Integrado de Bibliotecas UFAPE</td>
-      <td>http://ufape.edu.br/br/biblioteca-ariano-suassuna</td>
+      <td>http://ufape.edu.br/<br>br/biblioteca-ariano-suassuna</td>
       <td>Repositório Institucional da UFRPE (RI UFRPE)</td>
       <td>https://repository.ufrpe.br/</td>
     </tr>
     <tr>
       <td>Universidade Federal do Amapá (UNIFAP)</td>
       <td>Biblioteca Central UNIFAP</td>
-      <td>https://www2.unifap.br/biblioteca/</td>
+      <td>https://www2.unifap.br<br>/biblioteca/</td>
       <td>Repositório Institucional UNIFAP</td>
       <td>http://repositorio.unifap.br/</td>
     </tr>
@@ -831,14 +831,14 @@ O @tbl-3 lista alguns repositórios e bibliotecas digitais vinculadas as bibliot
     <tr>
       <td>Universidade Federal do Ceará (UFC)</td>
       <td>Sistema de Bibliotecas (UFC)</td>
-      <td>http://www.ufc.br/biblioteca</td>
+      <td>http://www.ufc.br<br>/biblioteca</td>
       <td>Repositório Institucional (UFC)</td>
-      <td>https://biblioteca.ufc.br/pt/servicos-e-produtos/repositorio-institucional/</td>
+      <td>https://biblioteca.ufc.br/<br>pt/servicos-e-produtos/repositorio-institucional/</td>
     </tr>
     <tr>
       <td>Universidade Federal do Delta do Parnaíba (UFDPAR)</td>
       <td>Biblioteca Central UFDPAR</td>
-      <td>https://ufdpar.edu.br/ufdpar/biblioteca</td>
+      <td>https://ufdpar.edu.br/ufdpar/<br>biblioteca</td>
       <td>Repositório Institucional UFDPAR</td>
       <td>https://repositorioinstitucional.ufdpar.edu.br/</td>
     </tr>
@@ -852,49 +852,49 @@ O @tbl-3 lista alguns repositórios e bibliotecas digitais vinculadas as bibliot
     <tr>
       <td>Universidade Federal do Estado do Rio De Janeiro (UNIRIO)</td>
       <td>Sistema de Bibliotecas da UNIRIO (UNIBIBLI)</td>
-      <td>http://www.unirio.br/bibliotecacentral</td>
+      <td>http://www.unirio.br<br>/bibliotecacentral</td>
       <td>Hórus – Repositório Institucional da UNIRIO</td>
-      <td>https://www.unirio.br/bibliotecacentral/horus</td>
+      <td>https://www.unirio.br/<br>bibliotecacentral/horus</td>
     </tr>
     <tr>
       <td>Universidade Federal do Maranhão (UFMA)</td>
       <td>Núcleo Integrado de Bibliotecas (NIB-UFAM)</td>
-      <td>https://portais.ufma.br/PortalUnidade/dib/</td>
+      <td>https://portais.ufma.br/<br>PortalUnidade/dib/</td>
       <td>Repositório Institucional UFMA</td>
-      <td>https://repositorio.ufma.br/jspui/</td>
+      <td>https://repositorio.ufma.br<br>/jspui/</td>
     </tr>
     <tr>
       <td>Universidade Federal do Norte do Tocantins (UFNT)</td>
       <td>Sistema de Bibliotecas da UFNT</td>
-      <td>https://ufnt.edu.br/sistema-de-bibliotecas-sibi-da-ufnt/</td>
+      <td>https://ufnt.edu.br/<br>sistema-de-bibliotecas-sibi-da-ufnt/</td>
       <td>Repositório Institucional UFNT</td>
-      <td>https://repositorio.uft.edu.br/?locale=pt_BR</td>
+      <td>https://repositorio.uft.edu.br<br>?locale=pt_BR</td>
     </tr>
     <tr>
       <td>Universidade Federal do Oeste do Pará (UFOPA)</td>
       <td>Sistema Integrado de Bibliotecas UFOPA</td>
-      <td>http://ufopa.edu.br/sibi/</td>
+      <td>http://ufopa.edu.br<br>/sibi/</td>
       <td>Poraquê – Repositório Institucional UFOPA</td>
-      <td>https://repositorio.ufopa.edu.br/jspui/</td>
+      <td>https://repositorio.ufopa.edu.br<br>/jspui/</td>
     </tr>
     <tr>
       <td>Universidade Federal do Pará (UFPA)</td>
       <td>Sistema de Bibliotecas UFPA</td>
       <td>http://bc.ufpa.br/</td>
       <td><p>Repositorio Institucional da UFPA.</p><p>Biblioteca Digital de Monografias da UFPA</p></td>
-      <td><p>https://repositorio.ufpa.br/</p><p>https://bdm.ufpa.br/</p></td>
+      <td><p>https://repositorio.ufpa.br/</p><br><p>https://bdm.ufpa.br/</p></td>
     </tr>
     <tr>
       <td>Universidade Federal do Paraná (UFPR)</td>
       <td>Sistema de Bibliotecas da UFPR</td>
       <td>https://portal.ufpr.br/</td>
       <td>Repositório Digital Institucional da UFPR (RDI/UFPR)</td>
-      <td>https://bibliotecas.ufpr.br/repositorio/</td>
+      <td>https://bibliotecas.ufpr.br<br>/repositorio/</td>
     </tr>
     <tr>
       <td>Universidade Federal do Recôncavo da Bahia (UFRB)</td>
       <td>Sistema de Bibliotecas UFRB</td>
-      <td>https://www.ufrb.edu.br/biblioteca/</td>
+      <td>https://www.ufrb.edu.br<br>/biblioteca/</td>
       <td>Cabloco - Repositório Institucional UFRB</td>
       <td>https://ri.ufrb.edu.br/</td>
     </tr>
@@ -903,12 +903,12 @@ O @tbl-3 lista alguns repositórios e bibliotecas digitais vinculadas as bibliot
       <td>Sistema de Bibliotecas e Informação UFRJ</td>
       <td>http://www.sibi.ufrj.br/</td>
       <td>Pantheon - Repositório Institucional da UFRJ</td>
-      <td>http://www.sibi.ufrj.br/index.php/inicio/524-pantheon-repositorio-institucional-da-ufrj</td>
+      <td>http://www.sibi.ufrj.br<br>/index.php/inicio/524-pantheon-<br>repositorio-institucional-da-ufrj</td>
     </tr>
     <tr>
       <td>Universidade Federal do Rio Grande do Norte (UFRN)</td>
       <td>Biblioteca Central Zila Mamede (UFRN)</td>
-      <td>http://sisbi.ufrn.br/bczm/</td>
+      <td>http://sisbi.ufrn.br<br>/bczm/</td>
       <td>Repositório Institucional UFRN</td>
       <td>https://repositorio.ufrn.br/</td>
     </tr>
@@ -922,16 +922,16 @@ O @tbl-3 lista alguns repositórios e bibliotecas digitais vinculadas as bibliot
     <tr>
       <td>Universidade Federal dos Vales do Jequitinhonha e Mucuri (UFVJM)</td>
       <td>Sistema de Bibliotecas da UFJVM</td>
-      <td>http://ufvjm.edu.br/biblioteca/</td>
+      <td>http://ufvjm.edu.br<br>/biblioteca/</td>
       <td>Repositório Institucional da UFJVM</td>
-      <td>http://ufvjm.edu.br/biblioteca/repositorioinstitucional.html</td>
+      <td>http://ufvjm.edu.br/biblioteca<br>/repositorioinstitucional.html</td>
     </tr>
     <tr>
       <td>Universidade Federal Fluminense (UFF)</td>
       <td>Superintendência de Documentação UFF</td>
-      <td>http://www.uff.br/?q=grupo/sistema-de-bibliotecas-e-arquivos-uff</td>
+      <td>http://www.uff.br/<br>?q=grupo/sistema-de-bibliotecas-e-arquivos-uff</td>
       <td>Repositório Institucional UFF</td>
-      <td>http://www.repositorio.uff.br/jspui/</td>
+      <td>http://www.repositorio.uff.br<br>/jspui/</td>
     </tr>
     <tr>
       <td>Universidade Federal Rural de Pernambuco (UFRPE)</td>
@@ -943,9 +943,9 @@ O @tbl-3 lista alguns repositórios e bibliotecas digitais vinculadas as bibliot
     <tr>
       <td>Universidade Federal Rural do Semi-Árido (UFERSA)</td>
       <td>Sistema de Bibliotecas UFERSA</td>
-      <td>https://bibliotecas.ufersa.edu.br/</td>
+      <td>https://bibliotecas.ufersa.<br>edu.br/</td>
       <td>Repositório Digital da Universidade Federal Rural do Semi-Árido (RDU)</td>
-      <td>https://repositorio.ufersa.edu.br/home</td>
+      <td>https://repositorio.ufersa.edu.br<br>/home</td>
     </tr>
   </tbody>
   <tfoot>

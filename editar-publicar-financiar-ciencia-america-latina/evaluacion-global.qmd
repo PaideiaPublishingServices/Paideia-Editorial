@@ -62,7 +62,7 @@ lang: es
 \chapterauthors{Tomás Koch Ewertz$^1$, Paulina Peña Pallauta$^1$, Lu Puppato$^1$}
 \chapteraffiliations{$^1$Universidad de Playa Ancha, Valparaíso, Valparaíso, CL}
 
-## Introducción
+## Introducción {.unnumbered}
 
 En nuestro interconectado mundo, la distinción entre lo local y lo global se vuelve cada vez más difusa. Mientras que fenómenos globales como las crisis financieras, la actual crisis ambiental o la reciente pandemia SarS-COV-2 nos recuerdan cómo los fenómenos globales tienen efectos en los distintos rincones del planeta, la evidencia nos muestra también que estos efectos no son homogéneos [@arezki_global_2018; @kaya_global_2020]. Si bien la localización geográfica ha tendido cada vez más a perder relevancia debido a los avances en las tecnologías de comunicación y transporte, las posiciones geográficas se corresponden en buena medida con determinados procesos históricos, políticos y económicos que han estructurado el mundo en torno a centros y periferias [@wallerstein_modern_1974].
 
@@ -140,11 +140,9 @@ Para el análisis de estos indicadores, se empleó un enfoque basado en técnica
 
 El siguiente gráfico presenta los principales hallazgos de este proceso, destacando la importancia de las bases de datos e índices en la evaluación curricular para acceder a fondos de investigación en Chile. Al respecto, es importante destacar que el uso de índices es considerado en todas las disciplinas, aunque con las variaciones a continuación descritas.
 
-**Gráfico 1.** Porcentaje de disciplinas que incorporan distintos índices académicos para la evaluación curricular en el concurso Fondecyt regular según áreas disciplinares (2008-2020)
+![Porcentaje de disciplinas que incorporan distintos índices académicos para la evaluación curricular en el concurso Fondecyt regular según áreas disciplinares (2008-2020)](img/De-la-evaluacion-global.png){#fig-1}
 
-![Gráfico 1](img/De-la-evaluacion-global.png)
-
-El gráfico 1 analiza el comportamiento histórico de la presencia de índices académicos como criterios de evaluación curricular de Fondecyt regular (2008-2020) en cuatro áreas disciplinares: Ingeniería y Tecnología, Ciencias Agrícolas y de la Salud, Ciencias Naturales y Ciencias Sociales y Humanidades. En otras palabras, el gráfico muestra qué tipo de artículos son considerados en la evaluación curricular de postulantes al principal instrumento individual para el financiamiento de la ciencia en Chile.
+La @fig-1 analiza el comportamiento histórico de la presencia de índices académicos como criterios de evaluación curricular de Fondecyt regular (2008-2020) en cuatro áreas disciplinares: Ingeniería y Tecnología, Ciencias Agrícolas y de la Salud, Ciencias Naturales y Ciencias Sociales y Humanidades. En otras palabras, el gráfico muestra qué tipo de artículos son considerados en la evaluación curricular de postulantes al principal instrumento individual para el financiamiento de la ciencia en Chile.
 
 En relación a estas áreas disciplinares, dentro de Ingeniería y Tecnología, llama la atención el temprano abandono de las bases de datos regionales (SciELO), evidenciando un marcado dominio de ISI/WoS a lo largo de todo el período. Esto significa que desde 2009 solo los artículos publicados en revistas indexadas en ISI/WoS otorgan puntaje en estas disciplinas. La ausencia de diversidad en los índices utilizados no sólo refleja una homogeneidad respecto a los criterios de evaluación curricular, sino que evidencia una dependencia absoluta de las bases de datos internacionales como único marcador de excelencia.
 
