@@ -43,7 +43,7 @@ book:
     - evaluacion-global.qmd
     - editorial-em-bibliotecas.qmd
   # - summary.qmd
-    - references.qmd #Comentar para que funcione el filtro lua en HTML - Descomentar para exportar a PDF
+  #  - references.qmd #Comentar para que funcione el filtro lua en HTML - Descomentar para exportar a PDF
 
 license: "CC BY"
 copyright: "Editar, publicar y financiar ciencia en América Latina © 2025 por Gimena del Rio Riande & Patricio Iván Pantaleo (Coord.) se distribuye bajo licencia CC BY 4.0"

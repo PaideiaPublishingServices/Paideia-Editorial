@@ -4,6 +4,22 @@
 \usepackage{geometry}
 \usepackage{graphicx}
 \usepackage{pdfpages}
+\usepackage{tcolorbox}
+
+% USAR FUENTES CLÁSICAS DE LaTeX (sin fontspec para evitar problemas)
+\usepackage{mathptmx}  % Times-like font
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+% NUMERACIÓN CONSECUTIVA DE FIGURAS Y TABLAS
+\usepackage{chngcntr}
+\counterwithout{figure}{chapter}
+\counterwithout{table}{chapter}
+
+% COLORES BASADOS EN LA TAPA (verde pálido)
+\definecolor{chaptercolor}{RGB}{85, 180, 120}    % Verde pálido similar a la tapa
+\definecolor{accentcolor}{RGB}{242, 169, 0}      % Dorado como acento
+\definecolor{lightgreen}{RGB}{200, 230, 210}     % Verde muy pálido para fondos
 
 % TAPA AL INICIO
 \AtBeginDocument{%
@@ -15,50 +31,88 @@
   \includepdf[pages=-]{CONTRATAPA.pdf}
 }
 
-% Comando para DOI del capítulo (con salto de línea al final)
+% Comando para DOI del capítulo (forzando espaciado pequeño)
 \newcommand{\chapterdoi}[1]{%
-  \vspace{-1em}
-  \noindent\small DOI: #1\\[0.5em]
+  \vspace*{-0.5em}  % Usar \vspace* para forzar
+  \begin{center}
+    \textcolor{chaptercolor}{\rule{0.3\textwidth}{0.5pt}}\\[-0.2em]  % Espaciado negativo
+    \small\textbf{\color{chaptercolor}DOI:} \textrm{#1}\\[-0.2em]    % Espaciado negativo
+    \textcolor{chaptercolor}{\rule{0.3\textwidth}{0.5pt}}
+  \end{center}
+  \vspace*{-0.3em}  % Espaciado negativo y forzado
 }
 
-% Comando personalizado para autores (debajo del DOI)
+% Comando personalizado para autores (forzando espaciado pequeño)
 \newcommand{\chapterauthors}[1]{%
-  \noindent\textit{#1}\\[0.8em]
+  \vspace*{-0.5em}  % Reducir espacio antes
+  \begin{center}
+    \Large\textit{\color{chaptercolor}#1}
+  \end{center}
+  \vspace*{-0.5em}  % Reducir espacio después
 }
 
-% Comando para afiliaciones (con espaciado amplio)
+% Comando para afiliaciones (forzando espaciado pequeño)
 \newcommand{\chapteraffiliations}[1]{%
-  \noindent\small #1
-  \vspace{1.5em}
+  \vspace*{-0.3em}  % Reducir espacio antes
+  \begin{center}
+    \small\color{gray}#1
+  \end{center}
+  \vspace*{-0.2em}  % Espaciado muy pequeño
+  \noindent\textcolor{chaptercolor}{\rule{\textwidth}{0.8pt}}
+  \vspace*{0.2em}   % Espaciado mínimo después de línea
   \newpage
 }
 
-% Comando para información de contribuciones CRediT (sin espacios automáticos)
+% Comando mejorado para información de contribuciones CRediT (sin sombra)
 \newcommand{\creditcontributions}[1]{%
-  \vspace{0.1em}
-  \noindent\fbox{%
-    \begin{minipage}{0.95\textwidth}
-      \small
-      \textbf{Contribuciones de autoría (CRediT):}\\
-      #1\\
-      \footnotesize\textit{Taxonomía CRediT (Contributor Roles Taxonomy):}\\
-      • Versión original (inglés): https://credit.niso.org/\\
-      • Traducción al español: https://terminologias.filo.uba.ar/vocabs/1007
-    \end{minipage}%
-  }
-  \vspace{-0.2em}
+  \vspace{1em}
+  \begin{tcolorbox}[
+    colback=white,
+    colframe=chaptercolor,
+    boxrule=1.5pt,
+    arc=8pt,
+    left=15pt,
+    right=15pt,
+    top=12pt,
+    bottom=12pt
+  ]
+    \small
+    \textbf{\color{chaptercolor}Contribuciones de autoría (CRediT):}\\[0.8em]
+    \color{black}#1\\[0.8em]
+    \footnotesize\textit{\color{gray}Taxonomía CRediT (Contributor Roles Taxonomy):}\\[0.3em]
+    \footnotesize\color{gray}• Versión original (inglés): https://credit.niso.org/\\
+    \footnotesize\color{gray}• Traducción al español: https://terminologias.filo.uba.ar/vocabs/1007
+  \end{tcolorbox}
+  \vspace{0.5em}
 }
 
-% Comando para disponibilidad de datos (sin espacios automáticos)
+% Comando mejorado para disponibilidad de datos (sin sombra)
 \newcommand{\dataavailability}[1]{%
-  \vspace{0.1em}
-  \noindent\fbox{%
-    \begin{minipage}{0.95\textwidth}
-      \small
-      \textbf{Declaración de disponibilidad de datos}\\
-      #1
-    \end{minipage}%
-  }
-  \vspace{-0.2em}
+  \vspace{1em}
+  \begin{tcolorbox}[
+    colback=white,
+    colframe=chaptercolor,
+    boxrule=1.5pt,
+    arc=8pt,
+    left=15pt,
+    right=15pt,
+    top=12pt,
+    bottom=12pt
+  ]
+    \small
+    \textbf{\color{chaptercolor}Declaración de disponibilidad de datos}\\[0.8em]
+    \color{black}#1
+  \end{tcolorbox}
+  \vspace{1em}
   \newpage  
+}
+
+% Mejorar el estilo del título de capítulo
+\addtokomafont{chapter}{\color{chaptercolor}}
+
+% Agregar línea decorativa después del título
+\renewcommand*{\chapterheadendvskip}{%
+  \vspace{0.5em}
+  \noindent\textcolor{chaptercolor}{\rule{\textwidth}{1pt}}
+  \vspace{1em}
 }
