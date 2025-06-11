@@ -1,0 +1,64 @@
+\usepackage[automark]{scrlayer-scrpage}
+\pagestyle{scrheadings}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+
+% TAPA AL INICIO
+\AtBeginDocument{%
+  \includepdf[pages=-]{TAPA.pdf}
+}
+
+% CONTRATAPA AL FINAL
+\AtEndDocument{%
+  \includepdf[pages=-]{CONTRATAPA.pdf}
+}
+
+% Comando para DOI del capítulo (con salto de línea al final)
+\newcommand{\chapterdoi}[1]{%
+  \vspace{-1em}
+  \noindent\small DOI: #1\\[0.5em]
+}
+
+% Comando personalizado para autores (debajo del DOI)
+\newcommand{\chapterauthors}[1]{%
+  \noindent\textit{#1}\\[0.8em]
+}
+
+% Comando para afiliaciones (con espaciado amplio)
+\newcommand{\chapteraffiliations}[1]{%
+  \noindent\small #1
+  \vspace{1.5em}
+  \newpage
+}
+
+% Comando para información de contribuciones CRediT (sin espacios automáticos)
+\newcommand{\creditcontributions}[1]{%
+  \vspace{0.1em}
+  \noindent\fbox{%
+    \begin{minipage}{0.95\textwidth}
+      \small
+      \textbf{Contribuciones de autoría (CRediT):}\\
+      #1\\
+      \footnotesize\textit{Taxonomía CRediT (Contributor Roles Taxonomy):}\\
+      • Versión original (inglés): https://credit.niso.org/\\
+      • Traducción al español: https://terminologias.filo.uba.ar/vocabs/1007
+    \end{minipage}%
+  }
+  \vspace{-0.2em}
+}
+
+% Comando para disponibilidad de datos (sin espacios automáticos)
+\newcommand{\dataavailability}[1]{%
+  \vspace{0.1em}
+  \noindent\fbox{%
+    \begin{minipage}{0.95\textwidth}
+      \small
+      \textbf{Declaración de disponibilidad de datos}\\
+      #1
+    \end{minipage}%
+  }
+  \vspace{-0.2em}
+  \newpage  
+}
