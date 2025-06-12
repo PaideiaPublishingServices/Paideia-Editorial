@@ -11,6 +11,16 @@ author:
         country: CL
         url: https://www.upla.cl/
         ror: https://ror.org/0171wr661
+    roles:
+      - Conceptualización
+      - Análisis formal
+      - Adquisición de fondos
+      - Investigación
+      - Metodología
+      - Administración del proyecto
+      - Supervisión
+      - Redacción - borrador original
+      - Escritura - revisión y edición
   - name: Paulina Peña Pallauta
     orcid: 0000-0002-4259-7867
     email: paulina.pena@upla.cl
@@ -21,6 +31,11 @@ author:
         country: CL
         url: https://www.upla.cl/
         ror: https://ror.org/0171wr661
+    roles:
+      - Análisis formal
+      - Investigación
+      - Metodología
+      - Redacción - borrador original
   - name: Lu Puppato
     orcid: 0009-0004-0462-255X
     email: lu.puppato@upla.cl
@@ -31,6 +46,13 @@ author:
         country: CL
         url: https://www.upla.cl/
         ror: https://ror.org/0171wr661
+    roles:
+      - Curaduría de datos
+      - Análisis formal
+      - Investigación
+      - Metodología
+      - Visualización
+      - Redacción - borrador original
 date: 5/30/2025
 abstract: |
   Este capítulo tiene una doble finalidad. Por una parte, busca establecer una reflexión teórica fundada en la literatura disponible sobre la relevancia de los índices y bases de datos académicas internacionales (como WoS o Scopus) y sus efectos particulares sobre regiones comúnmente calificadas como semi-periféricas en el mundo de la ciencia, como es el caso de América Latina. Por otra parte, avanza un estudio de caso en Chile a partir de analizar algunos impactos de estas herramientas en la institucionalidad científica chilena, ejemplificando y tensionando algunos de los argumentos esgrimidos tanto por defensores/as como detractores/as de estas bases de datos e índices académicos.
@@ -56,11 +78,20 @@ citation:
   container-title: "De la evaluación global en la realidad local. El papel de los índices internacionales en la organización de la ciencia en Chile y América Latina"
   doi: 10.62059/editorial.l001.c4
 lang: es
+format:
+  html:
+     include-in-header: header-evaluacion-global.html
 ---
 
 \chapterdoi{10.62059/editorial.l001.c4}
 \chapterauthors{Tomás Koch Ewertz$^1$, Paulina Peña Pallauta$^1$, Lu Puppato$^1$}
 \chapteraffiliations{$^1$Universidad de Playa Ancha, Valparaíso, Valparaíso, CL}
+
+\creditcontributions{
+\textbf{Tomás Koch Ewertz:} Conceptualización, Análisis formal, Adquisición de fondos, Investigación, Metodología, Administración del proyecto, Supervisión, Redacción - borrador original, Escritura - revisión y edición\\
+\textbf{Lu Puppato:} Curaduría de datos, Análisis formal, Investigación, Metodología, Visualización, Redacción - borrador original\\
+\textbf{Paulina Peña Pallauta:} Análisis formal, Investigación, Metodología, Redacción - borrador original
+}
 
 ## Introducción {.unnumbered}
 

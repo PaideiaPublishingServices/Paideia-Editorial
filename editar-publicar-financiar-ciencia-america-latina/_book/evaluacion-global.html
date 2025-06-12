@@ -135,6 +135,51 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Datos de autoría con roles CRediT - específicos para este capítulo
+    var authorsData = [
+        {
+            name: "Tomás Koch Ewertz",
+            roles: ["Conceptualización", "Análisis formal", "Adquisición de fondos", "Investigación", "Metodología", "Administración del proyecto", "Supervisión", "Redacción - borrador original", "Escritura - revisión y edición"]
+        },
+        {
+            name: "Lu Puppato",
+            roles: ["Curaduría de datos", "Análisis formal", "Investigación", "Metodología", "Visualización", "Redacción - borrador original"]
+        },
+        {
+            name: "Paulina Peña Pallauta",
+            roles: ["Análisis formal", "Investigación", "Metodología", "Redacción - borrador original"]
+        }
+    ];
+
+    // Buscar donde insertar la información
+    var titleBlock = document.querySelector(".quarto-title-block") ||
+                      document.querySelector(".quarto-title");
+             
+    if (titleBlock) {
+        // Sección de contribuciones de autoría
+        var creditSection = document.createElement("div");
+        creditSection.innerHTML = `
+            <div id="credit-roles" style="margin: 20px 0; padding: 15px; background-color: #f8f9fa; border-left: 4px solid #007bff; border-radius: 5px; font-size: 0.9em;">
+                <strong style="color: #007bff;">Contribuciones de autoría (CRediT):</strong><br><br>
+                ${authorsData.map(author => 
+                    `<strong>${author.name}:</strong> ${author.roles.join(", ")}`
+                ).join("<br>")}
+                <br><br>
+                <small style="color: #6c757d;">
+                    <em>Taxonomía CRediT (Contributor Roles Taxonomy):</em><br>
+                    • <a href="https://credit.niso.org/" target="_blank" style="color: #007bff;">Versión original (inglés)</a><br>
+                    • <a href="https://terminologias.filo.uba.ar/vocabs/1007" target="_blank" style="color: #007bff;">Traducción al español</a>
+                </small>
+            </div>
+        `;
+                
+        // Insertar la sección después del título
+        titleBlock.insertAdjacentElement("afterend", creditSection);
+    }
+});
+</script>
 
 
 </head>
