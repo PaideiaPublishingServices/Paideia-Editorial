@@ -14,11 +14,11 @@ author:
         city: Ciudad de México
         state: Distrito Federal
         country: MX
-        url: http://www.unam.mx/
+        url: https://ror.org/01tmp8f25
         ror: https://ror.org/01tmp8f25
   - name: Flor Janet Rivera Pulido
     orcid: 0000-0002-9598-0579
-    email: janetrp@dgb.unam.mx
+    email: fjriverap@dgb.unam.mx
     role:
       - investigation
     affiliation: 
@@ -26,11 +26,11 @@ author:
         city: Ciudad de México
         state: Distrito Federal
         country: MX
-        url: http://www.unam.mx/
+        url: https://ror.org/01tmp8f25
         ror: https://ror.org/01tmp8f25
   - name: Patricia Garrido Villegas
     orcid: 0000-0002-8303-4884
-    email: pgarridovillegas@gmail.com
+    email: pgarridov@dgb.unam.mx
     role:
       - investigation
     affiliation: 
@@ -38,7 +38,7 @@ author:
         city: Ciudad de México
         state: Distrito Federal
         country: MX
-        url: http://www.unam.mx/
+        url: https://ror.org/01tmp8f25
         ror: https://ror.org/01tmp8f25
   - name: Juan Carlos Díaz Mauricio
     orcid: 0009-0009-5139-6037
@@ -50,7 +50,7 @@ author:
         city: Ciudad de México
         state: Distrito Federal
         country: MX
-        url: http://www.unam.mx/
+        url: https://ror.org/01tmp8f25
         ror: https://ror.org/01tmp8f25
   - name: Martha Rosa Gallegos Ramírez
     orcid: 0009-0004-3746-1764
@@ -62,7 +62,7 @@ author:
         city: Ciudad de México
         state: Distrito Federal
         country: MX
-        url: http://www.unam.mx/
+        url: https://ror.org/01tmp8f25
         ror: https://ror.org/01tmp8f25
 date: 5/30/2025
 abstract: |
@@ -98,9 +98,7 @@ format:
 \textbf{Martha Rosa Gallegos Ramírez:} Investigación
 }
 
-\dataavailability{
-Los datos que respaldan los resultados de este estudio están disponibles públicamente en el sitio web del \textbf{SciELObservatorio México}, alojado en SciELO México: \texttt{https://www.scielo.org.mx/documentos/?pag=observatorio}.\\[0.5em]
-Los datos son de acceso abierto, pueden ser consultados directamente en línea y también descargados en formato .csv mediante el botón ``Descargar .csv'' disponible en la plataforma.
+\dataavailability{ Los datos que respaldan los resultados de este estudio están disponibles públicamente en el sitio web del \textbf{SciELObservatorio México}, alojado en SciELO México: \texttt{https://www.scielo.org.mx/documentos/?pag=observatorio}.\\[0.5em] Los datos son de acceso abierto, pueden ser consultados directamente en línea y también descargados en formato .csv mediante el botón ``Descargar .csv'' disponible en la plataforma. Este conjunto de datos está bajo la licencia Creative Commons Atribución (CC-BY), lo que permite su distribución, adaptación y uso incluso con fines comerciales, siempre que se otorgue la debida atribución a los autores originales, los cuales son los mismos que realizaron este capítulo. Más información en: \texttt{https://creativecommons.org/licenses/by/4.0/} 
 }
 
 ## Introducción {.unnumbered}
