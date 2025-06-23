@@ -116,3 +116,37 @@
   \noindent\textcolor{chaptercolor}{\rule{\textwidth}{1pt}}
   \vspace{1em}
 }
+
+% En header.tex, agregar después de los otros comandos
+
+% Redefinir la página de título para incluir el logo
+\renewcommand*{\maketitle}{%
+  \begin{titlepage}
+    \centering
+    
+    % Logo de la editorial (ajusta el tamaño según necesites)
+    \includegraphics[width=4cm]{logo-paideia.png}\\[2cm]
+    
+    % Título
+    {\huge\bfseries Editar, publicar y financiar ciencia en América Latina}\\[0.5cm]
+    
+    % Subtítulo
+    {\Large\textit{Perspectivas, experiencias y distopías en las dinámicas de la comunicación científica en la región}}\\[2cm]
+    
+    % Autores/Coordinadores
+    {\large\textbf{Coordinadores:}}\\[0.5cm]
+    {\large Gimena del Rio Riande}\\
+    {\large Patricio Iván Pantaleo}\\[2cm]
+    
+    % Fecha
+    {\large A COMPLETAR}\\[2cm]
+    
+    \vfill
+    
+    % Editorial al pie
+    {\large\textbf{Paideia Editorial}}\\
+    {\normalsize Córdoba, Argentina}
+    
+  \end{titlepage}
+  \cleardoublepage
+}

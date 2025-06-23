@@ -42,6 +42,7 @@ book:
     - La-ciencia-abierta-mexicana.qmd
     - evaluacion-global.qmd
     - editorial-em-bibliotecas.qmd
+    - mitos-leyendas.qmd
   # - summary.qmd
   #  - references.qmd #Comentar para que funcione el filtro lua en HTML - Descomentar para exportar a PDF
 
@@ -83,6 +84,7 @@ format:
     lot: true
     latex-engine: lualatex
     include-in-header: "header.tex"
+    include-before-body: "pie-imprenta.tex"
 
   epub:
     toc: true

@@ -1,0 +1,72 @@
+---
+title: "Mitos y leyendas acerca de la visibilidad de las publicaciones periódicas. Un análisis estadístico del impacto de las publicaciones de la Universidad Nacional de La Matanza (UNLaM)"
+author:
+  - name: Melina Johanna Levy
+    orcid: 0009-0008-4081-7150
+    email: melinalevy95@gmail.com
+    role:
+      - conceptualization
+      - investigation
+      - methodology
+      - writing
+    affiliation: 
+      - name: Universidad Nacional de La Matanza
+        city: San Justo
+        state: Buenos Aires
+        country: AR
+        url: https://ror.org/01bmj8t37
+        ror: https://ror.org/01bmj8t37
+  - name: Juan Pablo Piñeiro
+    orcid: 0009-0000-2151-5749
+    email: jpp@unlam.edu.ar
+    role:
+      - investigation
+      - methodology
+      - writing
+    affiliation: 
+      - name: Universidad Nacional de La Matanza
+        city: San Justo
+        state: Buenos Aires
+        country: AR
+        url: https://ror.org/01bmj8t37
+        ror: https://ror.org/01bmj8t37
+  - name: Yanina Soledad Amarilla
+    orcid: 0000-0002-2011-2275
+    email: yamarilla@unlam.edu.ar
+    role:
+      - investigation
+      - writing
+    affiliation: 
+      - name: Universidad Nacional de La Matanza
+        city: San Justo
+        state: Buenos Aires
+        country: AR
+        url: https://ror.org/01bmj8t37
+        ror: https://ror.org/01bmj8t37
+date: 5/30/2025
+abstract: |
+  La literatura especializada en producción y transferencia del conocimiento ha indagado sobre el impacto de las publicaciones científicas a través de la visibilidad del conocimiento, a lo largo de las últimas décadas. Como resultado de tales indagaciones teóricas se han promovido supuestos, aún vigentes, acerca de la incidencia del idioma, la indización de las revistas en las cuales se publican las producciones, y el grado de reconocimiento formal e informal que ostentan los autores de las publicaciones; en detrimento de la incidencia que podría tener el hecho de que las publicaciones estén disponibles en Acceso Abierto.
+  En ese marco, el objetivo de este capítulo es analizar la incidencia de distintos factores, en particular la disponibilidad en Acceso Abierto, en la visibilidad de las publicaciones producidas por docentes investigadores de la Universidad Nacional de La Matanza (UNLaM) durante el año 2022. La estrategia metodológica es mixta, ya que, combina un enfoque cualitativo, a partir del análisis documental, con el cuantitativo, a través del análisis estadístico. De esta forma, se ha seleccionado un año en el que, los registros históricos elevados por la UNLaM en la última Evaluación Institucional, que desarrolla la Comisión Nacional de Evaluación y Acreditación Universitaria (CONEAU), señalan la recuperación plena de actividad científico-académica, posterior a la finalización de la Pandemia COVID-19. Adicionalmente, estas publicaciones aún no se encontraban influidas por el Fondo para Publicaciones y Traducciones de producciones científicas en SCOPUS — HCS 41/2024—, un fondo de financiamiento específicamente destinado a la promoción de artículos publicados en revistas aranceladas, implementado en la UNLaM a partir del año 2024.
+  De esta forma, con esta investigación, se espera, por un lado, contribuir teóricamente con las discusiones propias del campo académico Ciencia, Tecnología y Sociedad; y, por otro lado, contribuir a la toma de decisiones y formaciones de políticas científicas universitarias, en particular, en el marco de la Secretaría de Ciencia y Tecnología de la Universidad Nacional de La Matanza.
+keywords: 
+  - publicaciones
+  - visibilidad
+  - impacto
+  - acceso abierto
+  - análisis estadístico
+  - evaluación universitaria
+license: "CC-BY"
+doi: 10.62059/editorial.l001.c6
+citation:
+  type: chapter
+  container-title: "Mitos y leyendas acerca de la visibilidad de las publicaciones periódicas. Un análisis estadístico del impacto de las publicaciones de la Universidad Nacional de La Matanza (UNLaM)"
+  doi: 10.62059/editorial.l001.c6
+lang: es
+---
+
+\chapterdoi{10.62059/editorial.l001.c6}
+\chapterauthors{Melina Johanna Levy$^1$, Juan Pablo Piñeiro$^1$, Yanina Soledad Amarilla$^1$}
+\chapteraffiliations{$^1$Universidad Nacional de La Matanza, San Justo, Buenos Aires, Argentina}
+
+## Introducción {.unnumbered}
+
