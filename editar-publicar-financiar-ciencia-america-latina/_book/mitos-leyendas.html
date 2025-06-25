@@ -23,7 +23,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -243,6 +263,8 @@ document.addEventListener("DOMContentLoaded", function() {
    
   <ul>
   <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción">Introducción</a></li>
+  <li><a href="#metodología" id="toc-metodología" class="nav-link" data-scroll-target="#metodología">Metodología</a></li>
+  <li><a href="#bibliography" id="toc-bibliography" class="nav-link" data-scroll-target="#bibliography">Referencias</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/PaideiaPublishingServices/Paideia-Editorial/tree/main/editar-publicar-financiar-ciencia-america-latina/edit/main/mitos-leyendas.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/PaideiaPublishingServices/Paideia-Editorial/tree/main/editar-publicar-financiar-ciencia-america-latina/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li><li><a href="https://github.com/PaideiaPublishingServices/Paideia-Editorial/tree/main/editar-publicar-financiar-ciencia-america-latina/blob/main/mitos-leyendas.qmd" class="toc-action"><i class="bi empty"></i>Ver el código</a></li></ul></div><div class="quarto-other-links"><h2>Otros Enlaces</h2><ul><li><a href="https://www.amazon.com/books"><i class="bi bi-amazon"></i>Soon on Kindle</a></li></ul></div></nav>
     </div>
@@ -315,7 +337,9 @@ document.addEventListener("DOMContentLoaded", function() {
 <div>
   <div class="abstract">
     <div class="block-title">Resumen</div>
-    <p>La literatura especializada en producción y transferencia del conocimiento ha indagado sobre el impacto de las publicaciones científicas a través de la visibilidad del conocimiento, a lo largo de las últimas décadas. Como resultado de tales indagaciones teóricas se han promovido supuestos, aún vigentes, acerca de la incidencia del idioma, la indización de las revistas en las cuales se publican las producciones, y el grado de reconocimiento formal e informal que ostentan los autores de las publicaciones; en detrimento de la incidencia que podría tener el hecho de que las publicaciones estén disponibles en Acceso Abierto. En ese marco, el objetivo de este capítulo es analizar la incidencia de distintos factores, en particular la disponibilidad en Acceso Abierto, en la visibilidad de las publicaciones producidas por docentes investigadores de la Universidad Nacional de La Matanza (UNLaM) durante el año 2022. La estrategia metodológica es mixta, ya que, combina un enfoque cualitativo, a partir del análisis documental, con el cuantitativo, a través del análisis estadístico. De esta forma, se ha seleccionado un año en el que, los registros históricos elevados por la UNLaM en la última Evaluación Institucional, que desarrolla la Comisión Nacional de Evaluación y Acreditación Universitaria (CONEAU), señalan la recuperación plena de actividad científico-académica, posterior a la finalización de la Pandemia COVID-19. Adicionalmente, estas publicaciones aún no se encontraban influidas por el Fondo para Publicaciones y Traducciones de producciones científicas en SCOPUS — HCS 41/2024—, un fondo de financiamiento específicamente destinado a la promoción de artículos publicados en revistas aranceladas, implementado en la UNLaM a partir del año 2024. De esta forma, con esta investigación, se espera, por un lado, contribuir teóricamente con las discusiones propias del campo académico Ciencia, Tecnología y Sociedad; y, por otro lado, contribuir a la toma de decisiones y formaciones de políticas científicas universitarias, en particular, en el marco de la Secretaría de Ciencia y Tecnología de la Universidad Nacional de La Matanza.</p>
+    <p>La literatura especializada en producción y transferencia del conocimiento ha indagado sobre el impacto de las publicaciones científicas a través de la visibilidad del conocimiento, a lo largo de las últimas décadas. Como resultado de tales indagaciones teóricas se han promovido supuestos, aún vigentes, acerca de la incidencia del idioma, la indización de las revistas en las cuales se publican las producciones, y el grado de reconocimiento formal e informal que ostentan los autores de las publicaciones; en detrimento de la incidencia que podría tener el hecho de que las publicaciones estén disponibles en Acceso Abierto.</p>
+    <p>En ese marco, el objetivo de este capítulo es analizar la incidencia de distintos factores, en particular la disponibilidad en Acceso Abierto, en la visibilidad de las publicaciones producidas por docentes investigadores de la Universidad Nacional de La Matanza (UNLaM) durante el año 2022. La estrategia metodológica es mixta, ya que, combina un enfoque cualitativo, a partir del análisis documental, con el cuantitativo, a través del análisis estadístico. De esta forma, se ha seleccionado un año en el que, los registros históricos elevados por la UNLaM en la última Evaluación Institucional, que desarrolla la Comisión Nacional de Evaluación y Acreditación Universitaria (CONEAU)<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, señalan la recuperación plena de actividad científico-académica, posterior a la finalización de la Pandemia COVID-19. Adicionalmente, estas publicaciones aún no se encontraban influidas por el Fondo para Publicaciones y Traducciones de producciones científicas en SCOPUS — HCS 41/2024—, un fondo de financiamiento específicamente destinado a la promoción de artículos publicados en revistas aranceladas, implementado en la UNLaM a partir del año 2024.</p>
+    <p>De esta forma, con esta investigación, se espera, por un lado, contribuir teóricamente con las discusiones propias del campo académico Ciencia, Tecnología y Sociedad; y, por otro lado, contribuir a la toma de decisiones y formaciones de políticas científicas universitarias, en particular, en el marco de la Secretaría de Ciencia y Tecnología de la Universidad Nacional de La Matanza.</p>
   </div>
 </div>
 
@@ -331,8 +355,139 @@ document.addEventListener("DOMContentLoaded", function() {
 
 <section id="introducción" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="introducción">Introducción</h2>
+<p>Durante las últimas décadas, los artículos científicos se han consolidado como producciones críticas para el ingreso y progreso en la carrera científica de los docentes investigadores tanto a nivel mundial <span class="citation" data-cites="gallardo2022">(<a href="#ref-gallardo2022" role="doc-biblioref">Gallardo, 2022</a>)</span> como, en particular, dentro del continente latinoamericano <span class="citation" data-cites="invernizzi2022">(<a href="#ref-invernizzi2022" role="doc-biblioref">Invernizzi et&nbsp;al., 2022</a>)</span>. Ello ha sido estimulado, principalmente, por los mecanismos de evaluación implementados sobre los investigadores, sus producciones y las instituciones a las que forman parte <span class="citation" data-cites="krauss2023">(<a href="#ref-krauss2023" role="doc-biblioref">Krauss et&nbsp;al., 2023</a>)</span>. A esta tendencia se la ha agregado la creciente publicación de dichas producciones en revistas diseñadas bajo el formato <em>Open Access.</em></p>
+<p>El formato <em>Open Access</em> implica que los autores no deben abonar ningún tipo de costo para poder acceder al contenido de una publicación. Si bien con anterioridad, coexistan dentro de este formato, revistas que le cobraban cargos al autor para gestionar parte del proceso editorial de revisión, gracias a la masividad alcanzada por la vía diamante, las revistas ha tendido a suprimir los cargos aplicados a los autores <span class="citation" data-cites="otero2022">(<a href="#ref-otero2022" role="doc-biblioref">Otero et&nbsp;al., 2022</a>)</span>, haciendo posible una completa libre circulación del conocimiento. De esta forma, se han extendido modelos de gestión de las publicaciones científicas que promueven el aporte voluntario de los evaluadores, quienes no perciben por su contribución ninguna compensación económica <span class="citation" data-cites="canton2021">(<a href="#ref-canton2021" role="doc-biblioref">Cantón, 2021</a>)</span>.</p>
+<p>Frente a ello, distintos investigadores han teorizado acerca de la incidencia del Acceso Abierto (AA) en la visibilidad de los artículos científicos — reflejado en la cantidad de citas obtenidas— aunque sin contrastarlo estadísticamente <span class="citation" data-cites="cordoba2011 gonzalez2018 diaz2023">(<a href="#ref-cordoba2011" role="doc-biblioref">Córdoba, 2011</a>; <a href="#ref-diaz2023" role="doc-biblioref">Díaz-Chieng et&nbsp;al., 2023</a>; <a href="#ref-gonzalez2018" role="doc-biblioref">Pérez et&nbsp;al., 2018</a>)</span>. A su vez, otros factores— el idioma de la publicación, la cantidad de autores firmantes, y el nivel máximo de indización de la revista científica— han sido considerados, de forma individual, como determinantes de la visibilidad de las publicaciones científicas <span class="citation" data-cites="gonzalez2020">(<a href="#ref-gonzalez2020" role="doc-biblioref">González-Sanabria et&nbsp;al., 2020</a>)</span>.</p>
+<p>En ese marco, el objetivo de este capítulo es analizar la incidencia de distintos factores, en particular la disponibilidad en AA, en la visibilidad de las publicaciones producidas por docentes investigadores de la UNLaM durante el año 2022. La estrategia metodológica es mixta, ya que, combina un enfoque cualitativo, a partir del análisis documental, con el cuantitativo, a través del análisis estadístico, mediante la utilización del programa RStudio. Para ello, se ha seleccionado un año en el que, los registros históricos elevados ante la última Evaluación Institucional de la Comisión Nacional de Evaluación y Acreditación Universitaria (CONEAU), <span class="citation" data-cites="pineiro2024a">(<a href="#ref-pineiro2024a" role="doc-biblioref">Piñeiro et&nbsp;al., 2024</a>)</span>, señalan la recuperación plena de la actividad científico-académica, posterior a la finalización de la Pandemia COVID-19.</p>
+<p>El presente capítulo se ha estructurado en cuatro grandes apartados. El primero de ellos describe la estrategia metodológica utilizada en este trabajo. El segundo aparado introduce el enfoque teórico del que se nutre este trabajo. El tercero caracteriza la producción de conocimiento en general, y en particular en el año 2022, en la UNLaM. El cuarto apartado analiza la incidencia, individual y agregada, de diez factores, sobre la cantidad de citas de los artículos publicados por docentes investigadores de la UNLaM en el año 2022. Finalmente, en el quinto apartado se sintetizan los principales hallazgos encontrados a lo largo del capítulo.</p>
+</section>
+<section id="metodología" class="level2">
+<h2 class="anchored" data-anchor-id="metodología">Metodología</h2>
+<p>Esta investigación ha sido elaborada a partir de la combinación de estrategias cualitativas y cuantitativas. En relación con las primeras, se recopiló normativa y bibliografía relativa a los determinantes de la circulación del conocimiento, y sobre ella se realizó un análisis documental <span class="citation" data-cites="casasempere2020">(<a href="#ref-casasempere2020" role="doc-biblioref">Satorres &amp; Ferrándiz, 2020</a>)</span>. Con respecto a las segundas, a partir de un conjunto de variables —listadas en la <a href="#tbl-variables" class="quarto-xref">Tabla&nbsp;<span>6.1</span></a>— se examinó la visibilidad de 160 artículos científicos publicados por docentes investigadores de la UNLaM durante el año 2022 en revistas científicas arbitradas e indizadas <span class="citation" data-cites="rivas2020">(<a href="#ref-rivas2020" role="doc-biblioref">Rivas-Castillo, 2020</a>)</span>.</p>
+<div id="tbl-variables" class="quarto-float quarto-figure quarto-figure-center anchored" data-quarto-postprocess="true">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-variables-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;6.1: Variables incluidas en el análisis. *Fuente: elaboración propia.*
+</figcaption>
+<div aria-describedby="tbl-variables-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table id="tbl-variables" class="caption-top table" data-quarto-postprocess="true">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th">Aplicación</th>
+<th data-quarto-table-cell-role="th">Variables</th>
+<th data-quarto-table-cell-role="th">Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td rowspan="8">Sobre los artículos</td>
+<td>Cantidad de Citas</td>
+<td>Dependiente</td>
+</tr>
+<tr class="even">
+<td>Campo disciplinar</td>
+<td>Independiente</td>
+</tr>
+<tr class="odd">
+<td>Cantidad de Autores</td>
+<td>Independiente</td>
+</tr>
+<tr class="even">
+<td>Colaboración internacional en la coautoría</td>
+<td>Independiente</td>
+</tr>
+<tr class="odd">
+<td>Agenda temática</td>
+<td>Independiente</td>
+</tr>
+<tr class="even">
+<td>Metodología</td>
+<td>Independiente</td>
+</tr>
+<tr class="odd">
+<td>Máximo título académico alcanzando por el primer autor</td>
+<td>Independiente</td>
+</tr>
+<tr class="even">
+<td>Idioma</td>
+<td>Independiente</td>
+</tr>
+<tr class="odd">
+<td rowspan="3">Sobre la revista</td>
+<td>Indización</td>
+<td>Independiente</td>
+</tr>
+<tr class="even">
+<td>Tipo de Acceso</td>
+<td>Independiente</td>
+</tr>
+<tr class="odd">
+<td>Frecuencia de publicación</td>
+<td>Independiente</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
 
 
+<p>A los efectos de estimar la visibilidad de los referidos artículos, se tomó en consideración la cantidad de citas obtenidas por cada uno de estos. El dato ha sido extraído de la plataforma Google Académico<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p>
+<p>Por su parte, el campo disciplinar en el que se inscribe cada publicación, la cantidad de autores que la firman, la presencia de coautores pertenecientes a instituciones extranjeras, la correspondencia de la temática seleccionada con las agendas de interés nacional, la metodología, el máximo título académico alcanzado por el primer autor, y el idioma, han sido observados en estas. En el caso de las variables: tipo de acceso, máximo nivel de indización alcanzado y cantidad de números publicados por año, han sido extraídas de las respectivas revistas en las cuales se han publicado los artículos.</p>
+<p>Para comenzar, se testeó la asociación entre cada variable independiente y la cantidad de citas obtenidas por cada artículo publicado, de forma individual. En segundo lugar, se realizó un análisis de regresión lineal múltiple <span class="citation" data-cites="inzunza2016">(<a href="#ref-inzunza2016" role="doc-biblioref">Cazares, 2016</a>)</span>, con aquellas variables cuya asociación resultó estadísticamente significativa y con elevada incidencia respecto de la cantidad de citas de los artículos, en un modelo aditivo.</p>
+
+
+</section>
+<section id="bibliography" class="level1 unnumbered">
+<h1 class="unnumbered">Referencias</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-canton2021" class="csl-entry" role="listitem">
+Cantón. (2021). [Título del artículo]. <em>[Nombre de la revista]</em>.
+</div>
+<div id="ref-inzunza2016" class="csl-entry" role="listitem">
+Cazares, I. (2016). [Título del artículo]. <em>[Nombre de la revista]</em>.
+</div>
+<div id="ref-cordoba2011" class="csl-entry" role="listitem">
+Córdoba. (2011). [Título del artículo]. <em>[Nombre de la revista]</em>.
+</div>
+<div id="ref-diaz2023" class="csl-entry" role="listitem">
+Díaz-Chieng et&nbsp;al. (2023). [Título del artículo]. <em>[Nombre de la revista]</em>.
+</div>
+<div id="ref-gallardo2022" class="csl-entry" role="listitem">
+Gallardo. (2022). [Título del artículo]. <em>[Nombre de la revista]</em>.
+</div>
+<div id="ref-gonzalez2020" class="csl-entry" role="listitem">
+González-Sanabria et&nbsp;al. (2020). [Título del artículo]. <em>[Nombre de la revista]</em>.
+</div>
+<div id="ref-invernizzi2022" class="csl-entry" role="listitem">
+Invernizzi et&nbsp;al. (2022). [Título del artículo]. <em>[Nombre de la revista]</em>.
+</div>
+<div id="ref-krauss2023" class="csl-entry" role="listitem">
+Krauss et&nbsp;al. (2023). [Título del artículo]. <em>[Nombre de la revista]</em>.
+</div>
+<div id="ref-otero2022" class="csl-entry" role="listitem">
+Otero et&nbsp;al. (2022). [Título del artículo]. <em>[Nombre de la revista]</em>.
+</div>
+<div id="ref-gonzalez2018" class="csl-entry" role="listitem">
+Pérez, G. et&nbsp;al. (2018). [Título del artículo]. <em>[Nombre de la revista]</em>.
+</div>
+<div id="ref-pineiro2024a" class="csl-entry" role="listitem">
+Piñeiro et&nbsp;al. (2024). [Título del artículo]. <em>[Nombre de la revista]</em>.
+</div>
+<div id="ref-rivas2020" class="csl-entry" role="listitem">
+Rivas-Castillo. (2020). [Título del artículo]. <em>[Nombre de la revista]</em>.
+</div>
+<div id="ref-casasempere2020" class="csl-entry" role="listitem">
+Satorres, C., &amp; Ferrándiz, V. (2020). [Título del artículo]. <em>[Nombre de la revista]</em>.
+</div>
+</div>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>Esta agencia es un organismo descentralizado de nivel nacional, creado por la Ley 24.521/95, abarcando una diversidad de funciones: coordinar y realizar evaluaciones externas, acreditar carreras de grado y posgrado, evaluar la consistencia y viabilidad del proyecto institucional requerido para autorizar la creación de una nueva institución universitaria nacional, y, por último, elaborar los informes solicitados para la autorización y reconocimiento definitivo de universidades privadas.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>https://scholar.google.es/schhp?hl=es<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a></main> <!-- /main -->
