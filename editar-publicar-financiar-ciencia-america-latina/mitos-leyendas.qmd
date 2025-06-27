@@ -88,7 +88,7 @@ Esta investigación ha sido elaborada a partir de la combinación de estrategias
 
 ```{=html}
 <table id="tbl-variables">
-<caption>Variables incluidas en el análisis. *Fuente: elaboración propia.*</caption>
+<caption>Variables incluidas en el análisis. Elaboración propia.</caption>
 <thead>
 <tr>
 <th>Aplicación</th>
@@ -153,3 +153,7 @@ A los efectos de estimar la visibilidad de los referidos artículos, se tomó en
 Por su parte, el campo disciplinar en el que se inscribe cada publicación, la cantidad de autores que la firman, la presencia de coautores pertenecientes a instituciones extranjeras, la correspondencia de la temática seleccionada con las agendas de interés nacional, la metodología, el máximo título académico alcanzado por el primer autor, y el idioma, han sido observados en estas. En el caso de las variables: tipo de acceso, máximo nivel de indización alcanzado y cantidad de números publicados por año, han sido extraídas de las respectivas revistas en las cuales se han publicado los artículos.
 
 Para comenzar, se testeó la asociación entre cada variable independiente y la cantidad de citas obtenidas por cada artículo publicado, de forma individual. En segundo lugar, se realizó un análisis de regresión lineal múltiple [@inzunza2016], con aquellas variables cuya asociación resultó estadísticamente significativa y con elevada incidencia respecto de la cantidad de citas de los artículos, en un modelo aditivo.
+
+De esta forma, se analizó la capacidad explicativa de un modelo integral de factores respecto de la visibilidad de las 160 observaciones registradas para el año 2022. La totalidad de las pruebas estadísticas se han realizado a través del programa de análisis estadístico RStudio^[https://posit.co/download/rstudio-desktop/].
+
+## El Acceso Abierto y sus implicancias en la visibilidad de los artículos científicos
