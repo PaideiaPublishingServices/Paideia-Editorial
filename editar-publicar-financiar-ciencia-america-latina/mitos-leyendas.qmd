@@ -180,7 +180,7 @@ De esta manera, las hipótesis de los referidos autores se basan, en su mayoría
 
 ## La producción y transferencia del conocimiento científico en la UNLaM
 
-La UNLaM es una institución argentina, fundada en el año 1989, en lo que se ha dado en llamar la segunda oleada de creación de Universidades públicas [@pineiro2024a]. De esta forma, es posible identificar en su Estatuto la vocación de incidir en la configuración territorial -particularmente afectada por la vulnerabilidad (De Sena et al., 2024)- tanto a través de la formación de profesionales, como de la producción de conocimiento innovador, y la extensión comunitaria [@pineiro2024b].
+La UNLaM es una institución argentina, fundada en el año 1989, en lo que se ha dado en llamar la segunda oleada de creación de Universidades públicas [@pineiro2024a]. De esta forma, es posible identificar en su Estatuto la vocación de incidir en la configuración territorial -particularmente afectada por la vulnerabilidad [@desena2024]- tanto a través de la formación de profesionales, como de la producción de conocimiento innovador, y la extensión comunitaria [@pineiro2024b].
 
 Ahora bien, a diferencia de buena parte del Sistema Universitario argentino, la Universidad se organiza a través de una estructura departamental [@levy2024]. En el año 2024 es posible hallar cinco Unidades Académicas -Departamentos- organizadas por Secretarías coordinadas a través de órganos rectores dependientes del Rectorado. En el caso de la función investigación, cada Unidad Académica posee una Secretaría de Investigación, y su órgano rector -de normalización organizativa [@cao2023; @levy2023]- es la Secretaría de Ciencia y Tecnología (SCyT) central, como se aprecia en la @fig-estructura.
 
