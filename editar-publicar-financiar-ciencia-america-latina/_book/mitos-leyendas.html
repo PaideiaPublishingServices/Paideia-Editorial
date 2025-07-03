@@ -265,6 +265,9 @@ document.addEventListener("DOMContentLoaded", function() {
   <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción">Introducción</a></li>
   <li><a href="#metodología" id="toc-metodología" class="nav-link" data-scroll-target="#metodología">Metodología</a></li>
   <li><a href="#el-acceso-abierto-y-sus-implicancias-en-la-visibilidad-de-los-artículos-científicos" id="toc-el-acceso-abierto-y-sus-implicancias-en-la-visibilidad-de-los-artículos-científicos" class="nav-link" data-scroll-target="#el-acceso-abierto-y-sus-implicancias-en-la-visibilidad-de-los-artículos-científicos">El Acceso Abierto y sus implicancias en la visibilidad de los artículos científicos</a></li>
+  <li><a href="#la-producción-y-transferencia-del-conocimiento-científico-en-la-unlam" id="toc-la-producción-y-transferencia-del-conocimiento-científico-en-la-unlam" class="nav-link" data-scroll-target="#la-producción-y-transferencia-del-conocimiento-científico-en-la-unlam">La producción y transferencia del conocimiento científico en la UNLaM</a></li>
+  <li><a href="#la-productividad-de-las-publicaciones-unlam-y-sus-principales-determinantes" id="toc-la-productividad-de-las-publicaciones-unlam-y-sus-principales-determinantes" class="nav-link" data-scroll-target="#la-productividad-de-las-publicaciones-unlam-y-sus-principales-determinantes">La productividad de las publicaciones UNLaM y sus principales determinantes</a></li>
+  <li><a href="#conclusiones" id="toc-conclusiones" class="nav-link" data-scroll-target="#conclusiones">Conclusiones</a></li>
   <li><a href="#bibliography" id="toc-bibliography" class="nav-link" data-scroll-target="#bibliography">Referencias</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/PaideiaPublishingServices/Paideia-Editorial/tree/main/editar-publicar-financiar-ciencia-america-latina/edit/main/mitos-leyendas.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/PaideiaPublishingServices/Paideia-Editorial/tree/main/editar-publicar-financiar-ciencia-america-latina/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li><li><a href="https://github.com/PaideiaPublishingServices/Paideia-Editorial/tree/main/editar-publicar-financiar-ciencia-america-latina/blob/main/mitos-leyendas.qmd" class="toc-action"><i class="bi empty"></i>Ver el código</a></li></ul></div><div class="quarto-other-links"><h2>Otros Enlaces</h2><ul><li><a href="https://www.amazon.com/books"><i class="bi bi-amazon"></i>Soon on Kindle</a></li></ul></div></nav>
@@ -358,8 +361,8 @@ document.addEventListener("DOMContentLoaded", function() {
 <h2 class="unnumbered anchored" data-anchor-id="introducción">Introducción</h2>
 <p>Durante las últimas décadas, los artículos científicos se han consolidado como producciones críticas para el ingreso y progreso en la carrera científica de los docentes investigadores tanto a nivel mundial <span class="citation" data-cites="gallardo2022">(<a href="#ref-gallardo2022" role="doc-biblioref">Gallardo, 2022</a>)</span> como, en particular, dentro del continente latinoamericano <span class="citation" data-cites="invernizzi2022">(<a href="#ref-invernizzi2022" role="doc-biblioref">Invernizzi et&nbsp;al., 2022</a>)</span>. Ello ha sido estimulado, principalmente, por los mecanismos de evaluación implementados sobre los investigadores, sus producciones y las instituciones a las que forman parte <span class="citation" data-cites="krauss2023">(<a href="#ref-krauss2023" role="doc-biblioref">Krauss et&nbsp;al., 2023</a>)</span>. A esta tendencia se la ha agregado la creciente publicación de dichas producciones en revistas diseñadas bajo el formato <em>Open Access.</em></p>
 <p>El formato <em>Open Access</em> implica que los autores no deben abonar ningún tipo de costo para poder acceder al contenido de una publicación. Si bien con anterioridad, coexistan dentro de este formato, revistas que le cobraban cargos al autor para gestionar parte del proceso editorial de revisión, gracias a la masividad alcanzada por la vía diamante, las revistas ha tendido a suprimir los cargos aplicados a los autores <span class="citation" data-cites="otero2022">(<a href="#ref-otero2022" role="doc-biblioref">Otero et&nbsp;al., 2022</a>)</span>, haciendo posible una completa libre circulación del conocimiento. De esta forma, se han extendido modelos de gestión de las publicaciones científicas que promueven el aporte voluntario de los evaluadores, quienes no perciben por su contribución ninguna compensación económica <span class="citation" data-cites="canton2021">(<a href="#ref-canton2021" role="doc-biblioref">Cantón, 2021</a>)</span>.</p>
-<p>Frente a ello, distintos investigadores han teorizado acerca de la incidencia del Acceso Abierto (AA) en la visibilidad de los artículos científicos — reflejado en la cantidad de citas obtenidas— aunque sin contrastarlo estadísticamente <span class="citation" data-cites="cordoba2011 gonzalez2018 diaz2023">(<a href="#ref-cordoba2011" role="doc-biblioref">Córdoba, 2011</a>; <a href="#ref-gonzalez2018" role="doc-biblioref"><strong>gonzalez2018?</strong></a>; <a href="#ref-diaz2023" role="doc-biblioref"><strong>diaz2023?</strong></a>)</span>. A su vez, otros factores— el idioma de la publicación, la cantidad de autores firmantes, y el nivel máximo de indización de la revista científica— han sido considerados, de forma individual, como determinantes de la visibilidad de las publicaciones científicas <span class="citation" data-cites="gonzalez2020">(<a href="#ref-gonzalez2020" role="doc-biblioref">González-Sanabria et&nbsp;al., 2020</a>)</span>.</p>
-<p>En ese marco, el objetivo de este capítulo es analizar la incidencia de distintos factores, en particular la disponibilidad en AA, en la visibilidad de las publicaciones producidas por docentes investigadores de la UNLaM durante el año 2022. La estrategia metodológica es mixta, ya que, combina un enfoque cualitativo, a partir del análisis documental, con el cuantitativo, a través del análisis estadístico, mediante la utilización del programa RStudio. Para ello, se ha seleccionado un año en el que, los registros históricos elevados ante la última Evaluación Institucional de la Comisión Nacional de Evaluación y Acreditación Universitaria (CONEAU), <span class="citation" data-cites="pineiro2024a">(<a href="#ref-pineiro2024a" role="doc-biblioref">Piñeiro et&nbsp;al., 2024</a>)</span>, señalan la recuperación plena de la actividad científico-académica, posterior a la finalización de la Pandemia COVID-19.</p>
+<p>Frente a ello, distintos investigadores han teorizado acerca de la incidencia del Acceso Abierto (AA) en la visibilidad de los artículos científicos — reflejado en la cantidad de citas obtenidas— aunque sin contrastarlo estadísticamente <span class="citation" data-cites="cordoba2011 gonzalez2018 diaz2023">(<a href="#ref-cordoba2011" role="doc-biblioref">Córdoba, 2011</a>; <a href="#ref-diaz2023" role="doc-biblioref">Díaz-Chieng et&nbsp;al., 2023</a>; <a href="#ref-gonzalez2018" role="doc-biblioref">González-Pérez et&nbsp;al., 2018</a>)</span>. A su vez, otros factores— el idioma de la publicación, la cantidad de autores firmantes, y el nivel máximo de indización de la revista científica— han sido considerados, de forma individual, como determinantes de la visibilidad de las publicaciones científicas <span class="citation" data-cites="gonzalez2020">(<a href="#ref-gonzalez2020" role="doc-biblioref">González-Sanabria et&nbsp;al., 2020</a>)</span>.</p>
+<p>En ese marco, el objetivo de este capítulo es analizar la incidencia de distintos factores, en particular la disponibilidad en AA, en la visibilidad de las publicaciones producidas por docentes investigadores de la UNLaM durante el año 2022. La estrategia metodológica es mixta, ya que, combina un enfoque cualitativo, a partir del análisis documental, con el cuantitativo, a través del análisis estadístico, mediante la utilización del programa RStudio. Para ello, se ha seleccionado un año en el que, los registros históricos elevados ante la última Evaluación Institucional de la Comisión Nacional de Evaluación y Acreditación Universitaria (CONEAU), <span class="citation" data-cites="pineiro2024a">(<a href="#ref-pineiro2024a" role="doc-biblioref">Piñeiro et&nbsp;al., 2024a</a>)</span>, señalan la recuperación plena de la actividad científico-académica, posterior a la finalización de la Pandemia COVID-19.</p>
 <p>El presente capítulo se ha estructurado en cuatro grandes apartados. El primero de ellos describe la estrategia metodológica utilizada en este trabajo. El segundo aparado introduce el enfoque teórico del que se nutre este trabajo. El tercero caracteriza la producción de conocimiento en general, y en particular en el año 2022, en la UNLaM. El cuarto apartado analiza la incidencia, individual y agregada, de diez factores, sobre la cantidad de citas de los artículos publicados por docentes investigadores de la UNLaM en el año 2022. Finalmente, en el quinto apartado se sintetizan los principales hallazgos encontrados a lo largo del capítulo.</p>
 </section>
 <section id="metodología" class="level2">
@@ -368,10 +371,15 @@ document.addEventListener("DOMContentLoaded", function() {
 <div id="tbl-variables" class="quarto-float quarto-figure quarto-figure-center anchored" data-quarto-postprocess="true">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-variables-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tabla&nbsp;6.1: Variables incluidas en el análisis. *Fuente: elaboración propia.*
+Tabla&nbsp;6.1: Variables incluidas en el análisis. Elaboración propia.
 </figcaption>
 <div aria-describedby="tbl-variables-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table id="tbl-variables" class="caption-top table" data-quarto-postprocess="true">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 50%">
+<col style="width: 20%">
+</colgroup>
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th">Aplicación</th>
@@ -431,8 +439,6 @@ Tabla&nbsp;6.1: Variables incluidas en el análisis. *Fuente: elaboración propi
 </div>
 </figure>
 </div>
-
-
 <p>A los efectos de estimar la visibilidad de los referidos artículos, se tomó en consideración la cantidad de citas obtenidas por cada uno de estos. El dato ha sido extraído de la plataforma Google Académico<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p>
 <p>Por su parte, el campo disciplinar en el que se inscribe cada publicación, la cantidad de autores que la firman, la presencia de coautores pertenecientes a instituciones extranjeras, la correspondencia de la temática seleccionada con las agendas de interés nacional, la metodología, el máximo título académico alcanzado por el primer autor, y el idioma, han sido observados en estas. En el caso de las variables: tipo de acceso, máximo nivel de indización alcanzado y cantidad de números publicados por año, han sido extraídas de las respectivas revistas en las cuales se han publicado los artículos.</p>
 <p>Para comenzar, se testeó la asociación entre cada variable independiente y la cantidad de citas obtenidas por cada artículo publicado, de forma individual. En segundo lugar, se realizó un análisis de regresión lineal múltiple <span class="citation" data-cites="inzunza2016">(<a href="#ref-inzunza2016" role="doc-biblioref">Inzunza Cazares, 2016</a>)</span>, con aquellas variables cuya asociación resultó estadísticamente significativa y con elevada incidencia respecto de la cantidad de citas de los artículos, en un modelo aditivo.</p>
@@ -440,14 +446,562 @@ Tabla&nbsp;6.1: Variables incluidas en el análisis. *Fuente: elaboración propi
 </section>
 <section id="el-acceso-abierto-y-sus-implicancias-en-la-visibilidad-de-los-artículos-científicos" class="level2">
 <h2 class="anchored" data-anchor-id="el-acceso-abierto-y-sus-implicancias-en-la-visibilidad-de-los-artículos-científicos">El Acceso Abierto y sus implicancias en la visibilidad de los artículos científicos</h2>
+<p>Desde su aparición, el AA ha sido considerado un movimiento orientado a la democratización del acceso al conocimiento científico <span class="citation" data-cites="suber2006">(<a href="#ref-suber2006" role="doc-biblioref">Suber, 2006</a>)</span>. Distintos autores han argumentado que, el AA permite otorgar mayor visibilidad a las investigaciones científicas <span class="citation" data-cites="cordoba2011 gonzalez2018 diaz2023">(<a href="#ref-cordoba2011" role="doc-biblioref">Córdoba, 2011</a>; <a href="#ref-diaz2023" role="doc-biblioref">Díaz-Chieng et&nbsp;al., 2023</a>; <a href="#ref-gonzalez2018" role="doc-biblioref">González-Pérez et&nbsp;al., 2018</a>)</span>, y ha incrementado las oportunidades de los científicos de colaborar entre sí, quebrantando las barreras interpuestas por su nacionalidad <span class="citation" data-cites="fernandez2018">(<a href="#ref-fernandez2018" role="doc-biblioref">Fernández, 2018</a>)</span>, así como, ha favorecido la circulación del conocimiento científico de forma universal <span class="citation" data-cites="delgado2015">(<a href="#ref-delgado2015" role="doc-biblioref">Delgado López-Cozar, 2015</a>)</span>, y ha diluido las asimetrías entre países periféricos y centrales <span class="citation" data-cites="melero2014">(<a href="#ref-melero2014" role="doc-biblioref">Melero &amp; Hernández San Miguel, 2014</a>)</span>, entre otras cuestiones.</p>
+<p>Desde esta perspectiva, que celebra la libertad de producción y circulación del conocimiento, es que una gran proporción de autores promueven la aplicación del AA, particularmente, en Latinoamérica. Sin embargo, la condición de libertad que se invoca presenta algunas particularidades que conviene indagar en mayor profundidad.</p>
+<p>Para comenzar, el conocimiento científico regulado por el AA se considera doblemente libre, ya que, por un lado, es producido voluntariamente por los científicos -y en su versión plena no implica costos para su publicación<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> <span class="citation" data-cites="zukerfeld2010a">(<a href="#ref-zukerfeld2010a" role="doc-biblioref">Zukerfeld, 2010a</a>)</span>. Por otro lado, este conocimiento circula de forma irrestricta, debido a que, ningún lector debe abonar un costo específico para poder acceder a este.</p>
+<p>Ahora bien, lo primero que se aprecia en esta doble conceptualización de la libertad es que, la gratuidad de la publicación, y la no limitación de su circulación, no implican la desaparición de la propiedad por parte del autor de la obra. Es decir, el AA se enmarca en las regulaciones que delimitan los derechos de propiedad intelectual, más específicamente, los derechos de autor, en el sistema capitalista de producción <span class="citation" data-cites="zukerfeld2010b">(<a href="#ref-zukerfeld2010b" role="doc-biblioref">Zukerfeld, 2010b</a>)</span>. Por ello, se combina con un tipo específico de regulación legal conocida como Creative Commons (CC) <span class="citation" data-cites="lebron">(<a href="#ref-lebron" role="doc-biblioref">Lebrón-Ramos, s.&nbsp;f.</a>)</span>. Esto incide tanto en la circulación como en la capacidad de apropiación de dicho conocimiento – fenómeno que ha sido abordado por la literatura especializada <span class="citation" data-cites="carballo2022">(<a href="#ref-carballo2022" role="doc-biblioref">Carballo, 2022</a>)</span>.</p>
+<p>Recientemente, también se ha problematizado la factibilidad económica del AA, en la medida en que, una de sus vías —el acceso diamante que promueve la publicación de contenidos plenamente gratuitos desde la perspectiva de los autores y de los consumidores— se ha consolidado, frente a otras, tales como la vía dorada <span class="citation" data-cites="canton2021">(<a href="#ref-canton2021" role="doc-biblioref">Cantón, 2021</a>)</span>. A diferencia de la vía diamante, aquellas revistas que se han insertado en la vía dorada, han cobrado cargos a los autores para solventar la gestión editorial —en especial para el pago de una remuneración económica a los evaluadores involucrados—. Sin embargo, la proliferación de revistas inscriptas en la vía diamante ha dado pruebas de la capacidad de convocatoria de revisores que realizan sus evaluaciones sin exigir un pago por ello <span class="citation" data-cites="desouza2024">(<a href="#ref-desouza2024" role="doc-biblioref">De Souza &amp; Balseiro, 2024</a>)</span>.</p>
+<p>Asimismo, en este formato – AA- se publican producciones de variada naturaleza. No obstante, el artículo científico resulta ser una pieza crítica dentro de la configuración de las carreras científicas <span class="citation" data-cites="moreles2015">(<a href="#ref-moreles2015" role="doc-biblioref">Moreles Vázquez, 2015</a>)</span>, superando, en términos de puntaje y valoración, a las obras conceptuales <span class="citation" data-cites="mendoza2006">(<a href="#ref-mendoza2006" role="doc-biblioref">Mendoza &amp; Paravic, 2006</a>)</span> y demás tipos de producciones científicas.</p>
+<p>Dada la trascendencia del artículo científico en el ingreso y progreso de las carreras científicas, la atención se centra, en esta investigación, sobre los determinantes de su visibilidad. En ese marco, distintos factores han sido conjeturas supuestas como determinantes clave de la visibilidad de un artículo, junto al tipo de acceso, dentro de la literatura especializada. Entre ellos se destacan: el nivel de indización de la revista, en la cual se encuentran publicados <span class="citation" data-cites="gonzalez2020">(<a href="#ref-gonzalez2020" role="doc-biblioref">González-Sanabria et&nbsp;al., 2020</a>)</span>; el idioma de la producción <span class="citation" data-cites="hernandez2019">(<a href="#ref-hernandez2019" role="doc-biblioref">Hernández de la Rosa et&nbsp;al., 2019</a>)</span>; la cantidad de autores que firman dicha publicación <span class="citation" data-cites="liberatore2018">(<a href="#ref-liberatore2018" role="doc-biblioref">Liberatore &amp; Visca, 2018</a>)</span>; la participación de coautores provenientes de diferentes países <span class="citation" data-cites="degranda2009">(<a href="#ref-degranda2009" role="doc-biblioref">Granda-Orive et&nbsp;al., 2009</a>)</span>; el campo disciplinar al que pertenece <span class="citation" data-cites="kreimer2016">(<a href="#ref-kreimer2016" role="doc-biblioref">Kreimer, 2016</a>)</span>; y la relevancia internacional de las temáticas abordadas en el marco del artículo <span class="citation" data-cites="invernizzi2022">(<a href="#ref-invernizzi2022" role="doc-biblioref">Invernizzi et&nbsp;al., 2022</a>)</span>.</p>
+<p>De esta manera, las hipótesis de los referidos autores se basan, en su mayoría, en supuestos de orden teórico conceptual, que no han sido contrastados estadísticamente de forma integral. A continuación, se presentan las características estructurales de la investigación en la UNLaM, caso de estudio seleccionado para examinar los factores determinantes de la visibilidad de los artículos científicos durante el año 2022.</p>
+</section>
+<section id="la-producción-y-transferencia-del-conocimiento-científico-en-la-unlam" class="level2">
+<h2 class="anchored" data-anchor-id="la-producción-y-transferencia-del-conocimiento-científico-en-la-unlam">La producción y transferencia del conocimiento científico en la UNLaM</h2>
+<p>La UNLaM es una institución argentina, fundada en el año 1989, en lo que se ha dado en llamar la segunda oleada de creación de Universidades públicas <span class="citation" data-cites="pineiro2024a">(<a href="#ref-pineiro2024a" role="doc-biblioref">Piñeiro et&nbsp;al., 2024a</a>)</span>. De esta forma, es posible identificar en su Estatuto la vocación de incidir en la configuración territorial -particularmente afectada por la vulnerabilidad (De Sena et al., 2024)- tanto a través de la formación de profesionales, como de la producción de conocimiento innovador, y la extensión comunitaria <span class="citation" data-cites="pineiro2024b">(<a href="#ref-pineiro2024b" role="doc-biblioref">Piñeiro et&nbsp;al., 2024b</a>)</span>.</p>
+<p>Ahora bien, a diferencia de buena parte del Sistema Universitario argentino, la Universidad se organiza a través de una estructura departamental <span class="citation" data-cites="levy2024">(<a href="#ref-levy2024" role="doc-biblioref">Levy et&nbsp;al., 2024</a>)</span>. En el año 2024 es posible hallar cinco Unidades Académicas -Departamentos- organizadas por Secretarías coordinadas a través de órganos rectores dependientes del Rectorado. En el caso de la función investigación, cada Unidad Académica posee una Secretaría de Investigación, y su órgano rector -de normalización organizativa <span class="citation" data-cites="cao2023 levy2023">(<a href="#ref-cao2023" role="doc-biblioref">Cao &amp; Levy, 2023</a>; <a href="#ref-levy2023" role="doc-biblioref">Levy, 2023</a>)</span>- es la Secretaría de Ciencia y Tecnología (SCyT) central, como se aprecia en la <a href="#fig-estructura" class="quarto-xref">Figura&nbsp;<span>6.1</span></a>.</p>
+<div id="fig-estructura" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-estructura-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="img/unlam.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-estructura-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;6.1: Estructura de la función investigación en la UNLaM. Fuente: <span class="citation" data-cites="levy2024">(<a href="#ref-levy2024" role="doc-biblioref">Levy et&nbsp;al., 2024</a>)</span>.
+</figcaption>
+</figure>
+</div>
+<p>De esta forma, el estatuto universitario de la UNLaM establece que el conocimiento producido debe orientarse por la multidisciplinariedad y la búsqueda de dar respuesta a las principales demandas vigentes en el territorio en el cual se asienta. En esa línea, la SCyT ha impulsado una serie de políticas tendientes a estimular la articulación con el entramado socio-productivo local, como es el caso del Programa Transferir UNLaM<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>. De igual modo, promueve la difusión de los resultados de investigación alcanzados en el marco de los proyectos institucionales, a través de presentaciones en Congresos, publicaciones de libros, y, particularmente, artículos científicos.</p>
+<p>Dada la trascendencia que ha adquirido la circulación del conocimiento -tanto a nivel individual como institucional-, desde la SCyT se ha reglamentado una política de AA-Resolución 97/2013-, a partir de la cual se derivó la creación del Repositorio Institucional UNLaM. Dentro del Repositorio se alojan las tesis de posgrados finalizados en la Universidad, publicaciones científicas de sus docentes investigadores, las Revistas de la UNLaM<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> y los informes finales de los proyectos de investigación.</p>
+<p>De esta forma, se destaca el impulso institucional hacia la libre circulación del conocimiento <span class="citation" data-cites="zukerfeld2010a">(<a href="#ref-zukerfeld2010a" role="doc-biblioref">Zukerfeld, 2010a</a>)</span> junto a la articulación con el territorio. Dicho esto, a continuación, se analizan los principales determinantes de las publicaciones UNLaM, tomando como base la visibilidad obtenida por los artículos científicos publicados, por sus investigadores, en el año 2022.</p>
+</section>
+<section id="la-productividad-de-las-publicaciones-unlam-y-sus-principales-determinantes" class="level2">
+<h2 class="anchored" data-anchor-id="la-productividad-de-las-publicaciones-unlam-y-sus-principales-determinantes">La productividad de las publicaciones UNLaM y sus principales determinantes</h2>
+<p>Como se anticipó en el apartado metodológico, durante el año 2022 se registraron un total de 160 artículos científicos publicados por docentes investigadores UNLaM en revistas arbitradas e indizadas. Para comenzar con el análisis, cabe destacar que se detectaron cuatro variables determinantes del impacto y la visibilidad de una publicación, las mismas se presentan y analizan de mayor a menor incidencia.</p>
+<p>En este aspecto, en primer lugar, pudimos observar que, el 18,75% están publicados en idioma inglés, de ello se destaca que algunos de sus autores se encuentran insertos en redes internacionales, mientras que, otros aún no. De esta forma, se podría inferir que los investigadores UNLaM asocian la publicación de artículos científicos en idioma inglés con la posibilidad de obtener mayor cantidad de citas a nivel global<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a>, independientemente de participar en redes internacionales.</p>
+<p>Continuando con este razonamiento, testeamos la incidencia del idioma inglés en la visibilidad de las publicaciones UNLaM. Cabe aclarar que, durante el año elegido, las publicaciones en idioma extranjero han sido escritas exclusivamente en este idioma, razón por la cual el análisis se basa únicamente en esta lengua. Al respecto, pudimos advertir que, el idioma inglés se constituye como un determinante clave del impacto científico de una publicación. En consonancia, como se aprecia en la <a href="#tbl-regresion-idioma" class="quarto-xref">Tabla&nbsp;<span>6.2</span></a>, cuando el artículo está publicado en inglés, este tiene en promedio 15,85 citas<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a>.</p>
+<div id="tbl-regresion-idioma" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-regresion-idioma-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;6.2: Regresión lineal simple sobre el idioma de la publicación. Elaboración propia con base en el relevamiento realizado.
+</figcaption>
+<div aria-describedby="tbl-regresion-idioma-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Statistical models</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><strong>Modelo 3</strong></td>
+</tr>
+<tr class="even">
+<td>Constante</td>
+<td>1.53</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>(2.66)</td>
+</tr>
+<tr class="even">
+<td>Idioma inglés</td>
+<td>15.85***</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>(4.65)</td>
+</tr>
+<tr class="even">
+<td>R²</td>
+<td>0.10</td>
+</tr>
+<tr class="odd">
+<td>Adj. R²</td>
+<td>0.09</td>
+</tr>
+<tr class="even">
+<td>Núm. obs.</td>
+<td>104</td>
+</tr>
+<tr class="odd">
+<td>***p &lt; 0.001; **p &lt; 0.01; *p &lt; 0.05</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>De este modo, el presente análisis nos da pie para interpretar que, dada la incidencia manifiesta del idioma inglés, la participación en redes internacionales de investigación permitiría obtener mayor impacto a la hora de publicar un artículo. Por este motivo, incorporamos en el análisis, a la colaboración internacional, como una variable independiente, a considerar.</p>
+<p>En este sentido, destacamos que, el 32,5% de los artículos cuenta con un solo autor, mientras que, el 20,62% presenta algún coautor internacional. De esta forma, en segundo lugar, la colaboración internacional se reveló como una variable clave de la visibilidad de las publicaciones. Por ello, al realizar el análisis estadístico pudimos observar la gran incidencia que la participación de coautores internacionales tiene en la cantidad de citas obtenidas por un artículo científico, dado que, un artículo científico con colaboración de autores de otros países obtiene, en promedio, 10,49 citas<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a>, como se aprecia en la <a href="#tbl-colaboracion-internacional" class="quarto-xref">Tabla&nbsp;<span>6.3</span></a>.</p>
+<div id="tbl-colaboracion-internacional" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-colaboracion-internacional-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;6.3: Regresión lineal simple sobre la participación de autores internacionales. Elaboración propia con base en el relevamiento realizado.
+</figcaption>
+<div aria-describedby="tbl-colaboracion-internacional-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Statistical models</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><strong>Modelo 4</strong></td>
+</tr>
+<tr class="even">
+<td>Constante</td>
+<td>1.73</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>(0.91)</td>
+</tr>
+<tr class="even">
+<td>Colaboración Internacional</td>
+<td>10.49***</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>(2.04)</td>
+</tr>
+<tr class="even">
+<td>R²</td>
+<td>0.14</td>
+</tr>
+<tr class="odd">
+<td>Adj. R²</td>
+<td>0.14</td>
+</tr>
+<tr class="even">
+<td>Núm. obs.</td>
+<td>159</td>
+</tr>
+<tr class="odd">
+<td>***p &lt; 0.001; **p &lt; 0.01; *p &lt; 0.05</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Asimismo, un elemento que debe ser considerado, en aquellos artículos científicos que participan coautores internacionales y ostentan la mayor visibilidad, es que los primeros autores no suelen ser argentinos. En este sentido, podemos ponderar la relevancia que la inserción en redes de investigación internacionales tiene para los autores nacionales <span class="citation" data-cites="invernizzi2022">(<a href="#ref-invernizzi2022" role="doc-biblioref">Invernizzi et&nbsp;al., 2022</a>)</span>. No obstante, se pudo advertir que, buena parte de los artículos publicados, por autores UNLaM, en idioma inglés, se realizan junto con autores que no han tenido vinculación con academias y/o equipos de investigación internacionales, pero que, a pesar de ello, consideran que, publicar en idioma inglés reportaría mayor visibilidad. Este hecho nos permite revisar la histórica tradición científica de publicar artículos priorizando el idioma de lectura esperado en su público lector <span class="citation" data-cites="pineiro2024a">(<a href="#ref-pineiro2024a" role="doc-biblioref">Piñeiro et&nbsp;al., 2024a</a>)</span>, que implicaba que los autores hispanoamericanos tuvieran como propósito la publicación de artículos en idioma español ante la ausencia de participación en redes internacionales.</p>
+<p>De esta forma, y ya en tercer lugar, que la revista se encuentre indizada en SCOPUS representa otro determinante clave del impacto y la visibilidad de una publicación. Así, un artículo UNLaM publicado en una revista indizada en SCOPUS obtiene, en promedio, 9,43 citas, como se observa en la <a href="#tbl-indizacion-scopus" class="quarto-xref">Tabla&nbsp;<span>6.4</span></a><a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a>. Este resultado preliminar refuerza la hipótesis de que, el grado de indización de una revista científica tiene efectos sobre su impacto y visibilidad en el universo académico. A su vez, esto podría deberse a la legitimidad que se atribuye a sus sistemas de evaluación <span class="citation" data-cites="invernizzi2022">(<a href="#ref-invernizzi2022" role="doc-biblioref">Invernizzi et&nbsp;al., 2022</a>)</span>.</p>
+<div id="tbl-indizacion-scopus" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-indizacion-scopus-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;6.4: Regresión lineal simple sobre la indización de las publicaciones UNLaM en SCOPUS. Elaboración propia con base en el relevamiento realizado.
+</figcaption>
+<div aria-describedby="tbl-indizacion-scopus-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Statistical models</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><strong>Modelo 5</strong></td>
+</tr>
+<tr class="even">
+<td>Constante</td>
+<td>1.47</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>(0.95)</td>
+</tr>
+<tr class="even">
+<td>Indizado en SCOPUS</td>
+<td>9.43***</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>(1.89)</td>
+</tr>
+<tr class="even">
+<td>R²</td>
+<td>0.14</td>
+</tr>
+<tr class="odd">
+<td>Adj. R²</td>
+<td>0.13</td>
+</tr>
+<tr class="even">
+<td>Núm. obs.</td>
+<td>159</td>
+</tr>
+<tr class="odd">
+<td>***p &lt; 0.001; **p &lt; 0.01; *p &lt; 0.05</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>De la misma manera, en cuarto lugar, de la <a href="#tbl-metodologia-cuantitativa" class="quarto-xref">Tabla&nbsp;<span>6.5</span></a> se desprende que, a la colaboración internacional, el idioma inglés y la indización de la revista en SCOPUS, se le agrega una variable más como determinante clave. Se trata de un factor que especialistas como <span class="citation" data-cites="calvo2019">(<a href="#ref-calvo2019" role="doc-biblioref">Calvo et&nbsp;al., 2019</a>)</span> han abordado en relación con su escasa expresión dentro de las academias argentinas. Nos referimos a la utilización de una estrategia metodológica cuantitativa de investigación.</p>
+<p>Del total de artículos analizados, el 26,25% presentan estrategias metodológicas cuantitativas. De acuerdo con la <a href="#tbl-metodologia-cuantitativa" class="quarto-xref">Tabla&nbsp;<span>6.5</span></a>, cuando la metodología del artículo es cuantitativa, este tiene en promedio 9,02 citas<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a>.</p>
+<div id="tbl-metodologia-cuantitativa" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-metodologia-cuantitativa-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;6.5: Regresión lineal simple sobre el tipo de metodología empleada. Elaboración propia con base en el relevamiento realizado.
+</figcaption>
+<div aria-describedby="tbl-metodologia-cuantitativa-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Statistical models</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><strong>Modelo 6</strong></td>
+</tr>
+<tr class="even">
+<td>Constante</td>
+<td>1.52</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>(0.96)</td>
+</tr>
+<tr class="even">
+<td>Metodología Cuantitativa</td>
+<td>9.02***</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>(1.89)</td>
+</tr>
+<tr class="even">
+<td>R²</td>
+<td>0.13</td>
+</tr>
+<tr class="odd">
+<td>Adj. R²</td>
+<td>0.12</td>
+</tr>
+<tr class="even">
+<td>Núm. obs.</td>
+<td>159</td>
+</tr>
+<tr class="odd">
+<td>***p &lt; 0.001; **p &lt; 0.01; *p &lt; 0.05</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>En este punto, se destaca que los especialistas parten del supuesto de que aquellas investigaciones que incorporan estrategias cuantitativas para alcanzar los objetivos propuestos suelen estar conectadas con equipos y redes de investigación internacionales <span class="citation" data-cites="calvo2019">(<a href="#ref-calvo2019" role="doc-biblioref">Calvo et&nbsp;al., 2019</a>)</span>. Nuevamente, la hipótesis de la participación en redes de colaboración internacional, que publican en idioma inglés, en revistas indizadas en SCOPUS y emplean este tipo de metodologías, parece consistente.</p>
+<p>Ahora bien, más adelante, se incorporaron al análisis otras dos variables -principalmente para controlar el efecto de las anteriores-, y que poseen menor incidencia en el impacto y la visibilidad de una publicación. Estas han sido la cantidad total de autores que firman una publicación y la periodicidad de la revista en la cual se encuentra incluido el artículo científico. Se partía del supuesto de que, una mayor cantidad de coautores podría traccionar más citas por el aporte individual de visibilidad que podría realizar cada uno de ellos. Adicionalmente, una revista que se publica con mayor frecuencia podría suscitar mayor atención en la respectiva comunidad científica, por la periodicidad del contacto con los lectores y las exigencias propias de algunos índices que no evalúan a revistas con menos de dos entregas al año.</p>
+<p>Al respecto, pudimos observar que, si bien la cantidad de autores incide en la visibilidad de una publicación, lo hace de forma moderada. De hecho, como se visualiza en la <a href="#tbl-cantidad-autores" class="quarto-xref">Tabla&nbsp;<span>6.6</span></a>, por cada autor incorporado a un artículo, este no llega a incrementar ni 2 citas completas, en promedio<a href="#fn12" class="footnote-ref" id="fnref12" role="doc-noteref"><sup>12</sup></a>.</p>
+<div id="tbl-cantidad-autores" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-cantidad-autores-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;6.6: Regresión lineal simple con la cantidad de autores. Elaboración propia con base en el relevamiento realizado.
+</figcaption>
+<div aria-describedby="tbl-cantidad-autores-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Statistical models</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><strong>Modelo 7</strong></td>
+</tr>
+<tr class="even">
+<td>Constante</td>
+<td>-2.02</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>(1.05)</td>
+</tr>
+<tr class="even">
+<td>Cantidad de Autores</td>
+<td>1.67***</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>(0.21)</td>
+</tr>
+<tr class="even">
+<td>R²</td>
+<td>0.29</td>
+</tr>
+<tr class="odd">
+<td>Adj. R²</td>
+<td>0.28</td>
+</tr>
+<tr class="even">
+<td>Núm. obs.</td>
+<td>159</td>
+</tr>
+<tr class="odd">
+<td>***p &lt; 0.001; **p &lt; 0.01; *p &lt; 0.05</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>De forma análoga, la periodicidad de una revista no parece tener gran impacto en la visibilidad de sus artículos. Estadísticamente, la <a href="#tbl-periodicidad-revista" class="quarto-xref">Tabla&nbsp;<span>6.7</span></a> revela que, por cada número adicional publicado por la revista, esta obtiene en promedio 1 cita más<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a>.</p>
+<div id="tbl-periodicidad-revista" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-periodicidad-revista-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;6.7: Regresión lineal simple sobre frecuencia de publicación de la revista. Elaboración propia con base en el relevamiento realizado.
+</figcaption>
+<div aria-describedby="tbl-periodicidad-revista-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Statistical models</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><strong>Modelo 8</strong></td>
+</tr>
+<tr class="even">
+<td>Constante</td>
+<td>-0.21</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>(1.11)</td>
+</tr>
+<tr class="even">
+<td>Frecuencia de publicación de la Revista</td>
+<td>1.14***</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>(0.21)</td>
+</tr>
+<tr class="even">
+<td>R²</td>
+<td>0.15</td>
+</tr>
+<tr class="odd">
+<td>Adj. R²</td>
+<td>0.15</td>
+</tr>
+<tr class="even">
+<td>Núm. obs.</td>
+<td>159</td>
+</tr>
+<tr class="odd">
+<td>***p &lt; 0.001; **p &lt; 0.01; *p &lt; 0.05</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Al mismo tiempo, identificamos un conjunto de variables que no parecen haber incidido en la cantidad de citas obtenidas por los artículos UNLaM considerados. Del total de artículos, el 88,12% se encuentra publicado en revistas de AA. En este aspecto, el primer dato destacado es que, probablemente debido a la sobrerrepresentación del AA en la población analizada, la asociación de esta variable con la cantidad de citas por artículo no ha resultado estadísticamente significativa. Sin embargo, el amplio porcentaje de artículos publicados bajo este formato nos permite inferir que, mayoritariamente, los investigadores UNLaM apuestan por la libre circulación del conocimiento.</p>
+<p>En este sentido, resulta menester recalcar que, la elección por el formato en AA se enmarca en un contexto nacional de búsqueda de promoción de la libre circulación del conocimiento, estimulado por la Ley 26.899/13<a href="#fn14" class="footnote-ref" id="fnref14" role="doc-noteref"><sup>14</sup></a>. En esta misma línea, la UNLaM aprobó una Resolución en adhesión a esta Ley. No obstante, más allá de estas normativas, la significativa tendencia de publicar artículos científicos en AA, por parte de los investigadores UNLaM, permite vislumbrar una expectativa de alcanzar mayor visibilidad, a través de esta.</p>
+<p>A ello se añade que, en la población seleccionada hay científicos que pertenecen tanto a la UNLaM como a otras instituciones, simultáneamente, tales como el CONICET, que siguiendo a <span class="citation" data-cites="beigel2017">(<a href="#ref-beigel2017" role="doc-biblioref">Beigel, 2017</a>)</span>, promueven la búsqueda de elevados factores de impacto y citación a través de las evaluaciones realizadas a sus científicos -tanto becarios como de carrera. En esa línea, se visualiza una elevada expectativa de visibilidad de las publicaciones asociada con el AA.</p>
+<p>Otra de las variables que no fue significativa en relación con la cantidad de citas obtenidas en promedio, es el máximo título académico alcanzado por el primer autor de la publicación. En este sentido, pudimos observar que del 65% de los artículos publicados, el primer autor tiene formación doctoral. De este modo, se advirtió que la asociación entre la visibilidad de las publicaciones y la máxima titulación académica alcanzada por el primer autor no resultó relevante. Ello puede deberse a que, la gran mayoría de los artículos analizados han sido publicados por primeros autores con doctorados finalizados. Es decir, al igual que con la variable AA, se evidencia una sobrerrepresentación de primeros autores con formación doctoral en la población analizada.</p>
+<p>Adicionalmente, este mismo efecto de sobrerrepresentación se pudo corroborar en relación con las últimas dos variables incorporadas en este análisis. Por un lado, pudimos observar que, el 61,25% de las publicaciones pertenece a la disciplina Ciencias Sociales. Por otro lado, y en esa línea, el 63,75% de los artículos aborda temas de relevancia nacional<a href="#fn15" class="footnote-ref" id="fnref15" role="doc-noteref"><sup>15</sup></a>. De esta forma, tanto la disciplina como la relevancia de la temática abordada no resultaron significativas para explicar la visibilidad y el impacto de las publicaciones.</p>
+<p>A continuación, se sintetizan las variables analizadas y su grado de incidencia sobre la cuestión estudiada.</p>
+<div id="tbl-grado-incidencia" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-grado-incidencia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;6.8: Grado de incidencia en la visibilidad e impacto de las publicaciones UNLaM de los factores analizados. Elaboración propia con base en el relevamiento realizado.
+</figcaption>
+<div aria-describedby="tbl-grado-incidencia-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 32%">
+<col style="width: 67%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Factores</th>
+<th style="text-align: center;">Grado de incidencia</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Idioma inglés</td>
+<td style="text-align: center;">Determinante</td>
+</tr>
+<tr class="even">
+<td>Colaboración internacional</td>
+<td style="text-align: center;">Determinante</td>
+</tr>
+<tr class="odd">
+<td>Indización en Scopus</td>
+<td style="text-align: center;">Determinante</td>
+</tr>
+<tr class="even">
+<td>Metodología cuantitativa</td>
+<td style="text-align: center;">Determinante</td>
+</tr>
+<tr class="odd">
+<td>Cantidad de Autores</td>
+<td style="text-align: center;">Moderada</td>
+</tr>
+<tr class="even">
+<td>Frecuencia de la publicación de la revista</td>
+<td style="text-align: center;">Moderada</td>
+</tr>
+<tr class="odd">
+<td>Acceso Abierto</td>
+<td style="text-align: center;">No significativa</td>
+</tr>
+<tr class="even">
+<td>Título doctoral alcanzado por el primer autor de la publicación</td>
+<td style="text-align: center;">No significativa</td>
+</tr>
+<tr class="odd">
+<td>Artículo inscripto en el área de las Ciencias Sociales</td>
+<td style="text-align: center;">No significativa</td>
+</tr>
+<tr class="even">
+<td>Relevancia nacional de los resultados de la publicación</td>
+<td style="text-align: center;">No significativa</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Hasta el momento, se ha presentado el análisis individual de la incidencia de diez variables - <a href="#tbl-grado-incidencia" class="quarto-xref">Tabla&nbsp;<span>6.8</span></a>- en la cantidad promedio de citas obtenidas por los artículos publicados por investigadores UNLaM durante el año 2022. De esta primera etapa podemos inferir que, individualmente consideradas, el idioma inglés, la colaboración internacional, la indización de la revista en SCOPUS y la metodología cuantitativa son determinantes de los artículos examinados.</p>
+<p>Posteriormente, elaboramos un modelo aditivo, conformado por las variables determinantes analizadas individualmente para observar el comportamiento de cada una de estas cuando se controla el efecto de las restantes. Esto nos permite comprender, en mayor profundidad, en qué medida cada factor incide sobre la cantidad de citas obtenidas por una publicación científica, dado que, de no controlar el efecto de otras variables relevantes, podríamos llegar a la errónea conclusión de que alguna de estas tiene más peso que las demás.</p>
+<div id="tbl-modelo-aditivo" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-modelo-aditivo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;6.9: Modelo aditivo de factores determinantes de la visibilidad de las publicaciones UNLaM. Elaboración propia con base en el relevamiento realizado.
+</figcaption>
+<div aria-describedby="tbl-modelo-aditivo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Statistical models</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td></td>
+<td><strong>Modelo 10</strong></td>
+</tr>
+<tr class="even">
+<td>Constante</td>
+<td>-0.08</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>(0.98)</td>
+</tr>
+<tr class="even">
+<td>Indización en SCOPUS</td>
+<td>4.55*</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>(2.13)</td>
+</tr>
+<tr class="even">
+<td>Colaboración Internacional</td>
+<td>4.46</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>(2.50)</td>
+</tr>
+<tr class="even">
+<td>Metodología Cuantitativa</td>
+<td>4.10</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>(2.09)</td>
+</tr>
+<tr class="even">
+<td>Idioma inglés</td>
+<td>3.10</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>(2.37)</td>
+</tr>
+<tr class="even">
+<td>R²</td>
+<td>0.23</td>
+</tr>
+<tr class="odd">
+<td>Adj. R²</td>
+<td>0.21</td>
+</tr>
+<tr class="even">
+<td>Núm. obs.</td>
+<td>159</td>
+</tr>
+<tr class="odd">
+<td>***p &lt; 0.001; **p &lt; 0.01; *p &lt; 0.05</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>A partir de la <a href="#tbl-modelo-aditivo" class="quarto-xref">Tabla&nbsp;<span>6.9</span></a> podemos realizar una serie de inferencias clave. Para comenzar, podemos aseverar que, un artículo que no se encuentre publicado en idioma inglés, ni en una revista indizada en SCOPUS, que no posea colaboración internacional en su autoría, y cuya estrategia metodológica sea cualitativa, obtendría en promedio ninguna cita. En segundo lugar, se advierte que, al comparar la incidencia individual de cada factor en la cantidad de citas obtenidas en promedio, por las publicaciones UNLaM consideradas, en el modelo aditivo los valores tienden a moderarse.</p>
+<p>De ello se desprende que, al controlar el efecto de la indización, la colaboración internacional, y la metodología utilizada, un artículo científico publicado en inglés obtiene en promedio 3 citas. A su vez, si mantenemos controlado el efecto del idioma, la indización y la colaboración internacional, un artículo cuya estrategia metodológica es cuantitativa tiene un promedio de 4 citas. En esa línea, controlando el efecto del idioma, la indización y la metodología, una publicación científica con colaboración internacional recibe, en promedio, 4,4 citas. Finalmente, controlando el efecto de la colaboración internacional, el idioma y la metodología, un artículo publicado en una revista indizada en SCOPUS obtiene en promedio 4,5 citas.</p>
+<p>De esta forma, se aprecia que, tanto consideradas de forma individual, como integrada en un modelo de regresión lineal múltiple aditivo, que nos permite controlar el efecto de las restantes variables incluidas, cada factor tiene incidencia en la cantidad media de citas obtenidas por un artículo científico. Sin embargo, este efecto se modera en el modelo aditivo, demostrando que, si bien han afectado la visibilidad de las publicaciones UNLaM durante el año 2022, la incidencia ha sido menor a la esperada a partir de los resultados arrojados por el análisis individual. Si en el modelo individual la incidencia rondaba entre las 9 y las 15 citas promedio, en el modelo aditivo no supera las 5 citas en ningún caso.</p>
+</section>
+<section id="conclusiones" class="level2">
+<h2 class="anchored" data-anchor-id="conclusiones">Conclusiones</h2>
+<p>El objetivo de este capítulo fue analizar la incidencia de distintos factores, en particular la disponibilidad en AA, en la visibilidad de las publicaciones producidas por docentes investigadores UNLaM, durante el año 2022. La estrategia metodológica fue mixta, ya que, se combinó un enfoque cualitativo, a partir del análisis documental, con el cuantitativo, a través del análisis estadístico, a través del programa de análisis estadístico RStudio.</p>
+<p>Para ello, se han considerado un total de diez variables, dentro de las cuales, la dependiente fue la cantidad de citas obtenidas por cada artículo científico, y las independientes fueron: campo disciplinar, cantidad de autores, colaboración internacional, agenda temática, metodología, máximo título académico alcanzado por el primer autor, idioma, indización, tipo de acceso, y, por último, frecuencia de publicación. De esta forma, se examinó la visibilidad de 160 artículos científicos publicados por docentes investigadores UNLaM durante el año 2022 en revistas científicas.</p>
+<p>El enfoque teórico de esta investigación retomó la importancia del AA para incrementar la visibilidad de las publicaciones científicas. Adicionalmente, se consideró la incidencia de otros factores, como, por ejemplo, la indización de las revistas, el idioma, así como el perfil de los autores involucrados en una publicación, que han sido abordados teóricamente, por parte de la literatura especializada, pero no empíricamente.</p>
+<p>Como resultado, pudimos observar que, hay una tendencia general, en los investigadores UNLaM, ha seleccionar publicaciones inscriptas en la tradición del AA. Ello ha permeado a las distintas disciplinas a las que pertenecen los autores de los artículos seleccionados, exhibiendo una apuesta masiva por la circulación libre del conocimiento.</p>
+<p>Sin embargo, se advirtió que, en primer lugar, probablemente debido a la sobrerrepresentación del AA en la población de artículos, la asociación de esta variable con la cantidad de citas por artículo no resultó estadísticamente relevante, al igual que la máxima titulación académica alcanzada por el primer autor. De las restantes variables, en cuyo caso pudimos descartar la hipótesis nula, es decir, la inexistencia de asociación con la variación en la cantidad de citas obtenidas por artículo científico, se seleccionaron las cuatro variables con mayor capacidad de explicación de la variación de la visibilidad de los artículos, de acuerdo con los modelos de regresión lineal simple realizados.</p>
+<p>Del mismo modo, pudimos arribar a las siguientes conclusiones: por cada número adicional publicado por la revista, esta obtiene, en promedio 1,14 citas más; por cada autor incorporado a un artículo, cada artículo aumenta en promedio 1,67 citas; cuando la metodología del artículo es cuantitativa, este tiene en promedio 9,02 citas; un artículo publicado en una revista indizada en la Base de Datos SCOPUS obtiene, en promedio, 9,43 citas; ante la presencia de la colaboración internacional, un artículo obtiene, en promedio, 10,49 citas; cuando el artículo científico está publicado en inglés, este tiene en promedio 15,85 citas. En este sentido, se advierte que, las últimas cuatro variables se constituyen como factores críticos que inciden en la visibilidad de las producciones científicas de la UNLaM.</p>
+<p>Posteriormente, integramos las cuatro variables con mayor capacidad explicativa de la variación en la cantidad promedio de citas recibidas por un artículo científico en un mismo modelo aditivo, para observar cómo se comportaban al controlar el efecto de las restantes. De esta forma, pudimos apreciar que, en el modelo múltiple, las cuatro variables resultaron estadísticamente significativas. No obstante, mientras que en el modelo individual la incidencia rondaba entre las 9 y las 15 citas promedio, en el modelo aditivo no supera las 5 citas en ningún caso. De esta forma, se visualizó que la incidencia de estas variables, de forma integral, es consistente, pero menor, a la esperada.</p>
+<p>De esta investigación se desprende la necesidad de ampliar la base de datos observacionales, más allá del año 2022, para corroborar los resultados alcanzados en una serie de tiempo extendida. Adicionalmente, resultaría de interés poder contrastar estos resultados con otras instituciones del Sistema Nacional de Ciencia, Tecnología e Innovación de Argentina.</p>
 
 
 </section>
 <section id="bibliography" class="level1 unnumbered">
 <h1 class="unnumbered">Referencias</h1>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-beigel2017" class="csl-entry" role="listitem">
+Beigel, F. (2017). Científicos Periféricos, entre Ariel y Calibán. Saberes Institucionales y Circuitos de Consagración en Argentina: Las Publicaciones de los Investigadores del CONICET. <em>Dados</em>, <em>60</em>, 825-865. <a href="https://doi.org/10.1590/001152582017136">https://doi.org/10.1590/001152582017136</a>
+</div>
+<div id="ref-calvo2019" class="csl-entry" role="listitem">
+Calvo, E., Elverdín, A. S., Kessler, G., &amp; Murillo, M. V. (2019). Investigando las influencias internacionales en las ciencias sociales argentinas. <em>Revista Latinoamericana de Metodología de las Ciencias Sociales</em>, <em>9</em>(2). <a href="https://www.memoria.fahce.unlp.edu.ar/library?a=d&amp;c=arti&amp;d=Jpr11353">https://www.memoria.fahce.unlp.edu.ar/library?a=d&amp;c=arti&amp;d=Jpr11353</a>
+</div>
 <div id="ref-canton2021" class="csl-entry" role="listitem">
 Cantón, C. I. M. (2021). Un análisis cuantitativo del acceso abierto en las revistas de Humanidades Digitales. <em>Revista general de información y documentación</em>, <em>31</em>(1), 331.
+</div>
+<div id="ref-cao2023" class="csl-entry" role="listitem">
+Cao, H., &amp; Levy, M. (2023). El rol de los órganos rectores en la Administración Pública Nacional Argentina. <em>Revista estudios de políticas públicas</em>, <em>9</em>(2), 34-45. <a href="https://doi.org/10.5354/0719-6296.2023.70834">https://doi.org/10.5354/0719-6296.2023.70834</a>
+</div>
+<div id="ref-carballo2022" class="csl-entry" role="listitem">
+Carballo, P. (2022). <em>Políticas de promoción del conocimiento y derechos de propiedad intelectual</em>. <a href="https://www.ciecti.org.ar/politicas-de-promocion-del-conocimiento-y-derechos-de-propiedad-intelectual-experiencias-propuestas-y-debates-para-la-argentina/">https://www.ciecti.org.ar/politicas-de-promocion-del-conocimiento-y-derechos-de-propiedad-intelectual-experiencias-propuestas-y-debates-para-la-argentina/</a>
 </div>
 <div id="ref-casasempere2020" class="csl-entry" role="listitem">
 Casasempere Satorres, A., &amp; Vercher Ferrándiz, M. (2020). Análisis documental bibliográfico. Obteniendo el máximo rendimiento a la revisión de la literatura en investigaciones cualitativas. <em>New Trends in Qualitative Research</em>, <em>4</em>, 19.
@@ -455,11 +1009,32 @@ Casasempere Satorres, A., &amp; Vercher Ferrándiz, M. (2020). Análisis documen
 <div id="ref-cordoba2011" class="csl-entry" role="listitem">
 Córdoba, S. (2011). <em>Los repositorios de acceso abierto: Una vía para la democratización de la información y el conocimiento</em>. <a href="https://ru.iibi.unam.mx/jspui/handle/IIBI_UNAM/CL600">https://ru.iibi.unam.mx/jspui/handle/IIBI_UNAM/CL600</a>
 </div>
+<div id="ref-desouza2024" class="csl-entry" role="listitem">
+De Souza, C., &amp; Balseiro, C. S. (2024). Acceso abierto en el Caribe: un análisis bibliométrico (2000-2020). <em>Integración y Conocimiento: Revista del Núcleo de Estudios e Investigaciones en Educación Superior de Mercosur</em>, <em>13</em>(1), 65-85.
+</div>
+<div id="ref-delgado2015" class="csl-entry" role="listitem">
+Delgado López-Cozar, E. (2015). Las revistas electrónicas en acceso abierto: Pasado, presente y futuro. <em>Relieve: Revista ELectrónica de Investigación y EValuación Educativa</em>, <em>21</em>(1), 1-15.
+</div>
+<div id="ref-diaz2023" class="csl-entry" role="listitem">
+Díaz-Chieng, L. Y., Aviles Peralta, Y. A., Artigas, W., &amp; Bustamante Cabrera, G. (2023). WeEditors.org: hacia la visibilidad y sostenimiento de revistas en acceso abierto. <em>Palabra clave</em>, <em>12</em>(2), 191-191.
+</div>
+<div id="ref-fernandez2018" class="csl-entry" role="listitem">
+Fernández, T. F. (2018). Los repositorios institucionales: Evolución; situación actual en España. En <em>Ecosistemas del Acceso Abierto</em>. Ediciones Universidad de Salamanca.
+</div>
 <div id="ref-gallardo2022" class="csl-entry" role="listitem">
 Gallardo, O. (2022). Carrera académica y asimetrías de género en el Conicet, Argentina (2004-2018). <em>Revista Temas Sociológicos</em>, <em>30</em>, 489-521.
 </div>
+<div id="ref-gonzalez2018" class="csl-entry" role="listitem">
+González-Pérez, L. I., Ramírez-Montoya, M. S., &amp; García-Peñalvo, F. J. (2018). <em>Identidad digital 2.0: posibilidades de la gestión y visibilidad científica a través de repositorios institucionales de acceso abierto: EN Ecosistemas del acceso Abierto</em>. Ediciones Universidad de Salamanca.
+</div>
 <div id="ref-gonzalez2020" class="csl-entry" role="listitem">
 González-Sanabria, J. S., Aparicio, A., Burgos-Pineda, D. A., &amp; Guiza-Pinzón, F. D. (2020). <em>Servicios de indexación y resumen, una oportunidad subvalorada para la mejora de la visibilidad y difusión de los artículos publicados en las revistas científicas Latinoamericanas: Caso DOAJ</em>. <a href="https://doi.org/10.4067/S0718-07642020000500223">https://doi.org/10.4067/S0718-07642020000500223</a>
+</div>
+<div id="ref-degranda2009" class="csl-entry" role="listitem">
+Granda-Orive, J. I. de, Villanueva-Serrano, S., Aleixandre-Benavent, R., Valderrama-Zurián, J. C., Alonso-Arroyo, A., García Río, F., Jiménez Ruiz, C. A., Solano Reina, S., &amp; González Alcaide, G. (2009). Redes de colaboración científica internacional en tabaquismo: Análisis de coautorías mediante el Science Citation Index durante el periodo 1999-2003. <em>Gaceta Sanitaria</em>, <em>23</em>(3), 222.e34-222.e43. <a href="https://doi.org/10.1016/j.gaceta.2008.05.002">https://doi.org/10.1016/j.gaceta.2008.05.002</a>
+</div>
+<div id="ref-hernandez2019" class="csl-entry" role="listitem">
+Hernández de la Rosa, Y., López Díaz, L., Alpizar León, Y. P., &amp; Vasconcelos Ramírez, D. (2019). Visibilidad de la producción científica de los docentes de la Universidad de Ciencias Médicas, Villa Clara. <em>Medicentro Electrónica</em>, <em>23</em>(4), 320-335.
 </div>
 <div id="ref-invernizzi2022" class="csl-entry" role="listitem">
 Invernizzi, N., Davyt, A., Kreimer, P. R., &amp; Rodriguez Medina, L. (2022). <em>STS Between Centers and Peripheries: How Transnational are Leading STS Journals?</em> <a href="https://doi.org/10.17351/ests2022.1005">https://doi.org/10.17351/ests2022.1005</a>
@@ -470,14 +1045,50 @@ Inzunza Cazares, S. (2016). Bivariate Data Analysis in an Environment Based on t
 <div id="ref-krauss2023" class="csl-entry" role="listitem">
 Krauss, A., Danús, L., &amp; Sales-Pardo, M. (2023). Early-career factors largely determine the future impact of prominent researchers: evidence across eight scientific fields. <em>Scientific Reports</em>, <em>13</em>(1), 18794.
 </div>
+<div id="ref-kreimer2016" class="csl-entry" role="listitem">
+Kreimer, P. R. (2016). <em>Contra viento y marea en la ciencia de la modernidad periférica: Niveles de análisis, conceptos y métodos</em>. Consejo Latinoamericano de Ciencias Sociales. <a href="https://ri.conicet.gov.ar/handle/11336/114598">https://ri.conicet.gov.ar/handle/11336/114598</a>
+</div>
+<div id="ref-lebron" class="csl-entry" role="listitem">
+Lebrón-Ramos, J. (s.&nbsp;f.). <em>El Acceso Abierto y Las Licencias Creative Commons Open Access and Creative Commons Licenses</em>. <a href="https://journals.sta.uwi.edu/ojs/index.php/clj/article/download/8887/7302/14186">https://journals.sta.uwi.edu/ojs/index.php/clj/article/download/8887/7302/14186</a>
+</div>
+<div id="ref-levy2023" class="csl-entry" role="listitem">
+Levy, M. (2023). LA ESTRUCTURA DEL ESTADO: UNA RADIOGRAFÍA DEL PASADO CON MIRADA A FUTURO. <em>Gobierno y Administración Pública</em>, <em>6</em>. <a href="https://doi.org/10.29393/GP6-4EEML10004">https://doi.org/10.29393/GP6-4EEML10004</a>
+</div>
+<div id="ref-levy2024" class="csl-entry" role="listitem">
+Levy, M., Piñeiro, J. P., &amp; Amarilla, Y. (2024). La gestión de la investigación en clave prospectiva. Acerca del futuro de la producción, transferencia y vinculación del conocimiento científico en la Universidad Nacional de La Matanza. <em>360: Revista de Ciencias de la Gestión</em>. <a href="https://doi.org/10.18800/360gestion.202409.008">https://doi.org/10.18800/360gestion.202409.008</a>
+</div>
+<div id="ref-liberatore2018" class="csl-entry" role="listitem">
+Liberatore, G., &amp; Visca, J. (2018). <em>Análisis de la revista Perspectivas en Psicología desde el perfil de la autoría, el contenido y la visibilidad de los artículos publicados en el período 2004-2011</em>. <a href="http://humadoc.mdp.edu.ar:8080/xmlui/handle/123456789/714">http://humadoc.mdp.edu.ar:8080/xmlui/handle/123456789/714</a>
+</div>
+<div id="ref-melero2014" class="csl-entry" role="listitem">
+Melero, R., &amp; Hernández San Miguel, J. (2014). Acceso abierto a los datos de investigación, una vía hacia la colaboración científica. <em>Revista española de documentación científica</em>, <em>37</em>(4), 5.
+</div>
+<div id="ref-mendoza2006" class="csl-entry" role="listitem">
+Mendoza, S., &amp; Paravic, T. (2006). Origen, clasificación y desafíos de las Revistas Científicas. <em>Investigación y Postgrado</em>, <em>21</em>(1), 49-75.
+</div>
+<div id="ref-moreles2015" class="csl-entry" role="listitem">
+Moreles Vázquez, J. (2015). El productivismo o la sobredimensión del paper como meta final de la investigación. <em>Sinéctica</em>, <em>44</em>, 1-18.
+</div>
 <div id="ref-otero2022" class="csl-entry" role="listitem">
 Otero, C. R., Couto, U. G., &amp; Ferrer, A. C. (2022). Disponibilidad en acceso abierto de la producción científica del Servicio Gallego de Salud (Sergas) desde 2014 a 2019. <em>Galicia Clínica</em>, <em>83</em>(1), 12-17.
 </div>
 <div id="ref-pineiro2024a" class="csl-entry" role="listitem">
-Piñeiro, J. P., Levy, M., &amp; Amarilla, Y. (2024). Los supuestos teóricos acerca de la función de I+D en la Evaluación Institucional CONEAU. El caso de la Universidad Nacional de La Matanza. <em>ArtefaCToS. Revista de estudios sobre la ciencia y la tecnología</em>, <em>13</em>(2). <a href="https://doi.org/10.14201/art2024.32067">https://doi.org/10.14201/art2024.32067</a>
+Piñeiro, J. P., Levy, M., &amp; Amarilla, Y. (2024a). Los supuestos teóricos acerca de la función de I+D en la Evaluación Institucional CONEAU. El caso de la Universidad Nacional de La Matanza. <em>ArtefaCToS. Revista de estudios sobre la ciencia y la tecnología</em>, <em>13</em>(2). <a href="https://doi.org/10.14201/art2024.32067">https://doi.org/10.14201/art2024.32067</a>
+</div>
+<div id="ref-pineiro2024b" class="csl-entry" role="listitem">
+Piñeiro, J. P., Levy, M., &amp; Amarilla, Y. (2024b). The Commission for Scientific Research of Buenos Aires, on a case of institutionalization of a techno-scientific policy. <em>Revista Processus de Políticas Públicas e Desenvolvimento Social</em>, <em>6</em>(11), e061143-e061143. <a href="https://n2t.net/ark:/69772/ppds.v6i11.1143">https://n2t.net/ark:/69772/ppds.v6i11.1143</a>
 </div>
 <div id="ref-rivas2020" class="csl-entry" role="listitem">
 Rivas-Castillo, C. (2020). Hacia una cultura de indexación de las revistas científicas. <em>Revista Ciencia Jurídica y Política</em>, <em>6</em>(12). <a href="https://doi.org/10.5377/rcijupo.v6i12.10922">https://doi.org/10.5377/rcijupo.v6i12.10922</a>
+</div>
+<div id="ref-suber2006" class="csl-entry" role="listitem">
+Suber, P. (2006). Una introducción al acceso abierto. En <em>Edición electrónica, bibliotecas virtuales y portales para las ciencias sociales en América Latina y El Caribe</em> (pp. 15-33).
+</div>
+<div id="ref-zukerfeld2010a" class="csl-entry" role="listitem">
+Zukerfeld, M. (2010a). <em>Capitalismo y Conocimiento: Materialismo Cognitivo, Propiedad Intelectual y Capitalismo Informacional</em> [Tesis doctoral]. FLACSO.
+</div>
+<div id="ref-zukerfeld2010b" class="csl-entry" role="listitem">
+Zukerfeld, M. (2010b). <em>Más allá de la propiedad intelectual</em>. CLACSO.
 </div>
 </div>
 </section>
@@ -487,6 +1098,18 @@ Rivas-Castillo, C. (2020). Hacia una cultura de indexación de las revistas cien
 <li id="fn1"><p>Esta agencia es un organismo descentralizado de nivel nacional, creado por la Ley 24.521/95, abarcando una diversidad de funciones: coordinar y realizar evaluaciones externas, acreditar carreras de grado y posgrado, evaluar la consistencia y viabilidad del proyecto institucional requerido para autorizar la creación de una nueva institución universitaria nacional, y, por último, elaborar los informes solicitados para la autorización y reconocimiento definitivo de universidades privadas.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn2"><p>https://scholar.google.es/schhp?hl=es<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 <li id="fn3"><p>https://posit.co/download/rstudio-desktop/<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>El Acceso Abierto implica la libre circulación del conocimiento, a partir de la gratuidad del acceso al conocimiento por parte de los lectores. Sin embargo, también se consideran de AA aquellas publicaciones en las cuales los autores pagan un costo —Article Processing Charges (APC)— por publicar <span class="citation" data-cites="carballo2022">(<a href="#ref-carballo2022" role="doc-biblioref">Carballo, 2022</a>)</span><a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>https://cyt.unlam.edu.ar/index.php?seccion=17&amp;idArticulo=755<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Las revistas científicas de la UNLaM son las siguientes: ANTIGUA MATANZA, REDDI, RINERS, RIHUMSO, RINCE Y REDSAL. Disponibles en: https://revistas.unlam.edu.ar/<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Para poder indagar en mayor profundidad acerca de esta cuestión, se debería ampliar el universo de publicaciones estadísticamente consideradas, a futuro.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>El idioma inglés, individualmente considerado, permite explicar el 10% de la variación de la cantidad de citas de las referidas producciones UNLaM.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>Adicionalmente, la presencia de coautorías internacionales, individualmente considerada, permite explicar el 14% de la variación de la cantidad de citas de las referidas producciones UNLaM.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>En este modelo de regresión lineal simple, la indización de una revista en la referida Base de Datos permite explicar el 14% de la variación de la cantidad de citas de las referidas producciones UNLaM.<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>La variación en el tipo de metodología empleada por los autores, individualmente considerada, permite explicar el 13% de la variación de la cantidad de citas de las referidas producciones UNLaM.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn12"><p>La variación en la cantidad de autores, individualmente considerada, permite explicar el 28% de la variación de la cantidad de citas de las referidas producciones UNLaM.<a href="#fnref12" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn13"><p>La variación en la frecuencia de la publicación de una revista, individualmente considerada, permite explicar el 15% de la variación de la cantidad de citas de las referidas producciones UNLaM.<a href="#fnref13" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn14"><p>Disponible en: https://servicios.infoleg.gob.ar/infolegInternet/anexos/220000-224999/223459/norma.htm<a href="#fnref14" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn15"><p>Sobre esta cuestión, cabe aclarar que, se consideró la relevancia nacional en función del territorio analizado.<a href="#fnref15" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 
