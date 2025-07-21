@@ -47,7 +47,7 @@ author:
         country: BR
         url: https://www.gov.br/ibict/pt-br
         ror: https://ror.org/006c42y96
-date: 6/16/2025
+date: 7/25/2025
 abstract: |
   As transformações tecnológicas e sociais ocorridas nas últimas décadas alteraram o *modus operandi* da comunicação e da produção científica, possibilitando a criação e a expansão de infraestruturas digitais que preconizam a transparência das práticas científicas e a democratização do acesso ao conhecimento. 
   Nessa perspectiva, este capítulo investiga a oferta de serviços de editoração por bibliotecas, movimento reconhecido internacionalmente como *Library Publishing*. Enquanto na América do Norte e na Europa o movimento é uma realidade, na América Latina e, mais especificamente, no Brasil, a tendência ainda se encontra em estágio embrionário, caracterizada por práticas isoladas e ainda não integradas às discussões internacionais. Em termos de pesquisa, por outro lado, o cenário mostra-se também rarefeito e os poucos estudos publicados oferecem resultados panorâmicos. 
@@ -101,8 +101,6 @@ format:
 \textbf{Dayanne da Silva Prudencio:} Validação, Visualização, Escrita - revisão e edição
 }
 
-% Configuración completa para portugués
-% Configuración mínima para portugués
 \renewcommand{\tablename}{Tabela}
 \renewcommand{\figurename}{Figura}
 

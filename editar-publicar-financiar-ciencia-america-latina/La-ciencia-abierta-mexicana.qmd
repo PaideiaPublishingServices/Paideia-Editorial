@@ -64,7 +64,7 @@ author:
         country: MX
         url: https://ror.org/01tmp8f25
         ror: https://ror.org/01tmp8f25
-date: 5/30/2025
+date: 7/22/2025
 abstract: |
   Este capítulo presenta los resultados de la segunda edición del Monitor Nacional de Ciencia Abierta – SciELObservatorio México, un ejercicio de evaluación de la adopción de prácticas editoriales asociadas a la Ciencia Abierta en las revistas académicas que conforman la colección SciELO México. El estudio analiza tanto políticas básicas —preprints, depósito abierto de datos y revisión por pares abierta— como prácticas ampliadas alineadas con las Líneas prioritarias de acción SciELO 2024–2028: uso de la taxonomía CRediT, publicación continua, licencias Creative Commons permisivas e indización en DOAJ.
   Con un universo ampliado a 256 revistas, se evalúa la existencia explícita y pública de estas políticas en los sitios web oficiales de cada publicación. Los resultados evidencian una adopción aún limitada y desigual, con algunos avances moderados en la publicación continua y uso de CRediT, pero una resistencia a licencias abiertas permisivas, obligatoriedad en el depósito de datos y revisión por pares abierta.

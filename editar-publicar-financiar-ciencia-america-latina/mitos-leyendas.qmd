@@ -43,7 +43,7 @@ author:
         country: AR
         url: https://ror.org/01bmj8t37
         ror: https://ror.org/01bmj8t37
-date: 5/30/2025
+date: 7/22/2025
 abstract: |
   La literatura especializada en producción y transferencia del conocimiento ha indagado sobre el impacto de las publicaciones científicas a través de la visibilidad del conocimiento, a lo largo de las últimas décadas. Como resultado de tales indagaciones teóricas se han promovido supuestos, aún vigentes, acerca de la incidencia del idioma, la indización de las revistas en las cuales se publican las producciones, y el grado de reconocimiento formal e informal que ostentan los autores de las publicaciones; en detrimento de la incidencia que podría tener el hecho de que las publicaciones estén disponibles en Acceso Abierto.
   

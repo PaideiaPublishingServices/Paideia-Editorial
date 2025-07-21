@@ -21,7 +21,7 @@ author:
         country: BR
         url: http://en.ufsc.br/
         ror: https://ror.org/041akq887
-date: 5/30/2025
+date: 7/22/2025
 abstract: |
   Este capítulo examina la intersección crítica entre la preservación digital y la sostenibilidad de la comunicación científica en América Latina, un tema de creciente importancia en la era digital. A través de un análisis exhaustivo de casos de estudio regionales, se exploran los desafíos técnicos, económicos y políticos que enfrentan las instituciones académicas latinoamericanas en sus esfuerzos por garantizar la accesibilidad a largo plazo de las publicaciones científicas digitales. Se evalúan las estrategias actuales de preservación digital, considerando su eficacia y sostenibilidad en el contexto de las limitaciones presupuestarias y de infraestructura propias de la región. 
   El capítulo también aborda cómo estas prácticas de preservación se integran con las iniciativas de Ciencia Abierta, analizando las sinergias y tensiones entre ambos objetivos. Se presentan experiencias innovadoras de colaboración interinstitucional y regional que han logrado avances significativos en la preservación digital, destacando las lecciones aprendidas y las mejores prácticas emergentes. Finalmente, se exploran las perspectivas futuras, incluyendo el potencial de nuevas tecnologías y modelos de financiamiento para fortalecer la preservación digital en la región. El capítulo concluye con recomendaciones prácticas para editores, instituciones académicas y formuladores de políticas, orientadas a mejorar la sostenibilidad y el impacto a largo plazo de la comunicación científica latinoamericana en el ecosistema global del conocimiento.

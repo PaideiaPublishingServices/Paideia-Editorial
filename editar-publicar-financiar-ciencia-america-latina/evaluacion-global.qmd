@@ -53,7 +53,7 @@ author:
       - Metodología
       - Visualización
       - Redacción - borrador original
-date: 5/30/2025
+date: 7/22/2025
 abstract: |
   Este capítulo tiene una doble finalidad. Por una parte, busca establecer una reflexión teórica fundada en la literatura disponible sobre la relevancia de los índices y bases de datos académicas internacionales (como WoS o Scopus) y sus efectos particulares sobre regiones comúnmente calificadas como semi-periféricas en el mundo de la ciencia, como es el caso de América Latina. Por otra parte, avanza un estudio de caso en Chile a partir de analizar algunos impactos de estas herramientas en la institucionalidad científica chilena, ejemplificando y tensionando algunos de los argumentos esgrimidos tanto por defensores/as como detractores/as de estas bases de datos e índices académicos.
   
