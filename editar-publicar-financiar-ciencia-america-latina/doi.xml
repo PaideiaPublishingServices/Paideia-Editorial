@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch version="4.4.2" xmlns="http://www.crossref.org/schema/4.4.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1" xsi:schemaLocation="http://www.crossref.org/schema/4.4.2 http://www.crossref.org/schema/deposit/crossref4.4.2.xsd">
+<head>
+  <doi_batch_id>ac62d211982d31d7f3-50b2-crossmark</doi_batch_id>
+  <timestamp>20250721200000000</timestamp>
+  <depositor>
+    <depositor_name>pa1d:pa1d</depositor_name>
+    <email_address>patricio@paideiastudio.net</email_address>
+  </depositor>
+  <registrant>WEB-FORM</registrant>
+</head>
+<body>
+  
+    <book book_type='edited_book'>
+  <book_metadata>
+  <contributors>
+    <person_name sequence='first' contributor_role='editor'>
+     <given_name>Gimena</given_name>
+      <surname>del Rio Riande</surname>
+      <ORCID>https://orcid.org/0000-0002-8997-5415</ORCID>
+    </person_name>
+    <person_name sequence='additional' contributor_role='editor'>
+      <given_name>Patricio Iván</given_name>
+      <surname>Pantaleo</surname>
+      <ORCID>https://orcid.org/0000-0002-8104-8975</ORCID>
+    </person_name>
+  </contributors>
+  <titles>
+  <title>Editar, Publicar y financiar ciencia en América Latina</title>
+  </titles>
+  <jats:abstract xml:lang='en'>
+    <jats:p>This book addresses the challenges and opportunities in academic communication in Latin America, exploring how scientific results are edited, published and funded in the regional context. Through critical analysis, the project seeks to highlight successful experiences and lessons learned, identify sustainability models in open access and evaluate the impact of scientific visibility on academic progress. The chapters include case studies, reflections on possible dystopias and a focus on critical thinking about current and future dynamics of scientific communication.</jats:p>
+  </jats:abstract>
+  <publication_date media_type='online'>
+    <month>07</month>
+    <day>22</day>
+    <year>2025</year>
+  </publication_date>
+    <noisbn reason='archive_volume'/>
+  <publisher>
+    <publisher_name>Paideia Editorial</publisher_name>
+  </publisher>
+  <!-- Metadatos Crossmark para el libro -->
+  <crossmark>
+    <crossmark_version>1</crossmark_version>
+    <crossmark_policy>10.62059/paideia.editorial.crossmark</crossmark_policy>
+    <crossmark_domains>
+      <crossmark_domain>
+        <domain>paideiaeditorial.net</domain>
+      </crossmark_domain>
+    </crossmark_domains>
+    <crossmark_domain_exclusive>true</crossmark_domain_exclusive>
+    <custom_metadata>
+      <assertion name="published" label="Published" group_name="publication_history" group_label="Publication History" order="0">2025-07-22</assertion>
+      <assertion name="book_type" label="Book Type" group_name="identifiers" group_label="Identifiers" order="0">Edited Book</assertion>
+    </custom_metadata>
+  </crossmark>
+  <doi_data>
+  <doi>10.62059/editorial.l001</doi>
+  <resource>https://paideiaeditorial.net/libros/editar-financiar-ciencia-latinoamerica/</resource>
+  <collection property='crawler-based'>
+    <item crawler='iParadigms'>
+      <resource>https://paideiaeditorial.net/libros/editar-financiar-ciencia-latinoamerica/_book/Editar,-publicar-y-financiar-ciencia-en-Am%C3%A9rica-Latina.pdf</resource>
+    </item>
+  </collection>
+  </doi_data>
+  </book_metadata>
+
+<!-- ============== CAPÍTULO 1 ============== -->
+<content_item component_type='chapter'>
+  <contributors>
+    <person_name sequence='first' contributor_role='author'>
+     <given_name>Lia</given_name>
+      <surname>Machado Fiuza Fialho</surname>
+      <ORCID>https://orcid.org/0000-0003-0393-9892</ORCID>
+    </person_name>
+    <person_name sequence='additional' contributor_role='author'>
+      <given_name>Karla Angélica</given_name>
+      <surname>Silva do Nascimento</surname>
+      <ORCID>https://orcid.org/0000-0001-6103-2397</ORCID>
+    </person_name>
+    <person_name sequence='additional' contributor_role='author'>
+      <given_name>Maria Aparecida</given_name>
+      <surname>Alves da Costa</surname>
+      <ORCID>https://orcid.org/0000-0001-5213-4869</ORCID>
+    </person_name>
+  </contributors>
+  <titles>
+  <title>O papel da Rede Ibero-Americana de Editores Científicos de Educação (RIECE) no fortalecimento da comunicação científica em periódicos da área de Educação</title>
+  </titles>
+  <jats:abstract xml:lang='pt'>
+    <jats:p>O capítulo trata acerca da fundação da Rede Ibero-americana de Editores Científicos de Educação (RIECE) e do seu desenvolvimento de atividades no âmbito da articulação internacional para o fortalecimento da comunicação científica nos países latino-americanos, caribenhos e africanos. O objetivo é apresentar à comunidade internacional como se deu a articulação entre os editores dos países integrantes da rede para a criação da RIECE destacando as experiências colaborativas exitosas para majorar a internacionalização, indexação e aderência à ciência aberta nos periódicos envolvidos. Metodologicamente, adota-se uma pesquisa qualitativa, do tipo documental, que utiliza como fonte o projeto da RIECE, o documento diagnóstico, as atas das reuniões e os relatórios de atividades. Os resultados mostram que a RIECE se iniciou com a articulação de 11 países - Brasil, Colômbia, México, Venezuela, Costa Rica, Angola, Uruguai, Espanha, Portugal, Paraguai e Equador – e o apoio de importantes entidades que apoiam a editoria de revistas científica, a exemplo do Redalyc, do Latindex, do EDUC@, da AURA e da ABEC Brasil. Essa iniciativa foi aprovada pelo Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq), entidade ligada ao Ministério da Ciência, Tecnologia e Inovações para incentivo à pesquisa no Brasil, que concedeu apoio financeiro mediante verba de custeio e 15 bolsas internacionais, o que estimulou os participantes do projeto. O trabalho inicial da RIECE amparou-se na pesquisa-ação, partindo de um minucioso diagnóstico das revistas científicas, para, em seguida, mediante questionário, grupo focal e relato textual elaborar um plano de desenvolvimento colaborativo dos periódicos. Conclui-se que a RIECE vem colaborando para qualificar científica e tecnologicamente os periódicos de Educação a partir da articulação dos conhecimentos editoriais da equipe compartilhados voluntariamente, consoante a ciência aberta, entre os seus integrantes. Sua principal meta é ampliar o número de países da rede e aumentar os editores de educação comprometidos com a proposta.</jats:p>
+  </jats:abstract>
+<publication_date media_type='online'>
+    <month>07</month>
+    <day>22</day>
+    <year>2025</year>
+  </publication_date>
+  <!-- Metadatos Crossmark para el capítulo -->
+  <crossmark>
+    <crossmark_version>1</crossmark_version>
+    <crossmark_policy>10.62059/paideia.editorial.crossmark</crossmark_policy>
+    <crossmark_domains>
+      <crossmark_domain>
+        <domain>paideiaeditorial.net</domain>
+      </crossmark_domain>
+    </crossmark_domains>
+    <crossmark_domain_exclusive>true</crossmark_domain_exclusive>
+    <custom_metadata>
+      <assertion name="published" label="Published" group_name="publication_history" group_label="Publication History" order="0">2025-07-22</assertion>
+      <assertion name="chapter_number" label="Chapter" group_name="identifiers" group_label="Identifiers" order="0">1</assertion>
+    </custom_metadata>
+  </crossmark>
+  <doi_data>
+  <doi>10.62059/editorial.l001.c1</doi>
+  <resource>https://paideiaeditorial.net/libros/editar-financiar-ciencia-latinoamerica/_book/rede-editores.html</resource>
+  </doi_data>
+</content_item>
+
+<!-- ============== CAPÍTULO 2 ============== -->
+<content_item component_type='chapter'>
+  <contributors>
+    <person_name sequence='first' contributor_role='author'>
+     <given_name>Miguel Ángel</given_name>
+      <surname>Márdero Arellano</surname>
+      <ORCID>https://orcid.org/0000-0001-5306-919X</ORCID>
+    </person_name>
+    <person_name sequence='additional' contributor_role='author'>
+      <given_name>Julio</given_name>
+      <surname>Santillan Aldana</surname>
+      <ORCID>https://orcid.org/0000-0002-1906-2370</ORCID>
+    </person_name>
+  </contributors>
+  <titles>
+  <title>Preservación digital y sostenibilidad de la comunicación científica en América Latina: experiencias, retos y perspectivas futuras</title>
+  </titles>
+  <jats:abstract xml:lang='es'>
+    <jats:p>Este capítulo examina la intersección crítica entre la preservación digital y la sostenibilidad de la comunicación científica en América Latina, un tema de creciente importancia en la era digital. A través de un análisis exhaustivo de casos de estudio regionales, se exploran los desafíos técnicos, económicos y políticos que enfrentan las instituciones académicas latinoamericanas en sus esfuerzos por garantizar la accesibilidad a largo plazo de las publicaciones científicas digitales. Se evalúan las estrategias actuales de preservación digital, considerando su eficacia y sostenibilidad en el contexto de las limitaciones presupuestarias y de infraestructura propias de la región. El capítulo también aborda cómo estas prácticas de preservación se integran con las iniciativas de Ciencia Abierta, analizando las sinergias y tensiones entre ambos objetivos. Se presentan experiencias innovadoras de colaboración interinstitucional y regional que han logrado avances significativos en la preservación digital, destacando las lecciones aprendidas y las mejores prácticas emergentes. Finalmente, se exploran las perspectivas futuras, incluyendo el potencial de nuevas tecnologías y modelos de financiamiento para fortalecer la preservación digital en la región. El capítulo concluye con recomendaciones prácticas para editores, instituciones académicas y formuladores de políticas, orientadas a mejorar la sostenibilidad y el impacto a largo plazo de la comunicación científica latinoamericana en el ecosistema global del conocimiento.</jats:p>
+  </jats:abstract>
+<publication_date media_type='online'>
+    <month>07</month>
+    <day>22</day>
+    <year>2025</year>
+  </publication_date>
+  <!-- Metadatos Crossmark para el capítulo -->
+  <crossmark>
+    <crossmark_version>1</crossmark_version>
+    <crossmark_policy>10.62059/paideia.editorial.crossmark</crossmark_policy>
+    <crossmark_domains>
+      <crossmark_domain>
+        <domain>paideiaeditorial.net</domain>
+      </crossmark_domain>
+    </crossmark_domains>
+    <crossmark_domain_exclusive>true</crossmark_domain_exclusive>
+    <custom_metadata>
+      <assertion name="published" label="Published" group_name="publication_history" group_label="Publication History" order="0">2025-07-22</assertion>
+      <assertion name="chapter_number" label="Chapter" group_name="identifiers" group_label="Identifiers" order="0">2</assertion>
+    </custom_metadata>
+  </crossmark>
+  <doi_data>
+  <doi>10.62059/editorial.l001.c2</doi>
+  <resource>https://paideiaeditorial.net/libros/editar-financiar-ciencia-latinoamerica/_book/preservacion-digital.html</resource>
+  </doi_data>
+</content_item>
+
+<!-- ============== CAPÍTULO 3 ============== -->
+<content_item component_type='chapter'>
+  <contributors>
+    <person_name sequence='first' contributor_role='author'>
+     <given_name>Julio</given_name>
+      <surname>Zetter Patiño</surname>
+      <ORCID>https://orcid.org/0000-0002-4870-9444</ORCID>
+    </person_name>
+    <person_name sequence='additional' contributor_role='author'>
+      <given_name>Flor Janet</given_name>
+      <surname>Rivera Pulido</surname>
+      <ORCID>https://orcid.org/0000-0002-9598-0579</ORCID>
+    </person_name>
+    <person_name sequence='additional' contributor_role='author'>
+      <given_name>Patricia</given_name>
+      <surname>Garrido Villegas</surname>
+      <ORCID>https://orcid.org/0000-0002-8303-4884</ORCID>
+    </person_name>
+    <person_name sequence='additional' contributor_role='author'>
+      <given_name>Juan Carlos</given_name>
+      <surname>Díaz Mauricio</surname>
+      <ORCID>https://orcid.org/0009-0009-5139-6037</ORCID>
+    </person_name>
+    <person_name sequence='additional' contributor_role='author'>
+      <given_name>Martha Rosa</given_name>
+      <surname>Gallegos Ramírez</surname>
+      <ORCID>https://orcid.org/0009-0004-3746-1764</ORCID>
+    </person_name>
+  </contributors>
+  <titles>
+  <title>La ciencia abierta mexicana: monitor de prácticas adoptadas por las revistas</title>
+  </titles>
+  <jats:abstract xml:lang='es'>
+    <jats:p>Este capítulo presenta los resultados de la segunda edición del Monitor Nacional de Ciencia Abierta – SciELObservatorio México, un ejercicio de evaluación de la adopción de prácticas editoriales asociadas a la Ciencia Abierta en las revistas académicas que conforman la colección SciELO México. El estudio analiza tanto políticas básicas —preprints, depósito abierto de datos y revisión por pares abierta— como prácticas ampliadas alineadas con las Líneas prioritarias de acción SciELO 2024–2028: uso de la taxonomía CRediT, publicación continua, licencias Creative Commons permisivas e indización en DOAJ. Con un universo ampliado a 256 revistas, se evalúa la existencia explícita y pública de estas políticas en los sitios web oficiales de cada publicación. Los resultados evidencian una adopción aún limitada y desigual, con algunos avances moderados en la publicación continua y uso de CRediT, pero una resistencia a licencias abiertas permisivas, obligatoriedad en el depósito de datos y revisión por pares abierta. El capítulo analiza los hallazgos en el contexto de la cultura científica mexicana, la profesionalización editorial y el papel de los sistemas de información curados como agentes de cambio. A partir de un enfoque crítico y contextualizado, se emiten recomendaciones orientadas a fortalecer la institucionalización de la Ciencia Abierta como política editorial, proponiendo, además, la continuidad del monitoreo como herramienta de evaluación nacional.</jats:p>
+  </jats:abstract>
+<publication_date media_type='online'>
+    <month>07</month>
+    <day>22</day>
+    <year>2025</year>
+  </publication_date>
+  <!-- Metadatos Crossmark para el capítulo -->
+  <crossmark>
+    <crossmark_version>1</crossmark_version>
+    <crossmark_policy>10.62059/paideia.editorial.crossmark</crossmark_policy>
+    <crossmark_domains>
+      <crossmark_domain>
+        <domain>paideiaeditorial.net</domain>
+      </crossmark_domain>
+    </crossmark_domains>
+    <crossmark_domain_exclusive>true</crossmark_domain_exclusive>
+    <custom_metadata>
+      <assertion name="published" label="Published" group_name="publication_history" group_label="Publication History" order="0">2025-07-22</assertion>
+      <assertion name="chapter_number" label="Chapter" group_name="identifiers" group_label="Identifiers" order="0">3</assertion>
+    </custom_metadata>
+  </crossmark>
+  <doi_data>
+  <doi>10.62059/editorial.l001.c3</doi>
+  <resource>https://paideiaeditorial.net/libros/editar-financiar-ciencia-latinoamerica/_book/La-ciencia-abierta-mexicana.html</resource>
+  </doi_data>
+</content_item>
+
+<!-- ============== CAPÍTULO 4 ============== -->
+<content_item component_type='chapter'>
+  <contributors>
+    <person_name sequence='first' contributor_role='author'>
+     <given_name>Tomas</given_name>
+      <surname>Koch</surname>
+      <ORCID>https://orcid.org/0000-0002-7408-4556</ORCID>
+    </person_name>
+    <person_name sequence='additional' contributor_role='author'>
+      <given_name>Paulina</given_name>
+      <surname>Peña Pallauta</surname>
+      <ORCID>https://orcid.org/0000-0002-4259-7867</ORCID>
+    </person_name>
+    <person_name sequence='additional' contributor_role='author'>
+      <given_name>Lu</given_name>
+      <surname>Puppato</surname>
+      <ORCID>https://orcid.org/0009-0004-0462-255X</ORCID>
+    </person_name>
+  </contributors>
+  <titles>
+  <title>De la evaluación global en la realidad local. El papel de los índices internacionales en la organización de la ciencia en Chile y América Latina</title>
+  </titles>
+  <jats:abstract xml:lang='es'>
+    <jats:p>Este capítulo tiene una doble finalidad. Por una parte, busca establecer una reflexión teórica fundada en la literatura disponible sobre la relevancia de los índices y bases de datos académicas internacionales (como WoS o Scopus) y sus efectos particulares sobre regiones comúnmente calificadas como semi-periféricas en el mundo de la ciencia, como es el caso de América Latina. Por otra parte, avanza un estudio de caso en Chile a partir de analizar algunos impactos de estas herramientas en la institucionalidad científica chilena, ejemplificando y tensionando algunos de los argumentos esgrimidos tanto por defensores/as como detractores/as de estas bases de datos e índices académicos.
+
+El texto comienza presentando brevemente la trayectoria de estos índices internacionales en el norte global y su acelerado proceso de adopción global. Seguido, se analizan los principales argumentos a favor y en contra de su adopción como mecanismo de jerarquización de las publicaciones académicas tanto por parte del mundo académico como por los hacedores de política y los administradores/as científicos. A continuación, se presenta el estudio de caso, el cual analiza dos aspectos de la institucionalidad científica en los cuales se evidencia el impacto de los índices académicos internacionales: i) El financiamiento para el fortalecimiento de publicaciones científicas a través del Fondo de Iniciativas de publicaciones científicas, que entrega recursos para el mejoramiento de las publicaciones académicas a fin de ser incorporadas a índices y bases de datos académicas de corriente principal y ii) la cambiante valoración de las publicaciones indexadas internacionalmente en el proceso de valoración curricular de investigadores/as que postulan al principal fondo de investigación estatal, el Fondo Nacional de Desarrollo Científico y Tecnológico (FONDECYT). El texto concluye remarcando algunas particularidades que implica la adopción de estos índices internacionales como mecanismo de jerarquización de las publicaciones académicas en países semi-periféricos al mundo de la ciencia como son los de América Latina.</jats:p>
+  </jats:abstract>
+<publication_date media_type='online'>
+    <month>07</month>
+    <day>22</day>
+    <year>2025</year>
+  </publication_date>
+  <!-- Metadatos Crossmark para el capítulo -->
+  <crossmark>
+    <crossmark_version>1</crossmark_version>
+    <crossmark_policy>10.62059/paideia.editorial.crossmark</crossmark_policy>
+    <crossmark_domains>
+      <crossmark_domain>
+        <domain>paideiaeditorial.net</domain>
+      </crossmark_domain>
+    </crossmark_domains>
+    <crossmark_domain_exclusive>true</crossmark_domain_exclusive>
+    <custom_metadata>
+      <assertion name="published" label="Published" group_name="publication_history" group_label="Publication History" order="0">2025-07-22</assertion>
+      <assertion name="chapter_number" label="Chapter" group_name="identifiers" group_label="Identifiers" order="0">4</assertion>
+    </custom_metadata>
+  </crossmark>
+  <doi_data>
+  <doi>10.62059/editorial.l001.c4</doi>
+  <resource>https://paideiaeditorial.net/libros/editar-financiar-ciencia-latinoamerica/_book/evaluacion-global.html</resource>
+  </doi_data>
+</content_item>
+
+<!-- ============== CAPÍTULO 5 ============== -->
+<content_item component_type='chapter'>
+  <contributors>
+    <person_name sequence='first' contributor_role='author'>
+     <given_name>Melina</given_name>
+      <surname>Levy</surname>
+      <ORCID>https://orcid.org/0009-0008-4081-7150</ORCID>
+    </person_name>
+    <person_name sequence='additional' contributor_role='author'>
+      <given_name>Juan Pablo</given_name>
+      <surname>Piñeiro</surname>
+      <ORCID>https://orcid.org/0009-0000-2151-5749</ORCID>
+    </person_name>
+    <person_name sequence='additional' contributor_role='author'>
+      <given_name>Yanina Soledad</given_name>
+      <surname>Amarilla</surname>
+      <ORCID>https://orcid.org/0000-0002-2011-2275</ORCID>
+    </person_name>
+  </contributors>
+  <titles>
+  <title>Mitos y leyendas acerca de la visibilidad de las publicaciones periódicas. Un análisis estadístico del impacto de las publicaciones de la Universidad Nacional de La Matanza (UNLaM)</title>
+  </titles>
+  <jats:abstract xml:lang='es'>
+    <jats:p>La literatura especializada en producción y transferencia del conocimiento ha indagado sobre el impacto de las publicaciones científicas a través de la visibilidad del conocimiento, a lo largo de las últimas décadas. Como resultado de tales indagaciones teóricas se han promovido supuestos, aún vigentes, acerca de la incidencia del idioma, la indización de las revistas en las cuales se publican las producciones, y el grado de reconocimiento formal e informal que ostentan los autores de las publicaciones; en detrimento de la incidencia que podría tener el hecho de que las publicaciones estén disponibles en Acceso Abierto.
+
+En ese marco, el objetivo de este capítulo es analizar la incidencia de distintos factores, en particular la disponibilidad en Acceso Abierto, en la visibilidad de las publicaciones producidas por docentes investigadores de la Universidad Nacional de La Matanza (UNLaM) durante el año 2022. La estrategia metodológica es mixta, ya que, combina un enfoque cualitativo, a partir del análisis documental, con el cuantitativo, a través del análisis estadístico. De esta forma, se ha seleccionado un año en el que, los registros históricos elevados por la UNLaM en la última Evaluación Institucional, que desarrolla la Comisión Nacional de Evaluación y Acreditación Universitaria (CONEAU)1, señalan la recuperación plena de actividad científico-académica, posterior a la finalización de la Pandemia COVID-19. Adicionalmente, estas publicaciones aún no se encontraban influidas por el Fondo para Publicaciones y Traducciones de producciones científicas en SCOPUS — HCS 41/2024—, un fondo de financiamiento específicamente destinado a la promoción de artículos publicados en revistas aranceladas, implementado en la UNLaM a partir del año 2024.
+
+De esta forma, con esta investigación, se espera, por un lado, contribuir teóricamente con las discusiones propias del campo académico Ciencia, Tecnología y Sociedad; y, por otro lado, contribuir a la toma de decisiones y formaciones de políticas científicas universitarias, en particular, en el marco de la Secretaría de Ciencia y Tecnología de la Universidad Nacional de La Matanza.</jats:p>
+  </jats:abstract>
+<publication_date media_type='online'>
+    <month>07</month>
+    <day>22</day>
+    <year>2025</year>
+  </publication_date>
+  <!-- Metadatos Crossmark para el capítulo -->
+  <crossmark>
+    <crossmark_version>1</crossmark_version>
+    <crossmark_policy>10.62059/paideia.editorial.crossmark</crossmark_policy>
+    <crossmark_domains>
+      <crossmark_domain>
+        <domain>paideiaeditorial.net</domain>
+      </crossmark_domain>
+    </crossmark_domains>
+    <crossmark_domain_exclusive>true</crossmark_domain_exclusive>
+    <custom_metadata>
+      <assertion name="published" label="Published" group_name="publication_history" group_label="Publication History" order="0">2025-07-22</assertion>
+      <assertion name="chapter_number" label="Chapter" group_name="identifiers" group_label="Identifiers" order="0">6</assertion>
+    </custom_metadata>
+  </crossmark>
+  <doi_data>
+  <doi>10.62059/editorial.l001.c6</doi>
+  <resource>https://paideiaeditorial.net/libros/editar-financiar-ciencia-latinoamerica/_book/mitos-leyendas.html</resource>
+  </doi_data>
+</content_item>
+  </book>
+</body>
+</doi_batch>
