@@ -1,0 +1,49 @@
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Dados de autoría com roles CRediT - específicos para este capítulo
+    var authorsData = [
+        {
+            name: "Lucas dos Santos Souza da Silva",
+            roles: ["Conceptualização", "Curadoria de dados", "Análise formal", "Obtenção de financiamento", "Investigação", "Metodologia", "Administração do projeto", "Recursos", "Software", "Visualização", "Escrita - rascunho original"]
+        },
+        {
+            name: "Fabio Castro Gouveia",
+            roles: ["Metodologia", "Administração do projeto", "Supervisão", "Validação", "Visualização", "Escrita - revisão e edição"]
+        },
+        {
+            name: "Nanci Elizabeth Oddone", 
+            roles: ["Metodologia", "Administração do projeto", "Supervisão", "Validação", "Visualização", "Escrita - revisão e edição"]
+        },
+        {
+            name: "Dayanne da Silva Prudencio",
+            roles: ["Validação", "Visualização", "Escrita - revisão e edição"]
+        }
+    ];
+
+    // Buscar onde insertar a informação
+    var titleBlock = document.querySelector(".quarto-title-block") ||
+                      document.querySelector(".quarto-title");
+        
+    if (titleBlock) {
+        // Seção de contribuições de autoria
+        var creditSection = document.createElement("div");
+        creditSection.innerHTML = `
+            <div id="credit-roles" style="margin: 20px 0; padding: 15px; background-color: #f8f9fa; border-left: 4px solid #007bff; border-radius: 5px; font-size: 0.9em;">
+                <strong style="color: #007bff;">Contribuições de autoria (CRediT):</strong><br><br>
+                ${authorsData.map(author => 
+                    `<strong>${author.name}:</strong> ${author.roles.join(", ")}`
+                ).join("<br>")}
+                <br><br>
+                <small style="color: #6c757d;">
+                    <em>Taxonomia CRediT (Contributor Roles Taxonomy):</em><br>
+                    • <a href="https://credit.niso.org/" target="_blank" style="color: #007bff;">Versão original (inglês)</a><br>
+                    • <a href="https://terminologias.filo.uba.ar/vocabs/1007" target="_blank" style="color: #007bff;">Tradução ao espanhol</a>
+                </small>
+            </div>
+        `;
+        
+        // Insertar a seção após o título
+        titleBlock.insertAdjacentElement("afterend", creditSection);
+    }
+});
+</script>
