@@ -1,8 +1,43 @@
+---
+format:
+  html: default
+  pdf:
+    include-in-header:
+      text: |
+        \usepackage{tikz}
+        \usetikzlibrary{calc}
+---
+
 # Introducción {.unnumbered}
 
+\newcommand{\marcaaguaintro}{%
+  \begin{tikzpicture}[remember picture,overlay]
+    \node[rotate=45,scale=8,text opacity=0.3,red!40] at (current page.center) 
+      {\textbf{PÁGINA RESERVADA PARA INTRODUCCIÓN}};
+  \end{tikzpicture}%
+}
 
+\newpage
+\thispagestyle{empty}
+\marcaaguaintro
+\mbox{}
 
+\newpage
+\thispagestyle{empty}
+\marcaaguaintro
+\mbox{}
 
+\newpage
+\thispagestyle{empty}
+\marcaaguaintro
+\mbox{}
 
+\newpage
+\thispagestyle{empty}
+\marcaaguaintro
+\mbox{}
 
-
+\newpage
+\thispagestyle{empty}
+\marcaaguaintro
+\mbox{}
