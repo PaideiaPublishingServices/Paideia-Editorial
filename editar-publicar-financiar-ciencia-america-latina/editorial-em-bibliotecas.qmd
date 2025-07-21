@@ -67,6 +67,12 @@ citation:
   doi: 10.62059/editorial.l001.c5
 lang: pt
 reference-section-title: "Referências"
+crossref:
+  tbl-title: "Tabela"
+  fig-title: "Figura"
+  tbl-prefix: "Tabela"
+  fig-prefix: "Figura"
+  title-delim: " "
 format:
   pdf:
     include-in-header:
@@ -75,14 +81,6 @@ format:
         \usepackage{longtable}
         \usepackage{rotating}
         \usepackage[portuguese]{babel}
-        \addto\captionsportuguese{
-          \renewcommand{\tablename}{Tabela}
-          \renewcommand{\figurename}{Figura}
-          \renewcommand{\bibname}{Referências}
-          \renewcommand{\refname}{Referências}
-          \renewcommand{\appendixname}{Apêndice}
-          \renewcommand{\chaptername}{Capítulo}
-        }
   html:
      include-in-header: header-editorial-em-bibliotecas.html
         
@@ -102,6 +100,11 @@ format:
 \textbf{Nanci Elizabeth Oddone:} Metodologia, Administração do projeto, Supervisão, Validação, Visualização, Escrita - revisão e edição\\
 \textbf{Dayanne da Silva Prudencio:} Validação, Visualização, Escrita - revisão e edição
 }
+
+% Configuración completa para portugués
+% Configuración mínima para portugués
+\renewcommand{\tablename}{Tabela}
+\renewcommand{\figurename}{Figura}
 
 ## Introdução {.unnumbered}
 
@@ -186,7 +189,7 @@ No entanto, é importante frisar que a aprendizagem de bibliotecários sobre os 
 
 ## Análises e Resultados
 
-A partir de pesquisa exploratória documental nos sites das bibliotecas universitárias federais brasileiras, sistematizamos na @tbl-1 abaixo algumas das Bibliotecas onde encontramos engajamento com produção editorial.
+A partir de pesquisa exploratória documental nos sites das bibliotecas universitárias federais brasileiras, sistematizamos na [Tabela 11]{.content-visible when-format="pdf"}[@tbl-1]{.content-visible when-format="html"} abaixo algumas das Bibliotecas onde encontramos engajamento com produção editorial.
 
 \tiny
 
@@ -300,7 +303,7 @@ Verificou-se que há uma certa preferência por publicações eletrônicas em ac
 
 Foram identificados um serviço em parceria entre a editora universitária e a biblioteca universitária da UFRA, cujos produtos permanecem sob acesso restrito para compra, e outro em que a biblioteca possui um selo editorial para publicações – o BU Publicações da Biblioteca Universitária da UFSC. Os demais estavam sob a categoria “Publicações” na arquitetura do *website* da Biblioteca/SIBI. 
 
-Atualizando o mapeamento de @SantillanAldanaMueller2016, a @tbl-2 apresenta alguns portais de periódicos vinculados as bibliotecas universitárias brasileiras da amostra mapeados, seja administrados por estas ou que estas participam do Comitê Gestor.
+Atualizando o mapeamento de @SantillanAldanaMueller2016, a [Tabela 12]{.content-visible when-format="pdf"}[@tbl-2]{.content-visible when-format="html"} apresenta alguns portais de periódicos vinculados as bibliotecas universitárias brasileiras da amostra mapeados, seja administrados por estas ou que estas participam do Comitê Gestor.
 
 \tiny
 
@@ -569,7 +572,7 @@ Foram mapeados 33 portais de periódicos vinculados as Bibliotecas Universitári
 
 Os repositórios institucionais tornaram-se uma importante e inovadora ferramenta para disseminar as produções das universidades em acesso aberto no contexto digital. Algumas competências dos bibliotecários os habilitam para a gestão de repositórios digitais, como: conhecimento sobre licenças e direitos autorais, preceitos éticos do movimento acesso aberto, experiência em suporte técnico, de atribuições de metadados, identificadores digitais, e indexação, compreensão de mídias e sistemas de integração de conteúdos, da divulgação de conteúdos, da curadoria e preservação digital [@ShintakuVidotti2016].
 
-A @tbl-3 lista alguns repositórios e bibliotecas digitais vinculadas as bibliotecas desta amostra, demonstrando que há suporte e colaboração dos bibliotecários na gestão de publicações científicas institucionais.
+A [Tabela 13]{.content-visible when-format="pdf"}[@tbl-3]{.content-visible when-format="html"} lista alguns repositórios e bibliotecas digitais vinculadas as bibliotecas desta amostra, demonstrando que há suporte e colaboração dos bibliotecários na gestão de publicações científicas institucionais.
 
 \tiny
 
