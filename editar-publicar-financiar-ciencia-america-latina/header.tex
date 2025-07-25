@@ -5,6 +5,8 @@
 \usepackage{graphicx}
 \usepackage{pdfpages}
 \usepackage{tcolorbox}
+\usepackage{tikz}
+\usetikzlibrary{calc}
 
 % USAR FUENTES CLÁSICAS DE LaTeX (sin fontspec para evitar problemas)
 \usepackage{mathptmx}  % Times-like font
@@ -120,6 +122,12 @@
 % Redefinir la página de título para incluir el logo
 \renewcommand*{\maketitle}{%
   \begin{titlepage}
+    % Marca de agua de fondo para la página de título
+    \begin{tikzpicture}[remember picture,overlay]
+      \node[rotate=45,scale=6,text opacity=0.08,chaptercolor] at (current page.center)
+         {\textbf{PUBLICACIÓN CONTINUA}};
+    \end{tikzpicture}%
+    
     \centering
     
     % Logo de la editorial (ajusta el tamaño según necesites)
@@ -136,8 +144,30 @@
     {\large Gimena del Rio Riande}\\
     {\large Patricio Iván Pantaleo}\\[2cm]
     
+    % Mensaje de publicación continua
+    \begin{tcolorbox}[
+      colback=lightgreen,
+      colframe=chaptercolor,
+      boxrule=2pt,
+      arc=8pt,
+      left=15pt,
+      right=15pt,
+      top=10pt,
+      bottom=10pt,
+      width=0.85\textwidth
+    ]
+      \centering
+      \textbf{\Large\color{chaptercolor}PUBLICACIÓN CONTINUA}\\[0.6em]
+      \normalsize Este libro se encuentra en proceso de publicación continua. Se seguirán agregando nuevos capítulos.\\[0.8em]
+      \small \textbf{Inicio de publicación:} 22/07/2025\\[0.3em]
+      \small \textbf{Fecha estimada de cierre:} 11/2025\\[0.4em]
+      \small Ver \href{https://paideiaeditorial.net/politicas\#title-policies-9}{políticas de publicación}.
+    \end{tcolorbox}
+    
+    \vspace{0.3cm}
+    
     % Fecha
-    {\large A COMPLETAR}\\[2cm]
+    {\large A COMPLETAR}\\[0.8cm]
     
     \vfill
     

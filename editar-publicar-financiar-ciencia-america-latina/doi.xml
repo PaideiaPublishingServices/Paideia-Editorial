@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <doi_batch version="4.4.2" xmlns="http://www.crossref.org/schema/4.4.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1" xsi:schemaLocation="http://www.crossref.org/schema/4.4.2 http://www.crossref.org/schema/deposit/crossref4.4.2.xsd">
 <head>
-  <doi_batch_id>ac62d211982d31d7f3-50b2-crossmark</doi_batch_id>
-  <timestamp>20250721200000000</timestamp>
+  <doi_batch_id>ac62d211982d31d7f3-50b2-crossmark-update</doi_batch_id>
+  <timestamp>20250725160000000</timestamp> <!-- NUEVO TIMESTAMP -->
   <depositor>
     <depositor_name>pa1d:pa1d</depositor_name>
     <email_address>patricio@paideiastudio.net</email_address>
@@ -50,8 +50,9 @@
       </crossmark_domain>
     </crossmark_domains>
     <crossmark_domain_exclusive>true</crossmark_domain_exclusive>
-    <custom_metadata>
+   <custom_metadata>
       <assertion name="published" label="Published" group_name="publication_history" group_label="Publication History" order="0">2025-07-22</assertion>
+      <assertion name="publication_status" label="Publication Status" group_name="publication_history" group_label="Publication History" order="1">Publicación Continua - Especificaciones en LaTeX y HTML</assertion>
       <assertion name="book_type" label="Book Type" group_name="identifiers" group_label="Identifiers" order="0">Edited Book</assertion>
     </custom_metadata>
   </crossmark>

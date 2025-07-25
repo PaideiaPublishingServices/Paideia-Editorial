@@ -1,4 +1,16 @@
 % pie-imprenta.tex
+
+% Comando para marca de agua en todas las páginas del pie de imprenta
+\newcommand{\marcaaguapie}{%
+  \begin{tikzpicture}[remember picture,overlay]
+    \node[rotate=45,scale=6,text opacity=0.08,chaptercolor] at (current page.center)
+       {\textbf{PUBLICACIÓN CONTINUA}};
+  \end{tikzpicture}%
+}
+
+% Aplicar marca de agua a todas las páginas usando el hook
+\AddToHook{shipout/background}{\marcaaguapie}
+
 \thispagestyle{empty}
 
 % Página de créditos y catalogación
@@ -108,5 +120,8 @@ Este documento participa en Crossmark, un servicio que proporciona información\
 sobre actualizaciones editoriales después de la publicación.\\
 Más información: \url{https://www.crossref.org/crossmark/}
 \end{center}
+
+% Desactivar la marca de agua para las páginas siguientes
+\RemoveFromHook{shipout/background}{\marcaaguapie}
 
 \newpage
