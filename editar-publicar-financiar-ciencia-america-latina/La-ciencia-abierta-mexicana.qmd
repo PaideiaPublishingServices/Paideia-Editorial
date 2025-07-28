@@ -348,7 +348,7 @@ Como ya se mencionó, se evaluó un total de 256 revistas académicas y científ
 
 Exactamente la mitad del conjunto analizado (128 revistas, 50%) está indizada en el *Directory of Open Access Journals* (DOAJ), indicador que refleja congruencia editorial y transparencia en sus políticas de acceso abierto. Las 128 revistas restantes (50%) no están incluidas en dicho directorio, lo cual representa una oportunidad clara de mejora en términos de alineación con estándares internacionales y compromiso con la Ciencia Abierta.
 
-![Distribución según indización en DOAJ](img/DistribucionsegunindizacionenDOAJ.jpg){#fig-1}
+![Distribución según indización en DOAJ](img/DistribucionsegunindizacionenDOAJ.jpg){#fig-mx1}
 
 ### Licencias Creative Commons
 
@@ -361,7 +361,7 @@ En cuanto a los tipos de licencias utilizadas, predominan las de carácter más 
 
 En contraste, solo 14 revistas (5.5%) adoptan licencias consideradas plenamente permisivas y alineadas con los principios de Ciencia Abierta (CC BY 4.0 o CC BY-SA 4.0), esto sugiere que aún persiste una marcada resistencia hacia modelos de mayor apertura en el ecosistema editorial mexicano.
 
-![Distribución licencias CC](img/DistribucionlicenciasCC.jpg){#fig-2}
+![Distribución licencias CC](img/DistribucionlicenciasCC.jpg){#fig-mx2}
 
 ### Políticas editoriales básicas
 
@@ -373,19 +373,19 @@ Respecto a las políticas editoriales básicas evaluadas:
 
 Estas cifras reflejan un panorama en el que la adopción de políticas abiertas, incluso en sus formas más básicas, sigue siendo escasa.
 
-![Políticas básicas de Ciencia Abierta](img/PoliticasbasicasdeCienciaAbierta.jpg){#fig-3}
+![Políticas básicas de Ciencia Abierta](img/PoliticasbasicasdeCienciaAbierta.jpg){#fig-mx3}
 
 ### Uso de la taxonomía CRediT o declaraciones equivalentes
 
 Solo 33 revistas (12.9%) presentan una declaración explícita sobre los roles y contribuciones autorales, ya sea mediante la taxonomía CRediT o a través de algún mecanismo equivalente. Este resultado sugiere una oportunidad clara para fortalecer la transparencia y responsabilidad en la autoría científica.
 
-![CRediT o declaración de autoría](img/CRediTodeclaraciondeautoria.png){#fig-4}
+![CRediT o declaración de autoría](img/CRediTodeclaraciondeautoria.png){#fig-mx4}
 
 ### Periodicidad y publicación continua
 
 En términos de periodicidad, la mayoría de las revistas mantiene una frecuencia semestral (88 revistas, 34.4%), seguida por una periodicidad cuatrimestral (50 revistas, 19.5%), trimestral (41 revistas, 16%) y bimestral (22 revistas, 8.6%). La modalidad de publicación continua —estrategia clave para acelerar la comunicación científica— ha sido adoptada por 49 revistas (19.1%), presentando un avance destacable dentro del contexto editorial nacional. Otras frecuencias menos frecuentes incluyen la anual (2 revistas), sesquimensual (2 revistas), mensual (1 revista) e irregular (1 revista), confirmando una distribución predominantemente tradicional.
 
-![Publicación Continua](img/PublicacionContinua.png){#fig-5}
+![Publicación Continua](img/PublicacionContinua.png){#fig-mx5}
 
 ### Resultados globales
 
@@ -395,7 +395,7 @@ Al considerar de manera global el nivel de adopción de las políticas básicas 
 - 20 revistas (7.8%) cumplen al menos con una de estas prácticas.
 - Solo una revista (0.4%) implementa dos de las prácticas básicas simultáneamente.
 
-![Cumplimiento de políticas básicas de Ciencia Abierta](img/CumplimientodepoliticasbasicasdeCienciaAbierta.jpg){#fig-6}
+![Cumplimiento de políticas básicas de Ciencia Abierta](img/CumplimientodepoliticasbasicasdeCienciaAbierta.jpg){#fig-mx6}
 
 Respecto a las políticas editoriales ampliadas conforme a las *Líneas prioritarias de acción SciELO 2024–2028* —es decir, el conjunto que incluye las políticas básicas junto con CRediT, DOAJ, licencias permisivas y publicación continua—, la distribución observada es la siguiente:
 
@@ -405,7 +405,7 @@ Respecto a las políticas editoriales ampliadas conforme a las *Líneas priorita
 - 14 revistas (5.5%) implementan al menos tres.
 - Destacan 3 revistas (1.2%) que cumplen con cuatro políticas ampliadas y otras 3 revistas (1.2%) que adoptan cinco de las siete políticas posibles.
 
-![Políticas editoriales ampliadas conforme a las Líneas prioritarias de acción SciELO 2024–2028](img/Politicaseditoriales.png){#fig-7}
+![Políticas editoriales ampliadas conforme a las Líneas prioritarias de acción SciELO 2024–2028](img/Politicaseditoriales.png){#fig-mx7}
 
 
 Estos resultados permiten concluir que, si bien existen avances puntuales, la adopción efectiva de políticas editoriales alineadas con la Ciencia Abierta sigue siendo limitada en la colección SciELO México. Persisten áreas críticas que requieren atención urgente —como el uso de licencias más permisivas, el depósito de datos abiertos y la apertura del proceso de revisión—, aunque también se identifican señales positivas en la adopción gradual de la publicación continua y el uso inicial de la taxonomía CRediT, lo cual abre un espacio importante para fortalecer la cultura científica de publicación en el país.
@@ -424,7 +424,7 @@ En lo que respecta al depósito abierto de datos de investigación, se aprecia u
 
 Finalmente, en relación con la revisión abierta por pares, se registra un incremento de 1 a 3 revistas que contemplan esta opción de forma explícita. Aunque el cambio es numéricamente modesto, desde la perspectiva de la cultura editorial constituye un avance significativo, dado que esta práctica es, históricamente, una de las que ha enfrentado mayor resistencia por parte de la comunidad científica, incluso más que los preprints o los datos abiertos. Este incremento, aunque incipiente, podría interpretarse como un signo de apertura progresiva hacia modelos más transparentes y colaborativos, en consonancia con el paradigma contemporáneo de la Ciencia Abierta.
 
-![Tendencia políticas básicas ciencias abiertas 2023-2024](img/Tendenciapoliticasbasicascienciasabiertas.png){#fig-8}
+![Tendencia políticas básicas ciencias abiertas 2023-2024](img/Tendenciapoliticasbasicascienciasabiertas.png){#fig-mx8}
 
 
 ### Análisis de los resultados en espectro amplio de políticas establecidas

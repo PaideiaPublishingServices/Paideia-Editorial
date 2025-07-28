@@ -108,7 +108,7 @@ Os resultados, a partir da análise das fontes e termos de adesão assinados pel
 
 Já a análise dos projetos interinstitucionais aprovados mostrou que essa composição de 16 pesquisadores nacionais, dos quais seis são bolsistas de produtividade em pesquisa do CNPq, com reconhecida experiência no Brasil, e 16 pesquisadores internacionais, além de cinco representantes de entidades do campo editorial (Redalyc, Latindex, EDUC@, AURA, ABEC), foi impulsionada pelos critérios do edital de fomento, que priorizava a participação do Brasil, de outros países do sul global, caribenhos e africanos. De tal modo, o grupo envolveu 32 instituições, das quais 16 são nacionais e 16 são internacionais, com representação de todas as cinco regiões do Brasil – Norte, Nordeste, Sul, Sudeste e Centro-Oeste - e o envolvimento de mais 11 países.
 
-As instituições de vínculo dos pesquisadores integrantes deste projeto estão apresentas no @tbl-1, com a indicação da região geográfica para as brasileiras e do país, no caso das internacionais. 
+As instituições de vínculo dos pesquisadores integrantes deste projeto estão apresentas no @tbl-rede1, com a indicação da região geográfica para as brasileiras e do país, no caso das internacionais. 
 
 
 | Instituições brasileiras                    | Região geográfica |
@@ -147,11 +147,11 @@ As instituições de vínculo dos pesquisadores integrantes deste projeto estão
 | Universidad Católica del Uruguay              | Uruguai          |
 | Universidad de Los Andes                      | Venezuela        |
 
-: Instituições envolvidas no projeto {#tbl-1}
+: Instituições envolvidas no projeto {#tbl-rede1}
 
 A articulação dos editores decorreu do objetivo comum de aumentar a qualificação dos periódicos em desenvolvimento, na área da Educação, a partir da articulação internacional de editores científicos. Para isso, buscava-se qualificar, científica e tecnologicamente, os periódicos brasileiros e de outros países latino-americanos, caribenhos e africanos a partir da articulação dos conhecimentos editoriais da equipe com foco na internacionalização, na indexação e na aderência à ciência aberta. 
 
-Como no @tbl-1, já foram apontadas as instituições envolvidas no projeto, com suas respectivas regiões geográficas, no caso das brasileiras, e dos países, no caso das estrangeiras, especificam-se agora os membros da equipe com as revistas nas quais atuam como editores, bem como seus respectivos grupos de pesquisas implicados no projeto.
+Como no @tbl-rede1, já foram apontadas as instituições envolvidas no projeto, com suas respectivas regiões geográficas, no caso das brasileiras, e dos países, no caso das estrangeiras, especificam-se agora os membros da equipe com as revistas nas quais atuam como editores, bem como seus respectivos grupos de pesquisas implicados no projeto.
 
 | **Pesquisadores Internacionais**         | **Revistas**                                             | **Grupos de Pesquisa**                                      |
 |------------------------------------------|----------------------------------------------------------|------------------------------------------------------------|
@@ -197,7 +197,7 @@ Como no @tbl-1, já foram apontadas as instituições envolvidas no projeto, com
 | Sylvia Laura Piovesan Suárez             | AURA                                                    | Investigación CSIC Uruguay                  |
 | Sigmar de Mello Rode                     | ABEC Brasil                                             | Diagnóstico em Patologia Bucal              |
 
-: Membros da equipe com a indicação das revistas científicas e grupos de pesquisa a que estão vinculados {#tbl-2}
+: Membros da equipe com a indicação das revistas científicas e grupos de pesquisa a que estão vinculados {#tbl-rede2}
 
 Importa salientar que os editores com periódicos mais qualificados se dispuseram a ajudar na qualificação dos periódicos emergentes, especialmente no tocante à indexação, à internacionalização e à adequação à ciência aberta. Somando-se a essa articulação prévia que mobiliza 11 países e 34 editores científicos da área de Educação, a ideia do projeto foi previamente aprovada e apoiada por cinco representantes de entidades muito importantes no campo editorial: duas das mais consolidadas associações científicas de editores dos países latino-americanos, a AURA e a ABEC Brasil; bem como pelos indexadores Redalyc, Latindex e EDUC@, de modo que essas entidades assumiram o compromisso de colaborar com o projeto seja no âmbito da sua divulgação, da formação dos editores ou da assessoria para qualificação, internacionalização e indexação dos periódicos.
 
@@ -218,7 +218,7 @@ As bolsas foram divididas equitativamente entre todos os membros brasileiros que
 | DEJ          | 1 mês | 1 |
 | DES          | 1 mês | 13 |
 
-: Quantitativo de bolsas financiadas {#tbl-3}
+: Quantitativo de bolsas financiadas {#tbl-rede3}
 
 A maioria das bolsas eram de categoria Sênior em decorrência de a equipe possuir apenas um jovem doutor com menos de cinco anos da conclusão de seu curso de doutorado e todos os demais já serem pesquisadores experientes. Esse perfil era esperado, tendo em vista que, para assumir a função de editor de revista científica, geralmente são eleitos pesquisadores com maior visibilidade, inserção e maturidade com a produção e divulgação do conhecimento [@Gomes2010; @Anna2019]. 
 
@@ -228,11 +228,11 @@ Contudo, foi na ata da segunda reunião do grupo que foi registrada a criação 
 
 Como se registra em ata, “foi aprovada a logomarca da Rede Ibero-Americana de Editores em Educação (RIECE) e o selo de qualidade que será concedido às revistas da rede que cumprirem critérios de qualidade e ciência aberta” (Ata RIECE, 9 de julho de 2024). 
 
-::: {#fig-1 layout-ncol=2 layout-valign="center"}
+::: {#fig-rede1 layout-ncol=2 layout-valign="center"}
 
-![Logomarca da RIECE](img/riece.png){#fig-2}
+![Logomarca da RIECE](img/riece.png){#fig-rede2}
 
-![Selo de qualidade](img/selo.png){#fig-3}
+![Selo de qualidade](img/selo.png){#fig-rede3}
 
 Logomarca e selo
 :::
@@ -249,7 +249,7 @@ A partir da análise do relatório diagnóstico, foi possível perceber que 15 d
 
 ```{=html}
 
-<table id="tbl-4">
+<table id="tbl-rede4">
   <caption>Tempo de existência das revistas</caption>
   <colgroup>
     <col width="20%"> <!-- Ancho para la columna "Ano" -->
@@ -331,7 +331,7 @@ No tocante à periodicidade da publicação, chamou a atenção o fato de que a 
 
 ```{=html}
 
-<table id="tbl-5">
+<table id="tbl-rede5">
   <caption>Periodicidade da publicação</caption>
   <colgroup>
     <col width="25%"> <!-- Ancho para la columna "Periodicidade" -->
@@ -418,7 +418,7 @@ Também foi dada importância à questão da preservação digital e chamou a at
 | Cariniana           | 4      |               | 4           |
 | **Total**           | **12** | **5**         | **17**      |
 
-: Preservação digital das revistas {#tbl-6}
+: Preservação digital das revistas {#tbl-rede6}
 
 No que diz respeito às bases e indexadores, observa-se que há uma preocupação das revistas em buscar sua divulgação mediante bases e indexadores diversos.
 
@@ -473,7 +473,7 @@ No que diz respeito às bases e indexadores, observa-se que há uma preocupaçã
 | IPN                  | 1      | 0             |
 | Proquest             | 1      | 0             |
 
-: Bases e indexadores das revistas {#tbl-7}
+: Bases e indexadores das revistas {#tbl-rede7}
 
 No quesito uso de programas específicos para a prevenção de similaridades, em especial, do tipo plágio, surpreendeu o fato de 18 das revistas não prestarem essa informação aos seus leitores e autores. Dentre as 15 que disponibilizavam essa informação, o programa mais utilizado foi o Turnitin.
 
@@ -488,7 +488,7 @@ No quesito uso de programas específicos para a prevenção de similaridades, em
 | iThenticate                                                         | 1      | 0             | 1           |
 | **Total**                                                           | **17** | **16**        | **33**      |
 
-: Utilização de programas para identificação de similaridade {#tbl-8}
+: Utilização de programas para identificação de similaridade {#tbl-rede8}
 
 Consoante a ética na política editorial das revistas, observou-se que 24 revistas tomavam como base para a elaboração de diretrizes documentos nacionais ou internacionais amplamente divulgados, majoritariamente fundamentas no Committee on Publication Ethics (COPE). No entanto, havia ainda nove revistas que não explicitavam com clareza quais procedimentos éticos adotavam.
 
@@ -502,7 +502,7 @@ Consoante a ética na política editorial das revistas, observou-se que 24 revis
 | Não possui                                                        | 6      | 3             | 9     |
 | **Total**                                                         | **17** | **16**        | **33** |
 
-: Normas que fundamentam a política editorial {#tbl-9}
+: Normas que fundamentam a política editorial {#tbl-rede9}
 
 Outras informações importantes também foram diagnósticas no relatório, a exemplo da cobrança de APC, exercida por apenas duas revistas, bem como na internacionalização no corpo editorial e de autores, que demonstrou que os periódicos que já trabalhavam nessa direção.
 
@@ -524,7 +524,7 @@ Na ata de criação da RIECE, de 9 de julho de 2024, destacou-se para os editore
 | Olivia Morais de Medeiros Neta         | [201578/2024-7](http://efomento.cnpq.br/efomento/contrato/indicacaoBolsista.do?acao=detalharIndicacao&codigoSolicitacao=4810698&codigoProcesso=20234424339)  | 01/02/2025 a 28/02/2025          | DES                 |
 | Rafael Fonseca de Castro                | [201439/2024-7](http://efomento.cnpq.br/efomento/contrato/indicacaoBolsista.do?acao=detalharIndicacao&codigoSolicitacao=4810698&codigoProcesso=20234424339)  | 01/10/2024 a 31/10/2024          | DES                 |
 
-: Editores já cadastrados para missão de internacionalização {#tbl-10}
+: Editores já cadastrados para missão de internacionalização {#tbl-rede10}
 
 Apenas Rafael Fonseca de Castro já havia concluído a missão; outros seis editores já estavam com suas missões agendadas e os demais estavam em fase de negociação com as suas instituições de vínculo empregatício e com o colega que iria trabalhar conjuntamente para qualificar as suas revistas. Dessa maneira, ainda que o registro da atividade seja muito importante por ser uma iniciativa inovadora, ainda não havia resultados que pudessem ser devidamente analisados.
 
@@ -540,7 +540,7 @@ Mesmo com o tempo diminuto de criação da RIECE, menos de um ano, é possível 
 
 Cabe destacar que em todas as atividades era disponibilizado o QR Code que direcionava ao questionário on-line para que outros editores de Educação pudessem se cadastrar na RIECE, qual seja:
 
-![QR Code para juntar-se à RIECE](img/qr.png){#fig-4}
+![QR Code para juntar-se à RIECE](img/qr.png){#fig-rede4}
 
 Desse modo, observa-se que o objetivo é ampliar a Rede inicialmente constituída e poder constituir uma ampla articulação internacional de editores da área de Educação que queiram investir esforços em qualificar sua atuação profissional e os periódicos em que atuam como editores.
 

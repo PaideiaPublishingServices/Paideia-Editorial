@@ -55,7 +55,7 @@ abstract: |
   Os autores concluem oferecendo recomendações para a criação de comunidades de práticas de *Library Publishing*, para o compartilhamento de ações e experiências sobre edição científica como parte dos serviços prestados por bibliotecas universitárias e para a ampliação da oferta de disciplinas de produção editorial por parte dos cursos de graduação em Biblioteconomia no país. Assim, espera-se que o estudo contribua para inserir o Brasil no cenário internacional da *Library Publishing*, promovendo a ampla divulgação das ações empreendidas pelas bibliotecas nacionais em prol de um sistema de comunicação científica aberto, inclusivo e sustentável.
 keywords: 
   - edição científica
-  - rprodução editorial
+  - produção editorial
   - bibliotecas universitárias
   - publicações científicas
   - acesso aberto
@@ -67,12 +67,6 @@ citation:
   doi: 10.62059/editorial.l001.c5
 lang: pt
 reference-section-title: "Referências"
-crossref:
-  tbl-title: "Tabela"
-  fig-title: "Figura"
-  tbl-prefix: "Tabela"
-  fig-prefix: "Figura"
-  title-delim: " "
 format:
   pdf:
     include-in-header:
@@ -132,35 +126,90 @@ Uma das primeiras pesquisas sobre as dinâmicas da *Library Publishing* foi dese
 
 Os serviços mais oferecidos revelaram-se isolados e frequentemente prestados como suporte à publicação, a exemplo de processos de digitalização de conteúdo, indexação e hospedagem de recursos em repositórios e bibliotecas digitais, normalização técnica, auxiliados pela disponibilidade de softwares de código aberto como *Open Journal Systems* (OJS), *Open Monograph Press* (OMP), *DSpace*, *DPubs* e outros. Posteriormente, face à ampliação da experiência profissional, os resultados demonstraram uma evolução para outros tipos de serviços de produção e editoração, curadoria de originais, gestão editorial, planejamento do fluxo produtivo, decisões acerca do design das publicações, marcação e geração de recursos eletrônicos e impressão [@Hahn2008; @Hawkins2019]. @Hahn2008 menciona ainda o planejamento e controle da revisão por pares, atividade executada em colaboração com editores e avaliadores especializados em cada área científica. Em termos gerais, a pesquisa indicou que as bibliotecas têm evitado custos desnecessários, experimentando com novos formatos acessíveis e modelos de negócio sustentáveis. 
 
-Quatro anos depois, em 2012, sob a liderança do Instituto *Educopia*, foi realizada uma nova pesquisa para mapear as iniciativas existentes no contexto norte-americano. Em 2013, como resultado deste estudo, foi fundada a *Library Publishing Coalition* (LPC) (@fig-1), uma associação independente cujo objetivo era reunir as bibliotecas norte-americanas engajadas em serviços de produção editorial em uma comunidade agregadora, que permitisse o compartilhamento de práticas e a defesa de um cenário mais transparente, inclusivo e sustentável no setor editorial [@Schlosser2018].
+Quatro anos depois, em 2012, sob a liderança do Instituto *Educopia*, foi realizada uma nova pesquisa para mapear as iniciativas existentes no contexto norte-americano. Em 2013, como resultado deste estudo, foi fundada a *Library Publishing Coalition* (LPC) (@fig-em1), uma associação independente cujo objetivo era reunir as bibliotecas norte-americanas engajadas em serviços de produção editorial em uma comunidade agregadora, que permitisse o compartilhamento de práticas e a defesa de um cenário mais transparente, inclusivo e sustentável no setor editorial [@Schlosser2018].
 
-![Logo da LPC. Fonte: Library Publishing Coalition (c2024).](img/Logo-da-Library.png){#fig-1}
+![Logo da LPC](img/Logo-da-Library.png){#fig-em1}
+
+::: {.content-visible when-format="pdf"}
+\vspace{-0.5em}
+\begin{center}
+\textit{Fonte: Library Publishing Coalition (c2024).}
+\end{center}
+:::
+
+::: {.content-visible when-format="html"}
+<p style="margin-top: -1em; font-style: italic; font-size: 0.9em; color: #666;">Fonte: Library Publishing Coalition (c2024).</p>
+:::
 
 No contexto da LPC, a noção de *Library Publishing* é retratada como conjunto de atividades lideradas pelas bibliotecas de faculdades e universidades em apoio à criação, disseminação e curadoria de trabalhos científicos, criativos e educacionais que, além de demandar tratamento editorial geralmente são originais e inéditos, aos quais é aplicado algum tipo de validação do conteúdo publicado, seja através da revisão por pares ou por meio do reconhecimento atribuído pela marca institucional [@LibraryPublishingCoalition2024c]. Demonstrando motivações distintas daquelas defendidas por outros agentes do setor editorial por conta de sua preferência pela disseminação em acesso aberto e por sua disposição de desafiar o *status quo* e adotar formatos experimentais e canais informais de comunicação científica, as atividades oferecidas no contexto da *Library Publishing* são desenvolvidas a partir das habilidades tradicionais dos bibliotecários e se baseiam em valores biblioteconômicos fundamentais [@LibraryPublishingCoalition2024c]. 
 
-A LPC declara-se aberta a qualquer biblioteca universitária ou de pesquisa que deseja ou já esteja engajada em serviços de editoração e de publicação. No entanto, para tornar-se membro é necessário o pagamento de uma taxa anual, o que dificulta um dos objetivos de expansão da associação em termos da diversidade geográfica e do escopo dos projetos filiados [@Schlosser2018]. Por outro lado, desde a sua fundação a LPC se compromete a mapear as iniciativas de *Library Publishing* ao redor do mundo, publicando edições anuais do *Library Publishing Directory* (@fig-2), que descreve as bibliotecas editoras, os modelos de negócio utilizados, as mídias e formatos de publicação, além das práticas de incentivo a parcerias estratégicas e das ações adotadas para aperfeiçoar o desempenho dos programas [@Lippincott2014].
+A LPC declara-se aberta a qualquer biblioteca universitária ou de pesquisa que deseja ou já esteja engajada em serviços de editoração e de publicação. No entanto, para tornar-se membro é necessário o pagamento de uma taxa anual, o que dificulta um dos objetivos de expansão da associação em termos da diversidade geográfica e do escopo dos projetos filiados [@Schlosser2018]. Por outro lado, desde a sua fundação a LPC se compromete a mapear as iniciativas de *Library Publishing* ao redor do mundo, publicando edições anuais do *Library Publishing Directory* (@fig-em2), que descreve as bibliotecas editoras, os modelos de negócio utilizados, as mídias e formatos de publicação, além das práticas de incentivo a parcerias estratégicas e das ações adotadas para aperfeiçoar o desempenho dos programas [@Lippincott2014].
 
-![Edições do *Library Publishing Directory* (2014-2023). Fonte: Library Publishing Coalition (c2024).](img/Edições-do-Library.png){#fig-2}
+![Edições do *Library Publishing Directory* (2014-2023)](img/Edições-do-Library.png){#fig-em2}
+
+::: {.content-visible when-format="pdf"}
+\vspace{-0.5em}
+\begin{center}
+\textit{Fonte: Library Publishing Coalition (c2024).}
+\end{center}
+:::
+
+::: {.content-visible when-format="html"}
+<p style="margin-top: -1em; font-style: italic; font-size: 0.9em; color: #666;">Fonte: Library Publishing Coalition (c2024).</p>
+:::
 
 Constituindo uma forte e coesa comunidade de práticas, a LPC se empenha ainda no incentivo à criação de novos projetos, investindo na formação e no desenvolvimento de profissionais interessados em atividades de produção editorial através da promoção do *Library Publishing Forum*, evento anual em formato presencial ou híbrido que reúne os profissionais envolvidos em funções e práticas editoriais em bibliotecas para compartilhar suas pesquisas e conhecimentos [@LibraryPublishingCoalition2024Forum]; e através da construção do *Library Publishing Curriculum*, o primeiro curso em acesso aberto que trata da criação de serviços editoriais em bibliotecas e da adoção de boas práticas, disponibilizado em três formatos, regularmente atualizados [@Skinner2021]. Além destes e de outros valiosos recursos, entre guias e materiais de referência, a LPC vem organizando, com o apoio do aplicativo *Zotero*, uma abrangente bibliografia sobre *Library Publishing*, que atualmente engloba mais de 360 itens [@LibraryPublishingCoalition2024Biblio].
 
-Com o propósito de promover o emergente campo da *Library Publishing*, resultado do êxito e da repercussão do conjunto de ações desenvolvidas pela LPC, a *International Federation of Library Associations and Institutions* (IFLA) decidiu criar, em 2018, um grupo especial sobre a temática, o IFLA *LibPub SIG* (@fig-3). Com a colaboração ativa da LPC, o grupo almeja despertar a atenção da comunidade internacional de bibliotecas para engajar-se e colaborar na divulgação e no mapeamento dos esforços empreendidos ao redor do mundo, sistematizados por meio do IFLA *Global Library Publishing Map* [@Liu2024].
+Com o propósito de promover o emergente campo da *Library Publishing*, resultado do êxito e da repercussão do conjunto de ações desenvolvidas pela LPC, a *International Federation of Library Associations and Institutions* (IFLA) decidiu criar, em 2018, um grupo especial sobre a temática, o IFLA *LibPub SIG* (@fig-em3). Com a colaboração ativa da LPC, o grupo almeja despertar a atenção da comunidade internacional de bibliotecas para engajar-se e colaborar na divulgação e no mapeamento dos esforços empreendidos ao redor do mundo, sistematizados por meio do IFLA *Global Library Publishing Map* [@Liu2024].
 
-![Logo do *IFLA Library Publishing Special Interest Group*. Fonte: @ONeillLiuShibaeva2022.](img/Logo-do-IFLA-Library.png){#fig-3}
+![Logo do *IFLA Library Publishing Special Interest Group*](img/Logo-do-IFLA-Library.png){#fig-em3}
 
-O mapeamento elaborado pela IFLA traz dados sobre vínculos institucionais dos projetos, ano de criação e tipologia do serviço, modelos de negócios, políticas e regulamentos, formatos e mídias das publicações, equipes editoriais, áreas de especialidade, parcerias formalizadas,  plataformas e softwares desenvolvidos e adotados (@fig-4). 
+::: {.content-visible when-format="pdf"}
+\vspace{-0.5em}
+\begin{center}
+\textit{Fonte: O'Neill, Liu e Shibaeva (2022).}
+\end{center}
+:::
 
-![Plataforma *IFLA Global Library Publishing Map*. Fonte: IFLA LibPub SIG (c2025).](img/Plataforma-IFLA-Global.png){#fig-4}
+::: {.content-visible when-format="html"}
+<p style="margin-top: -1em; font-style: italic; font-size: 0.9em; color: #666;">Fonte: @ONeillLiuShibaeva2022.</p>
+:::
 
-Até julho de 2023, a versão disponível do mapa produzido pela IFLA indicava a existência de 254 serviços, 225 dos quais com a participação de bibliotecas universitárias, já que as mesmas formam a base de associados da LPC [@Liu2024]. Desde então tem sido possível avaliar e acompanhar a expansão e o engajamento das bibliotecas ao redor do mundo com as ações da *Library Publishing*, ainda que se caracterize uma predominância de instituições localizadas no Norte global, particularmente na América do Norte (@fig-5). Embora justificável, este fato demonstra a necessidade de propor agendas e ampliar discussões sobre o tema [@Berger2024]. 
+O mapeamento elaborado pela IFLA traz dados sobre vínculos institucionais dos projetos, ano de criação e tipologia do serviço, modelos de negócios, políticas e regulamentos, formatos e mídias das publicações, equipes editoriais, áreas de especialidade, parcerias formalizadas,  plataformas e softwares desenvolvidos e adotados (@fig-em4). 
 
-![Países/regiões dos projetos mapeados pelo *IFLA LibPub SIG*. Fonte: @Liu2024.](img/Países-regiões-dos-projetos.png){#fig-5}
+![Plataforma *IFLA Global Library Publishing Map*](img/Plataforma-IFLA-Global.png){#fig-em4}
+
+::: {.content-visible when-format="pdf"}
+\vspace{-0.5em}
+\begin{center}
+\textit{Fonte: IFLA LibPub SIG (c2025).}
+\end{center}
+:::
+
+::: {.content-visible when-format="html"}
+<p style="margin-top: -1em; font-style: italic; font-size: 0.9em; color: #666;">Fonte: IFLA LibPub SIG (c2025).</p>
+:::
+
+Até julho de 2023, a versão disponível do mapa produzido pela IFLA indicava a existência de 254 serviços, 225 dos quais com a participação de bibliotecas universitárias, já que as mesmas formam a base de associados da LPC [@Liu2024]. Desde então tem sido possível avaliar e acompanhar a expansão e o engajamento das bibliotecas ao redor do mundo com as ações da *Library Publishing*, ainda que se caracterize uma predominância de instituições localizadas no Norte global, particularmente na América do Norte (@fig-em5). Embora justificável, este fato demonstra a necessidade de propor agendas e ampliar discussões sobre o tema [@Berger2024]. 
+
+![Países/regiões dos projetos mapeados pelo *IFLA LibPub SIG*](img/Países-regiões-dos-projetos.png){#fig-em5 fig-pos="H"}
+
+::: {.content-visible when-format="pdf"}
+\vspace{-0.5em}
+\begin{center}
+\textit{Fonte: Liu (2024).}
+\end{center}
+:::
+
+::: {.content-visible when-format="html"}
+<p style="margin-top: -1em; font-style: italic; font-size: 0.9em; color: #666;">Fonte: @Liu2024.</p>
+:::
 
 Neste sentido, vem crescendo nos últimos anos o número de eventos conduzidos pelo *Lib Pub SIG* da IFLA visando divulgar o mapa e ampliar seu alcance, sobretudo no Sul global. Para ampliar a diversidade dos projetos registrados no mapa, o grupo planeja criar um instrumento de coleta de dados e traduzi-lo para várias línguas como meio de atrair maior participação da comunidade internacional, garantindo a atualização regular das informações [@Liu2024].
 
 ## *Library Publishing* no Sul Global
 
-Para além das informações disponibilizadas no mapa da IFLA, o levantamento bibliográfico e documental realizado pelos autores identificou iniciativas no hemisfério sul, especialmente na Austrália, na África do Sul e no Brasil. Projetos desenvolvidos por bibliotecas universitárias australianas e sul-africanas mereceram destaque por suas premiadas experiências de produção editorial (Missingham e Kanellopoulos; 2014). Na África do Sul, por exemplo, a Biblioteca Universitária da Universidade da Cidade do Cabo, fundou em 2015 o serviço de editoração que se caracteriza pela ampla adoção, defesa e difusão do modelo de publicação diamante em acesso aberto, onde os custos de publicação são fomentados por políticas públicas governamentais e aportes institucionais, sendo desenvolvida a plataforma de acesso aberto continental *African Platform for Open Scholarship* para publicação de recursos provenientes de aproximadamente 15 instituições [@Claassen2024].
+Para além das informações disponibilizadas no mapa da IFLA, o levantamento bibliográfico e documental realizado pelos autores identificou iniciativas no hemisfério sul, especialmente na Austrália, na África do Sul e no Brasil. Projetos desenvolvidos por bibliotecas universitárias australianas e sul-africanas mereceram destaque por suas premiadas experiências de produção editorial (@MissinghamKanellopoulos2014). Na África do Sul, por exemplo, a Biblioteca Universitária da Universidade da Cidade do Cabo, fundou em 2015 o serviço de editoração que se caracteriza pela ampla adoção, defesa e difusão do modelo de publicação diamante em acesso aberto, onde os custos de publicação são fomentados por políticas públicas governamentais e aportes institucionais, sendo desenvolvida a plataforma de acesso aberto continental *African Platform for Open Scholarship* para publicação de recursos provenientes de aproximadamente 15 instituições [@Claassen2024].
 
 No que se refere à América do Sul, por sua vez, poucas foram as pesquisas publicadas sobre o tema nos últimos anos, entre elas as de @SantillanAldanaMueller2016 e @PrudencioSilva2023. Um estudo que traz informa interessante é o de @MangasVega2018, que embora tenha autopublicação como objeto, revela relatos de experiências de autopublicação na literatura e confirma que os estudos sobre *Library Publishing* em outras regiões na América Latina são quase inexistentes.
 
@@ -168,11 +217,33 @@ No que se refere à América do Sul, por sua vez, poucas foram as pesquisas publ
 
 @SantillanAldanaMueller2016 traduzem a expressão do idioma inglês para Serviços de Editoração em Bibliotecas (SEBs) no contexto brasileiro. Em outra publicação, @SantillanAldana2017 mostrou que discussões iniciais estavam sendo realizadas sobre o papel dos bibliotecários no processo de comunicação científica, e que estavam sendo implementados SEBs naquele momento, aplicando as características e princípios do movimento *Library Publishing* internacional, como a filosofia da Ciência Aberta e a liderança de bibliotecários nestes serviços, mas que não adotavam a identificação de SEBs. O autor ainda apontou que os serviços mais comuns eram de gestão de repositórios institucionais e portais de periódicos científicos, considerados o principal veículo de comunicação na região, com uma considerável produção sobre as experiências dos bibliotecários neste campo [@Anna2019; @MaimoneTalamo2008; @Martins2015; @Mendes2020; @Rodrigues2017; @SantanaFrancelin2016; @SantanaNoronha2017; @Silva2017].
 
-@Farias2018 apresentam o potencial dos bibliotecários em equipes editoriais, apontando as competências relevantes para sua atuação que foram obtidas ao longo de sua formação acadêmico-profissional (@fig-6). Os autores elaboram um organograma com os conhecimentos e habilidades que consideram necessárias (@fig-7). Mesmo assim, os autores destacam que é imprescindível que os bibliotecários busquem formação continuada para desenvolver as competências editoriais que não são oferecidas nos cursos de graduação em Biblioteconomia. 
+@Farias2018 apresentam o potencial dos bibliotecários em equipes editoriais, apontando as competências relevantes para sua atuação que foram obtidas ao longo de sua formação acadêmico-profissional (@fig-em6). Os autores elaboram um organograma com os conhecimentos e habilidades que consideram necessárias (@fig-em7). Mesmo assim, os autores destacam que é imprescindível que os bibliotecários busquem formação continuada para desenvolver as competências editoriais que não são oferecidas nos cursos de graduação em Biblioteconomia. 
 
-![Competências do bibliotecário para atuar na editoração. Fonte: @Farias2018.](img/Competências-do-bibliotecário.jpg){#fig-6}
+![Competências do bibliotecário para atuar na editoração](img/Competências-do-bibliotecário.jpg){#fig-em6 fig-pos="H" width="50%"}
 
-![Conhecimentos, habilidades e atitudes para o bibliotecário atuar na editoração. Fonte: @Farias2018, adaptado de Calarco et al. (2016).](img/Conhecimentos-habilidades-atitudes.jpg){#fig-7}
+::: {.content-visible when-format="pdf"}
+\vspace{-3em}
+\begin{center}
+\textit{Fonte: Farias (2018).}
+\end{center}
+:::
+
+::: {.content-visible when-format="html"}
+<p style="margin-top: -1em; font-style: italic; font-size: 0.9em; color: #666;">Fonte: @Farias2018.</p>
+:::
+
+![Conhecimentos, habilidades e atitudes para o bibliotecário atuar na editoração](img/Conhecimentos-habilidades-atitudes.jpg){#fig-em7 fig-pos="H" width="50%"}
+
+::: {.content-visible when-format="pdf"}
+\vspace{-0.5em}
+\begin{center}
+\textit{Fonte: Farias (2018), adaptado de Calarco et al. (2016).}
+\end{center}
+:::
+
+::: {.content-visible when-format="html"}
+<p style="margin-top: -1em; font-style: italic; font-size: 0.9em; color: #666;">Fonte: @Farias2018, adaptado de Calarco et al. (2016).</p>
+:::
 
 A dissertação de @Rosa2018 é o primeiro trabalho que versa sobre serviços de publicação de livros em bibliotecas por meio de parcerias entre editores e bibliotecários, ao mesmo tempo que aprofunda  sobre *Library Publishing* e traça algumas perspectivas para projeção do movimento no contexto brasileiro. 
 @GrantsBem2019 também tratam sobre a edição e publicação de livros por biblioteca universitária, demonstrando a experiência do serviço editorial BU Publicações, da Biblioteca da Universidade Federal de Santa Catarina (UFSC).
@@ -187,13 +258,13 @@ No entanto, é importante frisar que a aprendizagem de bibliotecários sobre os 
 
 ## Análises e Resultados
 
-A partir de pesquisa exploratória documental nos sites das bibliotecas universitárias federais brasileiras, sistematizamos na [Tabela 11]{.content-visible when-format="pdf"}[@tbl-1]{.content-visible when-format="html"} abaixo algumas das Bibliotecas onde encontramos engajamento com produção editorial.
+A partir de pesquisa exploratória documental nos sites das bibliotecas universitárias federais brasileiras, sistematizamos na [Tabela 11]{.content-visible when-format="pdf"}[@tbl-em1]{.content-visible when-format="html"} abaixo algumas das Bibliotecas onde encontramos engajamento com produção editorial.
 
 \tiny
 
 ```{=html}
 <div style="overflow-x: auto;">
-<table id="tbl-1" style="table-layout: fixed;">
+<table id="tbl-em1" style="table-layout: fixed;">
   <caption>Iniciativas <em>Library Publishing</em> em Bibliotecas Universitárias Federais Brasileiras</caption>
   <colgroup>
       <col width="20%"> <!-- Ancho para la columna "Universidade Federal" -->
@@ -301,13 +372,13 @@ Verificou-se que há uma certa preferência por publicações eletrônicas em ac
 
 Foram identificados um serviço em parceria entre a editora universitária e a biblioteca universitária da UFRA, cujos produtos permanecem sob acesso restrito para compra, e outro em que a biblioteca possui um selo editorial para publicações – o BU Publicações da Biblioteca Universitária da UFSC. Os demais estavam sob a categoria “Publicações” na arquitetura do *website* da Biblioteca/SIBI. 
 
-Atualizando o mapeamento de @SantillanAldanaMueller2016, a [Tabela 12]{.content-visible when-format="pdf"}[@tbl-2]{.content-visible when-format="html"} apresenta alguns portais de periódicos vinculados as bibliotecas universitárias brasileiras da amostra mapeados, seja administrados por estas ou que estas participam do Comitê Gestor.
+Atualizando o mapeamento de @SantillanAldanaMueller2016, a [Tabela 12]{.content-visible when-format="pdf"}[@tbl-em2]{.content-visible when-format="html"} apresenta alguns portais de periódicos vinculados as bibliotecas universitárias brasileiras da amostra mapeados, seja administrados por estas ou que estas participam do Comitê Gestor.
 
 \tiny
 
 ```{=html}
 <div style="overflow-x: auto;">
-<table id="tbl-2">
+<table id="tbl-em2">
   <caption>Portais de Periódicos vinculados a Bibliotecas Universitárias Federais Brasileiras</caption>
   <colgroup>
       <col width="20%"> <!-- Ancho para la columna "Universidade Federal" -->
@@ -570,13 +641,13 @@ Foram mapeados 33 portais de periódicos vinculados as Bibliotecas Universitári
 
 Os repositórios institucionais tornaram-se uma importante e inovadora ferramenta para disseminar as produções das universidades em acesso aberto no contexto digital. Algumas competências dos bibliotecários os habilitam para a gestão de repositórios digitais, como: conhecimento sobre licenças e direitos autorais, preceitos éticos do movimento acesso aberto, experiência em suporte técnico, de atribuições de metadados, identificadores digitais, e indexação, compreensão de mídias e sistemas de integração de conteúdos, da divulgação de conteúdos, da curadoria e preservação digital [@ShintakuVidotti2016].
 
-A [Tabela 13]{.content-visible when-format="pdf"}[@tbl-3]{.content-visible when-format="html"} lista alguns repositórios e bibliotecas digitais vinculadas as bibliotecas desta amostra, demonstrando que há suporte e colaboração dos bibliotecários na gestão de publicações científicas institucionais.
+A [Tabela 13]{.content-visible when-format="pdf"}[@tbl-em3]{.content-visible when-format="html"} lista alguns repositórios e bibliotecas digitais vinculadas as bibliotecas desta amostra, demonstrando que há suporte e colaboração dos bibliotecários na gestão de publicações científicas institucionais.
 
 \tiny
 
 ```{=html}
 <div style="overflow-x: auto;">
-<table id="tbl-3">
+<table id="tbl-em3">
   <caption>Repositórios e Bibliotecas Digitais vinculados a Bibliotecas Universitárias Federais Brasileiras</caption>
    <colgroup>
       <col width="20%"> <!-- Ancho para la columna "Universidade Federal" -->
