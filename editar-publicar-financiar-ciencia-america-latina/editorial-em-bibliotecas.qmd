@@ -130,33 +130,11 @@ Quatro anos depois, em 2012, sob a liderança do Instituto *Educopia*, foi reali
 
 ![Logo da LPC](img/Logo-da-Library.png){#fig-em1}
 
-::: {.content-visible when-format="pdf"}
-\vspace{-0.5em}
-\begin{center}
-\textit{Fonte: Library Publishing Coalition (c2024).}
-\end{center}
-:::
-
-::: {.content-visible when-format="html"}
-<p style="margin-top: -1em; font-style: italic; font-size: 0.9em; color: #666;">Fonte: Library Publishing Coalition (c2024).</p>
-:::
-
 No contexto da LPC, a noção de *Library Publishing* é retratada como conjunto de atividades lideradas pelas bibliotecas de faculdades e universidades em apoio à criação, disseminação e curadoria de trabalhos científicos, criativos e educacionais que, além de demandar tratamento editorial geralmente são originais e inéditos, aos quais é aplicado algum tipo de validação do conteúdo publicado, seja através da revisão por pares ou por meio do reconhecimento atribuído pela marca institucional [@LibraryPublishingCoalition2024c]. Demonstrando motivações distintas daquelas defendidas por outros agentes do setor editorial por conta de sua preferência pela disseminação em acesso aberto e por sua disposição de desafiar o *status quo* e adotar formatos experimentais e canais informais de comunicação científica, as atividades oferecidas no contexto da *Library Publishing* são desenvolvidas a partir das habilidades tradicionais dos bibliotecários e se baseiam em valores biblioteconômicos fundamentais [@LibraryPublishingCoalition2024c]. 
 
 A LPC declara-se aberta a qualquer biblioteca universitária ou de pesquisa que deseja ou já esteja engajada em serviços de editoração e de publicação. No entanto, para tornar-se membro é necessário o pagamento de uma taxa anual, o que dificulta um dos objetivos de expansão da associação em termos da diversidade geográfica e do escopo dos projetos filiados [@Schlosser2018]. Por outro lado, desde a sua fundação a LPC se compromete a mapear as iniciativas de *Library Publishing* ao redor do mundo, publicando edições anuais do *Library Publishing Directory* (@fig-em2), que descreve as bibliotecas editoras, os modelos de negócio utilizados, as mídias e formatos de publicação, além das práticas de incentivo a parcerias estratégicas e das ações adotadas para aperfeiçoar o desempenho dos programas [@Lippincott2014].
 
 ![Edições do *Library Publishing Directory* (2014-2023)](img/Edições-do-Library.png){#fig-em2}
-
-::: {.content-visible when-format="pdf"}
-\vspace{-0.5em}
-\begin{center}
-\textit{Fonte: Library Publishing Coalition (c2024).}
-\end{center}
-:::
-
-::: {.content-visible when-format="html"}
-<p style="margin-top: -1em; font-style: italic; font-size: 0.9em; color: #666;">Fonte: Library Publishing Coalition (c2024).</p>
-:::
 
 Constituindo uma forte e coesa comunidade de práticas, a LPC se empenha ainda no incentivo à criação de novos projetos, investindo na formação e no desenvolvimento de profissionais interessados em atividades de produção editorial através da promoção do *Library Publishing Forum*, evento anual em formato presencial ou híbrido que reúne os profissionais envolvidos em funções e práticas editoriais em bibliotecas para compartilhar suas pesquisas e conhecimentos [@LibraryPublishingCoalition2024Forum]; e através da construção do *Library Publishing Curriculum*, o primeiro curso em acesso aberto que trata da criação de serviços editoriais em bibliotecas e da adoção de boas práticas, disponibilizado em três formatos, regularmente atualizados [@Skinner2021]. Além destes e de outros valiosos recursos, entre guias e materiais de referência, a LPC vem organizando, com o apoio do aplicativo *Zotero*, uma abrangente bibliografia sobre *Library Publishing*, que atualmente engloba mais de 360 itens [@LibraryPublishingCoalition2024Biblio].
 
@@ -164,46 +142,13 @@ Com o propósito de promover o emergente campo da *Library Publishing*, resultad
 
 ![Logo do *IFLA Library Publishing Special Interest Group*](img/Logo-do-IFLA-Library.png){#fig-em3}
 
-::: {.content-visible when-format="pdf"}
-\vspace{-0.5em}
-\begin{center}
-\textit{Fonte: O'Neill, Liu e Shibaeva (2022).}
-\end{center}
-:::
-
-::: {.content-visible when-format="html"}
-<p style="margin-top: -1em; font-style: italic; font-size: 0.9em; color: #666;">Fonte: @ONeillLiuShibaeva2022.</p>
-:::
-
 O mapeamento elaborado pela IFLA traz dados sobre vínculos institucionais dos projetos, ano de criação e tipologia do serviço, modelos de negócios, políticas e regulamentos, formatos e mídias das publicações, equipes editoriais, áreas de especialidade, parcerias formalizadas,  plataformas e softwares desenvolvidos e adotados (@fig-em4). 
 
 ![Plataforma *IFLA Global Library Publishing Map*](img/Plataforma-IFLA-Global.png){#fig-em4}
 
-::: {.content-visible when-format="pdf"}
-\vspace{-0.5em}
-\begin{center}
-\textit{Fonte: IFLA LibPub SIG (c2025).}
-\end{center}
-:::
-
-::: {.content-visible when-format="html"}
-<p style="margin-top: -1em; font-style: italic; font-size: 0.9em; color: #666;">Fonte: IFLA LibPub SIG (c2025).</p>
-:::
-
 Até julho de 2023, a versão disponível do mapa produzido pela IFLA indicava a existência de 254 serviços, 225 dos quais com a participação de bibliotecas universitárias, já que as mesmas formam a base de associados da LPC [@Liu2024]. Desde então tem sido possível avaliar e acompanhar a expansão e o engajamento das bibliotecas ao redor do mundo com as ações da *Library Publishing*, ainda que se caracterize uma predominância de instituições localizadas no Norte global, particularmente na América do Norte (@fig-em5). Embora justificável, este fato demonstra a necessidade de propor agendas e ampliar discussões sobre o tema [@Berger2024]. 
 
-![Países/regiões dos projetos mapeados pelo *IFLA LibPub SIG*](img/Países-regiões-dos-projetos.png){#fig-em5 fig-pos="H"}
-
-::: {.content-visible when-format="pdf"}
-\vspace{-0.5em}
-\begin{center}
-\textit{Fonte: Liu (2024).}
-\end{center}
-:::
-
-::: {.content-visible when-format="html"}
-<p style="margin-top: -1em; font-style: italic; font-size: 0.9em; color: #666;">Fonte: @Liu2024.</p>
-:::
+![Países/regiões dos projetos mapeados pelo *IFLA LibPub SIG*](img/Países-regiões-dos-projetos.png){#fig-em5}
 
 Neste sentido, vem crescendo nos últimos anos o número de eventos conduzidos pelo *Lib Pub SIG* da IFLA visando divulgar o mapa e ampliar seu alcance, sobretudo no Sul global. Para ampliar a diversidade dos projetos registrados no mapa, o grupo planeja criar um instrumento de coleta de dados e traduzi-lo para várias línguas como meio de atrair maior participação da comunidade internacional, garantindo a atualização regular das informações [@Liu2024].
 
@@ -219,34 +164,13 @@ No que se refere à América do Sul, por sua vez, poucas foram as pesquisas publ
 
 @Farias2018 apresentam o potencial dos bibliotecários em equipes editoriais, apontando as competências relevantes para sua atuação que foram obtidas ao longo de sua formação acadêmico-profissional (@fig-em6). Os autores elaboram um organograma com os conhecimentos e habilidades que consideram necessárias (@fig-em7). Mesmo assim, os autores destacam que é imprescindível que os bibliotecários busquem formação continuada para desenvolver as competências editoriais que não são oferecidas nos cursos de graduação em Biblioteconomia. 
 
-![Competências do bibliotecário para atuar na editoração](img/Competências-do-bibliotecário.jpg){#fig-em6 fig-pos="H" width="50%"}
-
-::: {.content-visible when-format="pdf"}
-\vspace{-3em}
-\begin{center}
-\textit{Fonte: Farias (2018).}
-\end{center}
-:::
-
-::: {.content-visible when-format="html"}
-<p style="margin-top: -1em; font-style: italic; font-size: 0.9em; color: #666;">Fonte: @Farias2018.</p>
-:::
-
-![Conhecimentos, habilidades e atitudes para o bibliotecário atuar na editoração](img/Conhecimentos-habilidades-atitudes.jpg){#fig-em7 fig-pos="H" width="50%"}
-
-::: {.content-visible when-format="pdf"}
-\vspace{-0.5em}
-\begin{center}
-\textit{Fonte: Farias (2018), adaptado de Calarco et al. (2016).}
-\end{center}
-:::
-
-::: {.content-visible when-format="html"}
-<p style="margin-top: -1em; font-style: italic; font-size: 0.9em; color: #666;">Fonte: @Farias2018, adaptado de Calarco et al. (2016).</p>
-:::
+![Competências do bibliotecário para atuar na editoração](img/Competências-do-bibliotecário.jpg){#fig-em6 fig-pos="htbp"}
 
 A dissertação de @Rosa2018 é o primeiro trabalho que versa sobre serviços de publicação de livros em bibliotecas por meio de parcerias entre editores e bibliotecários, ao mesmo tempo que aprofunda  sobre *Library Publishing* e traça algumas perspectivas para projeção do movimento no contexto brasileiro. 
 @GrantsBem2019 também tratam sobre a edição e publicação de livros por biblioteca universitária, demonstrando a experiência do serviço editorial BU Publicações, da Biblioteca da Universidade Federal de Santa Catarina (UFSC).
+
+![Conhecimentos, habilidades e atitudes para o bibliotecário atuar na editoração](img/Conhecimentos-habilidades-atitudes.jpg){#fig-em7 fig-pos="htbp"}
+
 
 As publicações mais recentes de mapeamento panorâmico das experiências editoriais nas bibliotecas universitárias brasileiras foram de @SantillanAldanaMueller2016 e @PrudencioSilva2023. Enquanto o primeiro estudo evidencia os periódicos científicos, @PrudencioSilva2023 buscam outros formatos de publicações em bibliotecas universitárias, como livros, teses, dissertações, recursos educacionais abertos e relatórios técnicos. Neste estudo mais recente, a pesquisa obteve retorno de 5 serviços, sendo eles: a) um SEB coordenado pela biblioteca, e outros 4 em parcerias criativas com editoras universitárias. Acerca das motivações para ausência de SEBs, os participantes do estudo destacaram a falta de recursos materiais e financeiros, a falta de profissionais para a demanda, a necessidade de capacitação profissional e do apoio institucional [@PrudencioSilva2023]. 
 
