@@ -2,7 +2,7 @@
 <doi_batch version="4.4.2" xmlns="http://www.crossref.org/schema/4.4.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1" xsi:schemaLocation="http://www.crossref.org/schema/4.4.2 http://www.crossref.org/schema/deposit/crossref4.4.2.xsd">
 <head>
   <doi_batch_id>ac62d211982d31d7f3-50b2-crossmark-update</doi_batch_id>
-  <timestamp>20250725160000000</timestamp> <!-- NUEVO TIMESTAMP -->
+  <timestamp>20250813170000000</timestamp> <!-- TIMESTAMP ACTUALIZADO -->
   <depositor>
     <depositor_name>pa1d:pa1d</depositor_name>
     <email_address>patricio@paideiastudio.net</email_address>
@@ -40,7 +40,7 @@
   <publisher>
     <publisher_name>Paideia Editorial</publisher_name>
   </publisher>
-  <!-- Metadatos Crossmark para el libro -->
+  <!-- Metadatos Crossmark para el libro ACTUALIZADOS -->
   <crossmark>
     <crossmark_version>1</crossmark_version>
     <crossmark_policy>10.62059/paideia.editorial.crossmark</crossmark_policy>
@@ -52,8 +52,10 @@
     <crossmark_domain_exclusive>true</crossmark_domain_exclusive>
    <custom_metadata>
       <assertion name="published" label="Published" group_name="publication_history" group_label="Publication History" order="0">2025-07-22</assertion>
-      <assertion name="publication_status" label="Publication Status" group_name="publication_history" group_label="Publication History" order="1">Publicación Continua - Especificaciones en LaTeX y HTML</assertion>
+      <assertion name="updated" label="Last Updated" group_name="publication_history" group_label="Publication History" order="1">2025-08-13</assertion>
+      <assertion name="publication_status" label="Publication Status" group_name="publication_history" group_label="Publication History" order="2">Publicación Continua - Especificaciones en LaTeX y HTML</assertion>
       <assertion name="book_type" label="Book Type" group_name="identifiers" group_label="Identifiers" order="0">Edited Book</assertion>
+      <assertion name="chapters_count" label="Total Chapters" group_name="identifiers" group_label="Identifiers" order="1">6</assertion>
     </custom_metadata>
   </crossmark>
   <doi_data>
@@ -278,7 +280,63 @@ El texto comienza presentando brevemente la trayectoria de estos índices intern
   </doi_data>
 </content_item>
 
-<!-- ============== CAPÍTULO 5 ============== -->
+<!-- ============== CAPÍTULO 5 - NUEVO ============== -->
+<content_item component_type='chapter'>
+  <contributors>
+    <person_name sequence='first' contributor_role='author'>
+     <given_name>Lucas dos Santos</given_name>
+      <surname>Souza da Silva</surname>
+      <ORCID>https://orcid.org/0000-0001-8048-5316</ORCID>
+    </person_name>
+    <person_name sequence='additional' contributor_role='author'>
+      <given_name>Fabio Castro</given_name>
+      <surname>Gouveia</surname>
+      <ORCID>https://orcid.org/0000-0002-0082-2392</ORCID>
+    </person_name>
+    <person_name sequence='additional' contributor_role='author'>
+      <given_name>Nanci Elizabeth</given_name>
+      <surname>Oddone</surname>
+      <ORCID>https://orcid.org/0000-0002-0086-5253</ORCID>
+    </person_name>
+    <person_name sequence='additional' contributor_role='author'>
+      <given_name>Dayanne da Silva</given_name>
+      <surname>Prudencio</surname>
+      <ORCID>https://orcid.org/0000-0001-8346-2160</ORCID>
+    </person_name>
+  </contributors>
+  <titles>
+  <title>Produção editorial em bibliotecas universitárias brasileiras: engajamentos criativos com publicações científicas abertas</title>
+  </titles>
+  <jats:abstract xml:lang='pt'>
+    <jats:p>As transformações tecnológicas e sociais ocorridas nas últimas décadas alteraram o modus operandi da comunicação e da produção científica, possibilitando a criação e a expansão de infraestruturas digitais que preconizam a transparência das práticas científicas e a democratização do acesso ao conhecimento. Nessa perspectiva, este capítulo investiga a oferta de serviços de editoração por bibliotecas, movimento reconhecido internacionalmente como Library Publishing. Enquanto na América do Norte e na Europa o movimento é uma realidade, na América Latina e, mais especificamente, no Brasil, a tendência ainda se encontra em estágio embrionário, caracterizada por práticas isoladas e ainda não integradas às discussões internacionais. Em termos de pesquisa, por outro lado, o cenário mostra-se também rarefeito e os poucos estudos publicados oferecem resultados panorâmicos. Empregando técnicas de pesquisa bibliográfica e documental, o presente estudo revela as iniciativas documentadas no Brasil com a intenção de apresentar os seguintes resultados: a) mapeamento de iniciativas de Library Publishing; b) inventário de treinamentos oferecidos; e c) exemplos de boas práticas. Os autores concluem oferecendo recomendações para a criação de comunidades de práticas de Library Publishing, para o compartilhamento de ações e experiências sobre edição científica como parte dos serviços prestados por bibliotecas universitárias e para a ampliação da oferta de disciplinas de produção editorial por parte dos cursos de graduação em Biblioteconomia no país. Assim, espera-se que o estudo contribua para inserir o Brasil no cenário internacional da Library Publishing, promovendo a ampla divulgação das ações empreendidas pelas bibliotecas nacionais em prol de um sistema de comunicação científica aberto, inclusivo e sustentável.</jats:p>
+  </jats:abstract>
+<publication_date media_type='online'>
+    <month>07</month>
+    <day>25</day>
+    <year>2025</year>
+  </publication_date>
+  <!-- Metadatos Crossmark para el capítulo -->
+  <crossmark>
+    <crossmark_version>1</crossmark_version>
+    <crossmark_policy>10.62059/paideia.editorial.crossmark</crossmark_policy>
+    <crossmark_domains>
+      <crossmark_domain>
+        <domain>paideiaeditorial.net</domain>
+      </crossmark_domain>
+    </crossmark_domains>
+    <crossmark_domain_exclusive>true</crossmark_domain_exclusive>
+    <custom_metadata>
+      <assertion name="published" label="Published" group_name="publication_history" group_label="Publication History" order="0">2025-07-25</assertion>
+      <assertion name="chapter_number" label="Chapter" group_name="identifiers" group_label="Identifiers" order="0">5</assertion>
+    </custom_metadata>
+  </crossmark>
+  <doi_data>
+  <doi>10.62059/editorial.l001.c5</doi>
+  <resource>https://paideiaeditorial.net/libros/editar-financiar-ciencia-latinoamerica/_book/editorial-em-bibliotecas.html</resource>
+  </doi_data>
+</content_item>
+
+<!-- ============== CAPÍTULO 6 (antes era capítulo 5) ============== -->
 <content_item component_type='chapter'>
   <contributors>
     <person_name sequence='first' contributor_role='author'>

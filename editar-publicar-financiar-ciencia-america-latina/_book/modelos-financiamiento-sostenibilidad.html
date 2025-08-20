@@ -1,0 +1,1433 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Editar, publicar y financiar ciencia en América Latina © 2025 por Gimena del Rio Riande &amp; Patricio Iván Pantaleo (Coord.) se distribuye bajo licencia CC BY 4.0">
+<meta name="keywords" content="publicaciones científicas, conocimiento, acceso abierto y comunidades">
+<meta name="description" content="Este libro aborda los retos y oportunidades en la comunicación académica en América Latina, explorando cómo se editan, publican y financian los resultados científicos en el contexto regional. A través de un análisis crítico, el proyecto busca destacar experiencias exitosas y lecciones aprendidas, identificar modelos de sostenibilidad en acceso abierto y evaluar el impacto de la visibilidad científica en el progreso académico. Los capítulos incluyen estudios de caso, reflexiones sobre distopías posibles y un enfoque hacia el pensamiento crítico sobre las dinámicas actuales y futuras de la comunicación científica.">
+
+<title>Modelos de financiamiento y sostenibilidad de las publicaciones científicas – Editar, publicar y financiar ciencia en América Latina</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./mitos-leyendas.html" rel="prev">
+<link href="./cover.jpg" rel="icon" type="image/jpeg">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-3437163848027a9678b601de83c9cfc4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-ca9a3123241bd3af7daadacac6f6f60d.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WQ2W87T4');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Identificador para Crossmark - CORRECTO -->
+<meta name="dc.identifier" content="10.62059/editorial.l001">
+
+<!-- Widget de Crossmark v2.0 -->
+<script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var searchBox = document.querySelector(".sidebar-search");
+    if (searchBox) {
+        var doi = "10.62059/editorial.l001";  // DOI del contenido
+        var domain = "paideiaeditorial.net";  // CORREGIDO: debe ser tu dominio, no "pdf"
+        var dateStamp = "2025-07-22";  // CORREGIDO: fecha de publicación real del libro
+
+        var crossmarkButton = document.createElement("div");
+        crossmarkButton.innerHTML = `
+            <div id="crossmark-button" style="text-align: left; margin-top: 10px; margin-bottom: 10px;">
+                <a href="https://crossmark.crossref.org/dialog/?doi=${doi}&domain=${domain}&date_stamp=${dateStamp}" 
+                   class="crossmark" target="_blank">
+                    <img src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_Color_horizontal.svg" 
+                         width="100" alt="Crossmark" />
+                </a>
+            </div>
+        `;
+        searchBox.insertAdjacentElement("afterend", crossmarkButton);
+    }
+});
+</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./modelos-financiamiento-sostenibilidad.html"><span class="chapter-title">Modelos de financiamiento y sostenibilidad de las publicaciones científicas</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Editar, publicar y financiar ciencia en América Latina</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/PaideiaPublishingServices/Paideia-Editorial/tree/main/editar-publicar-financiar-ciencia-america-latina" title="Ejecutar el código" class="quarto-navigation-tool px-1" aria-label="Ejecutar el código"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Descargar" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Descargar"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Editar,-publicar-y-financiar-ciencia-en-América-Latina.pdf">
+              <i class="bi bi-file-pdf pe-1"></i>
+            Descargar PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Editar,-publicar-y-financiar-ciencia-en-América-Latina.epub">
+              <i class="bi bi-journal pe-1"></i>
+            Descargar ePub
+            </a>
+          </li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <a href="" title="Compartir" id="quarto-navigation-tool-dropdown-1" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Compartir"><i class="bi bi-share"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-1">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+              <i class="bi bi-twitter pe-1"></i>
+            Twitter
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+              <i class="bi bi-facebook pe-1"></i>
+            Facebook
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|">
+              <i class="bi bi-linkedin pe-1"></i>
+            LinkedIn
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Alternar modo oscuro"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Buscar"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introducción</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./rede-editores.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">O papel da Rede Ibero-Americana de Editores Científicos de Educação (RIECE) no fortalecimento da comunicação científica em periódicos da área de Educação</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./preservacion-digital.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Preservación digital y sostenibilidad de la comunicación científica en América Latina: experiencias, retos y perspectivas futuras</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./La-ciencia-abierta-mexicana.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">La ciencia abierta mexicana: monitor de prácticas adoptadas por las revistas</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./evaluacion-global.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">De la evaluación global en la realidad local. El papel de los índices internacionales en la organización de la ciencia en Chile y América Latina</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./editorial-em-bibliotecas.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Produção editorial em bibliotecas universitárias brasileiras: engajamentos criativos com publicações científicas abertas</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./mitos-leyendas.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Mitos y leyendas acerca de la visibilidad de las publicaciones periódicas. Un análisis estadístico del impacto de las publicaciones de la Universidad Nacional de La Matanza (UNLaM)</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./modelos-financiamiento-sostenibilidad.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Modelos de financiamiento y sostenibilidad de las publicaciones científicas</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Tabla de contenidos</h2>
+   
+  <ul>
+  <li><a href="#introducción" id="toc-introducción" class="nav-link active" data-scroll-target="#introducción">Introducción</a></li>
+  <li><a href="#revisión-de-modelos-de-financiamiento-tradicionales" id="toc-revisión-de-modelos-de-financiamiento-tradicionales" class="nav-link" data-scroll-target="#revisión-de-modelos-de-financiamiento-tradicionales">Revisión de modelos de financiamiento tradicionales</a>
+  <ul class="collapse">
+  <li><a href="#las-subvenciones-gubernamentales-en-américa-latina" id="toc-las-subvenciones-gubernamentales-en-américa-latina" class="nav-link" data-scroll-target="#las-subvenciones-gubernamentales-en-américa-latina">Las subvenciones gubernamentales en América Latina</a></li>
+  <li><a href="#el-rol-de-las-universidades-y-centros-de-investigación-en-el-financiamiento" id="toc-el-rol-de-las-universidades-y-centros-de-investigación-en-el-financiamiento" class="nav-link" data-scroll-target="#el-rol-de-las-universidades-y-centros-de-investigación-en-el-financiamiento">El rol de las universidades y centros de investigación en el financiamiento</a></li>
+  <li><a href="#modelos-de-suscripción-prevalencia-y-eficacia-en-el-contexto-latinoamericano" id="toc-modelos-de-suscripción-prevalencia-y-eficacia-en-el-contexto-latinoamericano" class="nav-link" data-scroll-target="#modelos-de-suscripción-prevalencia-y-eficacia-en-el-contexto-latinoamericano">Modelos de suscripción: prevalencia y eficacia en el contexto latinoamericano</a></li>
+  <li><a href="#modelos-de-consorcios-para-financiamiento-de-acceso-abierto-el-caso-de-scoap" id="toc-modelos-de-consorcios-para-financiamiento-de-acceso-abierto-el-caso-de-scoap" class="nav-link" data-scroll-target="#modelos-de-consorcios-para-financiamiento-de-acceso-abierto-el-caso-de-scoap">Modelos de consorcios para financiamiento de acceso abierto: El caso de SCOAP</a></li>
+  <li><a href="#la-problemática-de-los-apc-en-américa-latina-y-alternativas-viables" id="toc-la-problemática-de-los-apc-en-américa-latina-y-alternativas-viables" class="nav-link" data-scroll-target="#la-problemática-de-los-apc-en-américa-latina-y-alternativas-viables">La problemática de los APC en América Latina y alternativas viables</a></li>
+  </ul></li>
+  <li><a href="#modelos-alternativos-e-innovadores-de-financiamiento" id="toc-modelos-alternativos-e-innovadores-de-financiamiento" class="nav-link" data-scroll-target="#modelos-alternativos-e-innovadores-de-financiamiento">Modelos alternativos e innovadores de financiamiento</a>
+  <ul class="collapse">
+  <li><a href="#modelos-de-financiamiento-para-la-investigación-en-latinoamérica-latam" id="toc-modelos-de-financiamiento-para-la-investigación-en-latinoamérica-latam" class="nav-link" data-scroll-target="#modelos-de-financiamiento-para-la-investigación-en-latinoamérica-latam">Modelos de financiamiento para la investigación en Latinoamérica (LATAM)</a></li>
+  <li><a href="#modelos-de-membresía" id="toc-modelos-de-membresía" class="nav-link" data-scroll-target="#modelos-de-membresía">Modelos de membresía</a></li>
+  <li><a href="#fondos-e-iniciativas-de-financiamiento-en-acceso-abierto" id="toc-fondos-e-iniciativas-de-financiamiento-en-acceso-abierto" class="nav-link" data-scroll-target="#fondos-e-iniciativas-de-financiamiento-en-acceso-abierto">Fondos e iniciativas de financiamiento en acceso abierto</a></li>
+  </ul></li>
+  <li><a href="#integración-de-tecnologías-para-la-eficiencia-y-reducción-de-costos" id="toc-integración-de-tecnologías-para-la-eficiencia-y-reducción-de-costos" class="nav-link" data-scroll-target="#integración-de-tecnologías-para-la-eficiencia-y-reducción-de-costos">Integración de tecnologías para la eficiencia y reducción de costos</a>
+  <ul class="collapse">
+  <li><a href="#repositorios-y-plataformas-especializadas" id="toc-repositorios-y-plataformas-especializadas" class="nav-link" data-scroll-target="#repositorios-y-plataformas-especializadas">Repositorios y plataformas especializadas</a></li>
+  <li><a href="#automatización-de-procesos-editoriales" id="toc-automatización-de-procesos-editoriales" class="nav-link" data-scroll-target="#automatización-de-procesos-editoriales">Automatización de procesos editoriales</a></li>
+  </ul></li>
+  <li><a href="#transparencia-en-los-procesos-de-financiamiento" id="toc-transparencia-en-los-procesos-de-financiamiento" class="nav-link" data-scroll-target="#transparencia-en-los-procesos-de-financiamiento">Transparencia en los procesos de financiamiento</a>
+  <ul class="collapse">
+  <li><a href="#importancia-de-la-transparencia" id="toc-importancia-de-la-transparencia" class="nav-link" data-scroll-target="#importancia-de-la-transparencia">Importancia de la transparencia</a></li>
+  <li><a href="#estrategias-para-mejorar-la-transparencia" id="toc-estrategias-para-mejorar-la-transparencia" class="nav-link" data-scroll-target="#estrategias-para-mejorar-la-transparencia">Estrategias para mejorar la transparencia</a></li>
+  <li><a href="#propuestas-para-modelos-sostenibles-y-equitativos" id="toc-propuestas-para-modelos-sostenibles-y-equitativos" class="nav-link" data-scroll-target="#propuestas-para-modelos-sostenibles-y-equitativos">Propuestas para modelos sostenibles y equitativos</a></li>
+  </ul></li>
+  <li><a href="#conclusiones-y-recomendaciones" id="toc-conclusiones-y-recomendaciones" class="nav-link" data-scroll-target="#conclusiones-y-recomendaciones">Conclusiones y recomendaciones</a>
+  <ul class="collapse">
+  <li><a href="#resumen-de-hallazgos-clave" id="toc-resumen-de-hallazgos-clave" class="nav-link" data-scroll-target="#resumen-de-hallazgos-clave">Resumen de hallazgos clave</a></li>
+  <li><a href="#recomendaciones-prácticas" id="toc-recomendaciones-prácticas" class="nav-link" data-scroll-target="#recomendaciones-prácticas">Recomendaciones prácticas</a></li>
+  <li><a href="#líneas-futuras-de-investigación" id="toc-líneas-futuras-de-investigación" class="nav-link" data-scroll-target="#líneas-futuras-de-investigación">Líneas futuras de investigación</a></li>
+  </ul></li>
+  <li><a href="#bibliography" id="toc-bibliography" class="nav-link" data-scroll-target="#bibliography">Referencias</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/PaideiaPublishingServices/Paideia-Editorial/tree/main/editar-publicar-financiar-ciencia-america-latina/edit/main/modelos-financiamiento-sostenibilidad.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/PaideiaPublishingServices/Paideia-Editorial/tree/main/editar-publicar-financiar-ciencia-america-latina/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li><li><a href="https://github.com/PaideiaPublishingServices/Paideia-Editorial/tree/main/editar-publicar-financiar-ciencia-america-latina/blob/main/modelos-financiamiento-sostenibilidad.qmd" class="toc-action"><i class="bi empty"></i>Ver el código</a></li></ul></div><div class="quarto-other-links"><h2>Otros Enlaces</h2><ul><li><a href="https://www.amazon.com/books"><i class="bi bi-amazon"></i>Soon on Kindle</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Modelos de financiamiento y sostenibilidad de las publicaciones científicas</span></h1>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Autores/as</div>
+  <div class="quarto-title-meta-heading">Afiliaciones</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Zaira Lagunas Ledesma <a href="mailto:zaalag@gmail.com" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-7981-1185" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            <a href="https://ror.org/01tmp8f25">
+            Universidad Nacional Autónoma de México
+            </a>
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">Arturo Garduño Magaña <a href="mailto:arturo.garduno.magana@gmail.com" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0003-0305-9086" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            <a href="https://ror.org/024pbfj84">
+            LA Referencia
+            </a>
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Fecha de publicación</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">30 de agosto de 2025</p>
+    </div>
+  </div>
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.62059/editorial.l001.c7">10.62059/editorial.l001.c7</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Resumen</div>
+    <p>La propuesta de este capítulo analiza los modelos de financiamiento y sostenibilidad de las publicaciones científicas en América Latina, destacando las estrategias innovadoras y sostenibles que puedan promover la accesibilidad y la equidad en la difusión del conocimiento académico. La investigación se centra en cómo los diversos sistemas de financiamiento pueden ser adaptados o rediseñados para apoyar la transición hacia prácticas de acceso abierto, considerando las particularidades y desafíos de la región.</p>
+    <p>El análisis incluye una revisión de los modelos de financiamiento tradicionales, como subvenciones directas y apoyos gubernamentales, así como su impacto en la sostenibilidad de las publicaciones. Se discuten también las iniciativas que integran modelos alternativos, como consorcios de bibliotecas y sociedades científicas que adoptan modelos de membresías para financiar la publicación sin barreras económicas para los autores. También se examinan casos de fondos e iniciativas de financiamiento de acceso abierto que han facilitado la publicación en plataformas internacionales y su viabilidad para ser implementados en América Latina.</p>
+    <p>Este capítulo busca no solo analizar críticamente los modelos existentes sino también proponer alternativas concretas que promuevan una mayor equidad en el acceso al conocimiento científico. Se discuten las posibles vías para que las políticas de financiamiento en la región evolucionen hacia enfoques más inclusivos y democráticos, asegurando la sostenibilidad de las publicaciones científicas en el largo plazo.</p>
+  </div>
+</div>
+
+<div>
+  <div class="keywords">
+    <div class="block-title">Palabras clave</div>
+    <p>publicaciones científicas, conocimiento, acceso abierto y comunidades</p>
+  </div>
+</div>
+
+</header>
+
+
+<section id="introducción" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="introducción">Introducción</h2>
+<p>América Latina se ha consolidado como una de las regiones más activas en el impulso del acceso abierto, gracias a iniciativas colaborativas, no comerciales y basadas en principios de equidad y soberanía del conocimiento. No obstante, este avance enfrenta obstáculos persistentes relacionados con la sostenibilidad financiera, la dependencia de fondos públicos, la falta de infraestructura tecnológica uniforme y la presión por publicar en revistas internacionales que operan bajo modelos de negocio excluyentes, como el de los cargos por procesamiento de artículos (APC, por sus siglas en inglés).</p>
+<p>En este capítulo se entiende por <strong>acceso abierto</strong> el modelo de publicación académica que permite el acceso inmediato, gratuito y en línea a los resultados de investigación, sin barreras técnicas, legales o económicas<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>. Entre los modelos más comunes de financiamiento en este ecosistema destacan los <em>Article Processing Charges [Cargos de procesamiento de artículos]</em> <strong>(APC)</strong>, las <strong>subvenciones públicas</strong>, los <strong>consorcios de bibliotecas</strong>, los <strong>repositorios institucionales y regionales</strong>, y los <strong>modelos de membresía institucional</strong>, cada uno con ventajas y limitaciones particulares en el contexto latinoamericano.</p>
+<p>Si bien existen experiencias exitosas, como las plataformas SciELO, RedALyC y LA Referencia, muchas revistas y proyectos científicos aún dependen de esquemas financieros frágiles, sujetos a recortes presupuestales, falta de continuidad institucional o modelos que trasladan el costo de publicación a los autores, excluyendo a quienes no cuentan con financiamiento.</p>
+<p>Frente a este panorama, el presente capítulo tiene como objetivo analizar críticamente los <strong>modelos de financiamiento y sostenibilidad</strong> de las publicaciones científicas en América Latina. Se revisarán tanto los enfoques tradicionales (como las subvenciones gubernamentales y los sistemas de estímulos) como los modelos emergentes y colaborativos (por ejemplo, consorcios, membresías, plataformas de acceso abierto, crowdfunding, y automatización tecnológica), evaluando su impacto, viabilidad y capacidad para sostener un ecosistema editorial justo y accesible.</p>
+<p>La estructura del capítulo está organizada en cinco grandes secciones: una revisión de los modelos tradicionales de financiamiento, el análisis de modelos alternativos e innovadores, el papel de las tecnologías para reducir costos y aumentar la eficiencia, los desafíos y estrategias para lograr mayor transparencia en los procesos financieros, y finalmente una serie de conclusiones y recomendaciones para la región. A partir de una revisión documental y análisis comparativo, se propone una reflexión sobre cómo América Latina puede avanzar hacia <strong>modelos inclusivos, sostenibles y adaptados a su realidad socioeconómica</strong>.</p>
+</section>
+<section id="revisión-de-modelos-de-financiamiento-tradicionales" class="level2">
+<h2 class="anchored" data-anchor-id="revisión-de-modelos-de-financiamiento-tradicionales">Revisión de modelos de financiamiento tradicionales</h2>
+<section id="las-subvenciones-gubernamentales-en-américa-latina" class="level3">
+<h3 class="anchored" data-anchor-id="las-subvenciones-gubernamentales-en-américa-latina">Las subvenciones gubernamentales en América Latina</h3>
+<p>En América Latina, el Estado desempeña un papel fundamental como principal financiador de la ciencia, en contraste con otras regiones donde la inversión privada en investigación y desarrollo (I+D) y ciencia básica es considerablemente más alta. Los consejos y ministerios de ciencia y tecnología son los principales motores que sostienen la actividad científica en la región <span class="citation" data-cites="consejo_nacional_ciencia_tecnologia_libro_2018">(<a href="#ref-consejo_nacional_ciencia_tecnologia_libro_2018" role="doc-biblioref">Consejo Nacional de Ciencia y Tecnología, 2018</a>)</span>. Esta dependencia del financiamiento público se refleja no solo en la realización de proyectos de investigación, sino también en la continuidad de estos, particularmente en áreas como la innovación, el desarrollo tecnológico y la generación de conocimiento básico.</p>
+<p>Los modelos de financiamiento para publicaciones científicas en la región incluyen subvenciones gubernamentales, apoyos institucionales y, en menor medida, modelos de suscripción. <span class="citation" data-cites="duran_martinez_economia_2023">Durán-Martínez et&nbsp;al. (<a href="#ref-duran_martinez_economia_2023" role="doc-biblioref">2023</a>)</span> identifican tres enfoques predominantes: investigación patrocinada por extranjeros, patrocinada por el estado y bajo una economía mixta. Por su parte, <span class="citation" data-cites="ugarte_edicion_2004">Ugarte P (<a href="#ref-ugarte_edicion_2004" role="doc-biblioref">2004</a>)</span> resalta la importancia de organismos estatales como CONICYT en Chile y CONICET en Argentina, que juegan un papel clave en el sostenimiento de la investigación y la publicación científica. A pesar de estos apoyos, los desafíos persisten. <span class="citation" data-cites="sanchez_tarrago_revistas_2016">Sánchez-Tarragó et&nbsp;al. (<a href="#ref-sanchez_tarrago_revistas_2016" role="doc-biblioref">2016</a>)</span> señalan que, aunque la mayoría de las revistas en la región son gratuitas y de acceso abierto, enfrentan importantes retos en cuanto a financiamiento sostenible. Asimismo, <span class="citation" data-cites="fernandes_marques_panorama_2022">Fernandes Marques (<a href="#ref-fernandes_marques_panorama_2022" role="doc-biblioref">2022</a>)</span> destaca que, si bien el modelo de suscripciones sigue siendo común, los países latinoamericanos han realizado esfuerzos significativos para promover el acceso abierto mediante el uso de recursos públicos.</p>
+<p>De acuerdo con <span class="citation" data-cites="heras_politica_2005">Heras G (<a href="#ref-heras_politica_2005" role="doc-biblioref">2005</a>)</span> y <span class="citation" data-cites="penaloza_garcia_condiciones_2023">Peñaloza García &amp; Carrillo Pacheco (<a href="#ref-penaloza_garcia_condiciones_2023" role="doc-biblioref">2023</a>)</span>, los sistemas de estímulos a investigadores, como el Sistema Nacional de Investigadores (SNI) en México. De igual manera, <span class="citation" data-cites="usher_guimil_2021">Usher Güimil (<a href="#ref-usher_guimil_2021" role="doc-biblioref">2021</a>)</span> considera que la situación se replica en el caso de Uruguay, o las Bolsas de Productividad em Pesquisa (PQ) de Brasil, y sus equivalentes en distintos países, han surgido como una respuesta a los bajos salarios de los académicos en muchas instituciones.</p>
+<p>Estos sistemas, aunque esenciales para el reconocimiento y apoyo financiero a los investigadores, también han creado dinámicas específicas que impactan la forma en que se publican los resultados de las investigaciones. Los estímulos suelen estar ligados a la producción científica publicada en “revistas de calidad”, generalmente indexadas en bases de datos internacionales como Web of Science y Scopus, así como en DOAJ, SciELO y Redalyc. Estas publicaciones suelen estar dominadas por editoriales privadas o instituciones con amplia trayectoria, lo que coloca una barrera significativa para los académicos que desean publicar en revistas locales o regionales de acceso abierto.</p>
+<p>Por otro lado, las revistas científicas que son gestionadas por universidades, asociaciones profesionales o grupos académicos emergentes enfrentan grandes desafíos. Estas publicaciones suelen operar con presupuestos limitados y carecen del apoyo institucional o gubernamental necesario para consolidarse. En sus etapas iniciales, suelen depender de redes personales y profesionales para garantizar procesos clave como la evaluación por pares y la edición de manuscritos. La falta de recursos sostenibles y de alineación entre políticas institucionales y editoriales -como destaca <span class="citation" data-cites="sanchez_tarrago_revistas_2016">Sánchez-Tarragó et&nbsp;al. (<a href="#ref-sanchez_tarrago_revistas_2016" role="doc-biblioref">2016</a>)</span>- coloca frecuentemente a estas revistas en una posición de desventaja frente a las publicaciones internacionales consolidadas.</p>
+<p>Este contexto evidencia la dualidad del financiamiento tradicional en América Latina: por un lado, permite la continuidad de investigaciones a través de apoyos gubernamentales y estímulos; por otro, genera una dependencia estructural que limita la capacidad de la región para diversificar sus modelos de sostenibilidad en la publicación científica y fortalecer las iniciativas locales. Es necesario, por tanto, analizar de manera crítica los mecanismos actuales de financiamiento, sus ventajas, desventajas y los impactos que tienen en la sostenibilidad de las publicaciones científicas.</p>
+</section>
+<section id="el-rol-de-las-universidades-y-centros-de-investigación-en-el-financiamiento" class="level3">
+<h3 class="anchored" data-anchor-id="el-rol-de-las-universidades-y-centros-de-investigación-en-el-financiamiento">El rol de las universidades y centros de investigación en el financiamiento</h3>
+<p>En este contexto, las universidades y centros de investigación en América Latina han desempeñado un papel complementario al del Estado, convirtiéndose en pilares esenciales para el impulso del acceso abierto. Estas instituciones han contribuido significativamente al desarrollo y sostenibilidad de las publicaciones científicas, posicionando a la región como un referente global en este movimiento. Este compromiso institucional ha sido clave para mejorar la visibilidad de la investigación científica y democratizar el acceso al conocimiento. Iniciativas como SciELO, RedALyC y LA Referencia son ejemplos emblemáticos de plataformas que han contribuido significativamente al fortalecimiento de la difusión científica en la región, ampliando el impacto de las investigaciones producidas localmente <span class="citation" data-cites="correa_da_silva_acceso_2023">(<a href="#ref-correa_da_silva_acceso_2023" role="doc-biblioref">Couto Corrêa Da Silva, 2023</a>)</span>.</p>
+<p>A pesar de estos avances, los desafíos persisten. La sostenibilidad financiera sigue siendo una preocupación central para muchas de estas iniciativas, especialmente para las revistas gestionadas por universidades o asociaciones académicas que operan con recursos limitados. Además, la mejora continua de la calidad editorial y la implementación de buenas prácticas de publicación son áreas que requieren atención constante <span class="citation" data-cites="sanchez_tarrago_revistas_2016">(<a href="#ref-sanchez_tarrago_revistas_2016" role="doc-biblioref">Sánchez-Tarragó et&nbsp;al., 2016</a>)</span>. Aunque muchas revistas latinoamericanas operan bajo modelos gratuitos y se consideran de acceso abierto desde la perspectiva de los editores, la ausencia de políticas claras de uso y la imposición de términos restrictivos de derechos de autor, dificultan la reutilización del conocimiento por parte de la comunidad científica. Esta situación compromete la sostenibilidad del ecosistema editorial regional, al limitar su interoperabilidad, visibilidad internacional y potencial de circulación del conocimiento en condiciones realmente abiertas y equitativas <span class="citation" data-cites="sanchez_tarrago_revistas_2016">(<a href="#ref-sanchez_tarrago_revistas_2016" role="doc-biblioref">Sánchez-Tarragó et&nbsp;al., 2016</a>)</span>.</p>
+</section>
+<section id="modelos-de-suscripción-prevalencia-y-eficacia-en-el-contexto-latinoamericano" class="level3">
+<h3 class="anchored" data-anchor-id="modelos-de-suscripción-prevalencia-y-eficacia-en-el-contexto-latinoamericano">Modelos de suscripción: prevalencia y eficacia en el contexto latinoamericano</h3>
+<p>Aunque América Latina se ha consolidado como líder en la adopción de acceso abierto para revistas científicas, el modelo de suscripción todavía se utiliza en ciertas publicaciones que buscan autofinanciarse sin depender exclusivamente de subvenciones gubernamentales o apoyos institucionales. Este enfoque ha sido común en revistas de nicho o aquellas asociadas a instituciones con acceso limitado a recursos estables. Sin embargo, en comparación con otras regiones, el modelo de suscripción enfrenta una adopción limitada debido a varios factores.</p>
+<p>La región ha desarrollado iniciativas colaborativas y no comerciales, como Latindex, SciELO y RedALyC, que buscan superar las barreras tradicionales para el acceso a la información científica, particularmente los costos asociados y la falta de contenido en español <span class="citation" data-cites="babini_comunicacion_2019">(<a href="#ref-babini_comunicacion_2019" role="doc-biblioref">Babini, 2019</a>)</span>. Estas plataformas han sido cruciales para transformar el panorama editorial, pero los modelos de financiamiento sostenibles siguen siendo un desafío importante. Según <span class="citation" data-cites="sanchez_tarrago_revistas_2016">Sánchez-Tarragó et&nbsp;al. (<a href="#ref-sanchez_tarrago_revistas_2016" role="doc-biblioref">2016</a>)</span>, las políticas restrictivas de derechos de autor y la falta de estrategias institucionales claras limitan el impacto potencial del acceso abierto. Además, muchos editores consideran sus publicaciones gratuitas como abiertas, pero no siempre cuentan con políticas explícitas que lo respalden.</p>
+<p>Para garantizar la sostenibilidad a largo plazo, <span class="citation" data-cites="silva_rodriguez_sostenibilidad_2016">Silva-Rodríguez (<a href="#ref-silva_rodriguez_sostenibilidad_2016" role="doc-biblioref">2016</a>)</span> argumenta que se necesitan nuevos modelos de negocio que respondan a las particularidades del acceso abierto. A pesar de las dificultades, América Latina ha demostrado un compromiso colectivo hacia la adopción de modelos de gestión colaborativos, alejados de intereses comerciales, que buscan equilibrar la equidad y la sostenibilidad en el acceso al conocimiento científico <span class="citation" data-cites="babini_comunicacion_2019">(<a href="#ref-babini_comunicacion_2019" role="doc-biblioref">Babini, 2019</a>)</span>.</p>
+</section>
+<section id="modelos-de-consorcios-para-financiamiento-de-acceso-abierto-el-caso-de-scoap" class="level3">
+<h3 class="anchored" data-anchor-id="modelos-de-consorcios-para-financiamiento-de-acceso-abierto-el-caso-de-scoap">Modelos de consorcios para financiamiento de acceso abierto: El caso de SCOAP<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></h3>
+<p>El financiamiento de publicaciones científicas ha dependido históricamente de modelos tradicionales como las suscripciones y subvenciones gubernamentales. En los últimos años, sin embargo, han surgido iniciativas basadas en consorcios internacionales que buscan redistribuir los costos de publicación a través de acuerdos colectivos, eliminando barreras económicas para autores y lectores. Uno de los casos más emblemáticos es el Sponsoring Consortium for Open Access Publishing in Particle Physics (SCOAP), una iniciativa global que ha permitido convertir revistas de física de partículas de acceso restringido en publicaciones completamente abiertas.</p>
+<p>A diferencia de los modelos basados en tarifas de procesamiento de artículos (APCs, por sus siglas en inglés), SCOAP³ redistribuye los costos entre los países participantes, asegurando que ni autores ni lectores asuman cargos directos por la publicación y el acceso a los artículos. Según información del Blog de la Biblioteca de la Universidad Carlos III Madrid <span class="citation" data-cites="eouceta_anos_2024">(<a href="#ref-eouceta_anos_2024" role="doc-biblioref">Eouceta, 2024</a>)</span>, desde su implementación en 2014, SCOAP ha financiado más del 90% de los artículos en física de partículas, con alrededor de 70,000 artículos publicados en 11 revistas especializadas. Su modelo de financiamiento está basado en contribuciones de agencias gubernamentales, bibliotecas nacionales e instituciones académicas, que aportan recursos en proporción a la producción científica de su país en esta disciplina.</p>
+<p>En América Latina, México participó en SCOAP entre 2014 y 2018, representado por el Consejo Nacional de Ciencia y Tecnología (CONACYT) a través del Consorcio Nacional de Recursos de Información Científica y Tecnológica (CONRICYT). Durante este período, los investigadores mexicanos pudieron publicar sin restricciones económicas en revistas de alto impacto y acceder libremente a literatura científica especializada. Más recientemente, en mayo de 2024, Chile se incorporó al consorcio, con la Agencia Nacional de Investigación y Desarrollo (ANID) como punto de contacto, fortaleciendo la presencia de la región en esta iniciativa global.</p>
+</section>
+<section id="la-problemática-de-los-apc-en-américa-latina-y-alternativas-viables" class="level3">
+<h3 class="anchored" data-anchor-id="la-problemática-de-los-apc-en-américa-latina-y-alternativas-viables">La problemática de los APC en América Latina y alternativas viables</h3>
+<p>Los APC han sido promovidos como una solución para financiar el acceso abierto, pero en América Latina representan una barrera más que una alternativa viable. Estos costos, de acuerdo con <span class="citation" data-cites="pallares_situacion_2022">Pallares et&nbsp;al. (<a href="#ref-pallares_situacion_2022" role="doc-biblioref">2022</a>)</span>, pueden oscilar entre 1,500 y 5,000 dólares por artículo, son inalcanzables para la mayoría de los investigadores e instituciones en la región. Esto genera una desigualdad estructural en la producción científica, donde solo aquellos con financiamiento externo pueden acceder a la publicación en revistas de alto impacto.</p>
+<p>Este problema no solo afecta la visibilidad de la ciencia latinoamericana, sino que refuerza la dependencia de modelos de publicación costosos. Aunque el acceso abierto ha democratizado la lectura de artículos científicos, de acuerdo con <span class="citation" data-cites="banzonato_soberania_2019">Banzato (<a href="#ref-banzonato_soberania_2019" role="doc-biblioref">2019</a>)</span>, el modelo APC excluye a quienes no tienen financiamiento para publicar, lo que termina favoreciendo a investigadores de países con más recursos y perpetuando la desigualdad en la difusión del conocimiento.</p>
+<p>Modelos como SCOAP ofrecen una solución al redistribuir los costos de publicación a nivel institucional y gubernamental, en lugar de cargar a los investigadores con tarifas individuales. Este esquema garantiza la equidad en el acceso abierto sin comprometer la sostenibilidad financiera de las revistas.</p>
+<p>Sin embargo, para que iniciativas como esta sean replicables en América Latina, es necesario cambiar los modelos de financiamiento que sostienen el ecosistema de publicaciones científicas. Actualmente, las políticas de financiamiento en la región fomentan la continuidad de los APC al considerar la publicación en revistas con altos costos como un indicador de calidad y prestigio. Esto refuerza un círculo vicioso donde las revistas con APC elevados se vuelven la única opción viable para los investigadores que buscan reconocimiento académico.</p>
+<p>Para transformar esta situación, se requiere:</p>
+<ul>
+<li>Mayor inversión en consorcios de financiamiento abierto que eliminen barreras económicas para autores y promuevan la sostenibilidad de las publicaciones científicas.</li>
+<li>Redefinir las políticas de evaluación de investigadores y revistas, priorizando el impacto y la accesibilidad de los contenidos en lugar del costo de publicación.</li>
+<li>Fomentar acuerdos de cooperación internacional que permitan a América Latina ampliar su participación en iniciativas como SCOAP³ o desarrollar modelos propios adaptados a las necesidades regionales.</li>
+</ul>
+<p>Los APC no son una solución realista para América Latina y, en muchos casos, representan una barrera más que debe ser enfrentada con modelos alternativos de financiamiento. Iniciativas como SCOAP han demostrado que es posible garantizar el acceso abierto sin trasladar los costos a los autores, pero su alcance sigue siendo limitado a disciplinas específicas. Para lograr un ecosistema de publicación más equitativo y sostenible en la región, es fundamental fortalecer mecanismos de financiamiento cooperativo y redefinir las estructuras que perpetúan la dependencia de los APC.</p>
+</section>
+</section>
+<section id="modelos-alternativos-e-innovadores-de-financiamiento" class="level2">
+<h2 class="anchored" data-anchor-id="modelos-alternativos-e-innovadores-de-financiamiento">Modelos alternativos e innovadores de financiamiento</h2>
+<p>La sinergia entre bibliotecas y sociedades científicas ha impulsado mecanismos colaborativos que mejoran el acceso a la información y la generación de conocimiento. Según <span class="citation" data-cites="woodsworth_library_1991">Woodsworth (<a href="#ref-woodsworth_library_1991" role="doc-biblioref">1991</a>)</span> y <span class="citation" data-cites="miranda_arguedas_consorcios_2001">Miranda Arguedas (<a href="#ref-miranda_arguedas_consorcios_2001" role="doc-biblioref">2001</a>)</span>, los consorcios de bibliotecas van más allá de simples acuerdos, pues se fundamentan en la comunicación, políticas compartidas, tecnologías y sistemas innovadores de gestión documental. En América Latina, países como México, Brasil, Chile, Colombia y Argentina han fortalecido redes colaborativas —mediante estrategias como el préstamo interbibliotecario y el uso de repositorios digitales— para promover la equidad en el acceso a recursos científicos y la difusión de la producción académica.</p>
+<p>En este marco, iniciativas como NFDI4Culture<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> y OpenAIRE destacan la importancia de la gestión de datos y la publicación en acceso abierto. Cada nación ha adoptado modelos propios: México con CONRICYT y la Red Mexicana de Repositorios<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>; Brasil a través de CAPES<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>, IBICT<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>, REBU y ABEC<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a>; Chile con el consorcio CINCEL<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a>; y Colombia, cuyo consorcio<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a> ofrece paquetes diferenciados de acceso según las características de las instituciones, mientras que en Argentina el Ministerio de Ciencia<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a> impulsa políticas orientadas a la investigación, pese a la falta de detalles sobre su estructura operativa.</p>
+<section id="modelos-de-financiamiento-para-la-investigación-en-latinoamérica-latam" class="level3">
+<h3 class="anchored" data-anchor-id="modelos-de-financiamiento-para-la-investigación-en-latinoamérica-latam">Modelos de financiamiento para la investigación en Latinoamérica (LATAM)</h3>
+<p>Los modelos de financiamiento para la investigación en ciencias sociales en América Latina varían entre países, identificándose tres patrones principales: patrocinado por fuentes extranjeras, patrocinado por el estado y una economía mixta <span class="citation" data-cites="duran_martinez_economia_2023">(<a href="#ref-duran_martinez_economia_2023" role="doc-biblioref">Durán-Martínez et&nbsp;al., 2023</a>)</span>. Estos modelos influyen en el acceso a fondos, el tipo de conocimiento producido y la percepción de autonomía de los investigadores. En la región, también surgen métodos alternativos de financiamiento, como el crowdfunding, para apoyar a individuos y empresas que no reciben suficiente apoyo <span class="citation" data-cites="robles_peiro_crowdfunding_2022">(<a href="#ref-robles_peiro_crowdfunding_2022" role="doc-biblioref">Robles Peiro, 2022</a>)</span>. Aunque los marcos regulatorios para este tipo de financiamiento son distintos entre países, es necesario facilitar su convergencia para permitir servicios transfronterizos.</p>
+<p>Los modelos de acceso abierto, particularmente en Argentina y Brasil, han sido promocionados por políticas públicas que buscan ofrecer información accesible y conocimiento de calidad <span class="citation" data-cites="cabrera_pena_acceso_2015">(<a href="#ref-cabrera_pena_acceso_2015" role="doc-biblioref">Cabrera Peña, 2015</a>)</span>. A pesar de los desafíos tecnológicos y legales, estas políticas han logrado importantes avances en los sectores de educación, ciencia, cultura y gobierno, demostrando el compromiso de América Latina con el avance de la investigación y la difusión del conocimiento mediante enfoques diversos de financiamiento.</p>
+<p>De acuerdo con <span class="citation" data-cites="landa_ugarte_usaid_2018">Landa Ugarte et&nbsp;al. (<a href="#ref-landa_ugarte_usaid_2018" role="doc-biblioref">2018</a>)</span>, en el caso de Guatemala, los modelos de financiamiento para la investigación en ciencias sociales en América Latina varían según el país; en cambio, <span class="citation" data-cites="duran_martinez_economia_2023">Durán-Martínez et&nbsp;al. (<a href="#ref-duran_martinez_economia_2023" role="doc-biblioref">2023</a>)</span> ha identificado al menos tres patrones distintivos: el patrocinado por organismos extranjeros, el financiado por el Estado y el de economía mixta. Estos modelos inciden en el acceso a los recursos, en el tipo de conocimiento generado y en la percepción de autonomía de los investigadores.</p>
+<p>Asimismo, han surgido métodos alternativos de financiamiento, como el crowdfunding, que buscan apoyar a personas y empresas tradicionalmente desatendidas en la región <span class="citation" data-cites="robles_peiro_crowdfunding_2022">(<a href="#ref-robles_peiro_crowdfunding_2022" role="doc-biblioref">Robles Peiro, 2022</a>)</span>. Aunque los marcos regulatorios para estas formas de financiamiento varían de un país a otro, se evidencia la necesidad de una convergencia normativa que le facilite la prestación de servicios transfronterizos.</p>
+<p>Por otro lado, los modelos de acceso abierto, especialmente en Argentina y Brasil, han recibido respaldo de políticas públicas destinadas a proporcionar información accesible y promover la producción de conocimiento de calidad <span class="citation" data-cites="cabrera_pena_acceso_2015">(<a href="#ref-cabrera_pena_acceso_2015" role="doc-biblioref">Cabrera Peña, 2015</a>)</span>. A pesar de los desafíos tecnológicos y legales, estas políticas han logrado avances significativos en los sectores de educación, ciencia, cultura y gobierno, demostrando el compromiso de América Latina con el fomento de la investigación y la difusión del conocimiento a través de diversos enfoques de financiamiento.</p>
+</section>
+<section id="modelos-de-membresía" class="level3">
+<h3 class="anchored" data-anchor-id="modelos-de-membresía">Modelos de membresía</h3>
+<p>Los modelos de membresía de consorcios de bibliotecas y sociedad científicas en América Latina tienen un propósito en común: generar sinergias, reunir fondos, infraestructura, capacidades técnicas, acceso a bases de datos, inclusive en materia de políticas; sin embargo, estas asociaciones han impulsado modelos de suscripción de manera institucional, a través de paquetes personalizados, mediante el apoyo del gobierno local, dichos mecanismos esperan garantizar que las instituciones, investigadores y estudiantes de las regiones tengan acceso de manera eficiente y equitativa.</p>
+<p>Con la intención de aproximar algunos de estos modelos, la <a href="#tbl-finan1" class="quarto-xref">Tabla&nbsp;<span>7.1</span></a> presenta información relativa a su objetivo y esquemas de participación:</p>
+<div id="tbl-finan1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-finan1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;7.1: Tabla 1. Modelos de membresía en América Latina
+</figcaption>
+<div aria-describedby="tbl-finan1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 8%">
+<col style="width: 35%">
+<col style="width: 15%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Modelo</strong></th>
+<th><strong>Características</strong></th>
+<th><strong>Costos</strong></th>
+<th><strong>Países beneficiados</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Membresía institucional</strong></td>
+<td>Permite el acceso a bases de datos, revistas científicas y objetos digitales.</td>
+<td>Anualidad y financiamiento gubernamental para cubrir costos.</td>
+<td>CONRICYT (Consorcio Nacional de Recursos de Información Científica y Tecnológica) de Revistas (México) y RedALyC (México)</td>
+</tr>
+<tr class="even">
+<td><strong>Membresía por paquetes</strong></td>
+<td>Permite el acceso a determinados recursos de información y bases de datos a través de paquetes pre configurados que se adoptan a las necesidades de información de los usuarios.</td>
+<td>Depende del número de recursos de información y acceso a bases de datos, así como el tipo y tamaño de la institución.</td>
+<td>Consorcio Colombia (Colombia)</td>
+</tr>
+<tr class="odd">
+<td><strong>Membresía por participación gubernamental</strong></td>
+<td>Permite la recepción de recursos del gobierno para la suscripción de alguna membresía para tener acceso a recursos científicos mediante la cooperación y el intercambio del conocimiento.</td>
+<td>Depende del número de aportaciones de las instituciones de educación superior, universidades, centros de investigación, entre otros al consorcio.</td>
+<td>CINCEL (Consorcio para el Acceso a la Información Científica Electrónica) (Chile) y CONRICYT (México)</td>
+</tr>
+<tr class="even">
+<td><strong>Membresía de pago por usuario</strong></td>
+<td>Permite el acceso a los recursos de información dependiendo del número de usuarios, investigadores o bibliotecas que lo requieran.</td>
+<td>Depende del número de usuarios, investigadores o bibliotecas.</td>
+<td>CBBU (Comissao Brasileira de Bibliotecas Universitarias) (Brasil)</td>
+</tr>
+<tr class="odd">
+<td><strong>Membresía Abierta (Acceso Abierto)</strong></td>
+<td>Modelo que incentiva la participación de los investigadores y universidades mediante el registro de sus productos de investigación a través de repositorios o plataformas digitales de acceso abierto.</td>
+<td>No existen costos para el acceso a las publicaciones de las universidades.</td>
+<td>SciELO (Brasil)</td>
+</tr>
+<tr class="even">
+<td><strong>Membresía Mixta</strong></td>
+<td>Ofrece acceso tanto a recursos electrónicos como a servicios de difusión y formación con la intención de que se beneficien instituciones, consorcios y sociedades científicas.</td>
+<td>El pago dependerá del número de instituciones y los posibles servicios a los que se quieran acceder (gestión de información científica, formación y capacitación).</td>
+<td>IBICT (Instituto Brasileiro de Infromacao em Ciencia e Tecnologia) (Brasil)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="fondos-e-iniciativas-de-financiamiento-en-acceso-abierto" class="level3">
+<h3 class="anchored" data-anchor-id="fondos-e-iniciativas-de-financiamiento-en-acceso-abierto">Fondos e iniciativas de financiamiento en acceso abierto</h3>
+<p>En materia de financiamiento en acceso abierto, se identifica una constante resistencia de las instituciones por adoptar estrategias y modelos de acceso abierto, esto se debe principalmente a la “calidad de las políticas que utilizan las revistas” en materia de evaluación por pares y en algunos casos, a la misma reputación. Sin duda, la cultura de las personas investigadoras sobre dichos tópicos se convierte en la principal barrera para limitar la publicación de las investigaciones y sus respectivos productos de forma abierta.</p>
+<p>Otro de los grandes desafíos de las instituciones, son los recortes presupuestales y fondos limitados, mediante los cuales se han tenido que conformar entornos colaborativos y sostenibles a través de la socialización o compartición de infraestructura, sistemas, capital humano, entre otros, a fin de facilitar el acceso a la investigación de manera inclusiva y asequible a todo aquel que demande del conocimiento científico. Por lo anterior, es necesario que los integrantes de la comunidad científica reevalúen las prácticas de suscripción actual <span class="citation" data-cites="antoniou_mobility_2022">(<a href="#ref-antoniou_mobility_2022" role="doc-biblioref">Antoniou et&nbsp;al., 2022</a>)</span>.</p>
+<p>Como una solución, las personas al frente de las bibliotecas, unidades de información o de investigación, han optado por utilizar modelos denominados “crowfunding”, en palabras de <span class="citation" data-cites="gonzalez_matamoros_crowdfunding_2022">González-Matamoros &amp; Torres-Guillén (<a href="#ref-gonzalez_matamoros_crowdfunding_2022" role="doc-biblioref">2022</a>)</span> es una alternativa de financiamiento que facilita la recaudación de fondos para la ejecución de proyectos sociales, tal como puede ser la implementación de una revista de acceso abierto que apoye a la diseminación del conocimiento científico y mejore el factor de impacto de los integrantes de sus comunidades.</p>
+<p>La <a href="#tbl-finan2" class="quarto-xref">Tabla&nbsp;<span>7.2</span></a> presenta las iniciativas de fondeo o financiamiento destacadas en América Latina y que por sus características apoyan al movimiento del acceso abierto como una vía de acceso al conocimiento científico:</p>
+<div id="tbl-finan2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-finan2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;7.2: Tabla 2. Iniciativas de fondeo en América Latina
+</figcaption>
+<div aria-describedby="tbl-finan2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 35%">
+<col style="width: 25%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Nombre del fondo</strong></th>
+<th><strong>Propósito</strong></th>
+<th><strong>Países beneficiados</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Conahcyt-Secihti</strong></td>
+<td>Promoción de repositorios de acceso abierto para la difusión de investigaciones científicas y académicas de manera accesible y abierta a la comunidad interesada.</td>
+<td>México</td>
+</tr>
+<tr class="even">
+<td><strong>Fundación Bill &amp; Melinda Gates</strong></td>
+<td>Fundación que ofrece financiamiento para proyectos que promuevan la investigación en acceso abierto, principalmente en materia de salud; educación y desarrollo.</td>
+<td>A nivel global</td>
+</tr>
+<tr class="odd">
+<td><strong>Ministério da Ciência, Tecnologia e Inovação</strong></td>
+<td>Órgano encargo de la formulación e implementación de la Política Nacional de Ciencia, Tecnología e Innovación.</td>
+<td>Brasil</td>
+</tr>
+<tr class="even">
+<td><strong>SciELO y Redalyc</strong></td>
+<td>Plataformas de acceso abierto que permiten la publicación de revistas científicas en América Latina con el objeto de garantizar la visibilidad y el acceso abierto a la investigación científica.</td>
+<td>Países de América Latina</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<ul>
+<li><strong>Consorcios de bibliotecas y sociedades científicas</strong>: Explorar iniciativas colaborativas que buscan compartir costos y recursos para mantener publicaciones científicas sin imponer barreras económicas a los autores.</li>
+<li><strong>Modelos de membresía</strong>: Evaluar esquemas donde instituciones o individuos contribuyen financieramente a cambio de beneficios específicos, promoviendo la sostenibilidad y el acceso abierto.</li>
+<li><strong>Fondos e iniciativas de financiamiento de acceso abierto</strong>: Analizar casos exitosos de fondos dedicados al acceso abierto y su aplicabilidad en América Latina.</li>
+</ul>
+<div id="tbl-finan3" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-finan3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabla&nbsp;7.3: Comparación de modelos de financiamiento.
+</figcaption>
+<div aria-describedby="tbl-finan3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 35%">
+<col style="width: 19%">
+<col style="width: 20%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Modelo de financiamiento</strong></th>
+<th><strong>Beneficios</strong></th>
+<th><strong>Desventajas</strong></th>
+<th><strong>Casos en LATAM</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Subvención estatal</td>
+<td>Estabilidad, cobertura nacional</td>
+<td>Dependencia política, poca innovación</td>
+<td>Consejos/Ministerios de Ciencia y Tecnología nacionales</td>
+</tr>
+<tr class="even">
+<td>Consorcios de bibliotecas</td>
+<td>Reducción de costos por escala</td>
+<td>Requiere coordinación interinstitucional</td>
+<td>CONRICyT, CINCEL</td>
+</tr>
+<tr class="odd">
+<td>Modelos APC</td>
+<td>Visibilidad internacional y mejora en los servicios para la comunidad</td>
+<td>Costosos e inequitativos</td>
+<td>Muy limitados en América Latina</td>
+</tr>
+<tr class="even">
+<td>Crowdfunding</td>
+<td>Innovador, participativo</td>
+<td>Escalabilidad limitada, poco institucionalizado</td>
+<td>Casos piloto en Colombia y México</td>
+</tr>
+<tr class="odd">
+<td>Plataformas OA regionales</td>
+<td>Accesibilidad, infraestructura compartida</td>
+<td>Falta de interoperabilidad y sostenibilidad</td>
+<td>SciELO, RedALyC</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<div id="fig-financiamiento" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-financiamiento-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="img/finan.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-financiamiento-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;7.1: Desafíos y posibles soluciones para el financiamiento de acceso abierto en América Latina. Elaboración propia con napkin.ai
+</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="integración-de-tecnologías-para-la-eficiencia-y-reducción-de-costos" class="level2">
+<h2 class="anchored" data-anchor-id="integración-de-tecnologías-para-la-eficiencia-y-reducción-de-costos">Integración de tecnologías para la eficiencia y reducción de costos</h2>
+<p>La integración de tecnologías en la publicación científica ha sido esencial para mejorar la eficiencia, reducir costos y fortalecer la visibilidad de las investigaciones en América Latina. A continuación, se desarrollan las dos áreas clave en este proceso:</p>
+<section id="repositorios-y-plataformas-especializadas" class="level3">
+<h3 class="anchored" data-anchor-id="repositorios-y-plataformas-especializadas">Repositorios y plataformas especializadas</h3>
+<p>Los repositorios y plataformas especializadas han sido fundamentales para optimizar la gestión de publicaciones científicas y fortalecer la visibilidad de la producción académica en América Latina. Iniciativas como SciELO, RedALyC, LA Referencia y Latindex han adoptado un enfoque colaborativo y no comercial, promoviendo el acceso abierto como una estrategia clave para superar las inequidades en la producción y difusión del conocimiento científico <span class="citation" data-cites="correa_da_silva_acceso_2023 delgado_troncoso_papel_2012">(<a href="#ref-correa_da_silva_acceso_2023" role="doc-biblioref">Couto Corrêa Da Silva, 2023</a>; <a href="#ref-delgado_troncoso_papel_2012" role="doc-biblioref">Delgado Troncoso, 2012</a>)</span>. Estas plataformas no solo centralizan la publicación de contenidos, sino que también han permitido reducir costos operativos al simplificar la gestión de datos de investigación y publicaciones.</p>
+<p>Un desarrollo importante en la región ha sido la adopción de nodos nacionales, que integran la información de los repositorios institucionales de universidades y centros de investigación públicos, privados, federales y estatales. Estos nodos nacionales actúan como agregadores que conectan las colecciones locales con sistemas regionales e internacionales. LA Referencia, por ejemplo, desempeña un papel central como nodo regional, conectando los repositorios nacionales de varios países latinoamericanos y garantizando que los contenidos sean accesibles en una única plataforma interoperable.</p>
+<p>La región cuenta con una infraestructura robusta de repositorios registrados en sistemas como ROAR, OpenDOAR y Re3data. DSpace es la plataforma más adoptada, mientras que Dataverse ha mostrado un crecimiento sostenido en su uso como proveedor para repositorios de datos. Este ecosistema de repositorios ha servido como un pilar para preservar, diseminar y aumentar la visibilidad de las investigaciones producidas en América Latina, aunque persisten desafíos relacionados con la sostenibilidad financiera y la falta de homogeneidad en la adopción de sistemas de PIDs <span class="citation" data-cites="garduno_magana_infrastructure_2024">(<a href="#ref-garduno_magana_infrastructure_2024" role="doc-biblioref">Garduño-Magaña, 2024</a>)</span>.</p>
+<div id="fig-financiamiento1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-financiamiento1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="img/finan1.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-financiamiento1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;7.2: Comparación de repositorios registrados en índices internacionales y agregadores nacionales a octubre de 2024. Fuente: (Garduño-Magaña, 2024).
+</figcaption>
+</figure>
+</div>
+<p>A través de la implementación de estándares internacionales de metadatos, los repositorios de la región también han logrado integrarse en plataformas globales como OpenAIRE, lo que ha incrementado la visibilidad y el impacto de la producción científica latinoamericana. Estos avances demuestran un compromiso regional hacia la interoperabilidad y la calidad en la gestión de datos de investigación, posicionando a América Latina como un líder en iniciativas de acceso abierto.</p>
+</section>
+<section id="automatización-de-procesos-editoriales" class="level3">
+<h3 class="anchored" data-anchor-id="automatización-de-procesos-editoriales">Automatización de procesos editoriales</h3>
+<p>La automatización de procesos editoriales ha transformado significativamente la gestión de revistas científicas en América Latina. Herramientas como Open Journal Systems (OJS) han permitido optimizar tareas como la recepción y revisión de manuscritos, la comunicación con autores y revisores, y la publicación en línea. Esto ha mejorado la eficiencia operativa, reducido los costos asociados y aumentado la visibilidad de las revistas al facilitar su indexación en bases de datos internacionales <span class="citation" data-cites="rivero_torres_plataforma_2020 valenzuela_salud_2021">(<a href="#ref-rivero_torres_plataforma_2020" role="doc-biblioref">Rivero Torres et&nbsp;al., 2020</a>; <a href="#ref-valenzuela_salud_2021" role="doc-biblioref">Valenzuela, 2021</a>)</span>.</p>
+<p>OJS, como software de código abierto, también ha fomentado la inclusión. Su compatibilidad con lectores de pantalla permite la participación de personas con discapacidades visuales en roles editoriales, aunque algunos desafíos técnicos relacionados con la accesibilidad persisten <span class="citation" data-cites="arias_flores_mirada_2018">(<a href="#ref-arias_flores_mirada_2018" role="doc-biblioref">Arias-Flores et&nbsp;al., 2018</a>)</span>. Además, al automatizar tareas complejas, OJS libera recursos que pueden destinarse a mejorar la calidad editorial y ampliar las actividades de difusión <span class="citation" data-cites="valenzuela_salud_2021">(<a href="#ref-valenzuela_salud_2021" role="doc-biblioref">Valenzuela, 2021</a>)</span>.</p>
+<p>No obstante, los esfuerzos de automatización aún enfrentan barreras en la región, como la falta de infraestructura adecuada en algunas instituciones y la necesidad de capacitar a los equipos editoriales en el uso de estas herramientas. A pesar de ello, la adopción de tecnologías como OJS ha sido un paso crucial hacia la transición digital de las revistas científicas en América Latina, apoyando el desarrollo de un ecosistema editorial más eficiente y accesible.</p>
+<p>La integración de repositorios, nodos nacionales, plataformas especializadas y herramientas de automatización ha permitido avances significativos en la gestión y visibilidad de las publicaciones científicas en América Latina. Estas tecnologías han optimizado procesos, reducido costos y aumentado la visibilidad de las investigaciones, aunque todavía persisten desafíos importantes relacionados con la sostenibilidad financiera, la accesibilidad y la capacitación editorial. La experiencia de la región demuestra que, con una implementación estratégica y colaborativa, las tecnologías pueden transformar el ecosistema de la publicación científica hacia un modelo más equitativo y eficiente <span class="citation" data-cites="garduno_magana_infrastructure_2024">(<a href="#ref-garduno_magana_infrastructure_2024" role="doc-biblioref">Garduño-Magaña, 2024</a>)</span>.</p>
+</section>
+</section>
+<section id="transparencia-en-los-procesos-de-financiamiento" class="level2">
+<h2 class="anchored" data-anchor-id="transparencia-en-los-procesos-de-financiamiento">Transparencia en los procesos de financiamiento</h2>
+<section id="importancia-de-la-transparencia" class="level3">
+<h3 class="anchored" data-anchor-id="importancia-de-la-transparencia">Importancia de la transparencia</h3>
+<p>La transparencia en cualquier proceso de financiamiento es imprescindible a fin de demostrar el uso eficiente, equitativo y responsable de los recursos destinados al desarrollo de la investigación y la cooperación institucional a través de los consorcios. En América Latina, muchos consorcios reciben apoyo del Estado como una manera de apoyar el desarrollo de la ciencia en sus respectivos países; sin embargo, son pocas las naciones que diseñan y publican informes financieros en micrositios, páginas web y otros recursos digitales en los que exhiben de manera libre la manera en la que fueron utilizados, el número de membresías generadas, la inversión en infraestructuras científicas compartidas y las vías de participación en caso de que otras instituciones decidan sumarse.</p>
+<p>A lo largo de la investigación y posterior al análisis exploratorio desarrollado, se ha detectado que al menos dos países han hecho transparentes y libres de escrutinio, el uso de los recursos financieros destinados para los consorcios, en este caso, sobresale el caso del Consorcio Colombia como una nación interesada en detallar las vías de adhesión, así como los costos vigentes e históricos, disponibles hasta el momento de la elaboración del presente capítulo.</p>
+<p>En el caso de México, se reconoce que a través del informe sexenal del Conacyt (Consejo Nacional de Ciencia y Tecnología) correspondiente al periodo 2013-2018, en el “Libro Blanco”, en la sección “Plan de Adquisiciones”, se enuncian los costos y mecanismos de distribución del CONRICYT. Como dato relevante se hace un especial énfasis en el incremento del acervo editorial, respecto al número de editoriales contratadas y recursos de información adquiridos. En cambio, se visualiza una importante reducción del número de instituciones beneficiadas del año 2013 (507) al 2018 (348).</p>
+</section>
+<section id="estrategias-para-mejorar-la-transparencia" class="level3">
+<h3 class="anchored" data-anchor-id="estrategias-para-mejorar-la-transparencia">Estrategias para mejorar la transparencia</h3>
+<p>Tal como lo menciona <span class="citation" data-cites="tomas_lopez_orcid_2021">Tomás López (<a href="#ref-tomas_lopez_orcid_2021" role="doc-biblioref">2021</a>)</span>, uno de los grandes retos de las instituciones dedicadas al financiamiento radica en el seguimiento y gestión de los fondos invertidos en resultados tangibles que faciliten la evaluación sobre el retorno de la inversión ejecutada. Esto podrá ser posible a través de identificadores persistentes<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a>; hoy en día, como parte de las directrices o políticas institucionales en materia de publicaciones, se encuentra el uso de DOI (Digital Object Identifier); DataCite DOI; ORCID ID; Crossref DOI; entre otros. Cabe destacar que estos elementos agilizan la disponibilidad y recuperabilidad de los productos de investigación; sin embargo, es a través de sus metadatos y convenios de colaboración en los que se especifica que al momento de su liberación deberá ocuparse alguna determinada leyenda mediante la cual se pueda identificar qué producto fue financiado por determinada agencia.</p>
+<p>La práctica antes referida, responde a exigencias contractuales de agencias financiadoras nacionales e internacionales, así como a estándares globales que promueven el reconocimiento explícito de los recursos utilizados en la generación de conocimiento <span class="citation" data-cites="unesco_recomendacion_2021">(<a href="#ref-unesco_recomendacion_2021" role="doc-biblioref">UNESCO, 2021</a>)</span>. Asimismo, registrar esta información en plataformas como Crossref permite vincular de forma automatizada productos, proyectos, investigadores y financiadores, facilitando el análisis de impacto y el cumplimiento de los principios FAIR <span class="citation" data-cites="wilkinson_fair_2016">(<a href="#ref-wilkinson_fair_2016" role="doc-biblioref">Wilkinson et&nbsp;al., 2016</a>)</span>. La ausencia de estos elementos puede dificultar la visibilidad, la rendición de cuentas y la evaluación institucional, comprometiendo la sostenibilidad del ecosistema científico.</p>
+<p>Este tipo de acciones, además de la publicación de informes anuales en espacios abiertos como redes sociales, boletines, foros y micrositios facilitarán el reconocimiento y adopción de una correcta traza de las entidades financiadoras en beneficio del quehacer científico y con ello, se fomentará la participación de las personas investigadoras en un ecosistema abierto.</p>
+<p>Otra buena práctica o estrategia de aplicación es la creación de talleres de sensibilización dirigidos específicamente a integrantes de la comunidad científica a fin de que conozcan y adopten la importancia de la Ciencia Abierta, así como los principios FAIR utilizados en el desarrollo de una investigación.</p>
+</section>
+<section id="propuestas-para-modelos-sostenibles-y-equitativos" class="level3">
+<h3 class="anchored" data-anchor-id="propuestas-para-modelos-sostenibles-y-equitativos">Propuestas para modelos sostenibles y equitativos</h3>
+<p>Para configurar el propio modelo de financiamiento sostenible en América Latina, es fundamental considerar un enfoque que combine fondos públicos, cooperación institucional y estrategias de financiamiento colaborativo. En lugar de depender exclusivamente de esquemas basados en APCs o suscripciones institucionales, es necesario explorar mecanismos que permitan una distribución equitativa de los costos, asegurando que las revistas científicas puedan operar sin trasladar cargas financieras a autores o lectores.</p>
+<p>Esto implica el fortalecimiento de consorcios nacionales y regionales que faciliten acuerdos de acceso abierto entre universidades, agencias gubernamentales y organismos internacionales. Además, la implementación de modelos híbridos, donde los costos operativos se reduzcan a través de tecnologías de automatización y el uso eficiente de infraestructuras compartidas, podría contribuir a la sostenibilidad del ecosistema editorial sin comprometer la accesibilidad ni la calidad de las publicaciones.</p>
+<p>Para que estas estrategias sean viables, es clave replantear la forma en que los sistemas de evaluación científica valoran las publicaciones. Actualmente, los incentivos académicos en muchos países latinoamericanos privilegian la publicación en revistas con APC elevados o de grandes editoriales comerciales, lo que refuerza la dependencia de modelos de financiamiento poco accesibles. En este sentido, un modelo de financiamiento sostenible no solo debe garantizar recursos, sino también transformar las estructuras de evaluación y reconocimiento académico, promoviendo la diversidad de formatos y el acceso equitativo a la producción científica.</p>
+<div id="fig-financiamiento2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-financiamiento2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="img/finan2.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-financiamiento2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;7.3: Roadmap for Transparent, Open, and Reproducible Lifecycle.
+</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="conclusiones-y-recomendaciones" class="level2">
+<h2 class="anchored" data-anchor-id="conclusiones-y-recomendaciones">Conclusiones y recomendaciones</h2>
+<section id="resumen-de-hallazgos-clave" class="level3">
+<h3 class="anchored" data-anchor-id="resumen-de-hallazgos-clave">Resumen de hallazgos clave</h3>
+<p>El análisis realizado muestra que América Latina ha desarrollado un ecosistema editorial distintivo, comprometido con el acceso abierto y sostenido en gran medida por financiamiento público, institucional y colaborativo. Iniciativas como SciELO, RedALyC, LA Referencia y diversos consorcios nacionales han contribuido a la democratización del conocimiento, posicionando a la región como referente internacional en modelos no comerciales de publicación científica.</p>
+<p>Sin embargo, persisten importantes desafíos estructurales: la dependencia de subvenciones gubernamentales poco estables, la presión de sistemas de evaluación que privilegian publicaciones internacionales con altos APC, la escasa interoperabilidad entre plataformas, la débil trazabilidad del financiamiento y la limitada adopción de tecnologías que optimicen los procesos editoriales. Aunque se identificaron experiencias innovadoras —como los consorcios de financiamiento, modelos de membresía institucional y el uso de repositorios y automatización editorial— su aplicación aún es fragmentaria y requiere políticas de apoyo sostenidas.</p>
+</section>
+<section id="recomendaciones-prácticas" class="level3">
+<h3 class="anchored" data-anchor-id="recomendaciones-prácticas">Recomendaciones prácticas</h3>
+<p>A partir del análisis realizado, consideramos urgente repensar la forma en que se financian, gestionan y evalúan las publicaciones científicas en América Latina. Si aspiramos a construir un ecosistema editorial verdaderamente abierto, sostenible y equitativo, es necesario transitar hacia modelos que reconozcan la diversidad de contextos institucionales y privilegien el acceso al conocimiento como bien común.</p>
+<p>En primer lugar, creemos que diversificar las fuentes de financiamiento es un paso fundamental. No podemos seguir dependiendo únicamente de subvenciones gubernamentales, muchas veces sujetas a ciclos políticos o restricciones presupuestales. Apostar por esquemas colaborativos entre universidades, agencias públicas, consorcios regionales y organizaciones internacionales puede ofrecer una vía más estable y resiliente para sostener las publicaciones científicas sin imponer barreras económicas a quienes investigan o leen.</p>
+<p>También vemos con preocupación que los sistemas actuales de evaluación académica continúan reforzando la lógica de publicar donde es más caro, no donde es más accesible o pertinente. Necesitamos revisar esos criterios y promover el reconocimiento de revistas regionales, multilingües y de acceso abierto, muchas veces más alineadas con los desafíos sociales y científicos de nuestras comunidades.</p>
+<p>Otra recomendación clave es avanzar hacia una mayor transparencia en el uso de recursos. Contar con mecanismos públicos de trazabilidad del financiamiento, apoyados en identificadores persistentes como DOI, ORCID y Funder ID, no solo mejora la rendición de cuentas, sino que fortalece la confianza de las comunidades científicas e institucionales.</p>
+<p>Desde lo técnico, alentamos a las instituciones a invertir en tecnologías abiertas y accesibles, como Open Journal Systems (OJS), DSpace o Dataverse. Estas herramientas ya han demostrado su capacidad para optimizar procesos editoriales, reducir costos y ampliar la visibilidad de las investigaciones. Acompañar su adopción con formación continua es igual de importante, pues detrás de cada plataforma hay personas que editan, curan, evalúan y comunican ciencia.</p>
+<p>Finalmente, vemos con entusiasmo la posibilidad de crear observatorios regionales que nos ayuden a sistematizar experiencias, identificar buenas prácticas y visibilizar modelos que ya están funcionando, aunque a veces de forma dispersa. Solo compartiendo lo que sabemos y hacemos, podremos avanzar hacia un modelo latinoamericano de publicación científica que sea sostenible, inclusivo y abierto por diseño.</p>
+</section>
+<section id="líneas-futuras-de-investigación" class="level3">
+<h3 class="anchored" data-anchor-id="líneas-futuras-de-investigación">Líneas futuras de investigación</h3>
+<p>Para fortalecer la sostenibilidad de las publicaciones científicas en América Latina, es necesario profundizar en al menos tres líneas de estudio prioritarias:</p>
+<ol type="1">
+<li><p>Evaluación comparativa de modelos de financiamiento alternativos, incluyendo estudios de caso de consorcios regionales, experiencias de crowdfunding y plataformas de membresía en diferentes disciplinas.</p></li>
+<li><p>Impacto de los sistemas de evaluación académica en las decisiones de publicación, visibilidad de revistas locales y circulación del conocimiento científico latinoamericano.</p></li>
+<li><p>Interoperabilidad e integración tecnológica de repositorios y plataformas editoriales, explorando estándares de metadatos, adopción de identificadores persistentes, automatización de procesos y su relación con la eficiencia editorial y la visibilidad internacional.</p></li>
+</ol>
+<p>Estas líneas de investigación pueden aportar evidencia empírica que oriente la formulación de políticas públicas más inclusivas, sostenibles y coherentes con el principio de acceso abierto como bien común en la región. |</p>
+
+
+</section>
+</section>
+<section id="bibliography" class="level1 unnumbered">
+<h1 class="unnumbered">Referencias</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-antoniou_mobility_2022" class="csl-entry" role="listitem">
+Antoniou, C., Dadashzadeh, N., Kamargianni, M., Ouelhadj, [Author]., et&nbsp;al. (2022). <em>Mobility as a service Inclusion Index (MaaSINI): Evaluation of inclusivity in MaaS systems and policy recommendations</em>. <a href="https://doi.org/10.1016/j.trc.2022.103691">https://doi.org/10.1016/j.trc.2022.103691</a>
+</div>
+<div id="ref-arias_flores_mirada_2018" class="csl-entry" role="listitem">
+Arias-Flores, H., Guevara Maldonado, C., Jadán-Guerrero, J., &amp; Bonilla-Jurado, D. (2018). Una mirada a la investigación a través de open journal system y sistemas lectores de pantalla. <em>Pensamiento Americano</em>, <em>11</em>(21). <a href="https://doi.org/10.21803/pensam.v11i21.148">https://doi.org/10.21803/pensam.v11i21.148</a>
+</div>
+<div id="ref-babini_comunicacion_2019" class="csl-entry" role="listitem">
+Babini, D. (2019). La comunicación científica en América Latina es abierta, colaborativa y no comercial. Desafíos para las revistas. <em>Palabra Clave (La Plata)</em>, <em>8</em>(2), e065. <a href="https://doi.org/10.24215/18539912e065">https://doi.org/10.24215/18539912e065</a>
+</div>
+<div id="ref-banzonato_soberania_2019" class="csl-entry" role="listitem">
+Banzato, G. (2019). Soberanía del conocimiento para superar inequidades. Políticas de Acceso Abierto para revistas científicas en América Latina. <em>Mecila Working Paper Series</em>, <em>18</em>. <a href="https://doi.org/10.46877/banzonato.2019.18">https://doi.org/10.46877/banzonato.2019.18</a>
+</div>
+<div id="ref-cabrera_pena_acceso_2015" class="csl-entry" role="listitem">
+Cabrera Peña, [Author]. (2015). <em>Acceso abierto en las políticas públicas de ciencia y tecnología en Argentina y Brasil</em>.
+</div>
+<div id="ref-consejo_nacional_ciencia_tecnologia_libro_2018" class="csl-entry" role="listitem">
+Consejo Nacional de Ciencia y Tecnología. (2018). <em>Libro Blanco: Política Pública de Ciencia Abierta</em> (p. 29). CONACYT. <a href="https://secihti.mx/wp-content/uploads/transparencia/planes_programas_informes/libros_blancos/Ciencia_Abierta.pdf">https://secihti.mx/wp-content/uploads/transparencia/planes_programas_informes/libros_blancos/Ciencia_Abierta.pdf</a>
+</div>
+<div id="ref-correa_da_silva_acceso_2023" class="csl-entry" role="listitem">
+Couto Corrêa Da Silva, F. (2023). Acceso Abierto a la producción científica en América Latina: Iniciativas, desafíos e impactos. <em>Hipertext.net</em>, <em>27</em>, 81-90. <a href="https://doi.org/10.31009/hipertext.net.2023.i27.08">https://doi.org/10.31009/hipertext.net.2023.i27.08</a>
+</div>
+<div id="ref-delgado_troncoso_papel_2012" class="csl-entry" role="listitem">
+Delgado Troncoso, J. (2012). Papel del Acceso Abierto en el surgimiento y consolidación de las revistas arbitradas en América Latina y el Caribe. <em>Revista Educación Superior y Sociedad (ESS)</em>, <em>16</em>(2). <a href="https://doi.org/10.54674/ess.v16i2.658">https://doi.org/10.54674/ess.v16i2.658</a>
+</div>
+<div id="ref-duran_martinez_economia_2023" class="csl-entry" role="listitem">
+Durán-Martínez, A., Sierra, J., &amp; Snyder, R. (2023). La economía política de la investigación en ciencias sociales en América Latina. <em>Estudios Sociológicos de El Colegio de México</em>, <em>41</em>(Especial), 259-364. <a href="https://doi.org/10.24201/es.2023v41nEspecial.2394">https://doi.org/10.24201/es.2023v41nEspecial.2394</a>
+</div>
+<div id="ref-eouceta_anos_2024" class="csl-entry" role="listitem">
+Eouceta. (2024). 10 años de SCOAP3: publicación en acceso abierto en el campo de física de partículas. En <em>Investigación y Biblioteca. Biblioteca de la Universidad Carlos III de Madrid</em>. <a href="https://shorturl.at/I2wKW">https://shorturl.at/I2wKW</a>
+</div>
+<div id="ref-fernandes_marques_panorama_2022" class="csl-entry" role="listitem">
+Fernandes Marques, A. (2022). Panorama dos modelos de negócios de periódicos científicos da área de comunicação e informação: Classificação Qualis A1. <em>Ciência da Informação em Revista</em>, <em>8</em>(3), 20-36. <a href="https://doi.org/10.28998/cirev.2021v8n3b">https://doi.org/10.28998/cirev.2021v8n3b</a>
+</div>
+<div id="ref-garduno_magana_infrastructure_2024" class="csl-entry" role="listitem">
+Garduño-Magaña, A. (2024). <em>Infrastructure and Awareness Landscape Analysis in Latin America</em> (Versión 1.0). Zenodo. <a href="https://doi.org/10.5281/ZENODO.14010858">https://doi.org/10.5281/ZENODO.14010858</a>
+</div>
+<div id="ref-gonzalez_matamoros_crowdfunding_2022" class="csl-entry" role="listitem">
+González-Matamoros, R. A., &amp; Torres-Guillén, A. (2022). Crowdfunding como alternativa para el financiamiento de proyectos en bibliotecas: Una oportunidad frente a los recortes presupuestarios. <em>E-Ciencias de la Información</em>, <em>12</em>(2), 144-162. <a href="https://doi.org/10.15517/eci.v12i2.49769">https://doi.org/10.15517/eci.v12i2.49769</a>
+</div>
+<div id="ref-heras_politica_2005" class="csl-entry" role="listitem">
+Heras G, L. (2005). La política de educación superior en México: los programas de estímulos a profesores e investigadores. <em>Educere</em>, <em>9</em>(29), 207-215. <a href="http://ve.scielo.org/scielo.php?script=sci_arttext&amp;pid=S1316-49102005000200009&amp;lng=es&amp;tlng=es">http://ve.scielo.org/scielo.php?script=sci_arttext&amp;pid=S1316-49102005000200009&amp;lng=es&amp;tlng=es</a>
+</div>
+<div id="ref-landa_ugarte_usaid_2018" class="csl-entry" role="listitem">
+Landa Ugarte, A., Salazar, E., Quintana, M., &amp; Herrera, M. R. (2018). <em>USAID/Guatemala gender analysis final report September 2018</em>. United States Agency for International Development. <a href="https://banyanglobal.com/wp-content/uploads/2018/10/USAID-Guatemala-Gender-Analysis-Final-Report.pdf">https://banyanglobal.com/wp-content/uploads/2018/10/USAID-Guatemala-Gender-Analysis-Final-Report.pdf</a>
+</div>
+<div id="ref-miranda_arguedas_consorcios_2001" class="csl-entry" role="listitem">
+Miranda Arguedas, A. (2001). Consorcios de bibliotecas universitarias centroamericanas: REDSIID. <em>Bibliotecas</em>, <em>19</em>(1 y 2), 46-72. <a href="https://www.revistas.una.ac.cr/index.php/bibliotecas/article/view/538">https://www.revistas.una.ac.cr/index.php/bibliotecas/article/view/538</a>
+</div>
+<div id="ref-pallares_situacion_2022" class="csl-entry" role="listitem">
+Pallares, C., Vélez Cuartas, G., Uribe-Tirado, A., Restrepo, D., Ochoa, J., &amp; Suárez, M. (2022). Situación del acceso abierto y los pagos por APC en Colombia. Un modelo de análisis aplicable a Latinoamérica. <em>Revista Española de Documentación Científica</em>, <em>45</em>(4), 2-18. <a href="https://doi.org/10.3989/redc.2022.4.1931">https://doi.org/10.3989/redc.2022.4.1931</a>
+</div>
+<div id="ref-penaloza_garcia_condiciones_2023" class="csl-entry" role="listitem">
+Peñaloza García, N., &amp; Carrillo Pacheco, M. (2023). Condiciones, motivaciones y estrategias en el trabajo de los académicos SNI de la Universidad Autónoma de Querétaro. <em>Sociología del Trabajo</em>, <em>102</em>, 65-79. <a href="https://revistas.ucm.es/index.php/STRA/article/view/83847">https://revistas.ucm.es/index.php/STRA/article/view/83847</a>
+</div>
+<div id="ref-rivero_torres_plataforma_2020" class="csl-entry" role="listitem">
+Rivero Torres, C., Gómez Rivadeneira, J., Velepucha Sánchez, M., Bazurto Vinces, J., Saltos Briones, G., &amp; Mendoza García, L. A. (2020). Plataforma Open Journal Systems en la gestión de publicaciones científicas. <em>RECUS. Revista Electrónica Cooperación Universidad Sociedad. ISSN 2528-8075</em>, <em>5</em>(2), 1. <a href="https://doi.org/10.33936/recus.v5i2.1866">https://doi.org/10.33936/recus.v5i2.1866</a>
+</div>
+<div id="ref-robles_peiro_crowdfunding_2022" class="csl-entry" role="listitem">
+Robles Peiro, [Author]. (2022). Crowdfunding como alternativa para el financiamiento de proyectos en bibliotecas: Una oportunidad frente a los recortes presupuestarios. <em>E-Ciencias de la Información</em>, <em>12</em>(2), 144-162. <a href="https://doi.org/10.15517/eci.v12i2.49769">https://doi.org/10.15517/eci.v12i2.49769</a>
+</div>
+<div id="ref-sanchez_tarrago_revistas_2016" class="csl-entry" role="listitem">
+Sánchez-Tarragó, N., Caballero-Rivero, A., Trzesniak, P., Domínguez, D. D., Santos, R. N. M. D., &amp; Fernández-Molina, J.-C. (2016). Las revistas científicas en América Latina hacia el camino del acceso abierto: Un diagnóstico de políticas y estrategias editoriales. <em>Transinformação</em>, <em>28</em>(2), 159-172. <a href="https://doi.org/10.1590/2318-08892016000200003">https://doi.org/10.1590/2318-08892016000200003</a>
+</div>
+<div id="ref-silva_rodriguez_sostenibilidad_2016" class="csl-entry" role="listitem">
+Silva-Rodríguez, A. (2016). La sostenibilidad de la divulgación de la ciencia mediante modelos de negocios de acceso abierto. <em>Revista Digital Internacional de Psicología y Ciencia Social</em>, <em>2</em>(1), 21-39. <a href="https://doi.org/10.22402/j.rdipycs.unam.2.1.2016.73.21-39">https://doi.org/10.22402/j.rdipycs.unam.2.1.2016.73.21-39</a>
+</div>
+<div id="ref-tomas_lopez_orcid_2021" class="csl-entry" role="listitem">
+Tomás López, M. (2021). ORCID y Funder Registry de Crossref como infraestructuras de información disponibles para el seguimiento del flujo de financiación en investigación: El talón de Aquiles de las entidades financiadoras. <em>Ibersid</em>, <em>15</em>(1), 43-50.
+</div>
+<div id="ref-ugarte_edicion_2004" class="csl-entry" role="listitem">
+Ugarte P, F. (2004). La edición de revistas científicas en Latinoamérica. <em>Revista Chilena de Pediatría</em>, <em>75</em>(6). <a href="https://doi.org/10.4067/S0370-41062004000600001">https://doi.org/10.4067/S0370-41062004000600001</a>
+</div>
+<div id="ref-unesco_recomendacion_2021" class="csl-entry" role="listitem">
+UNESCO. (2021). <em>Recomendación sobre la Ciencia Abierta</em>. Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura. <a href="https://unesdoc.unesco.org/ark:/48223/pf0000379949">https://unesdoc.unesco.org/ark:/48223/pf0000379949</a>
+</div>
+<div id="ref-usher_guimil_2021" class="csl-entry" role="listitem">
+Usher Güimil, [Author]. (2021). <em>Situación de Uruguay en el Sistema Nacional de Investigadores</em>.
+</div>
+<div id="ref-valenzuela_salud_2021" class="csl-entry" role="listitem">
+Valenzuela, M. C. (2021). Salud Militar apuesta a la calidad y visibilidad: Implementación de OJS como plataforma de gestión electrónica. <em>SALUD MILITAR</em>, <em>40</em>(2). <a href="https://doi.org/10.35954/SM2021.40.2.1.e101">https://doi.org/10.35954/SM2021.40.2.1.e101</a>
+</div>
+<div id="ref-wilkinson_fair_2016" class="csl-entry" role="listitem">
+Wilkinson, M. D., Dumontier, M., Aalbersberg, I. J., Appleton, G., Axton, M., Baak, A., et&nbsp;al. (2016). The FAIR Guiding Principles for scientific data management and stewardship. <em>Scientific Data</em>, <em>3</em>(1), 1-9. <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a>
+</div>
+<div id="ref-woodsworth_library_1991" class="csl-entry" role="listitem">
+Woodsworth, A. (1991). <em>Library cooperation and Networks: a basic reader</em> (p. 2). Neal-Schuman Publishers, Inc.
+</div>
+</div>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>Definición adaptada con información de Budapest Open Access Initiative (2002), UNESCO (2021) y SPARC (s. f.).<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Para su consulta, véase: https://www.conricyt.mx/<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>El objetivo de NFDI4Culture es establecer una infraestructura orientada a la demanda para los datos de investigación sobre activos culturales tangibles e intangibles dentro de la estructura general del NFDI. Además, de ser un consorcio que ofrece distintas oportunidades de participación a los usuarios de todas las disciplinas implicadas, así como a los artistas y profesionales culturales.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Para su consulta, véase: https://www.remeri.org.mx/app/index.html#search<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>Para su consulta, véase: https://bv.fapesp.br/en/377/coordination-for-the-improvement-of-higher-education-personnel-capes/<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>Para su consulta, véase: https://www.gov.br/ibict/pt-br<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Para su consulta, véase: https://www.abecbrasil.org.br/<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>Para su consulta, véase: https://www.cincel.cl/consorcio/<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn9"><p>Para su consulta, véase: https://www.consorciocolombia.co/conoce-consorcio/ En este caso, se integra por 60 Instituciones de Educación Superior, 3 Centros de Investigación, la ASCUN, y el Ministerio de Educación Nacional y el Ministerio de Ciencia, Tecnología e Innovación, su objeto es reducir los costos de acceso a información de calidad, fomentar alianzas y fortalecer la educación, garantizando el acceso equitativo a todas las instituciones. A diferencia de otros países, el principio de transparencia prevalece al exponer los paquetes de participación personalizados en tres categorías: “paquete básico” (siete sellos editoriales), “paquete opcional” (diez sellos) y “paquete de valores agregados” (ocho sellos adicionales), con costos que varían desde $728,383 dlls para instituciones con alta producción científica y hasta $40,523 dlls para centros de investigación con menor producción.<a href="#fnref9" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn10"><p>Para su consulta, véase: https://www.argentina.gob.ar/ciencia<a href="#fnref10" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn11"><p>Cadena alfanumérica utilizada para localizar y distinguir recursos de información, además de garantizar su disponibilidad y perpetuidad. Como parte de sus propósitos se identifica la facilidad de citación; preservación y socialización de los mismos.<a href="#fnref11" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Volver arriba</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiado");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copiado");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/paideiaeditorial\.net\/libros\/editar-financiar-ciencia-latinoamerica\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./mitos-leyendas.html" class="pagination-link" aria-label="Mitos y leyendas acerca de la visibilidad de las publicaciones periódicas. Un análisis estadístico del impacto de las publicaciones de la Universidad Nacional de La Matanza (UNLaM)">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Mitos y leyendas acerca de la visibilidad de las publicaciones periódicas. Un análisis estadístico del impacto de las publicaciones de la Universidad Nacional de La Matanza (UNLaM)</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
+<p>CC-BY</p>
+</a>
+  </li>  
+</ul>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/PaideiaPublishingServices/Paideia-Editorial/tree/main/editar-publicar-financiar-ciencia-america-latina/edit/main/modelos-financiamiento-sostenibilidad.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/PaideiaPublishingServices/Paideia-Editorial/tree/main/editar-publicar-financiar-ciencia-america-latina/issues/new" class="toc-action"><i class="bi empty"></i>Informar de un problema</a></li><li><a href="https://github.com/PaideiaPublishingServices/Paideia-Editorial/tree/main/editar-publicar-financiar-ciencia-america-latina/blob/main/modelos-financiamiento-sostenibilidad.qmd" class="toc-action"><i class="bi empty"></i>Ver el código</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

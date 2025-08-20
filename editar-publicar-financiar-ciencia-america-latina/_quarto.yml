@@ -43,6 +43,7 @@ book:
     - evaluacion-global.qmd
     - editorial-em-bibliotecas.qmd
     - mitos-leyendas.qmd
+    - modelos-financiamiento-sostenibilidad.qmd
   # - summary.qmd
   #  - references.qmd #Comentar para que funcione el filtro lua en HTML - Descomentar para exportar a PDF
 
