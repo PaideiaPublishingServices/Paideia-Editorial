@@ -37,6 +37,8 @@ abstract: |
 
   El análisis incluye una revisión de los modelos de financiamiento tradicionales, como subvenciones directas y apoyos gubernamentales, así como su impacto en la sostenibilidad de las publicaciones. Se discuten también las iniciativas que integran modelos alternativos, como consorcios de bibliotecas y sociedades científicas que adoptan modelos de membresías para financiar la publicación sin barreras económicas para los autores. También se examinan casos de fondos e iniciativas de financiamiento de acceso abierto que han facilitado la publicación en plataformas internacionales y su viabilidad para ser implementados en América Latina.
 
+  También se evalua cómo la integración de tecnologías cómo los repositorios, y plataformas especializadas pueden reducir los costos operativos y aumentar la eficiencia en la gestión de publicaciones y de los datos de las investigaciones, permitiendo que más recursos se destinen directamente a las personas involucradas en las investigaciones y también a la mejora de la calidad editorial. Se proponen estrategias para incentivar una mayor transparencia en los procesos de financiamiento y cómo estas pueden influir positivamente en la percepción y valoración del acceso abierto entre las comunidades académicas y científicas.
+
   Este capítulo busca no solo analizar críticamente los modelos existentes sino también proponer alternativas concretas que promuevan una mayor equidad en el acceso al conocimiento científico. Se discuten las posibles vías para que las políticas de financiamiento en la región evolucionen hacia enfoques más inclusivos y democráticos, asegurando la sostenibilidad de las publicaciones científicas en el largo plazo.
 keywords: 
   - publicaciones científicas
