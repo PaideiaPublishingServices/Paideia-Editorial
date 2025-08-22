@@ -112,7 +112,7 @@ Para garantizar la sostenibilidad a largo plazo, @silva_rodriguez_sostenibilidad
 
 El financiamiento de publicaciones científicas ha dependido históricamente de modelos tradicionales como las suscripciones y subvenciones gubernamentales. En los últimos años, sin embargo, han surgido iniciativas basadas en consorcios internacionales que buscan redistribuir los costos de publicación a través de acuerdos colectivos, eliminando barreras económicas para autores y lectores. Uno de los casos más emblemáticos es el Sponsoring Consortium for Open Access Publishing in Particle Physics (SCOAP), una iniciativa global que ha permitido convertir revistas de física de partículas de acceso restringido en publicaciones completamente abiertas.
 
-A diferencia de los modelos basados en tarifas de procesamiento de artículos (APCs, por sus siglas en inglés), SCOAP³ redistribuye los costos entre los países participantes, asegurando que ni autores ni lectores asuman cargos directos por la publicación y el acceso a los artículos. Según información del Blog de la Biblioteca de la Universidad Carlos III Madrid [@eouceta_anos_2024], desde su implementación en 2014, SCOAP ha financiado más del 90% de los artículos en física de partículas, con alrededor de 70,000 artículos publicados en 11 revistas especializadas. Su modelo de financiamiento está basado en contribuciones de agencias gubernamentales, bibliotecas nacionales e instituciones académicas, que aportan recursos en proporción a la producción científica de su país en esta disciplina.
+A diferencia de los modelos basados en tarifas de procesamiento de artículos (APCs, por sus siglas en inglés), SCOAP redistribuye los costos entre los países participantes, asegurando que ni autores ni lectores asuman cargos directos por la publicación y el acceso a los artículos. Según información del Blog de la Biblioteca de la Universidad Carlos III Madrid [@eouceta_anos_2024], desde su implementación en 2014, SCOAP ha financiado más del 90% de los artículos en física de partículas, con alrededor de 70,000 artículos publicados en 11 revistas especializadas. Su modelo de financiamiento está basado en contribuciones de agencias gubernamentales, bibliotecas nacionales e instituciones académicas, que aportan recursos en proporción a la producción científica de su país en esta disciplina.
 
 En América Latina, México participó en SCOAP entre 2014 y 2018, representado por el Consejo Nacional de Ciencia y Tecnología (CONACYT) a través del Consorcio Nacional de Recursos de Información Científica y Tecnológica (CONRICYT). Durante este período, los investigadores mexicanos pudieron publicar sin restricciones económicas en revistas de alto impacto y acceder libremente a literatura científica especializada. Más recientemente, en mayo de 2024, Chile se incorporó al consorcio, con la Agencia Nacional de Investigación y Desarrollo (ANID) como punto de contacto, fortaleciendo la presencia de la región en esta iniciativa global.
 
@@ -158,16 +158,65 @@ Los modelos de membresía de consorcios de bibliotecas y sociedad científicas e
 
 Con la intención de aproximar algunos de estos modelos, la @tbl-finan1 presenta información relativa a su objetivo y esquemas de participación:
 
-| **Modelo**                      | **Características**                                                                                                                  | **Costos**                                               | **Países beneficiados**                                                                                                                                 |
-|--------------------------------|----------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Membresía institucional**     | Permite el acceso a bases de datos, revistas científicas y objetos digitales.                                                     | Anualidad y financiamiento gubernamental para cubrir costos. | CONRICYT (Consorcio Nacional de Recursos de Información Científica y Tecnológica) de Revistas (México) y RedALyC (México)                        |
-| **Membresía por paquetes**      | Permite el acceso a determinados recursos de información y bases de datos a través de paquetes pre configurados que se adoptan a las necesidades de información de los usuarios. | Depende del número de recursos de información y acceso a bases de datos, así como el tipo y tamaño de la institución. | Consorcio Colombia (Colombia)                                                                                                                        |
-| **Membresía por participación gubernamental** | Permite la recepción de recursos del gobierno para la suscripción de alguna membresía para tener acceso a recursos científicos mediante la cooperación y el intercambio del conocimiento. | Depende del número de aportaciones de las instituciones de educación superior, universidades, centros de investigación, entre otros al consorcio. | CINCEL (Consorcio para el Acceso a la Información Científica Electrónica) (Chile) y CONRICYT (México)                                            |
-| **Membresía de pago por usuario** | Permite el acceso a los recursos de información dependiendo del número de usuarios, investigadores o bibliotecas que lo requieran. | Depende del número de usuarios, investigadores o bibliotecas. | CBBU (Comissao Brasileira de Bibliotecas Universitarias) (Brasil)                                                                                   |
-| **Membresía Abierta (Acceso Abierto)** | Modelo que incentiva la participación de los investigadores y universidades mediante el registro de sus productos de investigación a través de repositorios o plataformas digitales de acceso abierto. | No existen costos para el acceso a las publicaciones de las universidades. | SciELO (Brasil)                                                                                                                                     |
-| **Membresía Mixta**             | Ofrece acceso tanto a recursos electrónicos como a servicios de difusión y formación con la intención de que se beneficien instituciones, consorcios y sociedades científicas. | El pago dependerá del número de instituciones y los posibles servicios a los que se quieran acceder (gestión de información científica, formación y capacitación). | IBICT (Instituto Brasileiro de Infromacao em Ciencia e Tecnologia) (Brasil)                                                                        |
-
-: Modelos de membresía en América Latina {#tbl-finan1}
+```{=html}
+<div style="overflow-x: auto;">
+<table id="tbl-finan1" style="table-layout: fixed;">
+  <caption>Modelos de membresía en América Latina</caption>
+  <colgroup>
+      <col width="20%"> <!-- Ancho para la columna "Modelo" -->
+      <col width="35%"> <!-- Ancho para la columna "Características" -->
+      <col width="25%"> <!-- Ancho para la columna "Costos" -->
+      <col width="20%"> <!-- Ancho para la columna "Países beneficiados" -->
+  </colgroup>
+  <thead>
+    <tr>
+      <th>Modelo</th>
+      <th>Características</th>
+      <th>Costos</th>
+      <th>Países beneficiados</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Membresía institucional</strong></td>
+      <td>Permite el acceso a bases de datos, revistas científicas y objetos digitales.</td>
+      <td>Anualidad y financiamiento gubernamental para cubrir costos.</td>
+      <td>CONRICYT (Consorcio Nacional de Recursos de Información Científica y Tecnológica) de Revistas (México) y RedALyC (México)</td>
+    </tr>
+    <tr>
+      <td><strong>Membresía por paquetes</strong></td>
+      <td>Permite el acceso a determinados recursos de información y bases de datos a través de paquetes pre configurados que se adoptan a las necesidades de información de los usuarios.</td>
+      <td>Depende del número de recursos de información y acceso a bases de datos, así como el tipo y tamaño de la institución.</td>
+      <td>Consorcio Colombia (Colombia)</td>
+    </tr>
+    <tr>
+      <td><strong>Membresía por participación gubernamental</strong></td>
+      <td>Permite la recepción de recursos del gobierno para la suscripción de alguna membresía para tener acceso a recursos científicos mediante la cooperación y el intercambio del conocimiento.</td>
+      <td>Depende del número de aportaciones de las instituciones de educación superior, universidades, centros de investigación, entre otros al consorcio.</td>
+      <td>CINCEL (Consorcio para el Acceso a la Información Científica Electrónica) (Chile) y CONRICYT (México)</td>
+    </tr>
+    <tr>
+      <td><strong>Membresía de pago por usuario</strong></td>
+      <td>Permite el acceso a los recursos de información dependiendo del número de usuarios, investigadores o bibliotecas que lo requieran.</td>
+      <td>Depende del número de usuarios, investigadores o bibliotecas.</td>
+      <td>CBBU (Comissao Brasileira de Bibliotecas Universitarias) (Brasil)</td>
+    </tr>
+    <tr>
+      <td><strong>Membresía Abierta (Acceso Abierto)</strong></td>
+      <td>Modelo que incentiva la participación de los investigadores y universidades mediante el registro de sus productos de investigación a través de repositorios o plataformas digitales de acceso abierto.</td>
+      <td>No existen costos para el acceso a las publicaciones de las universidades.</td>
+      <td>SciELO (Brasil)</td>
+    </tr>
+    <tr>
+      <td><strong>Membresía Mixta</strong></td>
+      <td>Ofrece acceso tanto a recursos electrónicos como a servicios de difusión y formación con la intención de que se beneficien instituciones, consorcios y sociedades científicas.</td>
+      <td>El pago dependerá del número de instituciones y los posibles servicios a los que se quieran acceder (gestión de información científica, formación y capacitación).</td>
+      <td>IBICT (Instituto Brasileiro de Infromacao em Ciencia e Tecnologia) (Brasil)</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+```
 
 ### Fondos e iniciativas de financiamiento en acceso abierto
 
