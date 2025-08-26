@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <doi_batch version="4.4.2" xmlns="http://www.crossref.org/schema/4.4.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1" xsi:schemaLocation="http://www.crossref.org/schema/4.4.2 http://www.crossref.org/schema/deposit/crossref4.4.2.xsd">
 <head>
-  <doi_batch_id>ac62d211982d31d7f3-50b2-crossmark-update</doi_batch_id>
-  <timestamp>20250813170000000</timestamp> <!-- TIMESTAMP ACTUALIZADO -->
+  <doi_batch_id>ac62d211982d31d7f3-50b2-crossmark-update-c7</doi_batch_id>
+  <timestamp>20250826170000000</timestamp> <!-- TIMESTAMP ACTUALIZADO -->
   <depositor>
     <depositor_name>pa1d:pa1d</depositor_name>
     <email_address>patricio@paideiastudio.net</email_address>
@@ -52,10 +52,11 @@
     <crossmark_domain_exclusive>true</crossmark_domain_exclusive>
    <custom_metadata>
       <assertion name="published" label="Published" group_name="publication_history" group_label="Publication History" order="0">2025-07-22</assertion>
-      <assertion name="updated" label="Last Updated" group_name="publication_history" group_label="Publication History" order="1">2025-08-13</assertion>
+      <assertion name="updated" label="Last Updated" group_name="publication_history" group_label="Publication History" order="1">2025-08-26</assertion>
       <assertion name="publication_status" label="Publication Status" group_name="publication_history" group_label="Publication History" order="2">Publicación Continua - Especificaciones en LaTeX y HTML</assertion>
+      <assertion name="content_update" label="Content Update" group_name="publication_history" group_label="Publication History" order="3">Capítulo 7 agregado: Modelos de financiamiento y sostenibilidad</assertion>
       <assertion name="book_type" label="Book Type" group_name="identifiers" group_label="Identifiers" order="0">Edited Book</assertion>
-      <assertion name="chapters_count" label="Total Chapters" group_name="identifiers" group_label="Identifiers" order="1">6</assertion>
+      <assertion name="chapters_count" label="Total Chapters" group_name="identifiers" group_label="Identifiers" order="1">7</assertion>
     </custom_metadata>
   </crossmark>
   <doi_data>
@@ -280,7 +281,7 @@ El texto comienza presentando brevemente la trayectoria de estos índices intern
   </doi_data>
 </content_item>
 
-<!-- ============== CAPÍTULO 5 - NUEVO ============== -->
+<!-- ============== CAPÍTULO 5 ============== -->
 <content_item component_type='chapter'>
   <contributors>
     <person_name sequence='first' contributor_role='author'>
@@ -336,7 +337,7 @@ El texto comienza presentando brevemente la trayectoria de estos índices intern
   </doi_data>
 </content_item>
 
-<!-- ============== CAPÍTULO 6 (antes era capítulo 5) ============== -->
+<!-- ============== CAPÍTULO 6 ============== -->
 <content_item component_type='chapter'>
   <contributors>
     <person_name sequence='first' contributor_role='author'>
@@ -388,6 +389,58 @@ De esta forma, con esta investigación, se espera, por un lado, contribuir teór
   <doi_data>
   <doi>10.62059/editorial.l001.c6</doi>
   <resource>https://paideiaeditorial.net/libros/editar-financiar-ciencia-latinoamerica/_book/mitos-leyendas.html</resource>
+  </doi_data>
+</content_item>
+
+<!-- ============== CAPÍTULO 7 - NUEVO ============== -->
+<content_item component_type='chapter'>
+  <contributors>
+    <person_name sequence='first' contributor_role='author'>
+     <given_name>Zaira</given_name>
+      <surname>Lagunas Ledesma</surname>
+      <ORCID>https://orcid.org/0000-0002-7981-1185</ORCID>
+    </person_name>
+    <person_name sequence='additional' contributor_role='author'>
+      <given_name>Arturo</given_name>
+      <surname>Garduño Magaña</surname>
+      <ORCID>https://orcid.org/0000-0003-0305-9086</ORCID>
+    </person_name>
+  </contributors>
+  <titles>
+  <title>Modelos de financiamiento y sostenibilidad de las publicaciones científicas</title>
+  </titles>
+  <jats:abstract xml:lang='es'>
+    <jats:p>La propuesta de este capítulo analiza los modelos de financiamiento y sostenibilidad de las publicaciones científicas en América Latina, destacando las estrategias innovadoras y sostenibles que puedan promover la accesibilidad y la equidad en la difusión del conocimiento académico. La investigación se centra en cómo los diversos sistemas de financiamiento pueden ser adaptados o rediseñados para apoyar la transición hacia prácticas de acceso abierto, considerando las particularidades y desafíos de la región.
+
+El análisis incluye una revisión de los modelos de financiamiento tradicionales, como subvenciones directas y apoyos gubernamentales, así como su impacto en la sostenibilidad de las publicaciones. Se discuten también las iniciativas que integran modelos alternativos, como consorcios de bibliotecas y sociedades científicas que adoptan modelos de membresías para financiar la publicación sin barreras económicas para los autores. También se examinan casos de fondos e iniciativas de financiamiento de acceso abierto que han facilitado la publicación en plataformas internacionales y su viabilidad para ser implementados en América Latina.
+
+También se evalua cómo la integración de tecnologías cómo los repositorios, y plataformas especializadas pueden reducir los costos operativos y aumentar la eficiencia en la gestión de publicaciones y de los datos de las investigaciones, permitiendo que más recursos se destinen directamente a las personas involucradas en las investigaciones y también a la mejora de la calidad editorial. Se proponen estrategias para incentivar una mayor transparencia en los procesos de financiamiento y cómo estas pueden influir positivamente en la percepción y valoración del acceso abierto entre las comunidades académicas y científicas.
+
+Este capítulo busca no solo analizar críticamente los modelos existentes sino también proponer alternativas concretas que promuevan una mayor equidad en el acceso al conocimiento científico. Se discuten las posibles vías para que las políticas de financiamiento en la región evolucionen hacia enfoques más inclusivos y democráticos, asegurando la sostenibilidad de las publicaciones científicas en el largo plazo.</jats:p>
+  </jats:abstract>
+<publication_date media_type='online'>
+    <month>08</month>
+    <day>30</day>
+    <year>2025</year>
+  </publication_date>
+  <!-- Metadatos Crossmark para el capítulo -->
+  <crossmark>
+    <crossmark_version>1</crossmark_version>
+    <crossmark_policy>10.62059/paideia.editorial.crossmark</crossmark_policy>
+    <crossmark_domains>
+      <crossmark_domain>
+        <domain>paideiaeditorial.net</domain>
+      </crossmark_domain>
+    </crossmark_domains>
+    <crossmark_domain_exclusive>true</crossmark_domain_exclusive>
+    <custom_metadata>
+      <assertion name="published" label="Published" group_name="publication_history" group_label="Publication History" order="0">2025-08-30</assertion>
+      <assertion name="chapter_number" label="Chapter" group_name="identifiers" group_label="Identifiers" order="0">7</assertion>
+    </custom_metadata>
+  </crossmark>
+  <doi_data>
+  <doi>10.62059/editorial.l001.c7</doi>
+  <resource>https://paideiaeditorial.net/libros/editar-financiar-ciencia-latinoamerica/_book/modelos-financiamiento-sostenibilidad.html</resource>
   </doi_data>
 </content_item>
   </book>
