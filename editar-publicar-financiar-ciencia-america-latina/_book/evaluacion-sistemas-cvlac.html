@@ -1,0 +1,1801 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Editar, publicar y financiar ciencia en América Latina © 2025 por Gimena del Rio Riande &amp; Patricio Iván Pantaleo (Coord.) se distribuye bajo licencia CC BY 4.0">
+<meta name="dcterms.date" content="2025-09-10">
+<meta name="keywords" content="science measurement, scientific productivity, data quality, interoperability, metadata">
+<meta name="description" content="Este libro aborda los retos y oportunidades en la comunicación académica en América Latina, explorando cómo se editan, publican y financian los resultados científicos en el contexto regional. A través de un análisis crítico, el proyecto busca destacar experiencias exitosas y lecciones aprendidas, identificar modelos de sostenibilidad en acceso abierto y evaluar el impacto de la visibilidad científica en el progreso académico. Los capítulos incluyen estudios de caso, reflexiones sobre distopías posibles y un enfoque hacia el pensamiento crítico sobre las dinámicas actuales y futuras de la comunicación científica.">
+
+<title>Evaluating the quality of data in academic curriculum vitae systems: the case of the Colombian CvLAC system – Editar, publicar y financiar ciencia en América Latina</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./modelos-financiamiento-sostenibilidad.html" rel="prev">
+<link href="./cover.jpg" rel="icon" type="image/jpeg">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-3437163848027a9678b601de83c9cfc4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-ca9a3123241bd3af7daadacac6f6f60d.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WQ2W87T4');</script>
+<!-- End Google Tag Manager -->
+
+<!-- Identificador para Crossmark - CORRECTO -->
+<meta name="dc.identifier" content="10.62059/editorial.l001">
+
+<!-- Widget de Crossmark v2.0 -->
+<script src="https://crossmark-cdn.crossref.org/widget/v2.0/widget.js"></script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var searchBox = document.querySelector(".sidebar-search");
+    if (searchBox) {
+        var doi = "10.62059/editorial.l001";  // DOI del contenido
+        var domain = "paideiaeditorial.net";  // CORREGIDO: debe ser tu dominio, no "pdf"
+        var dateStamp = "2025-07-22";  // CORREGIDO: fecha de publicación real del libro
+
+        var crossmarkButton = document.createElement("div");
+        crossmarkButton.innerHTML = `
+            <div id="crossmark-button" style="text-align: left; margin-top: 10px; margin-bottom: 10px;">
+                <a href="https://crossmark.crossref.org/dialog/?doi=${doi}&domain=${domain}&date_stamp=${dateStamp}" 
+                   class="crossmark" target="_blank">
+                    <img src="https://crossmark-cdn.crossref.org/widget/v2.0/logos/CROSSMARK_Color_horizontal.svg" 
+                         width="100" alt="Crossmark" />
+                </a>
+            </div>
+        `;
+        searchBox.insertAdjacentElement("afterend", crossmarkButton);
+    }
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Author data with CRediT roles - specific for this chapter
+    var authorsData = [
+        {
+            name: "Juan Sebastián Gonzalez Sanabria",
+            roles: ["Conceptualization", "Formal analysis", "Funding acquisition", "Investigation", "Methodology", "Software", "Validation", "Writing - original draft"]
+        },
+        {
+            name: "Elena Verdu",
+            roles: ["Investigation", "Methodology", "Validation", "Writing - review & editing"]
+        },
+        {
+            name: "Xiomara Blanco",
+            roles: ["Investigation", "Methodology", "Validation", "Writing - review & editing"]
+        },
+        {
+            name: "José Texier",
+            roles: ["Investigation", "Methodology", "Validation", "Writing - review & editing"]
+        },
+        {
+            name: "Samuel Ruiz",
+            roles: ["Formal analysis", "Methodology", "Software", "Writing - review & editing"]
+        },
+        {
+            name: "Esteban Novoa",
+            roles: ["Formal analysis", "Methodology", "Software", "Writing - review & editing"]
+        }
+    ];
+
+    // Find where to insert the information
+    var titleBlock = document.querySelector(".quarto-title-block") ||
+                      document.querySelector(".quarto-title");
+             
+    if (titleBlock) {
+        // Author contributions section
+        var creditSection = document.createElement("div");
+        creditSection.innerHTML = `
+            <div id="credit-roles" style="margin: 20px 0; padding: 15px; background-color: #f8f9fa; border-left: 4px solid #007bff; border-radius: 5px; font-size: 0.9em;">
+                <strong style="color: #007bff;">Author contributions (CRediT):</strong><br><br>
+                ${authorsData.map(author => 
+                    `<strong>${author.name}:</strong> ${author.roles.join(", ")}`
+                ).join("<br>")}
+                <br><br>
+                <small style="color: #6c757d;">
+                    <em>CRediT (Contributor Roles Taxonomy):</em><br>
+                    • <a href="https://credit.niso.org/" target="_blank" style="color: #007bff;">Official website</a><br>
+                    • <a href="https://terminologias.filo.uba.ar/vocabs/1007" target="_blank" style="color: #007bff;">Spanish translation</a>
+                </small>
+            </div>
+        `;
+                
+        // Insert section after title
+        titleBlock.insertAdjacentElement("afterend", creditSection);
+    }
+});
+</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./evaluacion-sistemas-cvlac.html"><span class="chapter-title">Evaluating the quality of data in academic curriculum vitae systems: the case of the Colombian CvLAC system</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Editar, publicar y financiar ciencia en América Latina</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/PaideiaPublishingServices/Paideia-Editorial/tree/main/editar-publicar-financiar-ciencia-america-latina" title="Ejecutar el código" class="quarto-navigation-tool px-1" aria-label="Ejecutar el código"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Descargar" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Descargar"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Editar,-publicar-y-financiar-ciencia-en-América-Latina.pdf">
+              <i class="bi bi-file-pdf pe-1"></i>
+            Descargar PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Editar,-publicar-y-financiar-ciencia-en-América-Latina.epub">
+              <i class="bi bi-journal pe-1"></i>
+            Descargar ePub
+            </a>
+          </li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <a href="" title="Compartir" id="quarto-navigation-tool-dropdown-1" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Compartir"><i class="bi bi-share"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-1">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+              <i class="bi bi-twitter pe-1"></i>
+            Twitter
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.facebook.com/sharer/sharer.php?u=|url|">
+              <i class="bi bi-facebook pe-1"></i>
+            Facebook
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|">
+              <i class="bi bi-linkedin pe-1"></i>
+            LinkedIn
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introducción</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./rede-editores.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">O papel da Rede Ibero-Americana de Editores Científicos de Educação (RIECE) no fortalecimento da comunicação científica em periódicos da área de Educação</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./preservacion-digital.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Preservación digital y sostenibilidad de la comunicación científica en América Latina: experiencias, retos y perspectivas futuras</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./La-ciencia-abierta-mexicana.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">La ciencia abierta mexicana: monitor de prácticas adoptadas por las revistas</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./evaluacion-global.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">De la evaluación global en la realidad local. El papel de los índices internacionales en la organización de la ciencia en Chile y América Latina</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./editorial-em-bibliotecas.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Produção editorial em bibliotecas universitárias brasileiras: engajamentos criativos com publicações científicas abertas</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./mitos-leyendas.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Mitos y leyendas acerca de la visibilidad de las publicaciones periódicas. Un análisis estadístico del impacto de las publicaciones de la Universidad Nacional de La Matanza (UNLaM)</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./modelos-financiamiento-sostenibilidad.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Modelos de financiamiento y sostenibilidad de las publicaciones científicas</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./evaluacion-sistemas-cvlac.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Evaluating the quality of data in academic curriculum vitae systems: the case of the Colombian CvLAC system</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a>
+  <ul class="collapse">
+  <li><a href="#data-extraction" id="toc-data-extraction" class="nav-link" data-scroll-target="#data-extraction">Data extraction</a></li>
+  <li><a href="#data-cleaning-and-standardization" id="toc-data-cleaning-and-standardization" class="nav-link" data-scroll-target="#data-cleaning-and-standardization">Data cleaning and standardization</a></li>
+  <li><a href="#verifying-data-reliability" id="toc-verifying-data-reliability" class="nav-link" data-scroll-target="#verifying-data-reliability">Verifying data reliability</a></li>
+  <li><a href="#implementing-the-tool" id="toc-implementing-the-tool" class="nav-link" data-scroll-target="#implementing-the-tool">Implementing the tool</a></li>
+  </ul></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion">Discussion</a></li>
+  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions">Conclusions</a></li>
+  <li><a href="#bibliography" id="toc-bibliography" class="nav-link" data-scroll-target="#bibliography">References</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/PaideiaPublishingServices/Paideia-Editorial/tree/main/editar-publicar-financiar-ciencia-america-latina/edit/main/evaluacion-sistemas-cvlac.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/PaideiaPublishingServices/Paideia-Editorial/tree/main/editar-publicar-financiar-ciencia-america-latina/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/PaideiaPublishingServices/Paideia-Editorial/tree/main/editar-publicar-financiar-ciencia-america-latina/blob/main/evaluacion-sistemas-cvlac.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div><div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://www.amazon.com/books"><i class="bi bi-amazon"></i>Soon on Kindle</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Evaluating the quality of data in academic curriculum vitae systems: the case of the Colombian CvLAC system</span></h1>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Affiliations</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Juan Sebastián Gonzalez Sanabria <a href="mailto:juansebastian.gonzalez@uptc.edu.co" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-1024-6077" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            <a href="https://ror.org/04vdmbk59">
+            Universidad Pedagógica y Tecnológica de Colombia
+            </a>
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">Elena Verdu <a href="mailto:elena.verdu@unir.net" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-3040-7077" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            <a href="https://ror.org/029gnnp81">
+            Universidad Internacional de La Rioja
+            </a>
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">Xiomara Blanco <a href="mailto:xiomarapatricia.blanco@unir.net" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0001-9947-748X" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            <a href="https://ror.org/029gnnp81">
+            Universidad Internacional de La Rioja
+            </a>
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">José Texier <a href="mailto:texier@laccei.org" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0003-0176-6625" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            <a href="https://www.laccei.org">
+            Latin American and Caribbean Consortium of Engineering Institutions
+            </a>
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">Samuel Ruiz <a href="mailto:samuel.ruiz@uptc.edu.co" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            <a href="https://ror.org/04vdmbk59">
+            Universidad Pedagógica y Tecnológica de Colombia
+            </a>
+          </p>
+      </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">Esteban Novoa <a href="mailto:esteban.novoa@uptc.edu.co" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            <a href="https://ror.org/04vdmbk59">
+            Universidad Pedagógica y Tecnológica de Colombia
+            </a>
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 10, 2025</p>
+    </div>
+  </div>
+  
+    
+    <div>
+    <div class="quarto-title-meta-heading">Doi</div>
+    <div class="quarto-title-meta-contents">
+      <p class="doi">
+        <a href="https://doi.org/10.62059/editorial.l001.c8">10.62059/editorial.l001.c8</a>
+      </p>
+    </div>
+  </div>
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Abstract</div>
+    <p>Information systems on academic CVs have become a source of data for governments to make strategic decisions regarding investments. However, these systems prove to be insufficient when the information is either incorrect or incomplete. This work proposes a tool to validate the research metadata stored in the Colombian researcher curriculum vitae system (CvLAC). To this effect, work focusing on data extraction, manipulation, and cleaning was carried out so as to perform analyses, studies, and validations using international systems like Crossref. Significant errors including inconsistent or misreported data were found; for instance, authors and data that do not correspond to existing articles or products. Identifying these errors will contribute to enhancing research evaluation processes and optimizing targeted investments.</p>
+  </div>
+</div>
+
+<div>
+  <div class="keywords">
+    <div class="block-title">Keywords</div>
+    <p>science measurement, scientific productivity, data quality, interoperability, metadata</p>
+  </div>
+</div>
+
+</header>
+
+
+<section id="introduction" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="introduction">Introduction</h2>
+<p>While there is no single, universal CV format, both international and local governmental and organizational systems offer guidelines when writing a researcher’s curriculum vitae (CV) so as to ensure correct information management and registry. On that account, certain features should be observed, namely, i) use of metadata: standardizing information storage with Dublin Core, ecite, among others, is key to attaining both optimal retrieval and clear display; ii) validation: verifying and evaluating the platform is paramount; iii) integration with international systems: integrating the system into ORCID, SciELO, LILACS, Scopus, or other duly recognized systems following integration best practices; iv) exporting: saving available information in digital export formats for later study and analysis <span class="citation" data-cites="VallesCoral2019">(<a href="#ref-VallesCoral2019" role="doc-biblioref">Valles-Coral, 2019</a>)</span>.</p>
+<p>As stated by <span class="citation" data-cites="Riggio2017">Riggio (<a href="#ref-Riggio2017" role="doc-biblioref">2017</a>)</span>, “the international databases used to measure and compare the scientific performance and impact of countries, [the Web of Science and Scopus citation indices] have low coverage regarding Latin American journals and Spanish publications, which […] influences the visibility of the scientific results of this region as well as the low production indices they obtain when analyzing data from these sources”. This shows the limitations or biases in the assessment of research quality or impact on the region compared with European or North American systems.</p>
+<p>CvLAC (Curriculum Vitae for Latin America and the Caribbean) is the system used in Colombia to register resumes of both national and foreign researchers residing in the country <span class="citation" data-cites="MinisterioCiencia2023">(<a href="#ref-MinisterioCiencia2023" role="doc-biblioref">Ministerio de Ciencia, Tecnología e Innovación, 2023</a>)</span>. The platform is managed by the Colombian Ministry of Science, Technology, and Innovation, and includes information on conference presentations, papers, projects and other research activities. Exploring this system, which is the only one used in Colombia to record national scientific production, led to the identification of an issue regarding its information structure. Furthermore, certain difficulties in verifying the quality and truthfulness of the registered data were diagnosed.</p>
+<p>In order to validate the aspects contemplated by different systems of academic CVs in Latin America, each was characterized including entities and information sources. <a href="#tbl-cvlac1" class="quarto-xref">Table&nbsp;<span>8.1</span></a> presents a comparison of these systems.</p>
+<div id="tbl-cvlac1" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-cvlac1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;8.1: Latin American academic CV systems.
+</figcaption>
+<div aria-describedby="tbl-cvlac1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 15%">
+<col style="width: 10%">
+<col style="width: 34%">
+<col style="width: 15%">
+<col style="width: 16%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Country</th>
+<th>Metadata standard</th>
+<th>Validation</th>
+<th>Integration with international systems</th>
+<th>Exporting format</th>
+<th>National repository</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Argentina (SIC)</strong></td>
+<td>–</td>
+<td>Automatic (External database)</td>
+<td>–</td>
+<td>PDF</td>
+<td>National digital repository system</td>
+</tr>
+<tr class="even">
+<td><strong>Brazil (Lattes)</strong></td>
+<td>DC</td>
+<td>Automatic (DOI)</td>
+<td>SciELO, LILACS, Scopus, Crossref</td>
+<td>PDF, XML</td>
+<td>–</td>
+</tr>
+<tr class="odd">
+<td><strong>Colombia (CvLAC)</strong></td>
+<td>–</td>
+<td>Manual (InstiLAC)</td>
+<td>–</td>
+<td>PDF</td>
+<td>–</td>
+</tr>
+<tr class="even">
+<td><strong>Ecuador (CVN)</strong></td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>Open-Access Repositories of Ecuador</td>
+</tr>
+<tr class="odd">
+<td><strong>Mexico (SNI)</strong></td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>CTI national repository</td>
+</tr>
+<tr class="even">
+<td><strong>Panama (SNI)</strong></td>
+<td>–</td>
+<td>–</td>
+<td>ORCID</td>
+<td>–</td>
+<td>Open-Access Scientific Repository of Portugal</td>
+</tr>
+<tr class="odd">
+<td><strong>Paraguay (PIP)</strong></td>
+<td>DC</td>
+<td>–</td>
+<td>–</td>
+<td>PDF</td>
+<td>CONACYT institutional repository</td>
+</tr>
+<tr class="even">
+<td><strong>Peru (DINA)</strong></td>
+<td>DC</td>
+<td>–</td>
+<td>–</td>
+<td>PDF, RTF, RefWorks</td>
+<td>National repository of the CONCYTEC</td>
+</tr>
+<tr class="odd">
+<td><strong>Venezuela (CvLAC)</strong></td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+<td>–</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>Comparison based on the information available on the website and on the study of each system, has revealed obsolescence concerning availability, management and validation of most systems, with the exception of the Brazilian comprehensive CV system –The Lattes Platform - as it offers greater data reliability due to its validation process and its interoperability with international systems (e.g., Crossref or Scopus).</p>
+<p>Latin American Systems often show a lack of integration with international sources of information or databases like Crossref <span class="citation" data-cites="Crossref2023">(<a href="#ref-Crossref2023" role="doc-biblioref">CrossRef, 2023</a>)</span> which, if used, would allow governments to validate part of the registered information and obtain real data to measure their installed research capabilities.</p>
+<p>It is noteworthy to mention that while Brazil, Peru, and Paraguay apply metadata standards like Dublin Core, which facilitate the extraction of reported data for later study and analysis, countries like Ecuador and Venezuela lack governmental systems dedicated to managing research information.</p>
+<p>Previous research works on the Colombian case have used tools such as CvLAC-GrupLAC Extractor <span class="citation" data-cites="MosqueraPerdomo2023">(<a href="#ref-MosqueraPerdomo2023" role="doc-biblioref">Mosquera-Perdomo et al., 2023</a>)</span> or Product Recommender Systems <span class="citation" data-cites="GaleanoPrada">(<a href="#ref-GaleanoPrada" role="doc-biblioref">Galeano &amp; Prada, n.d.</a>)</span> which offer functionalities for extracting information registered in CvLAC or GrupLAC. In spite of that, lack of data validation is one of the inherent difficulties within the system since it perpetuates data integrity problems; for instance, when tools extract or analyze the information the way it was originally registered. As the existence of products is not guaranteed, duplicity cannot be prevented.</p>
+<p>Although similar tools to those abovementioned can be found worldwide, their distinctive feature lies in the fact that they are founded on robust and truthful databases, as is the case of scriptLattes <span class="citation" data-cites="MenaChalcoJunior2009">(<a href="#ref-MenaChalcoJunior2009" role="doc-biblioref">Mena-Chalco &amp; Junior, 2009</a>)</span>: an open-source system to create academic reports of groups based on curricula of the Lattes Database (the Brazilian equivalent of CvLAC). This particular database is one of the most robust in Latin America, as shown in Table 1.</p>
+<p>More specific cases include platforms that merely assess productivity using Scopus and WoS databases, thus hindering an accurate analysis of institutions’ productivity as not all the items included in academic research CV systems are contemplated <span class="citation" data-cites="RuizRosero2019 DattoloCorbatto2022 Patil2020">(<a href="#ref-DattoloCorbatto2022" role="doc-biblioref">Dattolo &amp; Corbatto, 2022</a>; <a href="#ref-Patil2020" role="doc-biblioref">Patil et al., 2020</a>; <a href="#ref-RuizRosero2019" role="doc-biblioref">Ruiz-Rosero et al., 2019</a>)</span>.</p>
+<p>Due to all of the above, the objective of this work is to evaluate the data recorded in the Colombian academic CV system and to validate its accuracy by cross-checking with international sources through an automated tool. For this purpose, an ETL (extraction, transformation, and loading) data integration process from the source system has been completed, placing a special emphasis on scientific articles as they can be easily verified using international databases. Subsequently, the software architecture tool is introduced, along with the algorithms and components required for its analysis and validation. This work highlights the need to implement activities aimed at improving the review of data quality and integrity in national information systems, with a special focus on CvLAC.</p>
+</section>
+<section id="methodology" class="level2">
+<h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
+<p>A six-phase methodology was outlined to carry out this work.</p>
+<section id="data-extraction" class="level3">
+<h3 class="anchored" data-anchor-id="data-extraction">Data extraction</h3>
+<p>This stage involved evaluating the structure used to present the CV information in the CvLAC platform and identifying possible scenarios during data extraction. Moreover, given the amount of information registered in the CVs, only author information, identifiers and work experience were considered. Finally, a specific data extraction tool named CvLAC Scraper was developed using Python and the Scrapy framework (Martinez et al., 2019).</p>
+</section>
+<section id="data-cleaning-and-standardization" class="level3">
+<h3 class="anchored" data-anchor-id="data-cleaning-and-standardization">Data cleaning and standardization</h3>
+<p>After developing the process and the extraction tool, a data representation standard was defined using the JSON data format. During the cleaning process, regular expressions were used to remove inconsistencies in the extracted data (e.g., unwanted characters), to correct inconsistent formats and to normalize the information.</p>
+</section>
+<section id="verifying-data-reliability" class="level3">
+<h3 class="anchored" data-anchor-id="verifying-data-reliability">Verifying data reliability</h3>
+<p>An exploratory analysis of the extracted data was conducted, and metrics were defined to evaluate both consistency and completeness. This validation process involved verifying the reported ORCIDs and DOIs as well as related data. The goal was to compare the information extracted from the CVs with international sources.</p>
+</section>
+<section id="implementing-the-tool" class="level3">
+<h3 class="anchored" data-anchor-id="implementing-the-tool">Implementing the tool</h3>
+<p>Software lifecycle stages were employed to develop an author information search strategy and a verification tool. This resulted in a three-layer application with Angular, Flask and MongoDB, and the necessary functionalities to perform searches, verifications, and analysis regarding author information.</p>
+</section>
+</section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<p>One of the biggest challenges faced was the vast amount of CVs and data registered in CvLAC, consequently revealing one of its flaws: lack of control concerning registration. Registries with inconsistent numbers pointing to non-existent documents (e.g., “00000”), or names such as “Prueba Uno” (Test 1) entailed obtaining individual access to profiles. Since the URLs included in each CV contain a researcher ID (cod_rh), it is only necessary to change such code on the base URL to gain access to a researcher’s information.</p>
+<p>The HTML structure used in CV websites was analyzed during the data extraction process. <a href="#tbl-cvlac2" class="quarto-xref">Table&nbsp;<span>8.2</span></a> contains the information regarding every search conducted in XML Path Language, together with the name used to identify it. As a means to explain the employed notation and simplify searches, note that the term BASE_XPATH refers to the beginning of each search and that those labeled with ellipses refer to the rest of the search.</p>
+
+
+<div id="tbl-cvlac2" class="quarto-float quarto-figure quarto-figure-center anchored" data-quarto-postprocess="true">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-cvlac2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;8.2: Xpath searches to access information
+</figcaption>
+<div aria-describedby="tbl-cvlac2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table id="tbl-cvlac2" class="caption-top table" data-quarto-postprocess="true">
+<colgroup>
+<col style="width: 35%">
+<col style="width: 65%">
+</colgroup>
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"><strong>Name</strong></th>
+<th data-quarto-table-cell-role="th"><strong>XPATH/Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>BASE_XPATH</td>
+<td>It is used to access CV information with no restricted data.<br>
+<code>/html/body/div/div[3]/table/tbody</code></td>
+</tr>
+<tr class="even">
+<td>AUTHOR_INFO</td>
+<td>It selects the section of the table with general information.<br>
+<code>.../tr[2]/td/table/tbody</code></td>
+</tr>
+<tr class="odd">
+<td>AUTHOR_IDS</td>
+<td>It is used to navigate between table rows containing identifiers.<br>
+<code>.../tr[4]/td/table/tbody/tr/td/a</code></td>
+</tr>
+<tr class="even">
+<td>SOCIAL_MEDIA</td>
+<td>It is used to navigate between the table rows containing social media.<br>
+<code>.../tr[3]/td/table/tbody/tr/td/a</code></td>
+</tr>
+<tr class="odd">
+<td>ARTICLES</td>
+<td>It selects the table containing the articles.<br>
+<code>.../tr[45]/td/table/tbody</code></td>
+</tr>
+<tr class="even">
+<td>ARTICLE_TYPE</td>
+<td>It is used to obtain the headers of the articles, <em>i.e.</em>, the verification mark and the type of article.<br>
+<code>.../tr[45]/td/table/tbody/tr[position() mod 2 = 0]/td/li</code></td>
+</tr>
+<tr class="odd">
+<td>ARTICLE_INFO</td>
+<td>It grants access to the internal HTML of each article.<br>
+<code>.../tr[45]/td/table/tbody/tr/td/blockquote</code></td>
+</tr>
+<tr class="even">
+<td>ARTICLE_SECTION_INFO</td>
+<td>It is used, together with the previous XPATH, to access the different fields of an article. Each section is numbered consecutively: 1) name, authors, country; 2) journal name; 3) ISSN; 4) publisher; 5) volume; 6) issue, starting page, final page, year; 7) DOI; 8) keywords; 9) sections; 10) acknowledgements.<br>
+<code>text()[{}]</code></td>
+</tr>
+<tr class="odd">
+<td>NAME_WORK_PLACES</td>
+<td>It is used to access the name of the institution or places where the researcher has worked.<br>
+<code>.../tr[8]/td/table/tbody/tr/td[2]/b/text()</code></td>
+</tr>
+<tr class="even">
+<td>TIME_WORK_PLACES</td>
+<td>It provides start and end dates of work experience.<br>
+<code>.../tr[8]/td/table/tbody/tr/td[2]/i[contains(text(),</code><br>
+<code>"Dedicación:")/following-sibling::text()[1]</code></td>
+</tr>
+<tr class="odd">
+<td>CHECK_RESTRICTED_INFO</td>
+<td>It is used to obtain the following text: "The information in this curriculum is not available at the researcher's request."<br>
+<code>/html/body/table/tbody/tr[3]/td/blockquote/text()</code></td>
+</tr>
+<tr class="even">
+<td>AUTHOR_RESTRICTED_INFO</td>
+<td>This search grants access to the table containing general information about researchers who have restricted their information.<br>
+<code>/html/body/table/tbody/tr[2]/td/blockquote/table/tbody</code></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+
+
+<p>Even though CV data extraction was successfully obtained from the various searches shown in <a href="#tbl-cvlac2" class="quarto-xref">Table&nbsp;<span>8.2</span></a>, lack of standardization regarding the input of information, especially data on scientific publications and work experience, made it necessary to use regular expressions designed to work with the HTML structure of web pages. As a result, data could be effectively processed.</p>
+<p><a href="#tbl-cvlac3" class="quarto-xref">Table&nbsp;<span>8.3</span></a> shows some of the expressions used in data cleaning, standardization and extraction.</p>
+
+
+<div id="tbl-cvlac3" class="quarto-float quarto-figure quarto-figure-center anchored" data-quarto-postprocess="true">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-cvlac3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;8.3: Regular expressions used in data extraction and cleaning
+</figcaption>
+<div aria-describedby="tbl-cvlac3-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table id="tbl-cvlac3" class="caption-top table" data-quarto-postprocess="true">
+<colgroup>
+<col style="width: 35%">
+<col style="width: 25%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"><strong>Name</strong></th>
+<th data-quarto-table-cell-role="th"><strong>Regular expression</strong></th>
+<th data-quarto-table-cell-role="th"><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>REMOVE_SPECIAL<br>
+_SPACE_CHARACTERS</td>
+<td><code>([\n\r\t]|+|\xa0)</code></td>
+<td>It removes line breaks, tabs and special characters from the HTML structure of a curriculum.</td>
+</tr>
+<tr class="even">
+<td>GET_ARTICLE_TITLE</td>
+<td><code>".+"</code></td>
+<td>It obtains the complete name of an article.</td>
+</tr>
+<tr class="odd">
+<td>GET_PAGES_STRING</td>
+<td><code>p\. *\w+-?\w* - +\w+-?\w*</code></td>
+<td>It obtains the first and last page of an article.</td>
+</tr>
+<tr class="even">
+<td>GET_PAGES</td>
+<td><code>\w+-?\w*</code></td>
+<td>It obtains the first and last page of a specific text string.</td>
+</tr>
+<tr class="odd">
+<td>GET_YEARS</td>
+<td><code>\d{4}</code></td>
+<td>It determines the years of work experience.</td>
+</tr>
+<tr class="even">
+<td>GET_AUTHOR_ID</td>
+<td><code>\d+$</code></td>
+<td>It extracts the identifier or cod_rh from the URL in a curriculum.</td>
+</tr>
+<tr class="odd">
+<td>HTML_TAGS</td>
+<td><code>&lt;\/?w+&gt;</code></td>
+<td>It extracts the HTML labels contained in a text string or document.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+
+
+<p>JSON was the preferred format to design the data representation schema because data can be sent via HTTP requests between web browsers and other applications. <a href="#fig-json" class="quarto-xref">Figure&nbsp;<span>8.1</span></a> shows the schemas applied to the information collected from CVs. It is important to observe that when fields are left unspecified, it is highly probable that null or absent values are present in the schemas.</p>
+<div id="fig-json" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-pos="htbp">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-json-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="img/json-schemas.png" class="img-fluid figure-img" data-fig-pos="htbp">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-json-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8.1: JSON schemas representing author and article
+</figcaption>
+</figure>
+</div>
+<p>As aforementioned in the Methodology section, the CvLAC Scraper tool was developed. <a href="#fig-architecture" class="quarto-xref">Figure&nbsp;<span>8.2</span></a> presents the general architecture defined for its configuration, execution and output data.</p>
+<div id="fig-architecture" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-pos="htbp">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-architecture-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="img/cvlac-scraper-architecture.png" class="img-fluid figure-img" data-fig-pos="htbp">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-architecture-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8.2: CvLAC Scraper architecture
+</figcaption>
+</figure>
+</div>
+<p>CvLAC Scraper has an initial configuration file to retrieve information from CV sites. It defines aspects such as CvLAC URL, HTML input types and CV identifiers, and data persistence, to name but a few. (<a href="#fig-config" class="quarto-xref">Figure&nbsp;<span>8.3</span></a>).</p>
+<div id="fig-config" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-pos="htbp">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-config-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="img/cvlac-scraper-config.png" class="img-fluid figure-img" data-fig-pos="htbp">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-config-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8.3: CvLAC Scraper configuration file
+</figcaption>
+</figure>
+</div>
+<p>A data processing pipeline extracts data from an author’s CV using regular expressions in XPATH searches, and the defined structure. Once the CV data extraction is complete, the processed data is sent to the next pipeline in the form of items or dictionaries.</p>
+<p>After processing the data on a CV, structured data items are stored in a storage pipeline until a determined number to be stored per batch is reached. Once that number is reached, the persistence process starts and the memory space is released so that other items can be stored.</p>
+<p>Depending on the specified configuration, this process may vary as data can be stored in any previously determined format or database.</p>
+</section>
+<section id="discussion" class="level2">
+<h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
+<p>Once the data extracted from CvLAC was examined, these were compared using API platforms like Crossref. A feature that sets this platform apart from others is that a total of 2,117,500 profile identifiers was obtained (https://cvlac-verifier.onrender.com/home). Only 995,822 of them were linked to a curriculum, therefore, the remaining profiles are either empty or contain restricted information. Results collected highlight that less than 50% are linked to a DOI, as shown in <a href="#fig-results" class="quarto-xref">Figure&nbsp;<span>8.4</span></a>. Considering that a small proportion of DOIs is invalid makes the overall situation even more critical.</p>
+<div id="fig-results" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-pos="htbp">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-results-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="img/data-extraction-results.png" class="img-fluid figure-img" data-fig-pos="htbp">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-results-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8.4: Results of data extraction
+</figcaption>
+</figure>
+</div>
+<p>An issue regarding registration arose while analyzing data: a recorded identifier may not correspond to the information inserted into that blank space. As a case in point, researchers enter their ScopusID into an ORCID blank, or vice versa.</p>
+<p>The public ORCID API used to assess the validity of the registered ORCIDs verifies if registered data corresponds to an existing ORCID, and, if such is the case, determines whether it corresponds to the authors who have registered it.</p>
+<p>Even though there were 56,918 ORCID records, it was only possible to evaluate 39,792 after eliminating inconsistent data records (e.g., hyphens or other characters). Among these, 1,994 identifiers did not have an ORCID defined structure, particularly the 16-digit number, which is why they could not be verified. Out of the remaining 37,798, 86% (34,290) were found to be valid. The rest did not return a valid or active registry in the portal.</p>
+<p>Similarity measures needed to be designed and used in the validation process so as to examine the characters that compose the researchers’ names within CvLAC and ORCID. This was performed after a prior data cleaning process that involved removing or replacing punctuation marks. An 80% coincidence was applied for a record to be recognized as valid. Some registries can be falsely included as valid due to homonyms or common names.</p>
+<p>Information about 790,742 registered articles was extracted from the CvLAC database, out of which 37.42% have an associated DOI and 20.63% have one that is valid and checked using the DOI Foundation API. Moreover, 13.15% have a valid and unique DOI (<a href="#fig-doi" class="quarto-xref">Figure&nbsp;<span>8.5</span></a>). In this regard, it was found that different articles were registered on CvLAC with the same associated DOI, which is not right.</p>
+<div id="fig-doi" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-pos="htbp">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-doi-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="img/doi-validation.png" class="img-fluid figure-img" data-fig-pos="htbp">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-doi-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8.5: Validating the existence of articles using DOIs
+</figcaption>
+</figure>
+</div>
+<p>Although the first phase of data evaluation shows a significant amount of erroneous information affecting the country’s indicators, it is important to analyze researchers.</p>
+<p>Using the Crossref Metadata API facilitated the validation of the authenticity of data registered in the articles, via their identifier (DOI) information was accessed in the database. First, we verified the coincidence percentage between article titles in CvLAC and Crossref, which showed a high level of agreement (<a href="#fig-titles" class="quarto-xref">Figure&nbsp;<span>8.6</span></a>). Although only a small difference was detected in certain cases, it should not be overlooked in order to correctly validate data.</p>
+<div id="fig-titles" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-pos="htbp">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-titles-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="img/title-coincidences.png" class="img-fluid figure-img" data-fig-pos="htbp">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-titles-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8.6: Coincidences in article titles: Crossref vs.&nbsp;CvLAC
+</figcaption>
+</figure>
+</div>
+<p>Moreover, <a href="#tbl-cvlac4" class="quarto-xref">Table&nbsp;<span>8.4</span></a> summarizes the results obtained from the validation process of author names per article registered in CvLAC contrasted to those in Crossref. When submitting articles to CvLAC, author names are entered following a specific format: full name, only initials, only a name and a surname. In consequence, generating several combinations for each author name became essential mainly because citation styles, including whether authors’ names are either abbreviated, are not dictated by Crossref.</p>
+<div id="tbl-cvlac4" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-cvlac4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;8.4: Author validation per article.
+</figcaption>
+<div aria-describedby="tbl-cvlac4-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 23%">
+<col style="width: 26%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>% of articles</strong></th>
+<th><strong>Authors in CvLAC</strong></th>
+<th><strong>Authors in Crossref</strong></th>
+<th><strong>Validated authors (%)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>5 %</td>
+<td>1</td>
+<td>2</td>
+<td>5.26</td>
+</tr>
+<tr class="even">
+<td>20 %</td>
+<td></td>
+<td></td>
+<td>20.0</td>
+</tr>
+<tr class="odd">
+<td>40 %</td>
+<td></td>
+<td>3</td>
+<td>50.0</td>
+</tr>
+<tr class="even">
+<td>50 %</td>
+<td>2</td>
+<td>4</td>
+<td>66.67</td>
+</tr>
+<tr class="odd">
+<td>60 %</td>
+<td></td>
+<td></td>
+<td>100</td>
+</tr>
+<tr class="even">
+<td>80 %</td>
+<td>4</td>
+<td>7</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>95 %</td>
+<td>6</td>
+<td>14</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p><a href="#tbl-cvlac4" class="quarto-xref">Table&nbsp;<span>8.4</span></a> indicates that 40% of the verified articles show a 100% data agreement between both systems. However, there is a difference of at least one author in 60% of the articles that affects the cooperation and collaboration figures used by the Ministry of Science, Technology and Innovation to measure national research capability. Studying collaboration networks provides insights that help in improving the researcher’s profile and coordinator’s productivity of research <span class="citation" data-cites="Razzaq2022">(<a href="#ref-Razzaq2022" role="doc-biblioref">Razzaq et al., 2022</a>)</span>. In some cases, such as CovidSurg <span class="citation" data-cites="MinisterioCienciaTecnologia2020">(<a href="#ref-MinisterioCienciaTecnologia2020" role="doc-biblioref">Ministerio de ciencia tecnología e innovación, 2020</a>)</span>, there are articles where 16,148 authors are registered in Crossref and only one in CvLAC. Verifying this figure revealed it was related to products from organizations with thousands of collaborators worldwide.</p>
+<p>Dublin Core metadata standard was used to evaluate both the quality and integrity of data <span class="citation" data-cites="COVIDSurgCollaborative2022">(<a href="#ref-COVIDSurgCollaborative2022" role="doc-biblioref">COVIDSurg Collaborative &amp; GlobalSurg Collaborative, 2022</a>)</span>. Additionally, a score following such standard was assigned to each field, with the exception of the description and relational fields (<a href="#tbl-cvlac5" class="quarto-xref">Table&nbsp;<span>8.5</span></a>).</p>
+<div id="tbl-cvlac5" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-cvlac5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;8.5: Metadata evaluation metrics.
+</figcaption>
+<div aria-describedby="tbl-cvlac5-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th><strong>Item</strong></th>
+<th><strong>Total Score</strong></th>
+<th><strong>Criteria</strong></th>
+<th><strong>Individual Score</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Title</td>
+<td>8</td>
+<td>Not established</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>Established</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td>Verified</td>
+<td>6</td>
+</tr>
+<tr class="even">
+<td>Author or Creator</td>
+<td>8</td>
+<td>Not established</td>
+<td>0</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td>Established</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>Verified</td>
+<td>6</td>
+</tr>
+<tr class="odd">
+<td>Subject and Keywords</td>
+<td>4</td>
+<td>Not established</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>Established</td>
+<td>4</td>
+</tr>
+<tr class="odd">
+<td>Publisher</td>
+<td>8</td>
+<td>Not established</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>Established</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td>Verified</td>
+<td>6</td>
+</tr>
+<tr class="even">
+<td>Other Contributor</td>
+<td>4</td>
+<td>Not established</td>
+<td>0</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td>Established</td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td>Date</td>
+<td>8</td>
+<td>Not established</td>
+<td>0</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td>Established</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>Verified</td>
+<td>6</td>
+</tr>
+<tr class="odd">
+<td>Resource Type</td>
+<td>4</td>
+<td>Not established</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>Established</td>
+<td>4</td>
+</tr>
+<tr class="odd">
+<td>Format</td>
+<td>4</td>
+<td>Not established</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>Established</td>
+<td>4</td>
+</tr>
+<tr class="odd">
+<td>Resource Identifier</td>
+<td>20</td>
+<td>Not established</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>Established</td>
+<td>4</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td>Verified</td>
+<td>8</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>Verified and unique</td>
+<td>8</td>
+</tr>
+<tr class="odd">
+<td>Source</td>
+<td>24</td>
+<td>Journal</td>
+<td>12 (3 for each field)</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>Volume</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td>Title page</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>Last Page</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td>Contains ISSN</td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>Verified ISSN</td>
+<td>8</td>
+</tr>
+<tr class="odd">
+<td>Language</td>
+<td>4</td>
+<td>Not established</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>Established</td>
+<td>4</td>
+</tr>
+<tr class="odd">
+<td>Coverage</td>
+<td>4</td>
+<td>Not established</td>
+<td>0</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>Established</td>
+<td>4</td>
+</tr>
+<tr class="odd">
+<td>Total</td>
+<td>100</td>
+<td></td>
+<td>100</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>This evaluation revealed that 60.31% of the articles had a score of 32-36. In addition, no article reached a score of 100; as a matter of fact, the maximum value obtained was 61. Not only does this stem from challenges CvLAC confronts when fields regarding language and format cannot be web scraped, but also from the fact that fields concerning other contributors and coverage are not required by the platform.</p>
+<p>After reviewing the score percentage reached in each field (<a href="#fig-metadata" class="quarto-xref">Figure&nbsp;<span>8.7</span></a>), resource identifiers (DOIs) had the lowest fulfillment percentage because a large number of articles are missing them. As a result, it was impossible to verify their truthfulness. Since metadata like subject and keywords are no longer mandatory, authors are unlikely to provide them.</p>
+<div id="fig-metadata" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-pos="htbp">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-metadata-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="img/metadata-scores.png" class="img-fluid figure-img" data-fig-pos="htbp">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-metadata-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;8.7: Score obtained for each Dublin Core metadata item
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="conclusions" class="level2">
+<h2 class="anchored" data-anchor-id="conclusions">Conclusions</h2>
+<p>As is the case with most regional information systems for scientific research in Latin America, CvLAC allows the registration and consultation of data. Nonetheless, it is vital to seize the opportunity to improve its functionality by implementing a metadata standard like Dublin Core to standardize data structure, applying author identifier validation criteria, and using external APIs to ensure the existence of reported products.</p>
+<p>An information system for a country’s scientific production aims at providing indicators that offer a comprehensive view of research capabilities and regional potential. This type of system becomes unreliable if the registered information is not correctly validated.</p>
+<p>When focusing on CvLAC, we noticed that a lack of international standards and connections to external databases can lead to information gaps, inadequate nationwide decision-making and investments in areas that are inconsistent with the national outlook. This research helps detect errors and contributes to improving governmental research support systems.</p>
+
+
+</section>
+<section id="bibliography" class="level1 unnumbered">
+<h1 class="unnumbered">References</h1>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-COVIDSurgCollaborative2022" class="csl-entry" role="listitem">
+COVIDSurg Collaborative, &amp; GlobalSurg Collaborative. (2022). SARS-CoV-2 infection and venous thromboembolism after surgery: An international prospective cohort study. <em>Anaesthesia</em>, <em>77</em>(1), 28–39. <a href="https://doi.org/10.1111/anae.15563">https://doi.org/10.1111/anae.15563</a>
+</div>
+<div id="ref-Crossref2023" class="csl-entry" role="listitem">
+CrossRef. (2023). <em>About us</em>. <a href="https://www.crossref.org/about/">https://www.crossref.org/about/</a>
+</div>
+<div id="ref-DattoloCorbatto2022" class="csl-entry" role="listitem">
+Dattolo, A., &amp; Corbatto, M. (2022). Assisting researchers in bibliographic tasks: A new usable, real-time tool for analyzing bibliographies. <em>Journal of the Association for Information Science and Technology</em>, <em>73</em>(6), 757–776. <a href="https://doi.org/10.1002/asi.24578">https://doi.org/10.1002/asi.24578</a>
+</div>
+<div id="ref-GaleanoPrada" class="csl-entry" role="listitem">
+Galeano, D. F., &amp; Prada, L. C. (n.d.). <em>Diseño de un sistema inteligente para estimación de categorización de grupos de investigación a partir de lineamientos definidos por COLCIENCIAS</em>. <a href="http://hdl.handle.net/11349/22537">http://hdl.handle.net/11349/22537</a>
+</div>
+<div id="ref-MenaChalcoJunior2009" class="csl-entry" role="listitem">
+Mena-Chalco, J. P., &amp; Junior, R. M. C. (2009). scriptLattes: An open-source knowledge extraction system from the lattes platform. <em>Journal of the Brazilian Computer Society</em>, <em>15</em>(4), 31–39. <a href="https://doi.org/10.1007/BF03194511">https://doi.org/10.1007/BF03194511</a>
+</div>
+<div id="ref-MinisterioCienciaTecnologia2020" class="csl-entry" role="listitem">
+Ministerio de ciencia tecnología e innovación. (2020). <em>Convocatoria nacional para el reconocimiento y medición de grupos de investigación, desarrollo tecnológico o de innovación y para el reconocimiento de investigadores del sistema nacional de ciencia</em>. <a href="https://minciencias.gov.co/sites/default/files/upload/convocatoria/anexo_1_-_documento_conceptual_2021.pdf">https://minciencias.gov.co/sites/default/files/upload/convocatoria/anexo_1_-_documento_conceptual_2021.pdf</a>
+</div>
+<div id="ref-MinisterioCiencia2023" class="csl-entry" role="listitem">
+Ministerio de Ciencia, Tecnología e Innovación. (2023). <em>Glosario de términos: CvLAC</em>. <a href="https://minciencias.gov.co/glosario/cvlac">https://minciencias.gov.co/glosario/cvlac</a>
+</div>
+<div id="ref-MosqueraPerdomo2023" class="csl-entry" role="listitem">
+Mosquera-Perdomo, A., Salazar Galindez, J., Ramirez-Gonzalez, G., &amp; Figueroa, C. (2023). Software for the extraction of bibliographic information registered in CvLAC and GrupLAC applied in the department of cauca. <em>RIINN</em>, <em>11</em>(2), e3464. <a href="https://doi.org/10.21897/rii.3464">https://doi.org/10.21897/rii.3464</a>
+</div>
+<div id="ref-Patil2020" class="csl-entry" role="listitem">
+Patil, V. H., Bhavsar, S. A., &amp; Patil, A. H. (2020). An efficient author information retrieval tool for bibliographic record analysis. <em>Journal of Intelligent and Fuzzy Systems</em>, <em>39</em>(1), 341–353. <a href="https://doi.org/10.3233/JIFS-191289">https://doi.org/10.3233/JIFS-191289</a>
+</div>
+<div id="ref-Razzaq2022" class="csl-entry" role="listitem">
+Razzaq, S., Malik, A. K., Raza, B., Khattak, H. A., Moscoso Zegarra, G. W., &amp; Díaz Zelada, Y. (2022). Research collaboration influence analysis using dynamic co-authorship and citation networks. <em>International Journal of Interactive Multimedia and Artificial Intelligence</em>, <em>7</em>(3), 103–116. <a href="https://doi.org/10.9781/ijimai.2022.03.001">https://doi.org/10.9781/ijimai.2022.03.001</a>
+</div>
+<div id="ref-Riggio2017" class="csl-entry" role="listitem">
+Riggio, G. (2017). <em>Indicadores bibliométricos de la actividad científica de la república dominicana</em> [PhD thesis]. Universidad Carlos III de Madrid.
+</div>
+<div id="ref-RuizRosero2019" class="csl-entry" role="listitem">
+Ruiz-Rosero, J., Ramirez-Gonzalez, G., &amp; Viveros-Delgado, J. (2019). Software survey: ScientoPy, a scientometric tool for topics trend analysis in scientific publications. <em>Scientometrics</em>, <em>121</em>(2), 1165–1188. <a href="https://doi.org/10.1007/s11192-019-03213-w">https://doi.org/10.1007/s11192-019-03213-w</a>
+</div>
+<div id="ref-VallesCoral2019" class="csl-entry" role="listitem">
+Valles-Coral, M. A. (2019). Modelo de gestión de la investigación para incrementar la producción científica de los docentes universitarios del perú. <em>Revista de Investigación, Desarrollo e Innovación</em>, <em>10</em>(1), 67–78. <a href="https://doi.org/10.19053/20278306.v10.n1.2019.10012">https://doi.org/10.19053/20278306.v10.n1.2019.10012</a>
+</div>
+</div>
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/paideiaeditorial\.net\/libros\/editar-financiar-ciencia-latinoamerica\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./modelos-financiamiento-sostenibilidad.html" class="pagination-link" aria-label="Modelos de financiamiento y sostenibilidad de las publicaciones científicas">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Modelos de financiamiento y sostenibilidad de las publicaciones científicas</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">
+<p>CC-BY</p>
+</a>
+  </li>  
+</ul>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/PaideiaPublishingServices/Paideia-Editorial/tree/main/editar-publicar-financiar-ciencia-america-latina/edit/main/evaluacion-sistemas-cvlac.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/PaideiaPublishingServices/Paideia-Editorial/tree/main/editar-publicar-financiar-ciencia-america-latina/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/PaideiaPublishingServices/Paideia-Editorial/tree/main/editar-publicar-financiar-ciencia-america-latina/blob/main/evaluacion-sistemas-cvlac.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

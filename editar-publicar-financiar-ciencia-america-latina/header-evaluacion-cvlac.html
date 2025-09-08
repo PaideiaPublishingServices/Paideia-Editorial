@@ -1,0 +1,57 @@
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // Author data with CRediT roles - specific for this chapter
+    var authorsData = [
+        {
+            name: "Juan Sebastián Gonzalez Sanabria",
+            roles: ["Conceptualization", "Formal analysis", "Funding acquisition", "Investigation", "Methodology", "Software", "Validation", "Writing - original draft"]
+        },
+        {
+            name: "Elena Verdu",
+            roles: ["Investigation", "Methodology", "Validation", "Writing - review & editing"]
+        },
+        {
+            name: "Xiomara Blanco",
+            roles: ["Investigation", "Methodology", "Validation", "Writing - review & editing"]
+        },
+        {
+            name: "José Texier",
+            roles: ["Investigation", "Methodology", "Validation", "Writing - review & editing"]
+        },
+        {
+            name: "Samuel Ruiz",
+            roles: ["Formal analysis", "Methodology", "Software", "Writing - review & editing"]
+        },
+        {
+            name: "Esteban Novoa",
+            roles: ["Formal analysis", "Methodology", "Software", "Writing - review & editing"]
+        }
+    ];
+
+    // Find where to insert the information
+    var titleBlock = document.querySelector(".quarto-title-block") ||
+                      document.querySelector(".quarto-title");
+             
+    if (titleBlock) {
+        // Author contributions section
+        var creditSection = document.createElement("div");
+        creditSection.innerHTML = `
+            <div id="credit-roles" style="margin: 20px 0; padding: 15px; background-color: #f8f9fa; border-left: 4px solid #007bff; border-radius: 5px; font-size: 0.9em;">
+                <strong style="color: #007bff;">Author contributions (CRediT):</strong><br><br>
+                ${authorsData.map(author => 
+                    `<strong>${author.name}:</strong> ${author.roles.join(", ")}`
+                ).join("<br>")}
+                <br><br>
+                <small style="color: #6c757d;">
+                    <em>CRediT (Contributor Roles Taxonomy):</em><br>
+                    • <a href="https://credit.niso.org/" target="_blank" style="color: #007bff;">Official website</a><br>
+                    • <a href="https://terminologias.filo.uba.ar/vocabs/1007" target="_blank" style="color: #007bff;">Spanish translation</a>
+                </small>
+            </div>
+        `;
+                
+        // Insert section after title
+        titleBlock.insertAdjacentElement("afterend", creditSection);
+    }
+});
+</script>

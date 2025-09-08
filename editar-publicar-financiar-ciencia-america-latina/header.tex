@@ -88,6 +88,29 @@
   \vspace{0.5em}
 }
 
+% Enhanced command for CRediT contribution information (English version)
+\newcommand{\creditcontributionseng}[1]{%
+  \vspace{1em}
+  \begin{tcolorbox}[
+    colback=white,
+    colframe=chaptercolor,
+    boxrule=1.5pt,
+    arc=8pt,
+    left=15pt,
+    right=15pt,
+    top=12pt,
+    bottom=12pt
+  ]
+    \small
+    \textbf{\color{chaptercolor}Author contributions (CRediT):}\\[0.8em]
+    \color{black}#1\\[0.8em]
+    \footnotesize\textit{\color{gray}CRediT (Contributor Roles Taxonomy):}\\[0.3em]
+    \footnotesize\color{gray}• Official website: https://credit.niso.org/\\
+    \footnotesize\color{gray}• Spanish translation: https://terminologias.filo.uba.ar/vocabs/1007
+  \end{tcolorbox}
+  \vspace{0.5em}
+}
+
 % Comando mejorado para disponibilidad de datos (sin sombra)
 \newcommand{\dataavailability}[1]{%
   \vspace{1em}
