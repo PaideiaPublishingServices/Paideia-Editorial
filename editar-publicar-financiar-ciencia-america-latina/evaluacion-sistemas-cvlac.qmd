@@ -1,5 +1,5 @@
 ---
-title: "Evaluating the quality of data in academic curriculum vitae systems: the case of the Colombian CvLAC system"
+title: "Evaluating Data Integrity to Measure Scientific Output in Colombia"
 author:
   - name: Juan Sebastián Gonzalez Sanabria
     orcid: 0000-0002-1024-6077
