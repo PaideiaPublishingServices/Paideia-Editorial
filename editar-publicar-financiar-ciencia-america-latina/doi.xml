@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <doi_batch version="4.4.2" xmlns="http://www.crossref.org/schema/4.4.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1" xsi:schemaLocation="http://www.crossref.org/schema/4.4.2 http://www.crossref.org/schema/deposit/crossref4.4.2.xsd">
 <head>
-  <doi_batch_id>ac62d211982d31d7f3-50b2-crossmark-update-c7</doi_batch_id>
-  <timestamp>20250826170000000</timestamp> <!-- TIMESTAMP ACTUALIZADO -->
+  <doi_batch_id>ac62d211982d31d7f3-50b2-crossmark-update-c8</doi_batch_id>
+  <timestamp>20250916180000001</timestamp> <!-- TIMESTAMP ACTUALIZADO -->
   <depositor>
     <depositor_name>pa1d:pa1d</depositor_name>
     <email_address>patricio@paideiastudio.net</email_address>
@@ -52,7 +52,7 @@
     <crossmark_domain_exclusive>true</crossmark_domain_exclusive>
    <custom_metadata>
       <assertion name="published" label="Published" group_name="publication_history" group_label="Publication History" order="0">2025-07-22</assertion>
-      <assertion name="updated" label="Last Updated" group_name="publication_history" group_label="Publication History" order="1">2025-08-26</assertion>
+      <assertion name="updated" label="Last Updated" group_name="publication_history" group_label="Publication History" order="1">2025-09-16</assertion>
       <assertion name="publication_status" label="Publication Status" group_name="publication_history" group_label="Publication History" order="2">Publicación Continua - Especificaciones en LaTeX y HTML</assertion>
       <assertion name="content_update" label="Content Update" group_name="publication_history" group_label="Publication History" order="3">Capítulo 7 agregado</assertion>
       <assertion name="content_update" label="Content Update" group_name="publication_history" group_label="Publication History" order="3">Capítulo 8 agregado</assertion>
@@ -505,7 +505,7 @@ Este capítulo busca no solo analizar críticamente los modelos existentes sino 
   </crossmark>
   <doi_data>
     <doi>10.62059/editorial.l001.c8</doi>
-    <resource>https://paideiaeditorial.net/libros/editar-financiar-ciencia-latinoamerica/_book/evaluating-data-integrity-colombia.html</resource>
+    <resource>https://paideiaeditorial.net/libros/editar-financiar-ciencia-latinoamerica/_book/evaluacion-sistemas-cvlac.html</resource>
   </doi_data>
 </content_item>
   </book>
