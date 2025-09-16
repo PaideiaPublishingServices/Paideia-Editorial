@@ -54,9 +54,10 @@
       <assertion name="published" label="Published" group_name="publication_history" group_label="Publication History" order="0">2025-07-22</assertion>
       <assertion name="updated" label="Last Updated" group_name="publication_history" group_label="Publication History" order="1">2025-08-26</assertion>
       <assertion name="publication_status" label="Publication Status" group_name="publication_history" group_label="Publication History" order="2">Publicación Continua - Especificaciones en LaTeX y HTML</assertion>
-      <assertion name="content_update" label="Content Update" group_name="publication_history" group_label="Publication History" order="3">Capítulo 7 agregado: Modelos de financiamiento y sostenibilidad</assertion>
+      <assertion name="content_update" label="Content Update" group_name="publication_history" group_label="Publication History" order="3">Capítulo 7 agregado</assertion>
+      <assertion name="content_update" label="Content Update" group_name="publication_history" group_label="Publication History" order="3">Capítulo 8 agregado</assertion>
       <assertion name="book_type" label="Book Type" group_name="identifiers" group_label="Identifiers" order="0">Edited Book</assertion>
-      <assertion name="chapters_count" label="Total Chapters" group_name="identifiers" group_label="Identifiers" order="1">7</assertion>
+      <assertion name="chapters_count" label="Total Chapters" group_name="identifiers" group_label="Identifiers" order="1">8</assertion>
     </custom_metadata>
   </crossmark>
   <doi_data>
@@ -392,7 +393,7 @@ De esta forma, con esta investigación, se espera, por un lado, contribuir teór
   </doi_data>
 </content_item>
 
-<!-- ============== CAPÍTULO 7 - NUEVO ============== -->
+<!-- ============== CAPÍTULO 7 ============== -->
 <content_item component_type='chapter'>
   <contributors>
     <person_name sequence='first' contributor_role='author'>
@@ -441,6 +442,70 @@ Este capítulo busca no solo analizar críticamente los modelos existentes sino 
   <doi_data>
   <doi>10.62059/editorial.l001.c7</doi>
   <resource>https://paideiaeditorial.net/libros/editar-financiar-ciencia-latinoamerica/_book/modelos-financiamiento-sostenibilidad.html</resource>
+  </doi_data>
+</content_item>
+
+<!-- ============== CAPÍTULO 8  ============== -->
+<content_item component_type='chapter'>
+  <contributors>
+    <person_name sequence='first' contributor_role='author'>
+      <given_name>Juan Sebastián</given_name>
+      <surname>Gonzalez Sanabria</surname>
+      <ORCID>https://orcid.org/0000-0002-1024-6077</ORCID>
+    </person_name>
+    <person_name sequence='additional' contributor_role='author'>
+      <given_name>Elena</given_name>
+      <surname>Verdu</surname>
+      <ORCID>https://orcid.org/0000-0002-3040-7077</ORCID>
+    </person_name>
+    <person_name sequence='additional' contributor_role='author'>
+      <given_name>Xiomara</given_name>
+      <surname>Blanco</surname>
+      <ORCID>https://orcid.org/0000-0001-9947-748X</ORCID>
+    </person_name>
+    <person_name sequence='additional' contributor_role='author'>
+      <given_name>José</given_name>
+      <surname>Texier</surname>
+      <ORCID>https://orcid.org/0000-0003-0176-6625</ORCID>
+    </person_name>
+    <person_name sequence='additional' contributor_role='author'>
+      <given_name>Samuel</given_name>
+      <surname>Ruiz</surname>
+    </person_name>
+    <person_name sequence='additional' contributor_role='author'>
+      <given_name>Esteban</given_name>
+      <surname>Novoa</surname>
+    </person_name>
+  </contributors>
+  <titles>
+    <title>Evaluating Data Integrity to Measure Scientific Output in Colombia</title>
+  </titles>
+  <jats:abstract xml:lang='en'>
+    <jats:p>Information systems on academic CVs have become a source of data for governments to make strategic decisions regarding investments. However, these systems prove to be insufficient when the information is either incorrect or incomplete. This work proposes a tool to validate the research metadata stored in the Colombian researcher curriculum vitae system (CvLAC). To this effect, work focusing on data extraction, manipulation, and cleaning was carried out so as to perform analyses, studies, and validations using international systems like Crossref. Significant errors including inconsistent or misreported data were found; for instance, authors and data that do not correspond to existing articles or products. Identifying these errors will contribute to enhancing research evaluation processes and optimizing targeted investments.</jats:p>
+  </jats:abstract>
+  <publication_date media_type='online'>
+    <month>09</month>
+    <day>16</day>
+    <year>2025</year>
+  </publication_date>
+  <!-- Metadatos Crossmark para el capítulo -->
+  <crossmark>
+    <crossmark_version>1</crossmark_version>
+    <crossmark_policy>10.62059/paideia.editorial.crossmark</crossmark_policy>
+    <crossmark_domains>
+      <crossmark_domain>
+        <domain>paideiaeditorial.net</domain>
+      </crossmark_domain>
+    </crossmark_domains>
+    <crossmark_domain_exclusive>true</crossmark_domain_exclusive>
+    <custom_metadata>
+      <assertion name="published" label="Published" group_name="publication_history" group_label="Publication History" order="0">2025-09-16</assertion>
+      <assertion name="chapter_number" label="Chapter" group_name="identifiers" group_label="Identifiers" order="0">8</assertion>
+    </custom_metadata>
+  </crossmark>
+  <doi_data>
+    <doi>10.62059/editorial.l001.c8</doi>
+    <resource>https://paideiaeditorial.net/libros/editar-financiar-ciencia-latinoamerica/_book/evaluating-data-integrity-colombia.html</resource>
   </doi_data>
 </content_item>
   </book>
