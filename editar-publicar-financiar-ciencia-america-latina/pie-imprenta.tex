@@ -1,15 +1,11 @@
-% pie-imprenta.tex
+% pie-imprenta.tex — VERSIÓN FINAL (cierre de la obra)
+% La obra se publicó en modalidad continua (22/07/2025) y quedó cerrada el 16/11/2026.
+% Ya no lleva marca de agua de "PUBLICACIÓN CONTINUA".
 
-% Comando para marca de agua en todas las páginas del pie de imprenta
-\newcommand{\marcaaguapie}{%
-  \begin{tikzpicture}[remember picture,overlay]
-    \node[rotate=45,scale=6,text opacity=0.08,chaptercolor] at (current page.center)
-       {\textbf{PUBLICACIÓN CONTINUA}};
-  \end{tikzpicture}%
-}
-
-% Aplicar marca de agua a todas las páginas usando el hook
-\AddToHook{shipout/background}{\marcaaguapie}
+% ---- Datos de identificación (cambiar SOLO aquí) ----
+\newcommand{\isbnhtml}{978-631-92189-0-9}
+\newcommand{\isbnpdf}{978-631-92189-1-6}
+\newcommand{\fechacierre}{16/11/2026}
 
 \thispagestyle{empty}
 
@@ -21,21 +17,19 @@
 \textit{\large Perspectivas, experiencias y distopías en las dinámicas de la comunicación científica en la región}\\[2em]
 \end{center}
 
-% Cuadro de catalogación
+% Cuadro de catalogación (transcripción literal de la ficha CIP otorgada para la versión PDF)
 \noindent\textbf{Catalogación en fuente}\\[0.5em]
 
 \begin{small}
 \begin{tabular}{|p{12cm}|}
 \hline
-\textbf{Del Rio Riande, Gimena (coord.) ; Pantaleo, Patricio Iván (coord.)} \\
-\quad Editar, publicar y financiar ciencia en América Latina: perspectivas, experiencias y distopías en las dinámicas de la comunicación científica en la región / Gimena del Rio Riande y Patricio Iván Pantaleo, coordinadores. - [Edición a completar] - Córdoba: Paideia Editorial, 2025. \\
-\quad Libro digital, PDF ; HTML ; ePUB \\[0.5em]
-\quad Archivo Digital: descarga y online \\
-\quad ISBN PDF [A COMPLETAR] \\
-\quad ISBN HTML [A COMPLETAR] \\
-\quad ISBN ePUB [A COMPLETAR] \\[0.5em]
-\quad 1. Comunicación Científica. 2. Edición Académica. 3. Acceso Abierto. 4. América Latina. I. Del Rio Riande, Gimena, coord. II. Pantaleo, Patricio Iván, coord. III. Título. \\
-\quad CDD 070.5 \\
+Pantaleo, Patricio Iván \\
+\quad Editar, publicar y financiar ciencia en América Latina : perspectivas, experiencias y distopías en las dinámicas de la comunicación científica en la región / Patricio Iván Pantaleo ; Gimena del Río Riande. - 1a ed. - General Levalle : Paideia Editorial, 2026. \\
+\quad Libro digital, PDF \\[0.5em]
+\quad Archivo Digital: descarga \\
+\quad ISBN \isbnpdf \\[0.5em]
+\quad 1. Comunicación Científica. 2. Edición de Publicaciones Científicas. 3. Publicaciones Científicas. I. del Río Riande, Gimena II. Título \\
+\quad CDD 070.572 \\
 \hline
 \end{tabular}
 \end{small}
@@ -43,16 +37,20 @@
 \vspace{1cm}
 
 % Datos editoriales
-\noindent\textbf{Edición:} [A COMPLETAR]\\
-\textbf{ISBN PDF:} [A COMPLETAR]\\
-\textbf{ISBN HTML:} [A COMPLETAR]\\
-\textbf{ISBN ePUB:} [A COMPLETAR]\\
-\textbf{DOI:} 10.62059/editorial.l001\\
+\noindent\textbf{Edición:} Primera edición, 2026\\
+\textbf{ISBN PDF:} \isbnpdf\\
+\textbf{ISBN HTML:} \isbnhtml\\
+\textbf{DOI:} \href{https://doi.org/10.62059/editorial.l001}{10.62059/editorial.l001}\\
 \textbf{Hecho el depósito que marca la Ley 11.723}\\[1em]
 
+% Historial de publicación (cierre de la publicación continua)
+\noindent\textbf{Historial de publicación:}\\
+Obra publicada en modalidad de publicación continua: los capítulos se incorporaron progresivamente entre el 22/07/2025 y el 16/09/2025.\\
+Cierre de la obra y versión final: \fechacierre. A partir de esta fecha no se incorporan nuevos capítulos; cualquier corrección posterior se informará mediante Crossmark.\\[1em]
+
 % Información editorial
-\noindent\textbf{Derechos de primera publicación:} 2025 \quad Paideia Editorial\\
-Córdoba - Argentina\\
+\noindent\textbf{Derechos de primera publicación:} 2026 \quad Paideia Editorial\\
+General Levalle, Córdoba - Argentina\\
 Web: \url{https://paideiaeditorial.net}\\
 Email: contact@paideiastudio.net\\[1em]
 
@@ -68,9 +66,8 @@ Patricio Iván Pantaleo (ORCID: 0000-0002-8104-8975)\\[1em]
 
 % Información de formatos disponibles
 \noindent\textbf{Formatos disponibles:}\\
-PDF (Impresión y lectura digital)\\
-HTML (Lectura web interactiva)\\
-ePUB (Dispositivos de lectura electrónica)\\[1em]
+PDF (Impresión y lectura digital) -- ISBN \isbnpdf\\
+HTML (Lectura web interactiva) -- ISBN \isbnhtml\\[1em]
 
 % Disponibilidad digital
 \noindent\textbf{Disponible en:}\\
@@ -82,7 +79,7 @@ Repositorio: \url{https://github.com/PaideiaPublishingServices/Paideia-Editorial
 % Creative Commons
 \includegraphics[height=1cm]{cc.png}\hspace{0.2cm}\includegraphics[height=1cm]{by.png}\hspace{1cm}%
 % Logo Crossmark con enlace funcional
-\href{https://crossmark.crossref.org/dialog/?doi=10.62059/editorial.l001&domain=pdf&date_stamp=2025-07-22}{\includegraphics[height=1cm]{crossmark-logo.png}}
+\href{https://crossmark.crossref.org/dialog/?doi=10.62059/editorial.l001&domain=pdf&date_stamp=2026-11-16}{\includegraphics[height=1cm]{crossmark-logo.png}}
 \\[0.5em]
 Esta obra está bajo una Licencia Creative Commons Atribución 4.0 Internacional.\\
 \url{https://creativecommons.org/licenses/by/4.0/}\\
@@ -120,8 +117,5 @@ Este documento participa en Crossmark, un servicio que proporciona información\
 sobre actualizaciones editoriales después de la publicación.\\
 Más información: \url{https://www.crossref.org/crossmark/}
 \end{center}
-
-% Desactivar la marca de agua para las páginas siguientes
-\RemoveFromHook{shipout/background}{\marcaaguapie}
 
 \newpage

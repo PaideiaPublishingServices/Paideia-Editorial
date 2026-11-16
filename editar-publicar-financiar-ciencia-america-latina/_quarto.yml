@@ -19,7 +19,7 @@ book:
         - conceptualization: lead
         - writing: supporting
         - project-administration: lead
-  date: "2025-07-22"
+  date: "2026-11-16"        # cierre de la obra (1a ed.). La publicación continua y los DOI comenzaron el 2025-07-22
   description: |
     Este libro aborda los retos y oportunidades en la comunicación académica en América Latina, explorando cómo se editan, publican y financian los resultados científicos en el contexto regional. 
     A través de un análisis crítico, el proyecto busca destacar experiencias exitosas y lecciones aprendidas, identificar modelos de sostenibilidad en acceso abierto y evaluar el impacto de la visibilidad científica en el progreso académico. 
@@ -29,14 +29,14 @@ book:
   cover-image-alt: |
     Editar, publicar y financiar ciencia en América Latina
   favicon: cover.jpg
-  downloads: [pdf, epub]
+  downloads: [pdf]
   sharing: [twitter, facebook, linkedin]
   site-url: https://paideiaeditorial.net/libros/editar-financiar-ciencia-latinoamerica/
   repo-url: https://github.com/PaideiaPublishingServices/Paideia-Editorial/tree/main/editar-publicar-financiar-ciencia-america-latina
   repo-branch: main
   repo-actions: [edit, issue, source]
   chapters:
-    - index.qmd #Se redacta al finalizar el libro
+    - index.qmd # Sin introducción: página de presentación solo para HTML
     - rede-editores.qmd
     - preservacion-digital.qmd
     - La-ciencia-abierta-mexicana.qmd
@@ -49,12 +49,17 @@ book:
   #  - references.qmd #Comentar para que funcione el filtro lua en HTML - Descomentar para exportar a PDF
 
 license: "CC BY"
-copyright: "Editar, publicar y financiar ciencia en América Latina © 2025 por Gimena del Rio Riande & Patricio Iván Pantaleo (Coord.) se distribuye bajo licencia CC BY 4.0"
+copyright: "Editar, publicar y financiar ciencia en América Latina © 2026 por Gimena del Rio Riande & Patricio Iván Pantaleo (Coord.) se distribuye bajo licencia CC BY 4.0"
 
 citation:
   type: book
   container-title: "Editar, publicar y financiar ciencia en América Latina"
   doi: "10.62059/editorial.l001"
+  isbn: "978-631-92189-0-9"   # ISBN HTML (versión web). ISBN PDF: 978-631-92189-1-6
+  edition: "1"
+  publisher: "Paideia Editorial"
+  publisher-place: "General Levalle"
+  issued: "2026"
   url: https://paideiaeditorial.net/libros/editar-financiar-ciencia-latinoamerica/
 
 format:
@@ -71,13 +76,11 @@ format:
     comments:
       hypothesis: true
     toc: true
-    other-links:
-      - text: Soon on Kindle
-        icon: amazon
-        href: https://www.amazon.com/books
-    author-meta: "Editar, publicar y financiar ciencia en América Latina © 2025 por Gimena del Rio Riande & Patricio Iván Pantaleo (Coord.) se distribuye bajo licencia CC BY 4.0"
+    author-meta: "Editar, publicar y financiar ciencia en América Latina © 2026 por Gimena del Rio Riande & Patricio Iván Pantaleo (Coord.) se distribuye bajo licencia CC BY 4.0"
 
   pdf:
+    filters:
+      - solo-html.lua   # quita la página de presentación (index.qmd) del PDF: el libro no lleva introducción
     documentclass: scrbook
     papersize: a4
     toc: true
@@ -87,11 +90,6 @@ format:
     latex-engine: lualatex
     include-in-header: "header.tex"
     include-before-body: "pie-imprenta.tex"
-
-  epub:
-    toc: true
-    number-sections: true
-    cover-image: "cover.jpg"
 
 lang: es
 website:

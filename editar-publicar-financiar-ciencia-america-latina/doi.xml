@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <doi_batch version="4.4.2" xmlns="http://www.crossref.org/schema/4.4.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1" xsi:schemaLocation="http://www.crossref.org/schema/4.4.2 http://www.crossref.org/schema/deposit/crossref4.4.2.xsd">
 <head>
-  <doi_batch_id>ac62d211982d31d7f3-50b2-crossmark-update-c8</doi_batch_id>
-  <timestamp>20250916180000001</timestamp> <!-- TIMESTAMP ACTUALIZADO -->
+  <doi_batch_id>ac62d211982d31d7f3-50b2-cierre-isbn-20261116</doi_batch_id>
+  <timestamp>20261116140000000</timestamp> <!-- Depósito de cierre: actualizar si se reenvía -->
   <depositor>
     <depositor_name>pa1d:pa1d</depositor_name>
     <email_address>patricio@paideiastudio.net</email_address>
@@ -26,21 +26,26 @@
     </person_name>
   </contributors>
   <titles>
-  <title>Editar, Publicar y financiar ciencia en América Latina</title>
+  <title>Editar, publicar y financiar ciencia en América Latina</title>
+  <subtitle>Perspectivas, experiencias y distopías en las dinámicas de la comunicación científica en la región</subtitle>
   </titles>
   <jats:abstract xml:lang='en'>
     <jats:p>This book addresses the challenges and opportunities in academic communication in Latin America, exploring how scientific results are edited, published and funded in the regional context. Through critical analysis, the project seeks to highlight successful experiences and lessons learned, identify sustainability models in open access and evaluate the impact of scientific visibility on academic progress. The chapters include case studies, reflections on possible dystopias and a focus on critical thinking about current and future dynamics of scientific communication.</jats:p>
   </jats:abstract>
+  <edition_number>1</edition_number>
   <publication_date media_type='online'>
     <month>07</month>
     <day>22</day>
     <year>2025</year>
   </publication_date>
-    <noisbn reason='archive_volume'/>
+  <!-- ISBN otorgados (ficha CIP, 1a ed., 2026). Ver ISBN/README.md -->
+  <isbn media_type='electronic'>978-631-92189-0-9</isbn> <!-- HTML -->
+  <isbn media_type='electronic'>978-631-92189-1-6</isbn> <!-- PDF -->
   <publisher>
     <publisher_name>Paideia Editorial</publisher_name>
+    <publisher_place>General Levalle, Córdoba, Argentina</publisher_place>
   </publisher>
-  <!-- Metadatos Crossmark para el libro ACTUALIZADOS -->
+  <!-- Metadatos Crossmark para el libro: CIERRE DE LA PUBLICACIÓN CONTINUA -->
   <crossmark>
     <crossmark_version>1</crossmark_version>
     <crossmark_policy>10.62059/paideia.editorial.crossmark</crossmark_policy>
@@ -52,10 +57,11 @@
     <crossmark_domain_exclusive>true</crossmark_domain_exclusive>
    <custom_metadata>
       <assertion name="published" label="Published" group_name="publication_history" group_label="Publication History" order="0">2025-07-22</assertion>
-      <assertion name="updated" label="Last Updated" group_name="publication_history" group_label="Publication History" order="1">2025-09-16</assertion>
-      <assertion name="publication_status" label="Publication Status" group_name="publication_history" group_label="Publication History" order="2">Publicación Continua - Especificaciones en LaTeX y HTML</assertion>
-      <assertion name="content_update" label="Content Update" group_name="publication_history" group_label="Publication History" order="3">Capítulo 7 agregado</assertion>
-      <assertion name="content_update" label="Content Update" group_name="publication_history" group_label="Publication History" order="3">Capítulo 8 agregado</assertion>
+      <assertion name="updated" label="Last Updated" group_name="publication_history" group_label="Publication History" order="1">2026-11-16</assertion>
+      <assertion name="publication_status" label="Publication Status" group_name="publication_history" group_label="Publication History" order="2">Obra cerrada - Versión final (1a ed., 2026). Publicación continua finalizada</assertion>
+      <assertion name="content_update" label="Content Update" group_name="publication_history" group_label="Publication History" order="3">2025-08-30: Capítulo 7 agregado</assertion>
+      <assertion name="content_update" label="Content Update" group_name="publication_history" group_label="Publication History" order="4">2025-09-16: Capítulo 8 agregado</assertion>
+      <assertion name="closed" label="Publicación continua cerrada" group_name="publication_history" group_label="Publication History" order="5">2026-11-16</assertion>
       <assertion name="book_type" label="Book Type" group_name="identifiers" group_label="Identifiers" order="0">Edited Book</assertion>
       <assertion name="chapters_count" label="Total Chapters" group_name="identifiers" group_label="Identifiers" order="1">8</assertion>
     </custom_metadata>
@@ -65,7 +71,7 @@
   <resource>https://paideiaeditorial.net/libros/editar-financiar-ciencia-latinoamerica/</resource>
   <collection property='crawler-based'>
     <item crawler='iParadigms'>
-      <resource>https://paideiaeditorial.net/libros/editar-financiar-ciencia-latinoamerica/_book/Editar,-publicar-y-financiar-ciencia-en-Am%C3%A9rica-Latina.pdf</resource>
+      <resource>https://paideiaeditorial.net/libros/editar-financiar-ciencia-latinoamerica/_book/Editar%2C-publicar-y-financiar-ciencia-en-Am%C3%A9rica-Latina.pdf</resource>
     </item>
   </collection>
   </doi_data>

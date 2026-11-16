@@ -1,43 +1,15 @@
----
-format:
-  html: default
-  pdf:
-    include-in-header:
-      text: |
-        \usepackage{tikz}
-        \usetikzlibrary{calc}
----
+# Presentación {.unnumbered .solo-html}
 
-# Introducción {.unnumbered}
+::: {.content-visible when-format="html"}
 
-\newcommand{\marcaaguaintro}{%
-  \begin{tikzpicture}[remember picture,overlay]
-    \node[rotate=45,scale=8,text opacity=0.3,red!40] at (current page.center) 
-      {\textbf{PÁGINA RESERVADA PARA INTRODUCCIÓN}};
-  \end{tikzpicture}%
-}
+Este libro aborda los retos y oportunidades de la comunicación académica en América Latina, explorando cómo se editan, publican y financian los resultados científicos en el contexto regional. A través de un análisis crítico, destaca experiencias exitosas y lecciones aprendidas, identifica modelos de sostenibilidad en acceso abierto y evalúa el impacto de la visibilidad científica en el progreso académico. Los capítulos incluyen estudios de caso, reflexiones sobre distopías posibles y un enfoque crítico sobre las dinámicas actuales y futuras de la comunicación científica.
 
-\newpage
-\thispagestyle{empty}
-\marcaaguaintro
-\mbox{}
+**Coordinación:** Gimena del Rio Riande y Patricio Iván Pantaleo  
+**Edición:** Primera edición, 2026. Paideia Editorial, General Levalle, Córdoba, Argentina  
+**ISBN:** 978-631-92189-0-9 (HTML) · 978-631-92189-1-6 (PDF)  
+**DOI:** [10.62059/editorial.l001](https://doi.org/10.62059/editorial.l001)  
+**Licencia:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
-\newpage
-\thispagestyle{empty}
-\marcaaguaintro
-\mbox{}
+Obra publicada en modalidad de publicación continua entre el 22/07/2025 y el 16/09/2025; cerrada como versión final el 16/11/2026.
 
-\newpage
-\thispagestyle{empty}
-\marcaaguaintro
-\mbox{}
-
-\newpage
-\thispagestyle{empty}
-\marcaaguaintro
-\mbox{}
-
-\newpage
-\thispagestyle{empty}
-\marcaaguaintro
-\mbox{}
+:::
